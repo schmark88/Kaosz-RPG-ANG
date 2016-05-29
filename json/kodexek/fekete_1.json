@@ -1,0 +1,135 @@
+{
+    "csontpajzs": {
+        "id": "csontpajzs",
+        "name": "Csontpajzs",
+        "kodex": "Fekete",
+        "nehezseg": 6,
+        "info": "Típus: tárgyra ható, nekromancia \nNehézség: 6 \nEsszenciaigény: 20 (+6 minden további 20 szegmensért)  \nFizikumpont-igény: 8\nEro: 10 \nHatótávolság: 50 centiméter\nKomponensek: szó, anyagi (csontok)\nElmondási ido: 13 szegmens \nHatóido: 40 szegmens (nyújtható) \nLeírás:\nA varázsló  a  birtokában  lévo  (vagy  a\nkörülötte  hevero)  csontokból  a  teste  körüli\nfélméteres körben egy állandóan forgó, kavar-\ngó  csontörvényt  alkot,  amely  védelmet  nyújt\ntámadásokkal  szemben.  A  kavargó  csontok\nakár meg is sebezhetik a közelmerészkedo el-\nlenfelet.  A varázslat  létrehozásához  legalább\ntucatnyi,  legfeljebb  40  darab,  20  centiméter-\nnél  nem  kisebb  csontra  van  szükség  (pl.  áll-\nkapcsok).  A csontpajzs  tucatonként  +1  Pán-\ncélszintet  biztosít  és  amennyiben  valaki  50\ncentiméternél  rövidebb  fegyverrel  támadja\nmeg  a  varázslót,  úgy  tucatonként  1k6  Fizi-\nkumpont veszteséget szenved el maga is a for-\ngó csontok szúrásaitól, ütéseitol. A lofegyve-\nrek elleni védettséget tucatonként 2-vel növe-\nli. Ugyanakkor a csontpajzs védelmében a va-\nrázsló  sem  tehet  meg  bármit,  mivel  ha  a  ki-\nnyújtott keze, vagy a lába beleér a csontpajzs-\nba  (az  örvénylés  epicentruma  a  teste,  így  a\nvégtagjai beleérhetnek), úgy o is elszenvedi a\nsebzést.  A csontpajzs  minden  d6  sebzés  után\n(azaz  kockánként)  1  csontot  veszít  (összetö-\nrik). A \u0084tucat\u0094 mindig a teljes 12 csontra vo-\nnatkozik, és nem a \u0084megkezdett\u0094 tucatra.\n"
+    },
+    "verforralas": {
+        "id": "verforralas",
+        "name": "Vérforralás",
+        "kodex": "Fekete",
+        "nehezseg": 10,
+        "info": "Típus: személyre ható, vérmágia \nNehézség: 10 \nEsszenciaigény: 60 (+10 minden további 10 szegmensért) \nFizikumpont-igény: 30 \nEro: 30 \nHatótávolság: érintés \nKomponensek: szó, anyagi (kénko, elporlad)\nElmondási ido: 2 szegmens \nHatóido: 10 szegmens (nyújtható) \nLeírás:\nA varázsló érintésével az áldozat vérének homérsékletét növe-\nli  meg  drasztikus  mértékben.  Harcban  ehhez  sikeres  pusztakezes  tá-\nmadódobást kell tennie. A vér homérsékletének emelkedése rövid tá-\nvon  (a  30.  szegmensig)  égeto  kínt  és  3d10  fizikumpont  veszteséget\nokoz, hosszabb távon (50 szegmensen túl) pedig újabb 3d10 fizikum-\npont veszteséget, majd \nszegmensenként\n1d6 fizikumpont veszteséget!\nA varázslatot a létrehozója bármikor megszüntetheti, illetve akkor is a\nhatóido  lejárta  elott  szunik  meg,  ha  a  varázsló  elobb  meghal  \u0096  ez\nugyanis a varázslat azonnali megszunését vonja magával. A varázslat-\nra immúnis minden teremtmény, amelynek nem vér kering az ereiben,\nvagy természeténél fogva nem hat rá efféle mágia. \n"
+    },
+    "vereso": {
+        "id": "vereso",
+        "name": "Véresô",
+        "kodex": "Fekete",
+        "nehezseg": 5,
+        "info": "Típus: területre ható, vérmágia \nNehézség: 5 \nEsszenciaigény: 21 \nFizikumpont-igény: 5 \nEro: 10 \nHatótávolság: zóna\nKomponensek: mozdulat, anyagi (2 liter friss vér) \nElmondási ido: 3 perc \nHatóido: 15 perc \nLeírás:\nAz ijeszto hatású varázslat segítségével a varázsló kiadós vér-\nzivatart  hoz  létre  zónájában  (o  maga  az  epicentruma,  ezért  a  zivatar\nvele együtt mozog). Az idotartam lejártával a tálba gyujtött vér (anya-\ngi komponens) elpárolog. A zivatarként lehullott vér, ha fel is fogják,\ntovábbi mágikus eljárásokra nem alkalmas, vérrel élo lények táplálé-\nkául nem szolgál. \n"
+    },
+    "savasver": {
+        "id": "savasver",
+        "name": "Savas vér",
+        "kodex": "Fekete",
+        "nehezseg": 3,
+        "info": "Típus: területre ható, vérmágia \nNehézség: 3\nEsszenciaigény: 1 \/10 szegmens \nFizikumpont-igény: 30 (csak saját!) \nEro: 30 \nHatótávolság: 3 méter \nKomponensek: szó, mozdulat\nElmondási ido: 1 szegmens \nHatóido: 10  szegmens  \/1Ep  (max\n100 szegmens)\nLeírás:\nA varázsló ütoeres vágást ejt\nmagán,  és  a  sebbol  spriccelo  vért\nhasználja fegyverként, mely a mágia\nhatására  savassá  válik  (amire  a  va-\nrázsló persze immúnis). Ahhoz, hogy\ntalálatot  vigyen  be,  a  varázslónak\npusztakezes  támadást  kell  tenni,  bár\na meglepo támadóforma miatt +3 tá-\nmadószintet kap. A sav azonnali seb-\nzése  sikeres  támadásonként  1d10  fi-\nzikumpont, sot, ha nem mossák le 50\nszegmensen  belül,  újabb  1d10  fizi-\nkumpont  veszteséget  okoz  (ezután\nelveszti hatását). A sav ellen nem véd\na  páncél,  vagy  a  ruházat,  mi  több,  a\nMesélo  döntése  alapján  még  azok  is\nroncsolódhatnak. A varázsló 10 szeg-\nmensenként 1-1 deciliter vért veszít,\namely 1 dl savvá alakul át. A varázs-\nlat  idotartamának  lejártával  a  vágott\nseb összezáródik (a kifröcskölt savas\nvér azonban már nem változik vissza\nrendes vérré). Az idotartam 70 szeg-\nmensig  minden  további  nélkül  nyújtható,  a  további  nyújtás  10  szeg-\nmensenként 1d10 fizikumpont veszteséget okoz a varázslónak (az el-\nvérzés hatása). 100 szegmensen túl így sem nyújtható a varázslat.  \n"
+    },
+    "veramobateremtese": {
+        "id": "veramobateremtese",
+        "name": "Véramôba teremtése",
+        "kodex": "Fekete",
+        "nehezseg": 2,
+        "info": "Típus: tárgyra ható, vérmágia  \nNehézség: 2 \nEsszenciaigény: 20\nFizikumpont-igény: 7 \nEro: 20 \nHatótávolság: zóna\nKomponensek: szó, anyagi (vér)\nElmondási ido: 50 szegmens \nHatóido: 300 szegmens (3 perc)\nLeírás:\nA varázsló  nagy  mennyiségu  vérbol  (három  liter,  se  több,  se\nkevesebb) teremt magának szolgálót, egy vérbol formázott amobát. A\nvérlény nem vesz fel semmilyen formát, és nem bír jelentékeny intel-\nligenciával  sem.  Gyakorlatilag  egy  szilárd  aljzathoz  tapadó  (akár  a\nplafonhoz is), mozgó vértócsáról van szó, mely egyszerubb (javarészt\negyszavas)  parancsok  teljesítésére  képes  \u0096  amennyiben  fizikai  tulaj-\ndonságai képessé teszik erre. A vérlény, lévén folyadék, nem sebezhe-\nto,  legfeljebb  mágiával,  illetoleg  mágikus  fegyverekkel,  azonban  o\nmaga sem tud sebezni. Képes viszont elvakítani ellenfelét, vagy az ar-\ncába mászva megpróbálhatja megfullasztani. A vérlény sebessége 35,\nliterenként  10  fizikumponttal  bír.  100  szegmensenként  3d6-3d6  es-\nszenciapontot gyujt magába a környezetébol, amelyet pusztulásakor a\nlétrehozójának átpumpál (egy \u0084végelgyengülésben\u0094 elpusztuló amoba\nesetén ez min. 9, max. 54 pont) \u0096 a varázsló ebbol csak annyit képes\nhasznosítani,  hogy  elérje  Varázsereje  maximumát,  többet  nem.  Az\namoba a varázslat lejártával \u0096 vagy korábbi pusztulása esetén \u0096 azon-\nnal alvadt vérfolttá szárad.\n"
+    },
+    "arulover": {
+        "id": "arulover",
+        "name": "Áruló vér",
+        "kodex": "Fekete",
+        "nehezseg": 5,
+        "info": "Típus: tárgyra ható, vérmágia  \nNehézség: 5 \nEsszenciaigény: 25 \nFizikumpont-igény: 4 \nEro: 10 \nHatótávolság: speciális \nKomponensek: szó, anyagi (friss vércsepp)\nElmondási ido: 15 szegmens \nHatóido: azonnali \nLeírás:\nA varázslat  segítségével  a  varázsló  a  keresett  személy  még\nmeg  nem  alvadt  vérébol  meg  tudja  határozni  annak  hozzávetoleges\nirányát és távolságát. A vér mesél továbbá tulajdonosa nemérol, élet-\nkoráról, egészségi állapotáról is. A varázslathoz az áldozatnak egyet-\nlen csepp vére is elég, amelyet a varázslónak le kell nyelnie.\n"
+    },
+    "rosszomenbalszerencse": {
+        "id": "rosszomenbalszerencse",
+        "name": "Rossz ómen Balszerencse",
+        "kodex": "Fekete",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 6 \nEsszenciaigény: 18 \nFizikumpont-igény: 2 \nEro: 10 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 6 szegmens \nHatóido: 1 hét\nLeírás:\nA varázslat hatására a célpont személy Balsors zónájához 20-\nat kap. Jósors zónája csak akkor csökken, ha a Semleges zóna nem ké-\npes \u0084felvenni\u0094 a balsors növekedését \u0096 ebben az esetben is csak olyan\nmértékben csökken, hogy a minimálisan szükséges 5 pontos Semleges\nzóna  megmaradjon.  A hatóido  elmúltával  a  zónák  visszaállnak  a  va-\nrázslat elotti értékekre.\n"
+    },
+    "rosszomenugyetlenseg": {
+        "id": "rosszomenugyetlenseg",
+        "name": "Rossz ómen Ügyetlenség",
+        "kodex": "Fekete",
+        "nehezseg": 7,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 7 \nEsszenciaigény: 20 \nFizikumpont-igény: 2 \nEro: 18 \nHatótávolság: érintés \nKomponensek: szó \nElmondási ido: 6 szegmens \nHatóido: 1 hét \nLeírás: \nA varázslat  hatására  a  karakter  rendkívül  ügyetlenné  válik,\nminden ügyességet, atlétikusságot, mozgékonyságot igénylo cseleke-\ndetéhez -30-as módosító járul (ez vonatkozik a harcra is). A karakter\nmindent elejt, minden kiemelkedésben orra esik, lehetetlen vele hang-\ntalanul közlekedni, mert minden száraz gallyra rálép.\n"
+    },
+    "rosszomenbuz": {
+        "id": "rosszomenbuz",
+        "name": "Rossz ómen Buz",
+        "kodex": "Fekete",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 4 \nEsszenciaigény: 15 \nFizikumpont-igény: 2 \nEro: 12 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 6 szegmens \nHatóido: 1 hét \nLeírás:\nAz áldozatnak gyomorforgató a lehelete és visszataszító test-\nszagot áraszt, ami a legtöbb szociális helyzetben igen kellemetlen le-\nhet. A karakter maga nem érzi a szagot, így vélhetoen nem is fogja ér-\nteni, miért viselkedik vele mindenki bizalmatlanul, és miért fordulnak\nel tole az emberek beszéd közben. Fontos megjegyezni, hogy a varázs-\nlat más, szagosabb teremtmények (orkok, ogárok) esetében is mukö-\ndik, akik még saját fajtájuk mércéjéhez mérten is büdösek lesznek. \n"
+    },
+    "rosszomenpreda": {
+        "id": "rosszomenpreda",
+        "name": "Rossz ómen Préda",
+        "kodex": "Fekete",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 7 \nEsszenciaigény: 30 \nFizikumpont-igény: 4 \nEro: 19 \nHatótávolság: érintés \nKomponensek: szó \nElmondási ido: 6 szegmens \nHatóido: 1 hét \nLeírás: \nA varázslat  hatására  a  karakter  tipikus  baleknak  tunhet  min-\ndenki  számára,  akire  csak  úgy  ragadnak  a  potyalesok.  Az  átok  egy-\naránt vonz ellenségeket, kötözködoket, tolvajokat, rosszakarókat, ha-\nszonélvezoket  ingyenéloket  és  szemfényvesztoket.  A karaktert  egész\nnap nyaggatják, egy percnyi nyugodalma nem lehet tolük. \nRossz ómen Riasztó szag\nTípus: személyre ható, rontásmágia \nNehézség: 4 \nEsszenciaigény: 10 \nFizikumpont-igény: 2 \nEro: 10 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 6 szegmens \nHatóido: 1 hét \nLeírás:\nA varázslat bármely fajú áldozatot az állatok számára riasztó\nszaggal  ront  meg.  A szaglással  rendelkezo  állatok,  ha  a  varázslattal\nmegrontott karakterrel találkoznak, menten menekülni kezdenek tole,\nvagy ellenkezoleg \u0096 vérmérséklettol és faji szokásoktól függoen \u0096 rá-\ntámadnak. A lovak elhúzódnak, ha rájuk ül, levetik a karaktert, a ku-\ntyák megugatják, olykor meg is kapják ot. Aki tud olvasni ezekbol a\njelekbol,  elobb-utóbb  gyanakodni  fog  a  karakterre,  vélhetoen  valami\ntermészetfölöttit sejt majd benne.\n"
+    },
+    "idegrangas": {
+        "id": "idegrangas",
+        "name": "Idegrángás",
+        "kodex": "Fekete",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 5 \nEsszenciaigény: 14 \nFizikumpont-igény: 3 \nEro: 20 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 1 perc \nHatóido: 1 hét \nLeírás: \nA rontás  hatására  a  karakteren  állandó,\nde mérsékelt idegrángás vesz erot. A rángás nem\nfolyamatos, csupán a fej, a kéz hirtelen megrán-\ndulása,  esetleg  apró  nyelvbotlások.  Mások  szá-\nmára a karakter folyton feszültnek, vagy elmebe-\ntegnek tunhet, ami esetleg bizalmatlanságot szül-\nhet.  A rángatózás  esetleg  kellemetlen  lehet  va-\nrázslás,  vagy  kézügyességet  igénylo  feladatok\nmegoldásánál (a Mesélo döntése szerint). \n"
+    },
+    "csontolvadas": {
+        "id": "csontolvadas",
+        "name": "Csontolvadás ",
+        "kodex": "Fekete",
+        "nehezseg": 10,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 10 \nEsszenciaigény: 90 \nFizikumpont-igény: 18 (csak saját!) \nEro: 30 \nHatótávolság: érintés\nKomponensek: szó, anyagi (kígyóepe)\nElmondási ido: 1 óra  \nHatóido: maradandó \nLeírás:\nA varázslat  egy  célpont  csontjait  felpuhítja,  elsorvasztja  oly\nmértékben, hogy azok már tovább képtelenek lesznek vázaként szol-\ngálni  a  testnek.  A varázslat  alanya  mozgásképtelenné  válik,  ágyhoz\nlesz  kötve.  A felpuhult  csontok  könnyen  sérülnek,  meghajolnak,  de-\nformálódnak. A leépülés maga egyetlen hét alatt megy végbe, és sem-\nmiféle  gyógyítással  (természetessel  vagy  mágikussal)  nem  hozható\nrendbe. A varázslat végrehajtásához meg kell érinteni a célpontot, mi-\nközben a varázsló a szájában tart egy darab szárított kígyóepét. A va-\nrázslatot  megszüntetni  csak  a  varázsló  maga  tudja  (ugyanezzel  a  va-\nrázslattal, amely ekkor ellenkezo hatást vált ki), avagy halála esetén a\nrontás magától megszunik.  \n"
+    },
+    "aszenvedeshangjai": {
+        "id": "aszenvedeshangjai",
+        "name": "A szenvedés hangjai",
+        "kodex": "Fekete",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 6 \nEsszenciaigény: 35 \nFizikumpont-igény: 6 \nEro: 20 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 10 szegmens \nHatóido: 1 hét \nLeírás: \nA rontás hatására a karakter képtelen értelmes beszédre, csu-\npán  artikulátlan  üvöltések,  sikolyok  és  hörgések  hagyják  el  a  torkát,\nvalahányszor kinyitja a száját, akárcsak egy tüsszentés, vagy sóhajtás\nerejéig is. Még akkor is muködik a varázs, ha a karakternek álmában\nkinyílik a szája. Amint becsukja a száját, úgy a kísérteties, vagy éppen\nfülbántó hangok azonnal elhalnak.  \n"
+    },
+    "hajlamparanoia": {
+        "id": "hajlamparanoia",
+        "name": "Hajlam Paranoia",
+        "kodex": "Fekete",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 6  \nEsszenciaigény: 21 \nFizikumpont-igény: 4 \nEro: 20 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 10 szegmens \nHatóido: 1 nap\nLeírás:\nA karakter mindenkivel szemben bizalmatlanná válik, mindegy,\nhogy  hány  éve  kalandoznak  már  együtt,  mennyire  szereti  az  anyját,\nvagy hogy a szerelme mennyire megbízható. A karakter magába zárkó-\nzik,  és  minden  mögötte  elhangzott  szó  egy  összeesküvésnek  tunhet\nszámára, minden hirtelen mozdulatot, hangosabb szót támadásnak vél-\nhet. Ilyen esetekben Lelkiero-próbát köteles dobni, hogy ne veszítse el\naz önuralmát, és ne támadjon neki gyanúja célpontjának, vagy \u0096 ha sok-\nkal erosebbnek véli önmagánál \u0096 ne meneküljön sikoltozva elole.\n"
+    },
+    "hajlamigazmondas": {
+        "id": "hajlamigazmondas",
+        "name": "Hajlam Igazmondás\/Hazudozás",
+        "kodex": "Fekete",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 4  \nEsszenciaigény: 28 \nFizikumpont-igény: 1 \nEro: 15 \nHatótávolság: érintés \nKomponensek: szó\nElmondási ido: 6 szegmens \nHatóido: 1 hét \nLeírás:\nA rontás hatására a karakter képtelen lesz ha-\nzudni (még a legnagyobb szükség sem képes hazug\nszót csalni a szájára). Az igazmondás egyfajta belso\nkényszer, így még azt sem teheti, hogy nem válaszol\na feltett kérdésre. A hatás alatt álló karakter bárkinek\nbármilyen kérdésére oszintén válaszol \u0096 de nem lo-\ncsog,  tehát  fölösleges  információkat  nem  ad  ki,  ha\nügyel  rá.  Mindenkirol  véleményt  alkot  és  azt  kö-\nnyörtelen oszinteséggel a szemébe is mondja, ha az\nkíváncsi  rá.  A varázslat  másik  változata  a  karaktert\nmegrögzött  hazudóssá  változtatja  egy  hétre,  olyan\nszeméllyé,  aki  örömét  leli  mások  félrevezetésében,\ntehát nem csupán akkor hazudik, ha kérdezik.\n"
+    },
+    "hajlamvampirizmus": {
+        "id": "hajlamvampirizmus",
+        "name": "Hajlam Vámpírizmus",
+        "kodex": "Fekete",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható, rontásmágia \nNehézség: 6\nEsszenciaigény: 12   \nFizikumpont-igény: 5  \nEro: 12 \nHatótávolság: érintés \nKomponensek: szó \nElmondási ido: 10 szegmens \nHatóido: 1 hét \nLeírás: \nA vér  látványa  extázist  okoz  a  karakternek.  A folyó  vért,  de\nakár egy megvágott ujjat is megbabonázva bámul. A szeme kigúvad,\nkapkodva  szedi  a  levegot.  Az  átoknak  más  hatása  nincs,  a  karakter\nnem  fogja  vérengzo  vámpírként  rávetni  magát  a  sebre,  csupán  a  lát-\nvány hatása alatt áll majd. Ez viszont épp elég okot szolgáltat a félre-\nértésekre, a karakter viselkedése félelmet és viszolygást vált ki mások-\nból, saját csapattársai is félreértelmezhetik a helyzetet.\n"
+    },
+    "vegsobucsu": {
+        "id": "vegsobucsu",
+        "name": "Végsô búcsú",
+        "kodex": "Fekete",
+        "nehezseg": 7,
+        "info": "Típus: önmagára ható, rontásmágia\nNehézség: 7\nEsszenciaigény: 2\nFizikumpont-igény: speciális\nEro: 100\nHatótávolság: 10 méter \/ 1 kilométer\nKomponensek: szó\nElmondási ido: 2 szegmens\nHatóido: azonnali \/ 1 nap\nLeírás:\nA varázsló ezzel a varázslattal önmaga halálát idézi meg \u0096 fi-\nzikumpont-igénye a varázsló \nösszes\nrendelkezésre álló fizikumpontja.\nA halál  azonnal  bekövetkezik,  miközben  a  kiáramló  fizikumpontok\nminden 10 méteren belül álló élolényt sebzik \u0096 minden kiáramló 2 Fp\n1-1  pont  veszteséget  okoz  az  áldozatoknak.  A kiáramlás  jókora  esz-\nszenciavihart is kavar, amely 1 napig tart, és a halál epicentrumától 1\nkm-es  távolságig  ér.  Az  esszenciaviharban  létrehozott  varázslatok\nminden rontáskor spontán visszahatást okoznak, a vadmágusok pedig\nóránként  produkálnak  spontán  kisüléseket.  A Végso  Búcsú  generálta\nesszenciavihar sajátsága, hogy a benne létrehozott Fekete Kódexes va-\nrázslatok  idotartama  \u0096  amennyiben  értelmezheto  \u0096  kétszeres  hosszú-\nságúak lesznek.\n"
+    },
+    "zhardakkcsontvazai": {
+        "id": "zhardakkcsontvazai",
+        "name": "Zhar Dakk csontvázai",
+        "kodex": "Fekete",
+        "nehezseg": 8,
+        "info": "Típus: éloholtra ható, nekromancia\nNehézség: 4\nEsszenciaigény: 15 \/ csontváz\nFizikumpont-igény: 1 \/ csontváz (saját)\nEro: 30\nHatótávolság: 10 méter\nKomponens: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: 10 perc\nLeírás: \na mágiahasználó korlátozott befolyást nyerhet néhány éloholt\ncsontváz felett (s azok nem mutatnak ellenséges szándékot irányában).\nA varázslat lehetové teszi a számára, hogy annyi csontvázat az irányí-\ntása  alá  vonjon,  ahányszor  15  Ep-t  rááldozott  erre  a  varázslatra.  A\ncsontvázakat  rövid  parancsok  segítségével  irányíthatja  (\nhozzátok  ide\nnekem azt a ládát\nstb.). Ha a mágiahasználó rátámad bármilyen csont-\nvázra vagy az általa irányított csontvázakat más csontvázak ellen irá-\nnyítja, a varázslat szertefoszlik.\nBeszéd a halott növényekkel\nTípus: speciális, nekromancia\nNehézség: 8\nEsszenciaigény: 20 \/ kérdés\nFizikumpont-igény: 36\nEro: 12\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 10 perc\nHatóido: 1 perc\nLeírás: \na  mágiahasználó  meghatározott  számú  kérdést  tehet  fel  egy\nhalott növénynek, és képes fogadni (de nem feltétlenül értelmezni) an-\nnak válaszait. Egy Mágiahasználatban jártasabb személy régebben el-\npusztult növényekkel is tud kommunikálni, azaz információkat nyer-\nhet  egy  üszkös  fatuskótól,  egy  letaposott  fuszáltól  stb.  A növény  el\ntudja mondani a mágiahasználónak, milyen lények mentek az általa is-\nmert  területen  keresztül,  merre  haladtak  vagy  honnan  jöttek.  Bonyo-\nlult válaszokat (\nhogy nézett ki, milyen ruhát viselt stb.\n) csak az igazán\nöreg és bölcs növények (például\nostölgyek)\nképesek adni. Feldolgozott\nnövények esetén a válasz kizárólag a feldolgozás elotti idoszakra irá-\nnyulhat, azaz egy fagerenda emlékezhet arra, hogy ki vágta ki és mi-\nkor, ám arra semmiképpen nem képes válaszolni, hogy ki gyújtotta fel\na belole is épített kunyhót. Konkrét kérdések esetén a növény képek-\nkel felel, s csupán a mágiahasználón múlik, hogyan értelmezi azokat.\n"
+    },
+    "rontoszem": {
+        "id": "rontoszem",
+        "name": "Rontó szem",
+        "kodex": "Fekete",
+        "nehezseg": 7,
+        "info": "Típus: személyre ható, rontásmágia\nNehézség: 7\nEsszenciaigény: 30 + a rontásé\nFizikumpont-igény: 5 + a rontásé\nEro: 40\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (aranypor, szempilla)\nElmondási ido: 15 perc\nHatóido: 1d6 perc\nLeírás: \na mágiahasználó képes rontást idézni élolények fejére. A varázs-\nlat  bevetési  ideje  két  részre  oszlik:  az  elokészítésre,  ez  egy  fertályórát\nvesz igénybe, és az aktivizálásra, ami egytized szegmenset (\negy szem-\npillantást)\nigényel.  Az  elokészítés  során  a  mágiahasználó  aranyporral\nkeni be a szemhéját, és elmondja a varázslat szavait. Az aktivizáláshoz\negy pillanatra kell csupán koncentrálnia, s a varázslat életbe lép. A va-\nrázslatot legkésobb 1 órával az elokészítés után aktivizálni kell \u0096 ennek\nhiányában hatás nélkül megszunik. A varázslattal egy zónahatáron belül\nlevo teremtményre lehet rontást küldeni. A varázslat alanyát a varázsló-\nnak  látnia  kell,  különben  a  varázslat  nem  aktivizálható.  Az  aktivizált\nrontás bármely rontásmágia lehet, akár olyan is, amelyik eredeti formá-\njában testi érintést igényelne \u0096 csupán azok a rontásmágiák zárhatóak ki\na  felhasználhatóság  körébol,  amelyek  hatása  nem  értelmezheto  másra\n(pl. Végso Búcsú). A varázslat esszencia- és fizikumpont igényéhez már\na létrehozáskor hozzájön a beépített rontásmágia igénye, amelyet saját\nsikerdobás követ \u0096 rontás esetén a beépítés nem sikerül. Anyagi kom-\n"
+    }
+}

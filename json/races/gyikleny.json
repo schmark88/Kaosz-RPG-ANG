@@ -1,0 +1,53 @@
+{
+    "race": "gyikleny",
+    "summary": "A játékos  karakter  csakis  tecath  vagy  scyss  lehet  –  a  shaugok  a\nBestiárium lapjaira kívánkoznak.\nAmennyiben a karakter tecath, külön figyelmet kell fordítani annak\nindoklására, hogy miért hagyta el szülõföldjét – hiszen õk alapvetõen\nnem tesznek ilyet –, és szintén figyelni kell arra, hogy egy tecath haj-\nlamos a kiszáradásra. Túlságosan száraz vidéken – pl. az esõket nél-\nkülözõ  sztyeppéken  –  a  tecathok  hamar  megbetegszenek,  még  akkor\nis, ha rengeteg vizet isznak. A forró sivatagokban napok alatt kiszárad-\nnak, és elpusztulnak. Szélsõségesen rossz körülmények között elének-\nlik a Kõ Énekét, s a sorsra, esetleg a változó idõjárásra bízzák magu-\nkat.  Kõalakban  ezredévekig  is  képesek  kibírni...  vagy  amíg  el  nem\nkoptatja õket a számum homokja. A tecath pikkelyek ugyanakkor 4-es\nszintû vértnek felelnek meg (mozgáskorlátozás nélkül), amely idõrõl\nidõre  regenerálja  sérüléseit.  Egy  tecath  karakter  már  induláskor  ne-\ngyedik  szinten  sajátíthatja  el  a  lándzsaforgatást és  a  halászatot.\nUgyancsak negyedik szintig tanulhat vadászatot , de ez csak a vízi lé-\nnyek vadászatára vonatkozik, a szárazföldi vadak becserkészését már\na játék során kell megtanulnia. Egyes vidékeken a gyíklények félelmet\nváltanak  ki,  errefelé  komoly  konfliktusokra  lehet  számítani,\nmásutt a jelenlétük, ha nem is természetes, de elfogadott.\nA scyss karakterek mozgékonyabbak, gyakrabban kerülnek\nel  civilizált  vidékekre,  sõt,  olykor  egyenesen  a  civilizációba\nszülettek  bele.  Az  õ  jelenlétük  kevésbé  meglepõ,  mint  a\ntecathoké, így kevesebb problémájuk fog adódni idegenszerû-\nségükbõl. Mivel csaknem emberi arcuk van, egy csuklyás kö-\npeny is könnyebben elrejtheti õket, mint fajtársaikat. Ugyanak-\nkor  a  törvényt  semmibe  vevõ  természetük,  és  az  elnyomottak\niránti  együttérzésük  gyakrabban  keveri  õket  bajba,  mint  a\ntecathokat az idegenszerû, riasztó megjelenésük. A scyssek pu-\nha, a kígyókéhoz hasonló pikkelyei nem nyújtanak különösebb\nvédelmet a fizikai hatások ellen (de a vérszívó rovarok tehetet-\nlenek  velük  szemben),  ugyanakkor  olyan  tökéletes  védelmet\nnyújtanak a kiszáradás ellen, hogy a scyss kolóniák életben ma-\nradhatnak a forró sivatagokban is. S bár alapvetõen a mocsaras\nközegben érzik jól magukat, valójában alig van szükségük víz-\nre az életben maradáshoz – ha nem jutnak ivóvízhez, az is ele-\ngendõ a számukra, ha lenyalogatják a hajnali harmatot a fûszálakról.\nMindkét játszható alfajra jellemzõ, hogy a hûvösebb éjsza-\nkákon lelassulnak. Ilyenkor gyorsaságukhoz 1d6 pontot hozzá\nkell  számolni.  Fagyponthoz  közeli  hõmérsékleten  olyannyira\nlelassulnak hogy alapgyorsaságuk háromszorosát kell számol-\nni, sõt, fagypont alatt órákon belül téli álomba merülnek, amely\naddig tart, amíg a fagy. Mindkét  játszható  alfajba  tartozó  karakter\ninduláskor  rendelkezik az  úszás jártasság hatodik szintjével, méghozzá anél-\nkül, hogy erre jártasságpontot kellett volna költenie. Nem képe-\nsek  víz  alatt  lélegezni,  viszont  kb.  tízszer  olyan  hosszú  ideig\nbírják  egyetlen  lélegzettel,  mint  az  emberek,  így  igen  sokáig\nképesek a víz alatt maradni.",
+    "specials": {
+               "koeneke": {
+            "id": "koeneke",
+            "name": "A kő éneke",
+            "cost": 20,
+            "info": "A  gyíklények  különleges  képessége  Scyssath  adománya:  egy  rövid\nének  hatására  (öt  szívdobbanásnyi  idõ,  körülbelül  10  szegmens)  a\ngyíklény teste kõvé válik. Nem szépen faragott kõszobor lesz, hanem\negy durva kõtömb, amelyrõl nem derül ki semmiféle vizsgálat alapján,\nhogy  egy  gyíkember  lelke  lakozik  benne...  mert  a  lélek  ott  lakozik,\nvalahol a kõtömb mélyén. A gyíklények tetszés szerinti ideig marad-\nhatnak a kõtömbben, noha azok a gyíkok, akik éveket töltenek ebben\naz  állapotban,  gyakran  az  élõ  testükben  is  sokáig  oly  tompa  aggyal\nmászkálnak, mintha még mindig kövek lennének.\nKõalakban  érzékelhetetlenek  (a  mágia  által  is),  s  bár  ott  a  lelkük,\narra varázsolni nem lehet. Ugyanakkor a mocsárvidéken talált, ember\nnagyságú kõtömbök esetén jogos a gyanú, hogy gyíklényt találtunk.\nA szikladarab rendkívül kemény – bazaltszerû – anyag, melyet igen\nnehéz  megsérteni.  A közönséges  fegyverek  éle  elvásik  rajta,  anélkül\nhogy különösebb kárt okoznának benne. Természetesen nem képes el-\nlenállni  a  bányászszerszámoknak,  sem  az  alkalmas  mágiának  (mági-\nkus ellenállása alacsony, a kõre jellemzõ értéket mutat). A kisebb-na-\ngyobb sérülések, melyek a kõtömbön keletkeznek, nem befolyásolják\na gyíklény fizikumát, de ha kettétörik a kõ, a bezárt gyík azonnal ször-\nnyethal, amennyiben a kisebbik darab nagyobb, mint az egész kõ egy-\ntizede. Az ily módon eltört kõ lassan visszaalakul a gyíklény holttestévé.\nA rendkívül nehéz, 4-6 mázsás kõdarab lassan alámerül a lágyabb\ntalajba – sõt, a mocsárban, folyóban, a gyíkok eredeti élõhelyén szin-\nte azonnal eltûnik. Ezért a szorongatott helyzetben lévõ gyíkok gyak-\nran  menekülnek  a  víz  felé,  hogy  ott  kõalakba  változva  eltûnjenek\naz üldözõk elõl. Kõtömbbe  zárva  a  gyíklény  nem  változik  –  azaz  nem  \nöregedik, nem regenerálódik, és nem képes igazán gondolkodni sem – ugyanak-\nkor érzékeli a környezetét, és az információk alapján eldöntheti, hogy\nmikor  alakul  vissza  (ez  az  egy  gondolkodási  folyamat,  amelyre  ké-\npes)."   }
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {
+        "halaszat":4
+    },
+    "bonusJart": {
+        "uszas":{
+            "id":"uszas",
+            "level":6
+        }
+    },
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 30,
+            "max": 70
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 35,
+            "max": 85
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 20,
+            "max": 75
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 20,
+            "max": 70
+        }
+    },
+    "age": {
+        "juvenis": 9,
+        "seniorMin": 150,
+        "seniorMax": 200
+    },
+    "speed": {
+        "min": 15,
+        "base": 5,
+        "max": 2
+    }
+}

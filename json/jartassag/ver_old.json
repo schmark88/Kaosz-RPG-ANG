@@ -1,0 +1,609 @@
+{
+    "fegyverforgatas": {
+        "id": "fegyverforgatas",
+        "jartCsop": "ver",
+        "name": "Fegyverforgatás",
+        "costMod": [ "kez", "fegyver" ],
+        "cost": [ 300, 300, 300, 600, 600, 600, 900, 900, 900, 2500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "fegyvercsop": {
+            "kard": {
+                "name": "Kard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lasszo": {
+                "name": "Lasszó",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "dobohalo": {
+                "name": "Dobóhaló",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "shilpenge": {
+                "name": "Shil-penge",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+                       "fojtohurok": {
+                "name": "Fojtóhurok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "kriss": {
+                "name": "Kriss",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            }
+
+
+        },
+        "table": "rubin",
+        "info": "A jártasság a harcrendszer alapjául szolgáló ismereteket tartalmazza.\nA karakter ezen jártassága alapján támad és védekezik – harcértékeit\n(Támadószint, Védõszint) a jártasságszintje adja meg. Második szinttõl\na karakter specializálódhat: csupán a védekezést, vagy csak a támadást\nhelyezve elõtérbe (azaz, innentõl kezdve külön lehet\nfejleszteni az adott fegyverre a fegyverforgatást támadásra illetve védekezésre,\ns elõfordulhat akár az is, hogy a karakternek 5-ös szinten\nvan a fegyverforgatás jártasság támadás része egy adott fegyverre,\nmíg ugyanazon fegyvernél a védekezésé csupán 2-es). A fegyverforgatás\ntehát olyan komplex ismeret, melyet játéktechnikai szempontból\nrészismeretekre bontottunk. A karaktert semmi sem akadályozza\nmeg abban, hogy mind támadni, mind védekezni megtanuljon ugyanazzal\na fegyverrel – akár a valós élet harcosai –, ám megteheti, hogy\nfegyverével csupán támadni tanul, s bízik abban, hogy sosem lesz, aki\nvisszaüt."
+    },
+    "fegyverhajitas": {
+        "id": "fegyverhajitas",
+        "jartCsop": "ver",
+        "name": "Fegyverhajítás",
+        "costMod": [ "kez", "fegyver" ],
+        "cost": [ 350, 350, 350, 700, 700, 700, 1100, 1100, 1100, 3000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "csoportok": {
+            "kard": {
+                "name": "Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "minLevel": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                
+                "minLevel": 1
+
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "minLevel": 1
+
+            },
+                        "shilpenge": {
+                "name": "Shil-penge",
+                "have": false,
+                "minLevel": 1
+            },
+            "kriss": {
+                "name": "Kriss",
+                "have": false,
+                "minLevel": 1
+            },
+            "hajitofegyverek": {
+                "name": "Hajítófegyverek",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "egyeb": {
+                "name": "Egyéb",
+                "have": false,
+                "minLevel": 1
+
+            }
+        },
+        "table": "rubin",
+        "info": "Alapvetõen a hajítófegyverekkel való harc jártassága. Ezek a speciális\nfegyverek teljességgel alkalmatlanok a közelharcra, ezért védekezni\nsem lehet velük. A jártasság viszonylag alacsony Jp-igénye nem azt\njelzi, hogy könnyû megtanulni, hanem azt, hogy a hajítófegyveres támadást\nnehezebb kivédeni – ugyanis a jártasság szintje adja a harcban\na karakter Támadószintjét."
+    },
+    "ijaszat": {
+        "id": "ijaszat",
+        "jartCsop": "ver",
+        "name": "Íjászat",
+        "costMod": [ "kez", "ij","szem" ],
+        "cost": [ 500, 500, 500, 1000, 1000, 1000, 1500, 1500, 1500, 4000 ],
+        "reqFoertekId": "ugyesseg",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "table": "rubin",
+       "info":"köny"
+    },
+    "pajzshasznalat": {
+        "id": "pajzshasznalat",
+        "jartCsop": "ver",
+        "name": "Pajzshasználat",
+        "costMod": [ "kez", "pajzs" ],
+        "cost": [ 100, 200, 300, 500, 600, 700, 900, 1100, 1300, 2000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "fegyvercsop": {
+            "pajzs": {
+                "name": "Pajzs",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            }
+        },
+        "table": "rubin",
+        "info":"köny"
+    },
+    "targyakfegyver": {
+        "id": "targyakfegyver",
+        "jartCsop": "ver",
+        "name": "Tárgyak fegyverként való használata",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "ketfegyverhasznalata": {
+        "id": "ketfegyverhasznalata",
+        "jartCsop": "ver",
+        "name": "Két fegyver használata",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ ],
+        "bonustable1": [ -2, -2, -1, -1, 0, 0, 0, 0, 0, 0 ],
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "szimultanharc": {
+        "id": "szimultanharc",
+        "jartCsop": "ver",
+        "name": "Szimultán harc",
+        "costMod": [ ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "vertviselet": {
+        "id": "vertviselet",
+        "jartCsop": "ver",
+        "name": "Vértviselet",
+        "costMod": [ ],
+        "cost": [ 200, 300, 400, 500, 700, 900, 1200, 1500, 1800, 3000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ ],
+        "bonustable1": [ 0, 0, 0, -1, -1, -2, -4, -6, -8, -10 ],
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "fajdalomtures": {
+        "id": "fajdalomtures",
+        "jartCsop": "ver",
+        "name": "Fájdalomtures",
+        "costMod": [ ],
+        "cost": [ 300, 400, 500, 700, 800, 900, 1200, 1300, 1400, 2500 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": [ "koncentralas" ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "zafir",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "fajdalomduh": {
+        "id": "fajdalomduh",
+        "jartCsop": "ver",
+        "name": "Fájdalomdüh",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "bonustable1": [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 5 ],
+        "bonustable2": [ -1, -1, 0, -1, -1, 0, -1, -1, 0, 0 ],
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "visszatamadas": {
+        "id": "visszatamadas",
+        "jartCsop": "ver",
+        "name": "Visszatámadás",
+        "costMod": [ ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "reflex",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "bonustable1": [ -4, -3, -2, -1, -1, -1, 0, 0, 0, 0 ],
+        "bonustable2": [ 1, 1, 1, 1, 2, 3, 4, 5, 6, 7 ],
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "lefegyverzes": {
+        "id": "lefegyverzes",
+        "jartCsop": "ver",
+        "name": "Lefegyverzés",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "reflex",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "fegyvertores": {
+        "id": "fegyvertores",
+        "jartCsop": "ver",
+        "name": "Fegyvertörés",
+        "costMod": [ "kez" ],
+        "cost": [ 150, 150, 150, 250, 250, 250, 400, 400, 400, 700 ],
+        "reqFoertekId": "ero",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverismeret" ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "vakharc": {
+        "id": "vakharc",
+        "jartCsop": "ver",
+        "name": "Vakharc",
+        "costMod": [ ],
+        "cost": [ 250, 300, 400, 500, 700, 900, 1200, 1500, 1800, 3000 ],
+        "reqFoertekId": "esszencia",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "verekedes": {
+        "id": "verekedes",
+        "jartCsop": "ver",
+        "name": "Verekedés",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "szivossag",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "birkozas": {
+        "id": "birkozas",
+        "jartCsop": "ver",
+        "name": "Birkozás",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "fizikum",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "harcorulet": {
+        "id": "harcorulet",
+        "jartCsop": "ver",
+        "name": "Harcõrület",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "tudat",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "zafir",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "pusztitocsapas": {
+        "id": "pusztitocsapas",
+        "jartCsop": "ver",
+        "name": "Pusztító csapás",
+        "costMod": [ "kez", "fegyver" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "ero",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "csoportok": {
+            "kard": {
+                "name": "Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "minLevel": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                "atk": 0,
+                "minLevel": 1
+
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "hajitofegyverek": {
+                "name": "Hajítófegyverek",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "egyeb": {
+                "name": "Egyéb",
+                "have": false,
+                "minLevel": 1
+
+            }
+        },
+        "table": "rubin",
+        "info":"köny"
+    },
+    "kifarasztas": {
+        "id": "kifarasztas",
+        "jartCsop": "ver",
+        "name": "Kifárasztás",
+        "costMod": [ ],
+        "cost": [ 100 ,100 ,100 ,200 ,200, 200, 300, 300, 300 ,600 ],
+        "reqFoertekId": "szivossag",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "fegyverismeret": {
+        "id": "fegyverismeret",
+        "jartCsop": "ver",
+        "name": "Fegyverismeret",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "zafir",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "taktika": {
+        "id": "taktika",
+        "jartCsop": "ver",
+        "name": "Taktika",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200 ,200 ,200 ,300 ,300 ,300 ,600 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "zafir",
+        "minLevel": 1,
+         "info":"köny"
+    },
+    "strategia": {
+        "id": "strategia",
+        "jartCsop": "ver",
+        "name": "Stratégia",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 300, 400, 500, 600, 700, 800 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": ["taktika" ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+        "hadvezetes": {
+        "id": "hadvezetes",
+        "jartCsop": "ver",
+        "name": "Hadvezetés",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 500, 700, 1000 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": ["strategia" ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+         "info":"köny"
+    },
+        "cselezes": {
+        "id": "cselezes",
+        "jartCsop": "ver",
+        "name": "Cselezés",
+        "costMod": [ "kez"],
+        "cost": [ 100 ,200, 300 ,500 ,700 ,900 ,1200 ,1500, 1800, 2500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ "fegyverfordagtas"],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    },
+    "feldontes": {
+        "id": "feldontes",
+        "jartCsop": "ver",
+        "name": "Feldöntés",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300 ,300, 600 ],
+        "reqFoertekId": "ero",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "bonustable1": "",
+        "bonustable2": "",
+        "table": "rubin",
+        "minLevel": 1,
+        "info":"köny"
+    }
+}

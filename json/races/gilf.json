@@ -1,0 +1,57 @@
+{
+    "race": "gilf",
+    "summary": "Egy  lehanyatlott  kultúra  gyermekével  –  azaz  leányával  –  játszani  iz-\ngalmas vállalkozás lehet. A gilfeket mindig körüllengi az elmúlás szo-\nmorúsága,  és  az  útkeresés  örökös  szenvedélye.  Mivel  öncélú  népük\ngyakran kegyetlenkedetett mind a múltban, mind a jelenben másokkal,\nígy a gilfek sehol sem szívesen látott vendégek – ha nem is üldözöt-\ntek,  legfeljebb  megtûrt  személyek.  Ha  valaki  látványosan  örül  egy\ngilfnek, az minden bizonnyal ki akarja használni a gilf nem mindenna-\npi  képességeit...  és  korántsem  biztos,  hogy  miután  megkapta,  amit\nakart, életben hagyja a gilfet.\nA gilfek – bár nincsenek híján az erkölcsi érzéknek – más fajokkal\nszemben hûvösen távolságtartóak, megvetõek, kíméletlenek. Nem él-\nvezik azonban a kegyetlenséget, egyszerûen semmibe sem veszik má-\nsok  életét  –  „tárgyilagos”,  hatékony  gyilkosok,  de  nem  szadisták.  A\nbarátság fogalma teljességgel ismeretlen számukra, még a fajukon be-\nlül is – egy kapcsolat elõnyeit nézik, és nem a barátságot. A szerelem\nképessége évszázadokkal korábban kihalt szívükbõl – bár, ha érdekeik úgy \nkívánják, akár egy bûzös manóval szemben is képesek szerelmet szimulálni.\nFontos kitétel, hogy a karakter csakis nõstény gilf lehet– mivel a\nfiúk korai haláluk elõtt sem alkalmasak a szabad életre.\nA gilfek mágiához fûzõdõ sajátos vonzalma miatt az induló karak-\nter negyedik szintig sajátíthatja el a szabad mágia \nmágiaelmélet és  mágiahasználat jártasságát,  minden  külön  Mesélõi  engedély  \nnélkül.  A kötött mágiaformákat a gilfek nem kedvelik, ezért az ehhez kapcsoló-\ndó jártasságokat – amennyiben a Játékos mégis szeretne ilyet karakte-\nrének – induláskor csupán második szintig sajátíthatják el. A titkos gilf\nhatalomszavakat az alapkönyvön nyugvó játékrendszerben nem lehet használni.",
+    "specials": {
+         "regeneracio":{
+                "id":"regeneracio",
+                "name":"Regeneráció",
+                "cost":20,
+                "info":"Alapjában  véve  elmondható,  hogy  egy  gilf  egy  nap  alatt  öt  seb-\nszintnyit  gyógyul (azaz  nagyjából  öt  óránként  egyet)  minden  különö-\nsebb gyógyítás nélkül. Ha a sérülés elvesztett testrészekbõl adódik, a\nFizikum regenerálódása nem jelenti a végtag visszanövését (bár az is\nelkezdõdik). Irányelvként elmondható, hogy egy kihullott fog egy nap\nalatt visszanõ, egy elvesztett szem, vagy fül, esetleg egy ujj két-három\nnap alatt regenerálódik, egy kar legalább egy hét, egy láb pedig ennek\na másfélszerese.\nHa lecsapják egy gilf fejét, az végzetes számára, csakúgy, mintha\nátdöfnék a szívét. A teremtéskor ugyanis a gilf nép az elme (fej) és a\nhit (szív) jegyében született, s ha e lelki kettõség bármely ponton meg-\nszakad, a gilf életének azonnal vége.\nVannak továbbá olyan sérülések, melyekbõl egyszerûen képtelen-\nség visszatérni. Ha szabályokkal akarnánk ezt megfogalmazni, akkor\negy  gilf  elpusztul,  ha  az  elszenvedett  sérülés  meghaladja  maximális\nFizikumértékének dupláját. Ekkor mondhatni szétdarálták õt."                             
+            },
+             "teljesregeneracio":{
+                "id":"teljesregeneracio",
+                "name":"Teljes regeneráció",
+                "cost":30,
+                "info":"Képes a karakter a halálból visszatérni.\nFontos kitétel, hogy a halálból való visszatérést egyetlen gilf sem\nképes  maradandó  károsodások  nélkül  megtenni.  Minden  egyes  halál\n5-5 fõérték-pont levonást jelent a Fizikum (valamint az Erõ és a Szí-\nvósság), a Rátermettség (valamint az Ügyesség és a Reflex) fõértékek-\nbõl (ez összesen 30 pont). Ez a levonás maradandó, nem gyógyítható,\nezen  fõértékek  maximuma  csökkent  –  az  összes  egyéb  következmé-\nnyeivel együtt (pl. fizikumpont). Egy idõ múlva ezek a fõérték csök-\nkenések látható testi torzulásokat okoznak (lásd az öreg gilfeket).\nUgyanakkor  a  halálból  való  visszatérés  3-3  fõérték-ponttal  növeli  a\nTudatot és az Esszenciát (illetve ezek aktív és passzív részeit, összesen\n18 pont) a halálon túli lét misztikus élményének megtapasztalása révén."                              
+            }
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {
+        "magiaelmelet":4,
+        "magiahasznalata": 2,
+        "magiahasznalatsz":4
+    },
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 35,
+            "max": 85
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 35,
+            "max": 85
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 35,
+            "max": 85
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 30,
+            "max": 100
+        }
+    },
+    "age": {
+        "juvenis": 35,
+        "seniorMin": 1000,
+        "seniorMax": 1100
+    },
+    "speed": {
+        "min": 15,
+        "base": 5,
+        "max": 2
+    }
+}

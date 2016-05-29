@@ -1,0 +1,46 @@
+{
+    "race": "ember",
+    "summary": "Ember. A faj, melyet nem kell különösebben bemutatnunk. A Föld ne-\nvû bolygó kényszerû menekültje, azok népe, akiket még nem korcso-\nsított el a Gépistenek kora, azok népe, akik kreativitásukkal (vagy mo-\nhóságukkal)   leginkább   átformálták   a   gázlények   õsi   világát.\nMark’yhennon, Yvorl és Grooms eredendõ fajtája – még ha a nevezett\nistenek nem is büszkék erre különösebben.\nAz ember – szemben Worluk más fajaival – a társadalmi és nemze-\nti  különbségek  oly  széles  skáláját  vonultatja  fel,  hogy  gyakran  több\nkülönbség  van  ember  és  ember  között,  mint  egy  gennymanó  és  egy\ntündérke között. Ezért nem foglalkozunk az emberi faj jellemzésével\nezeken az oldalakon – minderrõl a Világleírás lapjain hasznosabb in-\nformációkat nyerhetsz.\nÉppen a különleges sokszínûség miatt az emberi faj szinte kínálja\nmagát Mesélõnek, Játékosnak, hogy a többinél rugalmasabban kezel-\nje a kapott információkat. Hiszen gondoljunk csak a faji életkor-hatá-\nrokra: az ember esetében bizony megemlíthetjük, hogy egy fagyföldi\nköz-drén (aki a nemesdrénekkel ellentétben az emberi faj tagja), egy\ndergán kecskepásztor, valamint egy jidori bennszülött között már szü-\nlõhazájuk éghajlata miatt is komoly életesélybeli eltérések mutatkoz-\nnak. Ez és számos más különbség már oly részletes, olyan aprólékos\nleírást  kívánna,  hogy  külön  Embertani  Kalauzt  kellene  csatolnunk  a\nKáosz  Szerepjátékhoz  –  ezért  inkább  nem  térünk  ki  a  részletekre,  és\nrábízzuk a Mesélõk, Játékosok igényére, hogy akarnak-e (saját kútfõ-\nbõl természetesen) ennyire részletekbe menõen jellemezni egy emberi karaktert.\nFontos  kitétel,  hogy  az  ember  karakterek  induláskor  \nbármely jártasságukat 4. szintig sajátíthatják el.",
+    "specials": {        
+        "gazleny": {
+            "id": "gazleny",
+            "name": "Gázlény",
+            "cost": 25,
+            "info": "Amennyiben a Játékos emberi testben rejtõzõ gázlénnyel kíván ját-\nszani, megteheti  mindezt.  A karaktere  minden  te-\nkintetben embernek fog tûnni, amíg csak akarja, s semmiféle mágia –\nmég az istenek mágiája sem! – képes leleplezni õt. Az emberi test min-\nden  képességében  és  tulajdonságában  megegyezik  az  igazi  emberrel\n(pl. természetes regeneráció, esszenciapontok feltöltõdése, jártasságok\nhasználata, vagy pl. a mérgekre emberként reagál, emberként táplálko-\nzik, emberként gyógyítható stb.).\nFontos kitétel, hogy a gázlény csak egy bizonyos ember álcáját ölt-\nheti magára, és semmilyen más anyagi testbe nem bújhat – tehát ez a\ntulajdonság nem alakváltás. Az álca fenntartása folyamatos esszencia-\nfelhasználást igényel, melyet a mhyor a saját Varázserõ fõértékébõl fe-\ndez.  Az  esszenciaigény  naponta  24  esszencia-pont,  azaz  óránként  1\npont. Amennyiben a karakter nem rendelkezik aktív esszencia-ponttal,\núgy  a  passzív  esszenciáját  használja  erre  a  célra  (esszenciapajzs),  ha\nez sem áll rendelkezésére, akkor a fizikumpontjait fordítja álcája fenn-\ntartásához, ám ebbõl óránként 2-t veszít, azaz naponta 48 pontot.\nGázlény formájába tetszés szerint alakulhat, ilyenkor az emberi test\nalakul  át  gázzá,  mintegy  10  szívdobbanás  alatt  (a  visszaalakulás\nugyanennyi  idõt  vesz  igénybe),  tehát  nem  hagyja  hátra  üres  porhü-\nvelyként  a  testet.  Ruhái,  felszerelése  természetesen  hátramaradnak."      }
+        },
+    "jartMod": {},
+    "jartMaxLevelMod": {},
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 30,
+            "max": 80
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 30,
+            "max": 80
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 25,
+            "max": 80
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 35,
+            "max": 90
+        }
+    },
+    "age": {
+        "juvenis": 13,
+        "seniorMin": 70,
+        "seniorMax": 90
+    },
+    "speed": {
+        "min": 17,
+        "base": 7,
+        "max": 4
+    }
+}

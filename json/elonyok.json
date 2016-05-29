@@ -1,0 +1,208 @@
+{
+    "jobblatas": {
+        "id": "jobblatas",
+        "forbiddenRaces": [ ],
+        "name": "Az átlagosnál jobb látás",
+        "info": "A karakter a saját faján belül a nagyon jó látással\nrendelkezõk közé tartozik. Látótávolsága és látásnak élessége\nmintegy 130-190 százaléka az átlagos fajtársainak. Minden olyan jártasságot,\namelynél a látás komoly szerepet játszik (például íjászat,\negyéb lõfegyverek, stb.) a karakter 13-19 százalékkal kevesebb jártasságpontért\nsajátíthat el. Még szélsõségesebb esetben a karakter rendkívül\njó látással bír. Látótávolsága és látásnak élessége mintegy 200-\n250 százaléka az átlagos fajtársainak. Minden olyan jártasságot,\namelynél a látás komoly szerepet játszik,\na karakter 20-25 százalékkal kevesebb\njártasságpontért sajátíthat el.",
+        "modType": "szem",
+        "modMin": 13,
+        "modMax": 25,
+        "modStep": 1,
+        "modCurrent": 13,
+        "costMin": -800,
+        "costMax": -2000,
+        "costStep": -100,
+        "costCurrent": -800
+    },
+    "jobbhallas": {
+        "id": "jobbhallas",
+        "forbiddenRaces": [ ],
+        "name": "Az átlagosnál jobb hallás",
+        "info": "a  karakter  a saját faján belül a nagyon jó hallással ren-\ndelkezok közé tartozik. Hallótávolsága és\nhallásának élessége mintegy 130-190 szá-\nzaléka  az  átlagos  fajtársainak.  Minden\nolyan  jártasságot,  amelynél  a  hallás  ko-\nmoly  szerepet  játszik  (például  hallgató-\nzás, vakharc stb.) a karakter 13-19 száza-\nlékkal kevesebb jártasságpontért sajátíthat\nel. Még szélsoségesebb esetben a karakter\nrendkívül  jó  hallással  bír.  Hallótávolsága\nés  hallásának  élessége  mintegy  200-250\nszázaléka az átlagos fajtársainak. Minden\nolyan  jártasságot,  amelynél  a  hallás  ko-\nmoly  szerepet  játszik,  a  karakter  20-25\nszázalékkal kevesebb jártasságpontért sa-\njátíthat el. Jártasságpont-igénye alapban\n800 Jp (130%-os hallótávolság és hallás élesség), valamint a hallás\nélességével és a hallótávolság növekedésével arányosan minden to-\nvábbi 10%-ért további 100 Jp (azaz 2000 Jp elköltése esetén a karak-\nter 250%-os hallótávolságra és hallás élességre tesz szert).\n",
+        "modType": "fül",
+        "modMin": 13,
+        "modMax": 25,
+        "modStep": 1,
+        "modCurrent": 13,
+        "costMin": -800,
+        "costMax": -2000,
+        "costStep": -100,
+        "costCurrent": -800
+    },
+    "jobbszaglas": {
+        "id": "jobbszaglas",
+        "forbiddenRaces": [ ],
+        "name": "Az átlagosnál jobb szaglas",
+        "info": "a karakter a saját faján belül a nagyon jó\nszaglással rendelkezok közé tartozik. Szaglótávolsága és szaglásának\nélessége mintegy 130-190 százaléka az átlagos fajtársainak. Szaglása\nvetekedik egy átlagos kutyáéval, avagy, ha a karakter ork, egy remek\nvadászkutyáéval. Szélsoséges esetben a karakter rendkívül jó szaglás-\nsal bír; szaglótávolsága és szaglásának élessége mintegy 200-250 szá-\nzaléka az átlagos fajtársainak. Szaglása vetekedik egy remekül kikép-\nzett  vadászkutyáéval,  avagy,  ha  a  karakter  ork,  akkor  nincsen  nála\njobb  szimatú  lény  Worlukon. Jártasságpont-igénye  alapban  800  Jp\n(130%-os szaglótávolság és szaglás élesség), valamint a szaglás éles-\nségével és a szaglótávolság növekedésével arányosan minden továb-\nbi 10%-ért további 100 Jp (azaz 2000 Jp elköltése esetén a karakter\n250%-os szaglótávolságra és szaglás élességre tesz szert).\n",
+        "modType": "orr",
+        "modMin": 13,
+        "modMax": 25,
+        "modStep": 1,
+        "modCurrent": 13,
+        "costMin": -800,
+        "costMax": -2000,
+        "costStep": -100,
+        "costCurrent": -800
+    },
+    "csekelyholatas": {
+        "id": "csekelyholatas",
+        "forbiddenRaces": [ "ork" ],
+        "name": "Csekély hőlátás",
+        "modType": "",
+        "modMin": 1,
+        "modMax": 15,
+        "modStep": 1,
+        "modCurrent": 1,
+        "costMin": -500,
+        "costMax": -1900,
+        "costStep": -100,
+        "costCurrent": -500,
+        "info": "a karakter teljes sötétségben 1-15 méter távolságból\nlátja a tárgyak és a különféle élolények vagy teremtmények által kibo-\ncsátott hot, s a hokép segítségével képes általuk tájékozódni. Ennél na-\ngyobb távolságban egyszeruen képtelen érzékelni a hot, legyen bármi-\nlyen  heves  forrása.  Azon  karakterek,  akik  faji  sajátosságaik  alapján\nbírják a holátás ennél jobb formáját, ezt az elonyt nem kaphatják meg.\nJártasságpont-igénye  alapban  500  Jp,  a  holátás  távolságával  ará-\nnyosan minden méter után további 100 Jp. (Azaz 500 Jp elköltésével\na karakter 1 méteres holátást birtokol, 1900 Jp-ért 15 méterest.)\n"
+
+    },
+    "csekelyejjelilatas": {
+        "id": "csekelyejjelilatas",
+        "forbiddenRaces": [ "ork" ],
+        "name": "Csekély éjjeli látás",
+        "modType": "orr",
+        "modMin": 13,
+        "modMax": 25,
+        "modStep": 1,
+        "modCurrent": 13,
+        "costMin": -800,
+        "costMax": -2000,
+        "costStep": -100,
+        "costCurrent": -800,
+        "info": "a karakter nagyon jól lát az éjszakai gyér fény-\nben (de ez az elony nem keverendo össze a holátással, azaz a karakter\nteljes sötétségben éppúgy nem lát semmit, mint a társai sem). A tulaj-\ndonság szürkület után, csupán a csillagok fényére hagyatkozva is tö-\nkéletes látást biztosít a karakternek \u0096 igaz, csak rövid távolságra. Az\néjjeli látás 5-15 méterre tökéletes, mintha nappal lenne, azon túl gyen-\ngül, és nagyjából 40-70 méteren túl megszunik. Azon karakterek, akik\nfaji sajátosságaik alapján bírják az éjjeli látás ennél jobb formáját, ezt\naz elonyt nem kaphatják meg. Jártasságpont-igénye alapban 600 Jp,\naz éjjeli látás \u0084tökéletes\u0094 zónájának távolságával arányosan minden\nméterért további 80 Jp-ot kell elkölteni. (Azaz 600 Jp elköltésével a\nkarakter 5 méterre fog tökéletesen látni, 1400 Jp-ért 15 méterre.)\n"
+
+    },
+    "eberalvas": {
+        "id": "eberalvas",
+        "forbiddenRaces": [ ],
+        "name": "Éber alvás",
+        "info": "A karakter rendkívül ébren alszik, a legkisebb zajra is kinyitja a szemét, ám utána, ha úgy dönt, máris\nképes tovább aludni… majd reggel kipihenten ébredni (természetesen, ha állandóan felverik,\nõ sem képes kipihenni magát). Mindazon teremtményeknek, akik észrevétlenül oda akarnak\nlopakodni az éberen alvó karakterhez, hogy meglepjék, 20 százalékkal csökken az esélyük a sikerre.",
+        "modType": "",
+        "modMin": 0,
+        "modMax": "",
+        "modStep": 0,
+        "modCurrent": "",
+        "costMin": -600,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -600
+    },
+    "ketkezesseg": {
+        "id": "ketkezesseg",
+        "forbiddenRaces": [ ],
+        "name": "Kétkezesseg",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": "",
+        "modCurrent": "",
+        "costMin": -1000,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -1000,
+        "info": "a karakter mindkét keze egyformán ügyes, és ez minden\nolyan  cselekedeténél  megmutatkozik,  ahol  számít  a  jobb-,  illetve  bal-\nkezesség,  valamint  minden  olyan  jártasságnál,  mely  mindkét  kezet\nigénybe veszi. Az \u0084egykezes\u0094 Ügyesség-, és Rátermettség-alapú jártas-\nságok elsajátítása 50 százalékkal több\njártasságpontba fog kerülni a ka-\nrakter számára az elso 3 szinten, utána viszont a további szinteken már\nnem kell több jártasságpontot elköltenie ahhoz, hogy az adott jártassá-\ngot mindkét kézzel alkalmazhassa. Ha például a kétkezes karakter tud\nírni,  akkor  valószínuleg  teljesen  mindegy,  melyik  kezében  tartja  az\nirónt  (feltéve,  hogy  az  írás  alapjainak  elsajátításakor  gondot  fordított\nerre); ha fegyvert forgat, akkor nem számít, bal vagy jobb kezében tart-\nja a fegyverét. Azon jártasságok megtanulásában, melyek eleve mind-\nkét kezet igénybe veszik (pl. harc két kézzel) ez az elony más hatással\nvan minden szinten 10%-kal  kevesebb\njártasságpontot kell a tanulásra\nfordítani. Azon jártasságokat, melyek alapvetoen nem a kéz ügyességé-\nre építenek, nem befolyásolja. \nJártasságpont-igénye 1000 Jp.\n"
+
+    },
+    "kimagaslomagikusellenallas": {
+        "id": "kimagaslomagikusellenallass",
+        "forbiddenRaces": [ ],
+        "name": "Kimagasló mágikus ellenállás",
+        "modType": "",
+        "modMin": 10,
+        "modMax": 20,
+        "modStep": 10,
+        "modCurrent": 10,
+        "costMin": -1500,
+                "costStep": -1500,
+                "costMax": -3000,
+        "costCurrent": -1500,
+        
+        "info": "a karakter esszenciapajzsa nem ron-\ncsolódik nullára; mindig marad 10, illetve 20 pontnyi (utóbbi esetben\nrendkívül kimagasló mágikus ellenállás\nról beszélünk), hogy felfogja a\nvarázslatot,  hasonlóképpen  a  tárgyak  és  állatok  \ntermészetes  mágikus\nellenállásához\n. Tehát egy 50-es esszenciapajzzsal és 10-es kimagasló\nmágikus ellenállással rendelkezo karakter nem roncsolódó esszencia-\npajzsa mindig 10-es lesz. \nJártasságpont-igénye 1500 illetve 3000 Jp\n(utóbbi 20-as nem roncsolódó esszenciapajzs esetén).\n"
+
+    },
+    "kimagaslogyorsasag": {
+        "id": "kimagaslogyorsasag",
+        "forbiddenRaces": [ ],
+        "name": "Kimagasló mgyorsaság",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": 1,
+        "modCurrent": "",
+        "costMin": 0,
+        "costMax": "",
+        "costStep": "300",
+        "costCurrent": 0,
+        "info": "a karakter gyorsabb, mint fajának átlagos kép-\nviseloje.  A gyorsaság  lehetséges  legkisebb  faji  értékérol  a  gyorsaság\ntáblázata  ad  információt.  (Minél  kisebb  a  Gyorsaság  értéke,  annál\ngyorsabb  a  karakter!)  \nJártasságpont-igénye  az  átlagtól  való  eltérés\nminden pontjáért 300 Jp.\n"
+
+    },
+    "kimagaslosebgyogyulas": {
+        "id": "kimagaslosebgyogyulas",
+        "forbiddenRaces": [ ],
+        "name": "Kimagasló sebgyógyulás",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": "",
+        "modCurrent": "",
+        "costMin": -400,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -400,
+        "info": "a  karakter  szervezete  jobban  regenerálja  a\nsebeit, mint mások. A sebgyógyítás jártasságpróbája az o esetében min-\ndig egy, illetve két szinttel alacsonyabb, mint amekkora szint a sebzés\nmértékébol  következne.  \nJártasságpont-igénye  400  vagy  800  Jp.  \nA vérzékenység hátránnyal nem birtokolható egyidejuleg!\n"
+
+    },
+    "erotikuskisugarzas": {
+        "id": "erotikuskisugarzas",
+        "forbiddenRaces": [ ],
+        "name": "Erotikus kisugárzás",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": "",
+        "modCurrent": "",
+        "costMin": -500,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -500,
+        "info": "a karakter hihetetlen erotikus kisugárzással ren-\ndelkezik, melyet minden olyan személy megérez, amely szexuális cél-\npontnak tekinti a karakter faját és nemét. Ezen kisugárzás alapján na-\ngyobb esélye van a szimpátiának, a kedvezo döntéseknek stb., melyek\nkövetkezményeit a karakter élvezi. Mivel a szexuális vonzódás egyes\negyéneket eroszakossá tesz, nem árt a tulajdonság mellé jelentos ön-\nvédelmi jártasságokat is felvenni, hogy az elony valóban elony marad-\nhasson. \nJártasságpont-igénye 500 Jp.\n"
+
+    },
+    "berzerkerduh": {
+        "id": "berzerkerduh",
+        "forbiddenRaces": [ ],
+        "name": "Berzerker düh",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": "",
+        "modCurrent": "",
+        "costMin": -1200,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -1200,
+        "info": "A karakter elméje harc közben elborul, és gyilkos fe-\nnevaddá változik \u0096 a hatás nem akaratlagos, minden komoly küzdelem\nesetén  létrejön,  és  néha  akkor  is,  amikor  a  karakter  tudja,  hogy  nem\nharcról, csupán barátságos bunyóról van szó (sorspróba, balsors esetén\nbekattan). A berserker düh nem igényel semmiféle harci jártasságot, te-\nhát  akár  a  puszta  kezes  harc,  akár  a  durva  hatású  zúzó,  szúró-vágó,\nvagy vágófegyverek esetén a Támadószintje 3-8 lesz akkor is, ha nem\nrendelkezik az adott fegyverforgatás jár-\ntassággal.  Bármilyen  szintu  fegyverfor-\ngatás jártassággal rendelkezik a karakter,\naz  nem  befolyásolja  a  berserker  dühben\nelérheto  harcértékeket  \u0096  egyébként  a\nberserker  düh,  mint  személyes  jellemzo\nhatékonyan  gátolja  a  harci  jártasságok\nelsajátítását,  hiszen  minden  egyes  harci\nhelyzetben elborul a karakter agya, s tet-\ntei felett átveszi az uralmat a harci orület.\nA finom  technikákat  igénylo  fegyverek\nhasználata  berserker  düh  befolyása  alatt\nlehetetlen  \u0096  a  fegyver  az  elso  támadás\nsorán sok esetben eltörik. A karakter Tá-\nmadószintjét  és  a  Fegyvererot  1d6-os\ndobással  lehet  eldönteni,  minden  harci\ncselekmény  elején,  ahol  mindkét  dobás\neredményéhez +2 járul \u0096 így esik a vég-\neredmény  a  3-tól  8-ig  tartó  intervallum-\nba \u0096, s ez a dobás az egész harci cselek-\nményre kiterjeszti hatását. Az újabb har-\nci cselekmények (egy másik csata) újabb\n1d6+2  dobások  befolyása  alá  kerülnek.\nA  Védoszint  automatikusan  3-ra  csök-\nken, még akkor is, ha a karakter rendel-\nkezik valamilyen szintu fegyverforgatás-\njártassággal (és csak azért nem 0, mert az\norjöngo  karaktert  kissé  nehéz  megköze-\nlíteni). A berserker düh a pusztítást szolgálja, közben taktikázni, vagy\ntaktikai  alapú  harci  jártasságot  alkalmazni  csupán  igen  korlátozottan\nlehet. \nJártasságpont-igénye 1200 Jp.\n"
+
+    },
+    "spontanmagia": {
+        "id": "spontanmagi",
+        "forbiddenRaces": [ ],
+        "name": "Spontán mágia",
+        "modType": "",
+        "modMin": "",
+        "modMax": "",
+        "modStep": "",
+        "modCurrent": "",
+        "costMin": -1500,
+        "costMax": "",
+        "costStep": "",
+        "costCurrent": -1500,
+        "info": "a  karakter  születetten  mágikus,  az  esszencia  szaba-\ndon  áramlik  a  testében.  Ez  a  tulajdonság  a  vadmágia  elofeltétele.\nAmennyiben  a  karakter  nem  képes  kontrollálni  az  esszenciáját  (ez  a\nkontroll a tulajdonképpeni vadmágia), úgy rendszeres spontán mágia-\nkitörések kísérik életét. A spontán mágiakitöréseket játéktechnikailag\na \u0084spontán mágia táblázat\u0094 alapján kell generálni. \nEzt a tulajdonságot elonyként csak akkor lehet felvenni, ha az induló \nkarakter rendelkezik a vadmágiához szükséges jártasságokkal is\n\u0096 azaz vadmágus lesz. Ez\nfordítva  is  igaz  vadmágus  karakter  csak  az  lehet,  aki  rendelkezik  a\nspontán mágia tulajdonságával. \n"
+
+    }
+
+}

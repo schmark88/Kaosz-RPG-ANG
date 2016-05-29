@@ -1,0 +1,47 @@
+{
+    "race": "torpe",
+    "summary": "Valódi jellem épp úgy lehet egy törpe, mint részeg disznó. A Rendhez\nhû (de nem feltétlenül Rendisten-hívõ), vagy Kitaszított. Büszkeségek\nélõ tárháza, vagy kibírhatatlan, házsártos alak. Bölcs, vagy kötözni va-\nló bolond. Alapvetõen szívósak, a hideget és az éhséget jól tûrik, az al-\nkohol viszont már kisebb mennyiségben is megárt nekik – a részeg tör-\npe  kiszámíthatatlanabb,  mint  egy  esszenciaörvény,  \nmég  a  barátaira\nnézve is\n–, és a jólétben hamar elhíznak.\nA  törpék  kifejezett  elõnye  az  éjjeli  látás  (30  méterre  tökéletes,\nmintha nappal lenne, azon túl gyengül, de még mindig jobb, mint az\nemberé,  és  nagyjából  60-100  méteren  túl  megszûnik).  Nagyon  kevés\nfényben is jól érzékelnek, de ez nem hõlátás, azaz valamennyi fényre\nszükségük van – ezért a törptárnák mindig jól szellõznek, hogy a fák-\nlyák  és  egyéb  világítóeszközök  ne  használják  el  a  levegõt.  A fényvi-\nszonyoknak megfelelõ látás kialakulása idõbe telik (képzeljük el, hogy\nmi  történik,  amikor  verõfénybõl  egy  félhomályos  szobába  lépünk,\nvagy fordítva). A nappali fény nem zavarja õket, mint az orkokat.\nNéhány  ösztönös  bányászmegérzés  is  segíti  õket.  Képesek  meg-\nérezni elõre az omlásokat, azt, hogy hol biztonságosabb járatokat váj-\nni, sõt egyesek képesek szinte méterre pontosan megmondani, milyen\nmélyen vannak, körülbelül hol járhat a nap, merre van észak, az egye-\nnesnek tûnõ folyosó elkanyarodik-e, van-e dõlése stb.",
+    "specials": {
+        "csodamester":{
+            "id":"csodamester",
+            "name":"Csodamester",
+            "cost":20,
+            "info":"Képesek a fémet annak akarata szerint formázni, így nagyon jó minőségű tárgyakat készíteni.\nFémet fogyasztanak napi szinten. Bővebben a könyvben."
+        }
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {},
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 45,
+            "max": 85
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 25,
+            "max": 70
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 25,
+            "max": 75
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 20,
+            "max": 70
+        }
+    },
+    "age": {
+        "juvenis": 30,
+        "seniorMin": 150,
+        "seniorMax": 200
+    },
+    "speed": {
+        "min": 18,
+        "base": 8,
+        "max": 5
+    }
+}

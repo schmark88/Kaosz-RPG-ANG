@@ -1,0 +1,33 @@
+<p>
+    Válassz fajt:
+    <input type="button" value="Elf" ng-click="loadRace('elf')"/> 
+    <input type="button" value="Ember" ng-click="loadRace('ember')"/> 
+    <input type="button" value="Gilf" ng-click="loadRace('gilf')"/>
+        <input type="button" value="Tündérke/Tündérmanó" ng-click="loadRace('tunderke')"/> 
+    <input type="button" value="Gnóm" ng-click="loadRace('gnom')"/> 
+    <input type="button" value="Törp" ng-click="loadRace('torpe')"/> 
+    <input type="button" value="Ork" ng-click="loadRace('ork')"/>
+        <input type="button" value="Gennymanó" ng-click="loadRace('gennymano')"/>
+            <input type="button" value="Manó" ng-click="loadRace('mano')"/>
+                <input type="button" value="Ogár" ng-click="loadRace('ogar')"/>
+                <input type="button" value="Gyíklény" ng-click="loadRace('gyikleny')"/>
+                
+
+                
+                
+                
+</p>
+
+    <div>  Faj: {{char.faj|capitalize }}  </div>
+        <div >
+        <form id ="myForm" action="#/korFoertek" ng-init="nev = char.name">
+             <div>Név: <input type="text" ng-model="nev" required />
+                 <input type="submit" value="Tovább" ng-click="metod.saveData(); dummy(nev);" ng-disabled="myForm.$invalid">
+    </form>
+ </div>
+    <div><pre>{{char.summary}}</pre></div>
+    <div>     
+ </div>
+ 
+   
+    

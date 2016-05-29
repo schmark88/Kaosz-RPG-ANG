@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/table.css">
+    </head>
+    <body>
+        <p>
+            Rendek
+        <div >
+            JP: {{metod.getJP()}}
+            <table border="1" cellspacing="1" cellpadding="1" ng-hide="hideGY" >
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Ár (jp)</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr ng-repeat="rend in rendek" ng-init="temp = rend.currentLevel ? (rend.currentLevel - 1) : rend.minLevel - 1">
+                        <td><pre><label><input type="checkbox"  ng-checked="char.rend.hasOwnProperty(rend.id)" ng-model="checked" ng-change="checkRend(checked, rend)" ng-disabled="!hasRend(rend)"/> {{rend.name}} </label></pre></td>
+                        <td><pre> {{rend.cost}} </pre></td>
+                        <td class="rend" ><pre>{{rend.info}}</pre>
+                            <table border="1" >
+                                <tbody ng-repeat="(jartId,jart) in rend.bonusJart">
+                                    <tr>
+                                        <td>{{jartId}}</td>
+                                        <td ng-hide="jart.levels">{{jart.level}}
+                                        </td>
+                                        <td ng-hide="!jart.levels"> <table border="1"  >
+                                                <tbody ng-repeat=" szint in jart.levels">
+                                                    <tr>
+                                                        <td>{{szint}}/{{szint}}</td>
+                                                        <td> <select ng-model="selected" ng-change="changeV(selected,'{{selected}}',jart,szint)" ng-disabled="!checked" >
+                                                                <option ng-repeat="(csopId,csop) in rend.fegyvercsop"  value="{{csopId}}">{{csop.name}}</option>
+                                                            </select> 
+                                                        </td>
+                                                    </tr>
+                                                </tbody>                       
+                                            </table></td>
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div >
+            <form action="#/praktikus">
+                <input type="submit" value="Tovább" ng-click="metod.saveData()">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+{
+    "race": "ork",
+        "summary": "Az ork sajátos helyzete folytán jó szerepjátékra ad lehetõséget. Lehet\ntipikus  bunkó  ork  karakterünk,  aki  csak  azon  képes  gondolkodni,\nhogy a foglyul ejtett nõt \nmegölés\nelõtt vagy azután erõszakolja-e meg,\nde lehet olyan karakter is, amellyel kitûnõen el lehet lavírozni a min-\ndenki által megvetett faj szerepében – úgy, hogy közben a környezet\nfolyamatosan szembesül az ork gúnyos lenézésével. Általában jellem-\nzõ  az  orkokra  egyfajta  sajátosan  önzõ  szemlélet,  amely  mindig  fölé\nhelyezi az önös érdekeket a közösség érdekeinek, s ez gyakran meg-\nrontja az ork közösségek békéjét – ugyanakkor a zhiliani ork királysá-\ngok éppen a szolidaritásra és az együttmûködésre épültek.\nNéhány  faji  képesség  kifejezetten  hasznos  a  karakter  számára.\nIlyen a hõlátás (amely egy tökéletesen sötét barlang mélyén is mûkö-\ndik), korlátozott távolságban az éjjeli látás, a kitûnõ szaglás és a ter-\nmészetes  rejtõzködést  nyújtó  testszõrzet  (ez  utóbbi  nem  azt  jelenti,\nhogy az orkok rendelkeznek a rejtõzés jártassággal, hanem azt, hogy\nõket  észrevenni  nehezebb  feladat,  mint  más  hasonló  nagyságú  fajt).\nTesti adottságai mellett az orkok erõs oldala még a hitbuzgóság, a ka-\nlandvágy, ugyanakkor hátránya a meggondolatlanság és az érzelmi be-\nfolyásolhatóság. Szintén hátrány az ork karakter számára a nappali lá-\ntás – bántja a szemüket az erõs napsütés –, valamint az, hogy kifeje-\nzetten rövidlátók, nagyobb távolságra (100 méteren túl) csupán homá-\nlyos foltokat látnak az alakokból, ezért bajosan ismernek fel bárkit (ez\nnem jelenti azt, hogy vakok lennének ezen a távolságon túl!). Gyen-\ngébb látásuk miatt az íjak fegyvercsoport használatában 10%-kal több\njártasságpontért léphetnek szinteket.",
+    "specials": {
+            "eroallat":{
+                "id":"eroallat",
+                "name":"Erőállat",
+                "cost":20,
+                "info":"Az  ork  faj  speciális  tulajdonsága  az  erõállattal  való  azonosulás  –\nátváltozás formájában.Minden egyes átalakulás vérpontokat ír az ork „számlájá-\nra”. Egy részleges átalakulás óránként 1 vérpontot jelent (hiúzfül, sas-\nszem, medvekarmok, stb.), egy teljes végtagra kiterjedõ átváltozás 3-\n5 vérpontot jelent óránként (medvemancs, bölényfej, stb.), míg a tel-\njes test átalakulása 10-15 vérpontot jelent óránként. A pontos vérpont-\nmennyiséget  a  Mesélõ  határozza  meg  az  adott  erõállat  ismeretében,\nvalamint  a  változás  mértékében.  Az átalakult, tudatánál lévõ\nork harcértékei megfelelnek a karakter\nbármely  pusztakezes  jártasságának,  természetesen  a  sebzésszorzó  az\nállat  erejétõl  (karmaitól,  fogaitól  stb.)  módosul,  akár  10-esre  is.\nViszont a vérlény, amely idõrõl-idõre átveszi az ork felett a hatalmat,\nfüggetlen az ork karakter harcértékeitõl: ilyenkor a vérlény harcérté-\nkei a mérvadóak.Az  erõállat  felé  adós  ork  idõnként  kénytelen  átengedni  \ntestét  az erõállatnak, különben az erõvel veszi át az uralmat, \nmégpedig akár a leglehetetlenebb körülmények között is."
+                    
+                
+            }
+    },
+    "jartMod": {
+        "ij":10
+    },
+    "jartMaxLevelMod": {},
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 30,
+            "max": 90
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 25,
+            "max": 75
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 25,
+            "max": 70
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 20,
+            "max": 70
+        }
+    },
+    "age": {
+        "juvenis": 10,
+        "seniorMin": 40,
+        "seniorMax": 50
+    },
+    "speed": {
+        "min": 17,
+        "base": 7,
+        "max": 4
+    }
+}

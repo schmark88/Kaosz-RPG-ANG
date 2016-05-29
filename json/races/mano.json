@@ -1,0 +1,60 @@
+{
+    "race": "mano",
+    "summary": "Annak, aki manó karakterrel próbál érvényesülni a világban, tisztában\nkell lennie azzal, hogy a világ még kevésbé érti meg, mint õ a világot.\nMindenfelé  hátrányos  megkülönböztetésben  lesz  része,  aminek  kö-\nszönhetõen  a  közelében  az  emberek  még  a  szájukat  is  inkább  zárva\ntartják, s távozta után a fogaikat is megszámolják.\nA barlangi manó karakterek általában valamilyen megbízatás telje-\nsítése közben kerülhetnek kapcsolatba a világgal, míg a sokkal nyitot-\ntabb és érdeklõdõbb vízimanókat a tudásszomj kergeti a világba. A vi-\nlágban kószáló mágiahasználó manók többsége vízimanó – tehát vadmágus\n–, mivel a közönséges manók sámánjai élve sosem hagyják el törzsüket.\nA manó karakterek nem éppen harcorientáltak, ennek megfelelõen\nne  próbáljunk  vérszomjas  harcosokat  alakítani,  az  ilyenek  inkább  a\ntörzsüket boldogítják és a vezéri posztért küzdenek. Sokkal gyakorib-\nbak a hátul meghúzódó, esetenként a csapatot hátulról terelgetõ manó\nkarakterek, akik társaikat felhasználva próbálják céljaikat elérni. Nem\nritkák az árnyékban lapuló foglalkozásokat ûzõ manók sem.\nA manók  mindenevõ  volta  meghozza  gyümölcsét  is.  Alapvetõen\nminden manó az átlagosnál ellenállóbb a betegségekkel és a mérgek-\nkel szemben, de vannak olyan manók, akik teljesen immúnisak mind-\nezekre. Persze ezt a tulajdonságukat nagyon titkolják, hiszen sokszor\nköszönhetik ennek életüket. Alapvetõen minden manó Szívósságpró-\nbájakor – amennyiben betegségek és mérgek hatása ellen dobják – a\ncélszámhoz 10 pont járul hozzá.\nA  fenti  specialitásokon  kívül  a  manóknak  az  átlagosnál  jobb  a\nszaglásuk  (vetekszik  az  orkokéval),  viszont  az  átlagosnál  rosszabb  a\nhallásuk.  A  jártasságok  terén  sem  megkötésekkel,  sem  elõnyökkel\nnem rendelkeznek.",
+    "specials": {
+                    "meregbetegellen":{
+                "id":"meregbetegellen",
+                "name":"Méreg- és betegség-ellenállás",
+                "cost":10,
+                "info":"Ez esetben a Szívósságpróbánál a célszám 30 ponttal magasabbnak számít."                                
+            },
+            "tokeletesmeregbetegellen":{
+                "id":"tokeletesmeregbetegellen",
+                "name":"Méreg- és betegség-immunitás",
+                "cost":20,
+                "info":"Ritka  esetben  a  manók  tökéletes  méreg-  és  betegségimmunitással\nrendelkeznek. A karakter sosem dob mérgek és betegségek ellen Szí-\nvósságpróbát, hiszen azok egyáltalán nem képesek hatni a szervezeté-\nre. Ugyanez igaz a gyógyszerekre, kábító anyagokra, erõnövelõ fõze-\ntekre és egyebekre is – azaz az immúnis manóra sem káros, sem hasz-\nnos szerek nem hatnak."               
+            },
+                                "meregdetekcio":{
+                "id":"meregdetekcio",
+                "name":"Méreg érzékelés",
+                "cost":5,
+                "info":"Az immúnis manó érzékeli is a mérgeket,\namikor azok hatnának rá (de a betegségeket nem)."                                
+            }
+            
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {},
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 15,
+            "max": 50
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 30,
+            "max": 70
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 20,
+            "max": 65
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 15,
+            "max": 65
+        }
+    },
+    "age": {
+        "juvenis": 3,
+        "seniorMin": 30,
+        "seniorMax": 40
+    },
+    "speed": {
+        "min": 16,
+        "base": 6,
+        "max": 3
+    }
+}

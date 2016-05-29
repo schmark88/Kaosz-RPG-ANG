@@ -1,0 +1,12 @@
+{
+    "juvenis": {
+        "text": "Juvenis",
+        "desc": "A juvenis határ alatt lévõ induló karakter csupán 50-80% fõérték-pontot, és 30-\n80% jártasságpontot kaphat – a konkrét  mértéket  a  Mesélõ  határozza  meg,  a  konkrét  \néletkor ismeretében."
+    },
+    "senior": {
+        "text": "Senuis",
+            "desc": "A senius életszakasz  (a  faji átlagos életkormaximum alsó és felsõ értéke \nközé esõ szakasz) a hanyatló  erõnlét  és  szellemi  ál-lapot  idõszaka.  \nAmennyiben  akarakter  az  induláskor  ilyen idõs,  úgy  csupán  80-50%  fõér-\nték-pontot  kaphat  (minél  öregebb,  annál  kevesebbet),  valamint  200-\n500% jártasságpontot (minél öregebb, annál többet). Ezen kívül szá-\nmára a jártasságok szintjének induló limitje nem a harmadik, hanem a\nhatodik vagy hetedik szint"
+    }
+}
+   
+

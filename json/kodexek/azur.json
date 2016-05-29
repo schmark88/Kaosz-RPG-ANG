@@ -1,0 +1,240 @@
+{
+    "vizkozpont": {
+        "id": "vizkozpont",
+        "name": "Vízközpont",
+        "kodex": "Azúr",
+        "nehezseg": 7,
+        "info": "Típus: speciális\nNehézség: 7\nEsszenciaigény: 10\nEro: 10\nHatótávolság: zóna\nKomponens: szó\nElmondási ido: 1 szegmens\nHatóido: legfeljebb 100 szegmens\nLeírás: \na  varázslat  epicentruma  áthelyezodik  egy,  zónán  belül  lévo\ntiszta  vízre  (keveretlen,  de  nem  vegytiszta,  a  víz  mennyisége  mini-\nmum 1 deciliter), és onnan úgy jön létre a varázslat, mintha a varázs-\nló ott tartózkodna. Az új epicentrumtól kell számítani a következo víz-\nvarázslat hatótávolságát és minden más paraméterét. A Vízközpont és\naz azt követo vízvarázslat egy cselekedetnek számít. Egy Vízközpont\nvarázslat  után  csak  egyetlen  vízvarázslatot  lehet  elmondani  (de  az\nnem lehet egy másik Vízközpont).\n"
+    },
+    "vizpermet": {
+        "id": "vizpermet",
+        "name": "Vízpermet",
+        "kodex": "Azúr",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 1\nEro: 1\nHatótávolság: zóna\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 8 szegmens\nHatóido: azonnali\nLeírás:\nA varázslattal egy 1 méter sugarú körben frissíto vízpermetet\nlehet létrehozni a levegoben, mely derus napsütés esetén szivárványt\nhoz létre. A vízpermettel behintett tárgyak nehezebben kapnak lángra,\nmíg meg nem száradnak (d6 perc). A melegtol, szomjúságtól tikkadt\nvándorok új erore kapnak a husíto permet hatására.\n"
+    },
+    "vizfakasztas": {
+        "id": "vizfakasztas",
+        "name": "Vízfakasztás",
+        "kodex": "Azúr",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 3\nEro: 1\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (vízcsepp, kodarab)\nElmondási ido: 8 szegmens\nHatóido: 1 perc\nLeírás: \nAz egyik legalapvetobb varázslat, amit az Azúr Kódex isme-\nroi  eloször  elsajátítanak.  A varázsló  bal  hüvelykjét  egy  legalább  em-\nberfejnyi kodarabhoz szorítja, s az igék kiejtése után 1 deciliter víz fa-\nkad az érintés helyérol.\n"
+    },
+    "vizteremtes": {
+        "id": "vizteremtes",
+        "name": "Vízteremtés",
+        "kodex": "Azúr",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 2\nEro: 2\nHatótávolság: speciális\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 3 szegmens\nHatóido: maradandó\nLeírás:  \náltala a mágus képes \nsaját\ntestnedveit (nyál, vizelet, vér, iz-\nzadság) vízzé alakítani, amennyiben azok elhagyják testét. A megjele-\nno víz mennyisége megegyezik az átalakított testnedv mennyiségével.\n"
+    },
+    "viztisztitas": {
+        "id": "viztisztitas",
+        "name": "Víztisztítás",
+        "kodex": "Azúr",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 5 \/liter\nEro: 4\nHatótávolság: 1 méter\nKomponensek: anyagi (vízcsepp)\nElmondási ido: 5 szegmens\nHatóido: maradandó\nLeírás:\nA varázslat minden befektetett 5 esszenciapontja képes 1 liter\nvizet megszabadítani a látható és a láthatatlan szennyezodésektol, rá-\nadásul  fertotlenít  is  (elpusztítja  a  kórokozókat).  Az  eredmény  forrás-\ntisztaságú, friss, egészséges víz.\n"
+    },
+    "vizsugar": {
+        "id": "vizsugar",
+        "name": "Vízsugár",
+        "kodex": "Azúr",
+        "nehezseg": 2,
+        "info": "Típus: speciális\nNehézség: 2\nEsszenciaigény: 5\nEro: 5\nHatótávolság: zóna\/2\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 3 szegmens\nHatóido: 10 szegmens\nLeírás: \nA mágus nyitott tenyerébol eros vízsugár csap ki, mellyel fel-\nlökheti  ellenfelét,  ha  az  elrontja  módosítatlan  Rátermettségpróbáját.\nSebzése a varázslatnak nincs, bár a durván elrontott Rátermettségpró-\nbával fémjelzett esés járhat együtt sérülésekkel. A varázslat kitunoen\nalkalmazható még tuzoltásra is, mivel szegmensenként 20 liter (kb. 1\nvödörnyi) víz távozik a mágus tenyerébol.\n"
+    },
+    "oltalomhidegtol": {
+        "id": "oltalomhidegtol",
+        "name": "Oltalom hidegtôl\/melegtôl",
+        "kodex": "Azúr",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 2 \/1 perc\nEro: 18\nHatótávolság: érintés\nKomponens: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 6 szegmens\nHatóido: 1 perc \/2 Ep\nLeírás: \nez a varázslat a hideg és a meleg szélsoséges hatásaitól oltal-\nmazza alanyát. Akire rábocsátják a varázslatot, annak teste érzéketlen-\nné válik a hidegre\/melegre (azt, hogy melyikre, a mágiahasználó dön-\nti el a varázslat lezáró formulájával). A célszemély akár teljesen mez-\ntelenül is különösebb kényelmetlenség nélkül viseli el a plusz\/mínusz\n100 Celsius fokot. Nagyobb hideg (meleg) esetén (pl. fagykard, mági-\nkus jégvihar, fagycsapás, mágikus tüzek keltette hoség stb.) az oltalom\ncsupán  csökkenti  az  elszenvedett  veszteséget  (amennyiben  értelmez-\nheto). A csökkenés mértéke a behatás erosségétol függ, de soha nem\ncsökkenhet 1 Fp\/10 szegmens alá: azaz, ha egy fagycsapás (rendkívü-\nli, \nmágikus\nhideg)  50  Fp-t  sebezne  az  oltalom  alatt  lévo  személyen,\nakkor a veszteség mérséklodik (meséloi opció). Megjegyzendo, hogy\na varázslat ugyan védelmet nyújt a tuz forróságával szemben, de nem\noltalmazza  meg  a  felszerelést,  ruházatot  is  a  lángoktól.  A hideggel\n(meleggel) szembeni immunitás maximum 10 percig tarthat.\n"
+    },
+    "vizfagyasztas": {
+        "id": "vizfagyasztas",
+        "name": "Vízfagyasztás\/olvasztás",
+        "kodex": "Azúr",
+        "nehezseg": 3,
+        "info": "Típus: területre ható\nNehézség: 3\nEsszenciaigény: 5 (fejlesztheto)\nEro: 8\nHatótávolság: zóna\nKomponensek: mozdulat, anyagi (vízcsepp)\nElmondási ido: 6 szegmens\nHatóido: maradandó\nLeírás: \nA varázsló vizet fagyaszthat meg, vagy jeget olvaszthat vízzé\negy pillanat alatt egy 10 centiméter sugarú gömbben (akkor is lehetsé-\nges, ha a vízben, illetve jégben tartózkodik valami vagy valaki). A ki-\nalakult halmazállapot a környezeti homérséklet függvényében, normá-\nlis  módon  változhat  tovább.  A varázslatba  pumpált  minden  újabb  5\nesszenciapont 10-10 centiméterrel növeli a befolyásolt terület gömb-\nsugár-nagyságát.\n"
+    },
+    "varazskulacs": {
+        "id": "varazskulacs",
+        "name": "Varázskulacs",
+        "kodex": "Azúr",
+        "nehezseg": 3,
+        "info": "Típus: tárgyra ható\nNehézség: 3\nEsszenciaigény: 10 \/24 óra\nEro: 20\nHatótávolság: érintés\nKomponens: szó, anyagi (vízcsepp, rézgolyók)\nElmondási ido: 10 perc\nHatóido: 24 óra \/10 Ep\nLeírás: \nlehetové  teszi  a  mágiahasználónak,  hogy  egyetlen  kulacsban\n(vagy más italtartó eszközben)\ntöbbféle italt tároljon egyszerre, anél-\nkül, hogy azok összekeverednének. A varázslat menete: a mágiahasz-\nnáló beletölti az elso italt a kulacsba, majd mond egy maximum 2 sza-\nvas varázsigét (például\nAch Achim ), ezután beledob a kulacsba egy ap-\nró rézgolyót. Ezután beletölti a kulacsba a második folyadékot, ismét\nmond egy kétszavas varázsigét, beledob a kulacsba egy újabb rézgo-\nlyót,  s  így  tovább.  Az  italok  összesített  térfogata  sohasem  haladhatja\nmeg az italtartó eszköz befogadóképességét! A kulacs használatakor a\nmágiahasználó azt a varázsigét mondja ki, melyiket a kívánt folyadék\nkulacsba  töltése  után  mondott.  Minden  kitöltésnél  ki  kell  mondani  a\nmegfelelo varázsigét, különben a legfelül lévo (tehát\nlegutoljára bele-\ntöltött ital\n) fog kiömölni a kulacs száján. A varázslat 24 óráig tart (de\nesszencia-ráfordítással  növelheto).  Az  anyagi  komponense  annyi  da-\nrab rézgolyócska, ahányféle italt az italtartóba töltenek, amelyek a ku-\nlacs kiürülése után visszanyerhetoek (addig azonban nem).\n"
+    },
+    "savfelho": {
+        "id": "savfelho",
+        "name": "Savfelhô",
+        "kodex": "Azúr",
+        "nehezseg": 5,
+        "info": "Típus: területre ható\nNehézség: 5\nEsszenciaigény: 30\nEro: 20\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (vízcsepp, sav)\nElmondási ido: 5 szegmens\nHatóido: 100 szegmens\nLeírás: \na mágiahasználó egy 10 méter \nátméroju,\npáraszeru felhot hoz\nlétre a varázslattal. A felho tömény savból áll. A felhobe kerülo (és ab-\nban tartózkodó) lények 10 szegmensenként annyi fizikumpont veszte-\nséget  szenvednek,  amennyi  a  létrehozó  Mágiahasználat  jártasság\nszintje. A mágiahasználó mozgásra bírhatja a felhot, de csak a földfel-\nszínen  (legfeljebb  45  fokos  lejtoig),  és  csak  30  méter\/perc  sebesség-\ngel. Anyagi komponens egy kis üveg eros sav, amely a varázslás fo-\nlyamán eltunik (az üveg nem).\n"
+    },
+    "vizenjaras": {
+        "id": "vizenjaras",
+        "name": "Vízen járás",
+        "kodex": "Azúr",
+        "nehezseg": 7,
+        "info": "Típus: személyre ható\nNehézség: 7\nEsszenciaigény: 20\nEro: 30\nHatótávolság: érintés\nKomponensek: szó, anyagi (vízcsepp, viasz)\nElmondási ido: 6 szegmens\nHatóido: 20 szegmens\/mágiahasználat szint\nLeírás: \nA célszemély  képes  lesz  járni  a  vízen,  feltéve,  hogy  csupasz\ntalppal lép a víz felszínére. A vízen ekkor sétatempóban közlekedhet,\nha futni próbál, akkor nem halad elore, és lassan süllyedni kezd. A va-\nrázslat 80 kg terhet képes teljesen elbírni, a vízen járó saját testsúlyá-\nval egyetemben. 100 kg-ig a célszemély térdig elmerül és csak fele ak-\nkora sebességgel tud haladni, 100 kg felett pedig elsüllyed. A varázs-\nlathoz a célszemély talpát viasszal kell bekenni.\n"
+    },
+    "esoidezes": {
+        "id": "esoidezes",
+        "name": "Esôidézés",
+        "kodex": "Azúr",
+        "nehezseg": 2,
+        "info": "Típus: területre ható\nNehézség: 2\nEsszenciaigény: 6 vagy 50\nEro: 25 vagy 70\nHatótávolság: zóna\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 5 szegmens\nHatóido: 1 perc \/mágiahasználat szint\nLeírás:\nA varázsló képes a zónájába csendes esozést idézni a varázs-\nlat  segítségével,  amennyiben  nyitott  térségben  tartózkodik.  Varázslat\nnem hoz létre esofelhot, anélkül keletkeznek az esocseppek. A varázs-\nlat fejlesztett formája (50 Ep, Ero 70) ugyanezen területre, ugyanilyen\nidointervallumban valódi felhoszakadást idéz \u0096 igaz, szél nélkül \u0096 zá-\nporeso formájában.\n"
+    },
+    "felhoidezes": {
+        "id": "felhoidezes",
+        "name": "Felhôidézés",
+        "kodex": "Azúr",
+        "nehezseg": 3,
+        "info": "Típus: területre ható\nNehézség: 3\nEsszenciaigény: 45\nEro: 60\nHatótávolság: 1 kilométer\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 33 szegmens\nHatóido: 1 óra \/mágiahasználat szint\nLeírás:\nA  varázslat  vastag  esofelhoket  idéz  meg,  melyekbol  80%\neséllyel szemerkélni kezd, 60% eséllyel csendes eso hullik belolük, il-\nletve 25% eséllyel zuhogni kezd az eso. A hatóido lejártával nem csak\naz eso áll el, de a felhok is elenyésznek.\n"
+    },
+    "vizlegzes": {
+        "id": "vizlegzes",
+        "name": "Vízlégzés",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 10 \/perc\nEro: 12\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (vízcsepp) \nElmondási ido: 100 szegmens\nHatóido: 1 perc \/10 Ep \nLeírás: \nA célszemély (humán élolény) képes lesz a vizet belélegezni,\nmintha a levegovel tenné ugyanezt. A vízben esetlegesen lebego, ap-\nró, szilárd részecskék ingerlik a tüdot, illetve ha túl nagyok, fulladást\nis  okozhatnak  (mint  amikor  cigányútra  szalad  a  falat),  ezért  célszeru\nvédekezni ellenük.\n"
+    },
+    "jegnyil": {
+        "id": "jegnyil",
+        "name": "Jégnyíl",
+        "kodex": "Azúr",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható\nNehézség: 2\nEsszenciaigény: 5\nEro: 6\nHatótávolság: 10 méter\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 2 szegmens\nHatóido: azonnali\nLeírás: \nA jégnyíl a varázsló tenyerébol lövell ki; sebzése 1d6 fizikum-\npont. Ha a célpont számít is a támadásra, az olyan gyorsan következik\nbe, hogy elugorni elole csaknem lehetetlen.\n"
+    },
+    "jegdarda": {
+        "id": "jegdarda",
+        "name": "Jégdárda",
+        "kodex": "Azúr",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 25\nEro: 45\nHatótávolság: 50 méter\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 12 szegmens\nHatóido: azonnali\nLeírás: \nA jégdárda  a  varázsló  tenyerébol  lövell  ki;  sebzése  6d6  fizi-\nkumpont.  Ha  a  célpont  számít  a  támadásra,  rendkívül  kedvezotlen\nkörülmények között Rátermettségpróbát tehet, amelynek sikere esetén\nképesnek bizonyult elugorni a támadás elol.\n"
+    },
+    "beszelovizek": {
+        "id": "beszelovizek",
+        "name": "Beszélô vizek",
+        "kodex": "Azúr",
+        "nehezseg": 5,
+        "info": "Típus: speciális\nNehézség: 5\nEsszenciaigény: 15\nEro: 5\nHatótávolság: 50 mérföld \/mágiahasználat szint\nKomponensek: szó, anyagi (víz + hajszál)\nElmondási ido: 10 szegmens\nHatóido: 2 perc \/mágiahasználat szint\nLeírás: \nA mágus könnyen társaloghat valakivel, akinek birtokolja egy\nhajszálát,  és  aki  víz  közelében  tartózkodik.  A  sikeres  varázslathoz\nmindkét  fél  részérol  legalább  egy  tálnyi  víz  szükséges.  A víz  képet\nnem,  csak  hangot  közvetít.  Mivel  a  varázsló  nem  tudhatja  (alapeset-\nben), hogy a személy, akivel beszélni kíván, éppen víz közelében van-\ne, ezért sokszor elofordul az eredmény nélküli varázslat (a befektetett\nesszencia elhasználódik). \n"
+    },
+    "vizaura": {
+        "id": "vizaura",
+        "name": "Vízaura",
+        "kodex": "Azúr",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 6\nEro: 12 \nHatótávolság: érintés\nKomponensek: szó, anyagi (pohár víz)\nElmondási ido: 4 szegmens\nHatóido: 20 szegmens\nLeírás: \nEgy vékony vízhártyát hoz létre a megérintett személy testén,\nmely befedi a ruházatát is, felszerelési tárgyait és a kezében tartott esz-\nközöket azonban nem. A varázslat megvédi a mágus a kellemetlen me-\nlegtol, és megóvja a vele azonos vagy kisebb Ereju tüzektol, legyen az\nakár  mágikus  vagy  természetes  eredetu.  Az  aura  Erejénél  nagyobb\nEreju mágikus tüzek átcsúsznak az aurán, az átcsúszott résznek meg-\nfelelo mértéku hatást produkálva. A célszemélynek meg kell innia az\nanyagi komponensként szolgáló vizet.\n"
+    },
+    "jegfal": {
+        "id": "jegfal",
+        "name": "Jégfal",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 20\nEro: 60\nHatótávolság: zóna\nKomponensek: szó,  mozdulat,  anyagi\n(vízcsepp)\nElmondási ido: 20 szegmens\nHatóido: maradandó\nLeírás: \nEgy 3 méter magas, 1 méter vas-\ntag  jégfalat  hoz  létre  a  varázslat,  amely-\nnek a szélessége a varázsló mágiahaszná-\nlati  szintjének  felel  meg  méterben.  Kitu-\nnoen  alkalmazható  járatok,  ajtók  eltorla-\nszolására,  ráadásul  a  jégfal  a  természeti\nviszonyoknak megfeleloen olvad el. Ha a\nvarázslatot olyan helyre mondják el, ahol\nélolény  tartózkodik,  a  képzodo  fal  kilöki\na lényt a képzodés területérol.\n"
+    },
+    "jegborton": {
+        "id": "jegborton",
+        "name": "Jégbörtön",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 28\nEro: 50\nHatótávolság: zóna\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 17 szegmens\nHatóido: 10 perc \/mágiahasználat szint\nLeírás: \nA mágus fagybörtönbe zárhatja áldozatát, míg a varázslat ha-\ntóideje  le  nem  jár  \u0096  ekkor  a  jég  pillanatok  alatt  semmivé  válik.  Az\náldozat(ok)  körül  1  méter  átméroju  belso  térrel  egy  kupola  alakú,  1\nméter vastag falú jégpáncél formálódik, amely érzéketlen a környeze-\nti (természetes) homérsékletre. A jégpáncél alól ki lehet látni, azonban\na hangja nem jut ki a bebörtönzöttnek. \n"
+    },
+    "viztolvedovarazs": {
+        "id": "viztolvedovarazs",
+        "name": "Víztôl védô varázs ",
+        "kodex": "Azúr",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 10 \/perc\nEro: 20 \nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 3 szegmens\nHatóido: 1 perc \/10 Ep\nLeírás: \nA varázslat megvédi a célszemélyt a víz alapú támadásoktól.\nA védett  személy  képes  minden  gond  nélkül  ellenállni  a  20-as  Ereju\n(és  persze  az  ennél  kisebb)  víz  alapú  támadásoknak,  illetve  a  termé-\nszetes víz és a természetes jég testkárosító fizikai hatásainak. Az en-\nnél magasabb ereju vízvarázslatok hatnak rá, de csak gyengült mérték-\nben (a védovarázs Erejét meghaladó Ero jut át). \n"
+    },
+    "dermesztes": {
+        "id": "dermesztes",
+        "name": "Dermesztés",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 18 \/célpont\nEro: 15\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 8 szegmens\nHatóido: 50 szegmens \/mágiahasználat szint\nLeírás:\nA mágus megdermeszti ellenfelét. Az alany a varázslat idotar-\ntama  alatt  mindent  lát,  ami  a  látószögében  történik,  mindent  hall,  s\nugyanúgy  képes  lélegezni.  Képes  gondolkodni,  a  varázslat  csupán  a\ntestét kényszeríti mozdulatlanságba, elméjét nem. A varázslat hatással\nvan mind az élolényekre, mind az éloholtakra egyaránt, de maximum\nhárom célszemélyre lehet egyszerre kimondani.\n"
+    },
+    "szokoar": {
+        "id": "szokoar",
+        "name": "Szökôár",
+        "kodex": "Azúr",
+        "nehezseg": 8,
+        "info": "Típus: területre ható\nNehézség: 8\nEsszenciaigény: 45\nEro: 60\nHatótávolság: 200 méter\nKomponensek: szó,  mozdulat,  anyagi\n(vízcsepp + gyémánt)\nElmondási ido: 80 szegmens\nHatóido: azonnali\nLeírás: \nHatására egy folyóból (tó, tenger)\negy  20  méter  magas,  10  méter  vastag  és\nmágiahasználat szintenként 10 méter szé-\nles vízfal emelkedik ki, hogy aztán rázú-\nduljon a mágus által megjelölt célpontra.\nAkiket  elér  a  víztömeg,  20d6  sebzést\nszenvednek  el,  és  elúsznak  az  árral.  Az\negyszeru,  nem  kobol  épült  épületeket  is\nelmossa a víz. A szökoár 10 méterenként\negy métert veszít magasságából, s a seb-\nzése  is  eszerint  csökken  (50  méterre  a\nparttól  15d6  stb.),  így  a  parttól  számítva\n200  méterig  ér  el.  A varázsló  sértetlenül\nállhat  a  pusztító  víztömeg  között.  A va-\nrázslat  anyagi  komponense  egy  parányi\ngyémánt, amit a vízbe kell hajítani.\n"
+    },
+    "viztaszitas": {
+        "id": "viztaszitas",
+        "name": "Víztaszítás",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: önmagára ható\nNehézség: 6\nEsszenciaigény: 70\nEro: 40\nHatótávolság: önmaga\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 5 szegmens\nHatóido: 1 óra \/mágiahasználat szint\nLeírás: \nE varázslat hatására a varázsló elol 1 méteres körzetben min-\nden  szabad  víz  elfolyik,  ha  lehetséges  (üvegbe  zárt  víz  pl.  nem).  Ily\nmódon a mágus látványosan (és szárazon) kelhet át folyókon, tenge-\nreken egy nagy légbuborék belsejében. A varázslat az iszapot is meg-\nszikkasztja annyira, hogy a varázsló ne süllyedjen bele.\n"
+    },
+    "jegvihar": {
+        "id": "jegvihar",
+        "name": "Jégvihar",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 28 \/100 szegmens\nEro: 20\nHatótávolság: 30 méter\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 15 szegmens\nHatóido: 100 szegmens \/28 Ep\nLeírás: \nA varázslat hatására rohamos sebességgel viharfelhok kezde-\nnek gyülekezni a mágus feje fölött, hogy aztán \ntojásnyi\njégdarabok zá-\nporozzanak az alant levokre. A felho mintegy 20 méter magasan kép-\nzodik, így zárt helyeken csak akkor jön létre, ha a belmagasság eléri a\n20 métert. A szabadban a felho alatt eltöltött minden 25 szegmensben\n2d6 sebzést szenvednek az ott tartózkodók, a mágus kivételével. A fej\nfölé  tartott  pajzs  vagy  egyéb  kemény  tárgy  éppoly  óvó  hatással  bír,\nmint a természetes jégeso ellen. A felleg követi a mágus mozgását.\n"
+    },
+    "orveny": {
+        "id": "orveny",
+        "name": "Örvény",
+        "kodex": "Azúr",
+        "nehezseg": 5,
+        "info": "Típus: területre ható\nNehézség: 5\nEsszenciaigény: 14 (fejlesztheto)\nEro: 30\nHatótávolság: zóna\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 10 szegmens\nHatóido: 1 perc\nLeírás:\nBármely szabad vízfelszínen, amely elég nagy kiterjedésu (és\nelég mély), 1 méter átméroju, eros örvény jön létre, amely könnyedén\nmagába szippanthat egy úszó embert. Az örvény a sétáló ember gyor-\nsaságával mozgatható a zónán belül. Minden újabb befektetett 14 esz-\nszenciapont \nvagy\n1-1 méterrel növeli meg az örvény átmérojét, amely\nígy nagyobb szívóhatással fog rendelkezni, \nvagy\n1-1 perccel növeli a\nhatóido tartamát. A fejlesztett hatás kombinálható is.\n"
+    },
+    "szarazsag": {
+        "id": "szarazsag",
+        "name": "Szárazság",
+        "kodex": "Azúr",
+        "nehezseg": 8,
+        "info": "Típus: területre ható\nNehézség: 8\nEsszenciaigény: 75\nEro: 60\nHatótávolság: zóna\nKomponensek: szó,  anyagi  (víz-\ncsepp)\nElmondási ido: 400 szegmens\nHatóido: maradandó\nLeírás: \nA varázslat segítségével a\nmágus  elszívhatja  zónájából  a  ta-\nlaj  nedvességét,  1  méter  mélyen.\nAz  elszívott  nedvesség  pára  for-\nmájában a levegobe távozik. Nem\nhat a varázslat a nyílt felszínu vi-\nzekre  (még  egy  pocsolyát  sem\nszárít  ki),  sem  az  élolények  testé-\nben lévo vízre.\n"
+    },
+    "hutes": {
+        "id": "hutes",
+        "name": "Hutés",
+        "kodex": "Azúr",
+        "nehezseg": 2,
+        "info": "Típus: személyre\/tárgyra ható\nNehézség: 2\nEsszenciaigény: 20\nEro: 30\nHatótávolság: érintés\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 10 szegmens\nHatóido: maradandó\nLeírás: \nA mágus a forró tárgyakat környezeti homérsékletuvé huthet,\navagy  a  forró  (lázas)  személyeket  természetes  testhomérsékletükre\njuttathatja.  A természetes  és\/vagy  környezeti  homérsékletnél  tovább\ncsökkenteni a célpont homérsékletét ezzel a varázslattal nem lehetsé-\nges.\n"
+    },
+    "fagyasztas": {
+        "id": "fagyasztas",
+        "name": "Fagyasztás",
+        "kodex": "Azúr",
+        "nehezseg": 4,
+        "info": "Típus: tárgyra ható\nNehézség: 4\nEsszenciaigény: 25 (fejlesztheto)\nEro: 60\nHatótávolság: érintés\nKomponensek: szó, anyagi (vízcsepp)\nElmondási ido: 60 szegmens\nHatóido: maradandó\nLeírás:\nA megérintett tárgy extrém módon megfagy, mínusz 100 fokos\nhomérsékletre, így az anyagától függoen könnyen törheto lesz. A fa-\ngyasztás  alapesetben  10  kilogrammos  tárgyra  hat,  de  minden  újabb\nbefektetett 25 Ep 10-10 kg-mal növeli a célpont lehetséges súlyát.\n"
+    },
+    "ostest": {
+        "id": "ostest",
+        "name": "Ôstest (Víz)",
+        "kodex": "Azúr",
+        "nehezseg": 10,
+        "info": "Típus: önmagára ható\nNehézség: 10\nEsszenciaigény: 80\nEro: 100\nHatótávolság: önmaga\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 5 perc\nHatóido: 100 szegmens\/mágiahasználat szint\nLeírás: \na varázshasználó teste maga lesz az Élo Víz \u0096 hasonlóvá válik\negy vízelementálhoz. A varázsló külso kinézete kivehetetlenné válik,\nkörvonalai  is  elmosódottak,  csak  távolról  emlékeztet  humanoidra  a\ntestét  alkotó  átlátszó,  állandóan  mozgó  víz  miatt.  A felszerelési  tár-\ngyak és a ruha is beleolvad az \nostestbe. \nA varázslat idotartama alatt a\nvízmágus csak mágikus fegyverekkel, természetes földdel, vagy má-\ngiával sebezheto. A Gránit Kódex varázslatai duplán sebzik, ugyanak-\nkor az Azúr Kódex varázslataira immúnissá válik, bármilyen szándék-\nkal mondanák is ki rá. Ostestben képes lemerülni a legmélyebb tenge-\nrek fenekére, elvegyülni a vizekben, átjutni a legkisebb nyíláson. Ha\nvalakinek  az  arcára  tapad,  képes  belefolyni  annak  a  tüdejébe,  amely\n300  szegmensen  belül  halált  okoz.  Teste  a  fizikai  behatásoknak  nem\náll ellen, a szilárd tárgyak áthatolnak rajta, ugyanak-\nkor  akarata  szerint  hozzátapadhat  bármihez.  A va-\nrázsló az \nostestben \neredeti sebességével bír. Az os-\ntestben  való  lét  beforrasztja  a  varázsló  korábban\nszerzett nyílt sebeit, eltünteti borérol a forradásokat\nés az ido ráncait. A visszaalakulást követo két napon\na  mágus  só-igénye  megtízszerezodik,  amelyet  ha\nnem bír pótolni, görcsökben fetrengve elpusztul.\n"
+    },
+    "vizgat": {
+        "id": "vizgat",
+        "name": "Vízgát",
+        "kodex": "Azúr",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 18 (növelheto)\nEro: 30 (növelheto)\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 10 szegmens\nHatóido: 100 szegmens\/mágiahasználat szint\nLeírás: \nAktiválásakor a mágus \u0096 vagy az általa ki-\nválasztott személy \u0096 alakja körül egy gyengén vib-\nráló, kékes fal jelenik meg, amely azonnal 2,5 mé-\nter  sugarú  körré  tágul.  A  fal  megvédi  hordozóját\nmindenfajta vízvarázslattól \u0096 bármilyen céllal is ér-\nkezzenek azok a falon túlról \u0096, és a víz alapú termé-\nszeti hatásoktól (eso, jégeso, hideg, meleg). A falon\nbelülrol szintén nem lehet kifelé az Azúr  Kódexbol varázsolni. A ma-\ngasabb ereju vízvarázslatok a védopajzson ugyan átjutnak, de csak az\nerejük magasabb része, az ennek megfelelo hatásmódosulással. A Víz-\ngát és a megfogott vízvarázslatok nem szüntetik meg egymást. A va-\nrázslat Ereje minden újabb 2 Ep befektetésével 1-gyel no.\n"
+    },
+    "vizkopo": {
+        "id": "vizkopo",
+        "name": "Vízköpô",
+        "kodex": "Azúr",
+        "nehezseg": 9,
+        "info": "Típus: önmagára ható\nNehézség: 9\nEsszenciaigény: 35\nEro: 55\nHatótávolság: önmaga\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 10 szegmens\nHatóido: 100 szegmens\nLeírás:\na varázsló szájából hihetetlen energiájú vízcsugarat képes ki-\nbocsátani a varázslat hatására. A vízsugarat a varázslat hatóideje alatt\nbármikor kibocsáthatja \u0096 a hatóido lejárta után a képességét akkor is\nelveszti, ha nem élt vele. A víz mágikus \u0096 tehát nem kell a kibocsátás\nelott vizet vennie a szájába venni \u0096, 3 méteres hatósugarú, a végén 50\ncm széles csóva, és mindössze 5 szegmensig tart. Ezalatt képes 5d6 fi-\nzikumpont veszteséget okozni \u0096 ráadásul a varázslat direkt célpontja\nmaga a varázsló, és a megtámadottak csupán áttételes célpontok, így\nok  nem  jogosultak  mágikus  ellenállásra!  A vízsugár  nyomása,  ereje\nképes betörni a közönséges ajtókat, igen hatékonyan oltja el a tüzeket.\n"
+    },
+    "arasztas": {
+        "id": "arasztas",
+        "name": "Árasztás",
+        "kodex": "Azúr",
+        "nehezseg": 10,
+        "info": "Típus: területre ható\nNehézség: 10\nEsszenciaigény: 88\nEro: 70\nHatótávolság: 5 kilométer\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 25 perc\nHatóido: azonnali\nLeírás:\nA varázslat bármely folyóvízre alkalmazható (tehát tóra, ten-\ngerre nem). A varázslat hatására a folyó, patak stb. vízmagasságához\naz éppen aktuális vízmélység mérete hozzáadódik (az eredeti mélység\nmegkétszerezodik), öt kilométer hosszan, a folyásiránynak felfelé, mi-\nközben az eredeti vízmennyiség megháromszorozódik. Ez azt jelenti,\nhogy  egy  10  méter  mély  folyó  a  varázslat  hatására  a  varázslat  elotti\nvízfelszínnél 10 méterrel magasabb víztömeget fog hirtelen produkál-\nni. Ez a víztömeg aztán a természetes domborzati viszonyoknak meg-\nfeleloen fog elhelyezkedni, így a sekélyebb medrekbol kicsapva ára-\ndást okoz.\n"
+    },
+    "jeghid": {
+        "id": "jeghid",
+        "name": "Jéghíd",
+        "kodex": "Azúr",
+        "nehezseg": 5,
+        "info": "Típus: területre ható\nNehézség: 5\nEsszenciaigény: 65\nEro: 70\nHatótávolság: zóna\nKomponensek: szó, mozdulat, anyagi (vízcsepp)\nElmondási ido: 60 szegmens\nHatóido: 1 perc \/mágiahasználat szint\nLeírás:\nA varázslat  alapesetben  egy  20  méter  hosszú,  3  méter  széles\njéghidat  képez  bármely  nyílt  víz  fölött.  A jéghíd  elég  vastag  ahhoz,\nhogy akár egy alaposan megrakott szekeret is elbírjon. Ugyanakkor a\nvarázsló döntése szerint a jéghidat meg lehet hosszabbítani 40 méte-\nresre \u0096 ekkor csupán 2 méter széles lesz \u0096, avagy 60 méteresre \u0096 ek-\nkor már csak 1 méter széles hidat kapnak. Ennél hosszabbra nem le-\nhet nyújtani a jéghidat, illetve eddig is csak akkor, ha a túlsó vége nem\nkerül túl a varázsló zónáján. A jéghíd csakis akkor jön létre, ha mind-\nkét vége szilárd partot ér \u0096 amennyiben a varázstudó rosszul becsülte\nfel a távolságot, a varázslat nem jön létre, a felhasznált esszenciapont\nviszont eltávozik. A jéghidat szakadékok, várfalak, háztetok stb. fölött\nnem lehet létrehozni, csakis nyílt vízen, amelybol kifagy a híd anya-\nga. A víz lehet bármilyen vad folyású, a híd a varázslat idotartama alatt\n"
+    }
+}

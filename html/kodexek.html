@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Varázslatok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+    </head>  
+    <body>
+        <div class="topsidenavwrapper">
+            <div class="topsidenav" >
+                <span class="jartHead"> Kulcsszó: <input type="text" ng-model="nameQuery" /></span>
+                <span > (Max)Nehézség: <input type="number" style="width: 40px" ng-model="nehezsegQuery" /></span>
+                <span class="jartHead" title="{{infoFuggetlen}}"> <input type="checkbox" ng-model="kodexFuggetlen" ng-change="checkKodex()"/>Kódex Független</span>
+                <span class="jartHead" title="{{infoSkarlat}}"> <input type="checkbox" ng-model="kodexSkarlat" ng-change="checkKodex()"/>Skarlát</span>
+                <span class="jartHead" title="{{infoAzur}}"> <input type="checkbox" ng-model="kodexAzur" ng-change="checkKodex()"/>Azúr</span>
+                <span class="jartHead" title="{{infoGranit}}"> <input type="checkbox" ng-model="kodexGranit" ng-change="checkKodex()"/>Gránit</span>
+                <span class="jartHead" title="{{infoAlabastrom}}"> <input type="checkbox" ng-model="kodexAlabastrom" ng-change="checkKodex()"/>Alabástrom</span>               
+                <span class="jartHead" title="{{infoSmaragd}}"> <input type="checkbox" ng-model="kodexSmaragd" ng-change="checkKodex()"/>Smaragd</span>
+                <span class="jartHead" title="{{infoFekete}}"> <input type="checkbox" ng-model="kodexFekete" ng-change="checkKodex()"/>Fekete</span>
+                <span class="jartHead" title="{{infoEzust}}"> <input type="checkbox" ng-model="kodexEzust" ng-change="checkKodex()"/>Ezüst</span>
+                <span class="jartHead" title="{{infoKigyoko}}"> <input type="checkbox" ng-model="kodexKigyoko" ng-change="checkKodex()"/>Kígyókő</span>
+                <span class="jartHead" title="{{infoArany}}"> <input type="checkbox" ng-model="kodexArany" ng-change="checkKodex()"/>Arany</span>
+                <span class="jartHead" > <input type="checkbox" ng-model="kodexPraktikus" ng-change="checkKodex()"/>Praktikus</span>
+                
+            </div>
+        </div>
+        <div  class="jartcontent">  
+            <table  border="1" cellspacing="1" cellpadding="1">
+
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Nehézség</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="spell in spells | filter:kodexFilter | filter: kulcsszoFilter | filter: nehezsegFilter | orderBy:['kodex','nehezseg']"  ng-init="spell.hide = true; checked = hasPraktikusM(spell);">
+                        <td  ><pre> <a href="" ng-click="spell.hide = !spell.hide">{{spell.name}}</a> <a class="kodexStyle">({{spell.kodex}})</a> </pre></td>
+                        <td><pre>{{ spell.nehezseg}}</pre></td>
+                        <td><pre ng-hide="spell.hide">{{spell.info}}</pre>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>           
+        </div>
+    </body>
+
+</html>

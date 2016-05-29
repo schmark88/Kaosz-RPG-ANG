@@ -1,0 +1,318 @@
+<html>
+    <head>
+        <title>Jártasságok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+    </head>  
+    <body>
+
+        <div class="topsidenavwrapper">
+            <div class="topsidenav" >
+                <span class="jartHead"> <input type="button" style="padding: 2px" value="{{ mp = hideH ? ' - ' : ' + ';}} " ng-click="hideH = !hideH;"/>Hétköznapok </span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideSZ ? '  - ' : ' + ';}} " ng-click="hideSZ = !hideSZ;"/>Szakmák</span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp = hideGY ? ' - ' : ' + ';}} " ng-click="hideGY = !hideGY;"/>Gyógyítás </span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideV ? ' - ' : ' + ';}} " ng-click="hideV = !hideV;"/>Vér </span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideE ? ' - ' : ' + ';}} " ng-click="hideE = !hideE;"/>Éjszaka</span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideF ? ' - ' : ' + ';}} " ng-click="hideF = !hideF;"/>Fény</span>
+                <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideT ? ' - ' : ' + ';}} " ng-click="hideT = !hideT;"/>Tudomány</span>
+            </div>
+        </div>
+        <div class="righsidenav">   
+            <p>Jártasság pontok: {{metod.getJP()}}</p>
+            <p>Jártasságok:</p>
+            <ul ng-repeat="jart in char.jartassagok  | orderObjectBy: 'jartCsop'">
+                <li>{{jart.name + " " + jart.currentLevel}}      
+            </ul>
+        </div>
+        <div class="jartcontent">
+            
+            <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideH">
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Ár (jp)</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="jart in hetkoznapok" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : jart.minLevel - 1">
+                        <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!isReqCleared(jart)"/> {{jart.name}} </label></pre></td>
+                        <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                        <td><pre>{{jart.info}}</pre>
+                            <table border="0" >
+                                <tbody >
+                                    <tr>
+                                        <td> {{jart.minLevel}} </td>
+                                        <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                        <td> {{jart.maxLevel}} szint</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideSZ">
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Ár (jp)</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="jart in szakmak" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : jart.minLevel - 1">
+                        <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!isReqCleared(jart)"/> {{jart.name}} </label></pre></td>
+                        <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                        <td><pre>{{jart.info}}</pre>
+                            <table border="0" >
+                                <tbody >
+                                    <tr>
+                                        <td> {{jart.minLevel}} </td>
+                                        <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                        <td> {{jart.maxLevel}} szint</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                    </tr>
+                </tbody>
+            </table>
+ 
+
+                <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideGY">
+                    <thead>
+                        <tr>
+                            <th>Név</th>
+                            <th>Ár (jp)</th>
+                            <th>Leírás</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="jart in gyogyitas" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : jart.minLevel - 1">
+                            <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!isReqCleared(jart)"/> {{jart.name}} </label></pre></td>
+                            <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                            <td><pre>{{jart.info}}</pre>
+                                <table border="0" >
+                                    <tbody >
+                                        <tr>
+                                            <td> {{jart.minLevel}} </td>
+                                            <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                            <td> {{jart.maxLevel}} szint</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                        </tr>
+                                    </tbody>
+                                </table></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideV">
+                    <thead>
+                        <tr>
+                            <th>Név</th>
+                            <th>Ár (jp)</th>
+                            <th>Leírás</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="jart in ver" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : 0">
+                            <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!jart.reqCleared || jart.legacy"/> {{jart.name}} </label></pre></td>
+                            <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                            <td><pre>{{jart.info}}</pre>
+                                <table border="0" ng-hide="jart.fegyvercsop || jart.csoportok">
+
+                                    <tbody >
+                                        <tr>
+                                            <td> {{jart.minLevel}} </td>
+                                            <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                            <td> {{jart.maxLevel}} szint</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div ng-hide="!jart.fegyvercsop" ng-repeat="fegyver in jart.fegyvercsop">
+                                    <pre><label><input type="checkbox"  ng-checked="fegyver.have" ng-model="checkedF" ng-change="fegyver.have = checkedF" ng-disabled="fegyver.legacy"/> {{fegyver.name}} </label></pre>
+                                    <table border="0" ng-init="tempAtk = fegyver.atk ? (fegyver.atk - 1) : 0;tempDef = fegyver.def ? (fegyver.def - 1) : 0">                   
+                                        <tbody  >
+                                            <tr>
+                                                <td> {{fegyver.atkMin}} </td>
+                                                <td> <input type="range" min="{{fegyver.atkMin - 1}}" max="{{jart.maxLevel - 1}}" ng-model="tempAtk" step="1"> </td>
+                                                <td> {{jart.maxLevel}} szint </td>
+                                                <td> {{fegyver.defMin}} </td>
+                                                <td> <input type="range" min="{{fegyver.defMin - 1}}" max="{{jart.maxLevel - 1}}" ng-model="tempDef" step="1"> </td>
+                                                <td> {{jart.maxLevel}} szint </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"> Támadás: {{fegyver.atk = (tempAtk | num) + (1 | num)}} . szint</td>   
+                                                <td colspan="3"> Védekezés: {{fegyver.def = (tempDef | num) + (1 | num)}}. szint</td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div ng-hide="!jart.csoportok" ng-repeat="csoport in jart.csoportok">
+                                    <pre><label><input type="checkbox"  ng-checked="csoport.have" ng-model="checkedF" ng-change="csoport.have = checkedF"  ng-disabled="fegyver.legacy"/> {{csoport.name}} </label></pre>
+                                    <table border="0" ng-init="tempLevel = csoport.currentLevel ? (csoport.currentLevel - 1) : 0">                   
+                                        <tbody  >
+                                            <tr>
+                                                <td> {{csoport.minLevel}} </td>
+                                                <td> <input type="range" min="csoport.minLevel" max="{{jart.maxLevel - 1}}" ng-model="tempLevel" step="1"> </td>
+                                                <td> {{jart.maxLevel}} szint </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"> Ismeret: {{csoport.currentLevel = (tempLevel | num) + (1 | num)}}. szint</td>   
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideE">
+                    <thead>
+                        <tr>
+                            <th>Név</th>
+                            <th>Ár (jp)</th>
+                            <th>Leírás</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="jart in ejszaka" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : 0">
+                            <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!jart.reqCleared || jart.legacy"/> {{jart.name}} </label></pre></td>
+                            <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                            <td><pre>{{jart.info}}</pre>
+                                <table border="0" ng-hide="jart.csoportok">
+
+                                    <tbody >
+                                        <tr>
+                                            <td> {{jart.minLevel}} </td>
+                                            <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                            <td> {{jart.maxLevel}} szint</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div ng-hide="!jart.csoportok" ng-repeat="csoport in jart.csoportok">
+                                    <pre><label><input type="checkbox"  ng-checked="csoport.have" ng-model="checkedF" ng-change="csoport.have = checkedF"/> {{csoport.name}} </label></pre>
+                                    <table border="0" ng-init="tempLevel = csoport.currentLevel ? (csoport.currentLevel - 1) : 0">                   
+                                        <tbody  >
+                                            <tr>
+                                                <td> {{csoport.minLevel}} </td>
+                                                <td> <input type="range" min="csoport.minLevel" max="{{jart.maxLevel - 1}}" ng-model="tempLevel" step="1"> </td>
+                                                <td> {{jart.maxLevel}} szint </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3"> Ismeret: {{csoport.currentLevel = (tempLevel | num) + (1 | num)}}. szint</td>   
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideF">
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Ár (jp)</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="jart in feny" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : jart.minLevel - 1">
+                        <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!isReqCleared(jart)"/> {{jart.name}} </label></pre></td>
+                        <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                        <td><pre>{{jart.info}}</pre>
+                            <table border="0" >
+                                <tbody >
+                                    <tr>
+                                        <td> {{jart.minLevel}} </td>
+                                        <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                        <td> {{jart.maxLevel}} szint</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideT">
+                <thead>
+                    <tr>
+                        <th>Név</th>
+                        <th>Ár (jp)</th>
+                        <th>Leírás</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr ng-repeat="jart in tudomany" ng-init="temp = jart.currentLevel ? (jart.currentLevel - 1) : 0">
+                        <td><pre><label><input type="checkbox"  ng-checked="jart.have" ng-model="checked" ng-change="checkJart(checked, jart)" ng-disabled="!jart.reqCleared || jart.legacy"/> {{jart.name}} </label></pre></td>
+                        <td><pre> {{jart.costCurrent = getCost(jart, (temp | num) + 1)}} </pre></td>
+                        <td><pre>{{jart.info}}</pre>
+                            <table border="0" ng-hide="jart.csoportok">
+
+                                <tbody >
+                                    <tr>
+                                        <td> {{jart.minLevel}} </td>
+                                        <td> <input type="range" min="{{jart.minLevel - 1}}" max="{{jart.maxLevel - 1}}" ng-model="temp" step="1"> </td>
+                                        <td> {{jart.maxLevel}} szint</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"> {{jart.currentLevel = (temp | num) + (1 | num)}}. szint</td>      
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div ng-hide="!jart.csoportok" ng-repeat="csoport in jart.csoportok">
+                                <pre><label><input type="checkbox"  ng-checked="csoport.have" ng-model="checkedF" ng-change="csoport.have = checkedF"/> {{csoport.name}} </label></pre>
+                                <table border="0" ng-init="tempLevel = csoport.currentLevel ? (csoport.currentLevel - 1) : 0">                   
+                                    <tbody  >
+                                        <tr>
+                                            <td> {{csoport.minLevel}} </td>
+                                            <td> <input type="range" min="csoport.minLevel" max="{{jart.maxLevel - 1}}" ng-model="tempLevel" step="1"> </td>
+                                            <td> {{jart.maxLevel}} szint </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"> Ismeret: {{csoport.currentLevel = (tempLevel | num) + (1 | num)}}. szint</td>   
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form action="#/karakter">
+                <input type="submit" value="Tovább" ng-click="metod.saveData()" ng-disabled="(metod.getJP() < 0)">
+            </form>
+        </div>
+    </body>
+</html>

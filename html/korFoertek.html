@@ -1,0 +1,80 @@
+
+<div>
+
+    <div>  Név:{{char.name}} </div>
+    <div>  Faj:{{char.faj|capitalize}} </div>
+
+    <h4>Életkor:</h4>
+    <form action="#/elonyHatrany" ng-init="age = char.age.current">
+        Kor:<input type="text" name="nameinput" ng-model="age" required/> <input type="button"  value="ok" ng-click="setAge()" ng-disabled="validAge" />
+
+        <div> Főrtékpontok:{{metod.getFP()}}</div>
+        <div> Jártasságpontok:{{char.jP}}</div>
+        <div> Gyorsaság: {{char.speed.current}} </div>
+
+        <h4>Főértékek:</h4>
+        Az Aktív és Passzív értékek a Főértékekel együtt változik. Egyiksem Térhet el a főértéktől 20%nál jobban.
+        <div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Főérték</th>
+                        <th>Aktív</th>
+                        <th>Passzív</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="foertek in char.foertekek">
+                        <td >
+                            
+                            <span title="{{foertekText[foertek.id].nameDesc}}">{{foertekText[foertek.id].name+":"}}</span>
+                            <input type="button" value=" - " ng-click="foertek.decValue()" />
+                            {{foertek.value}}
+                            <input type="button" value=" + " ng-click="foertek.incValue()" ng-disabled="metod.getFP() <= 0" />
+                        </td>
+                        <td > 
+                           
+                            <span title="{{foertekText[foertek.id].activeDesc}}">{{foertekText[foertek.id].activeName+":"}}</span>
+                             <input type="button" value=" - " ng-click="foertek.decActiveValue()" />
+                             {{foertek.activeValue}}
+                            <input type="button" value=" + " ng-click="foertek.incActiveValue()" />
+                        </td>
+                        <td >
+                            
+                            <span title="{{foertekText[foertek.id].passiveDesc}}">{{foertekText[foertek.id].passiveName+":"}}
+                            <input type="button" value=" - " ng-click="foertek.decPassiveValue()" />
+                            {{foertek.passiveValue}}
+                            <input type="button" value=" + " ng-click="foertek.incPassiveValue()" />
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+                <h4>  Faj választható speciális tulajdonsága(i): </h4>
+    <div ng-if="char.faj == 'tunderke'">A tündérke két 5 pontos csodával, míg a tundérmanó harom 5 pontos és egy 15 pontos csodát kap ingyen.(Ezeket ne válaszd ki csak írd fel a nevüket)</div>
+    <table border="1" cellspacing="1" cellpadding="1">
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Ár</th>
+                <th>Leírás</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="spec in char.specials">
+                <td><pre> <label><input type="checkbox" ng-checked="spec.have" ng-model="checked" ng-change="spec.have = checked" ng-disabled="!(metod.getFP() - spec.cost >= 0 || spec.have)"/> {{spec.name}}  </label></pre></td>
+                <td><pre> {{spec.cost + " fp"}} </pre></td>
+                <td><pre>{{spec.info}}</pre></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+            <input type="submit" value="Tovább" ng-click="metod.saveData()" ng-disabled="char.age.current <= 0">
+            </form>
+
+        </div>
+</div>
+
+

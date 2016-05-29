@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GM segédlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <div>   
+            <table border="1" class="celszamtabla" >
+
+                <thead>
+                    <tr>           
+                        <th colspan="3"> Zafír tábla</th> 
+                    </tr>
+                </thead>
+                <tbody >
+                    <tr>
+                        <td >J. szint</td>
+                        <td >Nehézség</td>
+                        <td > Célszám </td>
+                    </tr>
+                    <tr>
+                        <td ><input type="number"  min="0" max="10" width="10" ng-model="jszint"></td>
+                        <td ><input type="number"  min="0" max="10" width="10" ng-model="nehezseg"></td>
+                        <td > {{eredmenyz}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" class="celszamtabla" >
+                <thead>
+                    <tr>           
+                        <th colspan="3"> Rubin tábla</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >Támadószint / Páncélszint</td>
+                        <td >Védőszint / Fegyvererő</td>
+                        <td > Célszám </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number"  min="0" max="10" width="10" ng-model="jszint1"></td>
+                        <td><input type="number"  min="0" max="10" width="10" ng-model="nehezseg1"></td>
+                        <td> {{eredmenyr}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" class="celszamtabla" >
+                <thead>
+                    <tr>           
+                        <th colspan="3"> Smaragd tábla</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >Mágiahasz/Járt</td>
+                        <td >Nehézség</td>
+                        <td > Célszám </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number"  min="0" max="10" width="10" ng-model="jszint2"></td>
+                        <td><input type="number"  min="0" max="10" width="12" ng-model="nehezseg2"></td>
+                        <td> {{eredmenys}}</td>
+                    </tr>
+                </tbody>      
+            </table>
+            <label class="custom-file-input" for="Upload" ></label>  
+            <input type="file" id="Upload"  style="visibility: hidden" onchange="angular.element(this).scope().file_changed(this)"/>
+                    
+        </div>
+        <div style="margin: 10px" ng-init="scelszam=0;sdobas=0;sszorzo=0;">Sebzés kiszámítása: 
+        Célszám=<input type="number"  min="0" max="100"  ng-model="scelszam"  style="width:40px">
+        Dobás ért.=<input type="number"  min="0" max="100"  ng-model="sdobas"  style="width:40px">
+        Sebzés szorzó=<input type="number"  min="0" max="100"  ng-model="sszorzo"  style="width:40px">
+        Sebzés={{sebzes}}
+        </div>
+        <h4>Játékosok:</h4>
+        <ul ng-repeat="jatekos in gm.data.jatekosok" ng-init="kezdem = 0;fegyver = 0;" style="margin-bottom: 10px">
+            <li><h5 ng-init="hp=jatekos.maxHP; ep=jatekos.maxEP">
+                    <span class="charnev">{{jatekos.name}}</span>
+                    <span class="charhp">FizP:</span>
+                {{jatekos.maxHP}}/<input type="number"  min="0" max="100"  ng-model="hp"  style="width:40px">
+                <span class="charep">Aktív EszP:</span>
+                {{jatekos.maxEP}}/<input type="number"  min="0" max="100"  ng-model="ep"  style="width:40px">        
+                </h5>
+                                <span>Fizikum:{{jatekos.foertekekFinal.fizikum}}</span>
+                <span>Tudat:{{jatekos.foertekekFinal.tudat}}</span>
+                <span>Ráterm.:{{jatekos.foertekekFinal.ratermettseg}}</span>
+                <span>Esszen.:{{jatekos.foertekekFinal.esszencia}}</span>
+                <span>Kez.:</span>
+                <input type="number"  min="0" max="20"  ng-model="kezdem"  style="width:40px">
+                <span>FS:</span>
+                <input type="number"  min="0" max="20"  ng-model="fegyver"  style="width:40px">
+                <input type="button" value="Harcba!" ng-click="harcba(jatekos, kezdem, fegyver)" />
+                <input type="button" value="delete" ng-click="removeJatekos(jatekos)" /></li>
+        </ul>
+        <h4>NPC-k:</h4>
+        <ul ng-repeat="npc in gm.data.npck" ng-init="kezdem = 0;fegyver = 0;" style="margin-bottom: 10px">
+            <li> <h5 ng-init="hp=npc.maxHP; ep=npc.maxEP">
+                    <span class="charnev">{{npc.name}}</span>
+                 <span class="charhp">FizP:</span>
+                {{npc.maxHP}}/<input type="number"  min="0" max="100"  ng-model="hp"  style="width:40px">
+                <span class="charep">Aktív EszP:</span>
+                {{npc.maxEP}}/<input type="number"  min="0" max="100"  ng-model="ep"  style="width:40px">        
+                </h5>
+                <span>Fizikum:{{npc.fizikum}}</span>
+                <span>Tudat:{{npc.tudat}}</span>
+                <span>Ráterm.:{{npc.ratermettseg}}</span>
+                <span>Esszen.:{{npc.esszencia}}</span>
+                <span>Tam sz.:{{npc.tamadosz}}</span>
+                <span>Ved sz.:{{npc.vedosz}}</span>
+                <span>Kez.:</span>
+                <input type="number"  min="0" max="100"  ng-model="kezdem"  style="width:40px">
+                <span>FS:</span>
+                <input type="number"  min="0" max="100"  ng-model="fegyver"  style="width:40px">
+                <input type="button" value="Harcba!" ng-click="harcba(npc, kezdem, fegyver)" />
+                <input type="button" value="delete" ng-click="removeNPC(npc)" /></li>
+        </ul>
+        <h4>Harc</h4>
+        <ul ng-repeat="jatekos in gm.data.harcban|orderObjectBy:'szegmens'  ">
+            <li>{{jatekos.name + " " + jatekos.szegmens}}
+                <input type="button" value="+" ng-click="kuzd(jatekos)" />
+                <input type="button" value="delete" ng-click="harcbol(jatekos)" /></li>
+        </ul>
+
+
+        <!-- <textarea cols="75" rows="15">{{ dataFile }}</textarea> -->
+
+        <div>
+           
+        </div>
+    </body>
+</html>

@@ -1,0 +1,248 @@
+{
+    "marky": {
+        "id": "marky",
+        "name": "Mark’yhennon Dicsõsége Egyház",
+        "cost": 1200,
+        "bonusJart": {
+            "meggyozes": {
+                "level": 2
+            },
+            "esszenciapjazsaktivizalas": {
+                "level": 2
+            }
+
+        },
+        "info": "Papság, 1200 jártasságpont\nKözpont: Yennon-sziget\n„Harcosnak születtem, engedj hát a végsõkig harcolni,\njobbomban a félelemnélküliség kardjával,\nbal kezemben az ítélõképesség pajzsával!”\nA Yennon-papok képzésük során elsajátítják a meggyõzés és az\nesszenciapajzs-aktivizálás jártasság 2. szintjét.\nTiltottak számukra a Fekete, Ámbra, Smaragd és Arany kódex varázslatai."
+    },
+    "zhenia": {
+        "id": "zhenia",
+        "name": "Zhénia Druida Egyháza,\nazaz a Természetpap Kongregáció",
+        "cost": 1000,
+        "bonusJart": {
+            "termeszetismeret": {
+                "level": 2
+            },
+            "allatismeret": {
+                "level": 2
+            }
+
+        },
+        "info": "Papság, 1000 jártasságpont\nKözpont: nincs\n„Csak a vidámnak virágzik az élet fája.”\nZhénia papjai automatikusan megkapják a természetismeret és az\nállatismeret jártasság 2. szintjét.\nSmaragd kódex, Őselemi kódexek(Alabástrom,Azúr)\nTermsézetismeret:2 Állatismeret:2 "
+    },
+    "yvorl": {
+        "id": "yvorl",
+        "name": "Yvorl Igaz Temploma",
+        "cost": 1000,
+        "bonusJart": {
+            "diabolika": {
+                "level": 2
+            },
+            "fajdalomtures": {
+                "level": 2
+            }
+
+        },
+        "info": "Papság, 1000 jártasságpont\nKözpont: Észak-Gerondar, Volena\n„Bízz magadban, mert Yvorl is bízik tebenned” \nMinden Kódex. Diabolika:2 Fájdalomtűrés:2"
+    },
+    "maldib": {
+        "id": "maldib",
+        "name": "Maldib (avagy Szakadár) Káoszegyház",
+        "cost": 1000,
+        "bonusJart": {
+            "hatbaszuras": {
+                "level": 1
+            },
+            "alcazas": {
+                "level": 2
+            },
+            "rejtozkodes": {
+                "level": 3
+            }
+
+        },
+        "info": "Papság, 1000 jártasságpont\nKözpont: Maldiberan, Strekwar\n„Két út áll elõtted. Az egyik Yvorl kebelébe vezet. A másik a halálba.”\nMinden kódex. Rejtőzködés:3 Álcázás:2 Hátbaszúrás:1"
+    },
+    "szorvany": {
+        "id": "szorvany",
+        "name": "Szórvány Yvorl-papok",
+        "cost": 500,
+        "bonusJart": {
+        },
+        "info": "Papság, 500 jártasságpont\nKözpont: nincs\n„Ne járasd a szád! Cselekedj!”\nMinden kódex."
+    },
+    "veremharcosok": {
+        "id": "veremharcosok",
+        "name": "Veremharcosok",
+        "cost": 7000,
+        "fegyvercsop": {
+            "kard": {
+                "name": "Kard",
+                "id": "kard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "id": "nehezkard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lasszo": {
+                "name": "Lasszó",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "dobohalo": {
+                "name": "Dobóhaló",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "shilpenge": {
+                "name": "Shil-penge",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "fojtohurok": {
+                "name": "Fojtóhurok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "kriss": {
+                "name": "Kriss",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "hajitofegyverek": {
+                "name": "Hajítófegyverek",
+                "have": false,
+                "minLevel": 1
+
+            }
+
+        },
+        "bonusJart": {
+            "fegyverforgatas": {
+                "levels": [ 2, 4 ],
+                "fegyvercsop": {
+                }
+            },
+            "fegyverhajitas": {
+                "levels": [ 2 ],
+                "csoportok": {
+                }
+            },
+            "akrobatika": {
+                "level": 3
+            },
+            "ketfegyverhasznalata": {
+                "level": 3
+            },
+            "akrobatika": {
+                "level": 3
+            },
+            "eses": {
+                "level": 3
+            },
+            "ugras": {
+                "level": 3
+            },
+                        "zsonglorkodes": {
+                "level": 3
+            },
+            "eses": {
+                "level": 3
+            },
+            "birkozas": {
+                "level": 3
+            },
+            "szimultanharc": {
+                "level": 1
+            },
+                        "fajdalomduh": {
+                "level": 1
+            },
+                        "vakharc": {
+                "level": 1
+            }
+
+        },
+        "info": "Gladiátoriskola, 7000 jártasságpont\nKözpont: Észak-Gerondar, Kerinia\n„Elõbb vér folyik, és csak aztán bor.”"
+    }
+}

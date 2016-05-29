@@ -1,0 +1,34 @@
+{
+    "fizikum": {
+        "name": "Fizikum",
+        "nameDesc": "A karakter aktuális életerejét, fizikai állapotát\nmutatja meg – minél magasabb az értéke, annál több sebet (sebpont\nveszteséget) képes elviselni az illetõ. A karaktergenerálásnál beállított\nértéke határozza meg a karakter Fizikumpontjainak számát, amely az\nelszenvedett sebektõl függõen a játék során többször is csökkenhet, illetve\ngyógyítás esetén növekedhet – ám gyógyítás által nem mehet a\nkarakteralkotásnál meghatározott érték fölé. A Fizikum a testmérettel\nis összefüggésben van, ám ez az összefüggés nem szoros, nem számszerûsíthetõ:\ncsupán hozzávetõlegesen igaz, hogy a nagyobb Fizikum\nnagyobb testet jelent, míg az alacsonyabb Fizikum kisebbet.",
+        "activeName": "Erő",
+        "activeDesc": "Az Erõ a tényleges erõkifejtéseket igénylõ feladatoknál kap szerepet, például\negy nehéz tárgy felemelésekor. 80-89-es Erõ esetében a karakter\nminden sebzésére +1 sebzésszorzó járul, míg 90-tõl +2, 100-tól +3 –\nennek jelölésére külön rubrika szolgál a karakterlapon. Bizonyos\nfegyverek forgatásakor ezek a sebzésbónuszok értelemszerûen nem\nszámítanak (pl. számszeríjaknál és minden olyan fegyvernél, ahol a\nsebzés nagysága nem függ a fegyverforgató erejétõl). A 30 alatti Erõ\n– bár nem jelent negatív sebzésszorzó-módosítást – azzal jár, hogy a\ntõrnél nagyobb fegyvereket a karakter nem képes forgatni.",
+        "passiveName": "Szivósság",
+        "passiveDesc": "A Szívósság\na hosszan tartó cselekvések során (állóképesség), a testet érõ külsõ,\nfizikai behatások során, valamint a mérgek és betegségek támadásakor\n(ellenálló képesség) játszik szerepet."
+    },
+    "ratermettseg": {
+        "name": "Rátermettség",
+        "nameDesc": "Azt jelöli, hogy a karakter milyen hatékonyan\nképes kihasználni teste fizikai adottságait.",
+        "activeName": "Ügyesség",
+        "activeDesc": "Cselekvésekkor kap szerepet, amikor a karakter tudatosan\népít az ügyességére, például amikor nekifutásból át akar ugrani egy árkot.\nMind a Rátermettség, mind az Ügyesség kiemelt szerepet\njátszik számos jártasság elsajátításában.",
+        "passiveName": "Reflex",
+        "passiveDesc": "karakter reakciókészségét szimulálja a váratlan események\nsorán, mint például akkor, amikor félrekapja a fejét egy felé repülõ\ntárgy elõl, vagy elkapja a repülõ legyet – és ismerve a mesélõk szokásait,\na Reflexpróba elõkelõ helyet foglal el majd a játékban. (Nem\nszimuláljuk viszont a szellemi reakciókat: a karakter olyan gyorsan fog\nfel valamit, amilyen gyorsan a Játékosnak esik le a tantusz.)"
+    },
+    "tudat": {
+        "name": "Tudat",
+        "nameDesc": "A karakter értelmi és érzelmi képességeit mutatja\nmeg, valamint ez fejezi ki a tudatosságot és az öntudatot is.",
+        "activeName": "Inteligencia",
+        "activeDesc": "még több erő",
+        "passiveName": "Lelkierő",
+        "passiveDesc": "Szívós kismalac"
+    },
+    "esszencia": {
+        "name": "Esszencia",
+        "nameDesc": "az erő veled van",
+        "activeName": "Varázserő",
+        "activeDesc": "még több erő",
+        "passiveName": "Esszenciapajzs",
+        "passiveDesc": "Szívós kismalac"
+    }
+}

@@ -1,0 +1,436 @@
+{
+    "szentliget": {
+        "id": "szentliget",
+        "name": "Szent liget",
+        "kodex": "Smaragd",
+        "nehezseg": 8,
+        "info": "Típus: területre ható (csak druidák által használható)\nNehézség: 8\nEsszenciaigény: 70 (+50 000)\nEro: 1000\nHatótávolság: zóna\nKomponensek: rituálé, szó, mozdulat, anyag\nElmondási ido: 1 nap\nHatóido: végleges\nLeírás:\na varázslat által létrehozott Szent Ligetek Zhénia templomául\nszentelt erdorészek, melyekben maga a ligetet létrehozó druida a pap.\nA Szent Liget \u0096 amely lehet önálló liget, de lehet egy nagyobb erdo ré-\nsze is \u0096 annyi méter sugarú, amekkora a druida zónája. Létrehozásá-\nhoz sajátos tánc (mozdulatkomponens), egy balladaszeru ének egy tel-\njes napos invokálása (szókomponens), valamint egy falevél, egy ma-\nrék föld, egy kupa forrásvíz és egy borsónyi drágako (anyagi kompo-\nnens) szükséges. A varázslatot legalábbegy hónapos rituálé elozi meg\n(kötelezo), amelynek során a druida napkeltétol napnyugtáig táncol és\nénekel a leendo Szent Liget fái között \u0096 és csupán napszállta után ehet,\nihat vagy pihenhet. A rituálé a szabályok szerint növeli a varázslat cél-\nszámát, ezért gyengébb képességu druidák akár egy évig is képesek a\nrituálét végezni a biztosabb eredmény értelmében. A rontott varázsla-\ntot csak egy év elteltével lehet megismételni. A sikeres varázslat 70 es-\nszenciapontjához  Zhénia,  jóindulata  jeleként  iszonyatos  mennyiségu\nvarázserot  ad,  amely  aztán  valósággal  életre  kelti  a  Szent  Liget  kör-\nnyékét (ez az isteni esszencia hozza létre a Druidaerdot).\nA Szent Liget mágiája megtöri az átkokat, ha az átokkal sújtott sze-\nmély  (vagy  az  átkozott  tárgy  tulajdonosa,  akihez  kötodik  a  tárgy)\noszintén\nZhéniának ajánlja a lelkét. Ezen kívül a druidák azonnal fel-\ngyógyulnak a Szent Ligetekben (olyan gyorsan regenerálódnak, mint\na gilfek), s amíg itt tartózkodnak, betegségek nem rontják meg egész-\nségüket  \u0096  ez  bármely  druidára  igaz,  aki  a  ligetben  tartózkodik,  nem\ncsupán  a  Liget  Papjára.  Nem  druida  karakterek  a  szokottnál  három-\nszor gyorsabban gyógyulnak a Szent Liget fái között, ám akik lelké-\nben a Káosz munkál, azok sokkal lassabban gyógyulnak, mint egyéb-\nként (a gyógyulás üteme felezodik). Aki a Szent Ligetben öl meg egy\ndruidát (bármelyiket), az azonnal szörnyet hal Zhénia haragja által, le-\ngyen akár egy másik isten világi helytartója.\nAmennyiben  a  Szent  Ligetet  elhagyják  a  druidák,  annak  mágiája\nfokozatosan  csökken,  majd  egy  éven  belül  végkép  megszunik  \u0096\nZhénia esszenciája visszaáramlik az istennohöz. Ha egy elhagyott li-\ngetbe  az  egy  év  letelte  elott  egy  másik  druida  vetodik,  napi\nrendszerességu  rituálékkal  és  ételáldozatokkal  visszaadhatja  a  liget\nerejét \u0096 ekkor az új druida lesz a Liget Papja. \n"
+    },
+    "druidaerdo": {
+        "id": "druidaerdo",
+        "name": "Druidaerdô",
+        "kodex": "Smaragd",
+        "nehezseg": 10,
+        "info": "Típus: területre ható (csak Zhénia hozhatja létre, a Szent Ligetek körül)\nNehézség: 10 (nem meghatározható)\nEsszenciaigény: 50 000\nEro: 1000\nHatótávolság: annyi mérföld átméroju,\nahányadik szintu a druida \nelhivatottság\njártassága\nKomponensek: nem meghatározható\nElmondási ido: nem meghatározható\nHatóido: végleges\nLeírás:\na druidaerdot Zhénia hozza létre, a druida Szent Ligete \u0096 azaz\na Zöld Úrnonek szentelt templom \u0096 körül. Ha kell, fákat is növeszt, ám\nmivel a legtöbb Szent Liget egy nagyobb erdoség szívében található,\na druidaerdo csupán a régi erdo egy részletének mágikus átalakulása\nrévén  jön  létre  \u0096  közönséges  halandók  észre  sem  veszik  a  változást,\namíg csak egy járkáló fával nem találkoznak.\nA druidaerdo békés légköre áthatja a halandók lelkét, nyugalmat és\nszeretetet kölcsönözve nekik. Szép gondolatok és szép álmok várnak\naz erre tévedokre \u0096 ugyanakkor az alapvetoen haragos, gyulölködo és\nrosszindulatú  karakterekbol  érthetetlen  és  látszólag  ok  nélküli  dühöt\nvált ki az erdo. A düh elsosorban az erdore irányul, másodsorban a ka-\nrakter társaira, harmadsorban önmagára.\nA druidaerdokben  nem  terjed  a  tuz;  a  tuzvarázslatok  létrejönnek\nugyan, ám tüzük \u0096 miután a varázslatba foglalt esszencia kitombolta\nmagát \u0096 kialszik (vagyis egy tuzgolyó felrobban ugyan, de a tuz nem\nterjed  tovább).  A tisztelettel  meggyújtott  tábortüzek  lágy  fénnyel  ég-\nnek, és nem terjednek el akkor sem, ha egy egész kupac száraz falevél\nvan  a  tuz  mellett.  A druidaerdok  növényei  és  állatai  nem  fejtenek  ki\nmágikus ellenállást saját druidájuk varázslatával szemben.\nA druidaerdokben különös lények óvják a druidát, akkor is, ha er-\nre a druida külön varázslattal nem készteti oket. Az erdo \u0096 a fák, a fu-\nszálak,  a  rovarok  és  az  állatok  \u0096  úgy  viselkedik,  mintha  a  druida  jól\nidomított, huséges kutyája lenne. Bárki idegen ér a fái közé, a druidát\nazonnal értesítik jöttérol. Az elvarázsolt fák között gyakran telepednek\nmeg tündérke-kolóniák.\nHa  a  Szent  Liget  megszunik  mágikusnak  lenni,  a  druidaerdo  is\nvisszaalakul közönséges erdové \u0096 de már akkor sem tunik el, ha a fá-\nkat Zhénia maga növesztette ki puszta földbol.\n"
+    },
+    "tiltotterdo": {
+        "id": "tiltotterdo",
+        "name": "Tiltott erdô",
+        "kodex": "Smaragd",
+        "nehezseg": 10,
+        "info": "Típus: területre ható (csak Zhénia hozhatja létre, a Szent Ligetek körül)\nNehézség: 10 (nem meghatározható)\nEsszenciaigény: 50 000\nEro: 1000\nHatótávolság: annyi mérföld átméroju,\nahányadik szintu a druida \nelhivatottság\njártassága\nKomponensek: nem meghatározható\nElmondási ido: nem meghatározható\nHatóido: végleges\nLeírás:\na druidaerdo egy fajtája, ahol a világtól elhúzódó druidák él-\nnek. Ebbe az erdobe csak a Liget Papjának külön engedélyével lehet\nbelépni \u0096 és ez minden más druidára is vonatkozik. Aki engedély nél-\nkül lép a fák közé, azt az erdo minden eszközzel igyekszik kilökni a\nhatárain túl: az erdo növényei és állatai gátolják, sot, megtámadják a\nbetolakodókat. A külso régiókban ez a tevékenység csupán baljós vé-\nletlenek sorozatának tunhet, ám beljebb megnyilvánul a tudatosság. A\nvégsokig elszánt kalandorokat a legbelsobb régiókban \u0096 a Szent Liget\nközelében \u0096 komoly veszélyek fenyegetik, itt akár az életüket is elve-\nszíthetik  meggondolatlanságuk  és  makacsságuk  miatt.  A tiltott  erdok\nnövényei és állatai nem fejtenek ki mágikus ellenállást saját druidájuk\nvarázslatával szemben.\nTiltott  erdot  Zhénia  varázsol  az  egyszeru  druidaerdobol,  a  Liget\nPapjának imába foglalt kérése alapján \u0096 és ugyancsak ez alapján bár-\nmikor vissza is varázsolhatja. Eddig még egyetlen pap sem vetemedett\narra,  hogy  évenként  változtassa  erdeje  tulajdonságát  \u0096  Zhénia  bizal-\nmának megvonásával büntetné meggondolatlan papját. Ha a Szent Li-\nget megszunik mágikusnak lenni, a tiltott erdo is visszaalakul közön-\nséges erdové.\n"
+    },
+    "elatkozotterdo": {
+        "id": "elatkozotterdo",
+        "name": "Elátkozott erdô",
+        "kodex": "Smaragd",
+        "nehezseg": 10,
+        "info": "Típus: területre ható (csak Zhénia hozhatja létre, a Szent Ligetek körül)\nNehézség: 10 (nem meghatározható)\nEsszenciaigény: 50 000\nEro: 1000\nHatótávolság: annyi mérföld átméroju,\nahányadik szintu a druida \nelhivatottság\njártassága\nKomponensek: nem meghatározható\nElmondási ido: nem meghatározható\nHatóido: végleges\nLeírás:\nha  a  Liget  Papját  bárhol  az  elvarázsolt  erdo  határain  belül\nmegölik, Zhénia haragjában elátkozza a druidaerdot (ha a gyilkosság\na Szent Ligetben történik, a gyilkosokra azonnali halál vár). Az elát-\nkozott erdo gonosz és gyilkos lények lakhelye lesz \u0096 bár ez a gonosz-\nság nem hasonlatos az Yvorl-hituek gonoszságához. Az erdo minden\nnövénye, minden állata veszélyes a vándorra, hiszen csupán azért lé-\nteznek, hogy megbosszulják a Liget Papjának halálát \u0096 tevékenységü-\nket a meggyilkolt druida szelleme irányítja, aki a Szent Ligethez kö-\ntodve  védettséget  élvez  az  esszenciaszörnyekkel  szemben.  A hosszú\nido óta muködo elátkozott erdobe más gonosz lények is beköltöznek,\namelyek  \u0096  ellentétben  az  elátkozott  erdo  eredeti  lakóival  \u0096  már  el-\nhagyják  az  erdo  határait  portyáik  során,  hogy  rettegésben  tartsák  a\nkörnyéket.\nAz elátkozott erdo megtisztulhat akkor, ha egy druida ismét itt akar\nletelepedni \u0096 erre általában Zhéniától kapnak megbízást, mivel magá-\ntól nem sok druida akar egy régi druidagyilkosság helyszínén élni. Ha\naz elátkozott erdo határainál tündérke-kolóniák telepednek le, az o je-\nlenlétük is megválthatja az átkot. Mindkét esetben az utólag ideköltö-\nzo bestiákat és gonosz entitásokat külön ki kell irtani.\nSajátosságainál fogva az elátkozott erdo Szent Ligete nem veszíti\nel  mágikus  erejét  druida  nélkül  \u0096  hiszen  a  druida  szelleme  táplálja  a\nLigetet, a Liget pedig védelmezi a szellemet \u0096, így az erdo is mágikus\nmarad.\n"
+    },
+    "villamhivas": {
+        "id": "villamhivas",
+        "name": "Villámhívás",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható (csak druidák használhatják)\nNehézség: 5\nEsszenciaigény: 30-70\nEro: 80\nHatótávolság: zóna\nKomponensek: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: 200 szegmens\nLeírás:\na druida tisztelttel kéri Zhéniát, hogy küldjön alá az egek ma-\ngasából egy villámot, hogy égetné porrá a druida ellenségét. A varázs-\nlás közben a druida kijelöli a villám célpontját. A villám csupán a ha-\ntóido lejárta után érkezik meg, azaz 200 szegmens múlva \u0096 ezen idon\nbelül a druida bármikor kérheti, hogy Zhénia mégse küldje a villámát.\nA villám minden esetben eltalálja a kijelölt személyt \u0096 az istenek álta-\nlában kiválóan céloznak \u0096, és annyi pont fizikumveszteséget okoznak,\nahány  Ep-t  a  druida  a  varázslatba  fektetett.  A varázslat  specialitása,\nhogy a körbe álló és összefogódzkodó druidák együttesen is kérhetik\nZhéniától a villámot, és a varázslatban mindannyian beletölthetnek fe-\njenként  30-70  esszenciapontot  \u0096  iszonyatos  ereju  villámot  indukálva\nezzel.\n"
+    },
+    "orzokteremtese": {
+        "id": "orzokteremtese",
+        "name": "Ôrzôk teremtése",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: szellemidézés (csak druidák és sámánok által használható)\nNehézség: 6\nEsszenciaigény: 26\nEro: 50\nHatótávolság: zóna (druidaerdo)\nKomponensek: szó\nElmondási ido: 150 szegmens\nHatóido: elbocsátásig\nLeírás:\na varázslattal a természeti szellemek egyikét lehet megidézni,\nés feladattal ellátni. Az Orzo képes növényekbe költözni, és mozgatni\nannak  bizonyos  részeit.  Leginkább  fákba,  tüskés  bokrokba  bújik,  s\nazok ágait, gyökereit mozgatva tart ellenorzése alatt egy bizonyos te-\nrületet.  A fák  ágai  megütik  a  betolakodót,  a  tüskés  indák  beleakasz-\nkodnak,  a  gyökerek  elgáncsolják  \u0096  bár  semmit  sem  tesznek  gyilkos\nszándékkal,  olykor  elofordulhatnak  balesetek.  Egy  Orzo  tetszés  sze-\nrint váltogathatja a növényeket, így az avatatlan számára úgy tunhet,\nhogy az egész erdo ellene fordult, holott csupán egyetlen szellem ne-\nhezíti az útját, hol ebbe, hol abba a növénybe bújva. Az Orzo nem tá-\nvolodhat el teremtojétol \u0096 mindig annak zónáján belül kell maradnia.\nAz  Orzo  a  létrehozásába  fordított  esszenciát  folyamatosan  leköti,\nígy a varázshasználó, aki akár egyetlen Orzo felett is rendelkezik, nem\nképes teljesen visszanyerni varázserejét \u0096 ez meghatározza az egy va-\nrázshasználó  által  létrehozható  Orzok  számát  is.  Az  elbocsátás  nem\nvarázslat  \u0096  a  varázshasználó  egyszeruen  kinyilvánítja  köszönetét  és\nakaratát, hogy a szellem visszatérhet a természetes létezéséhez.\nA druidaerdokben a varázslat Nehézsége és Esszenciaigénye fele-\nzodik, a Hatótávolság kiterjed az egész druidaerdore. Az itt létrehozott\nOrzok nem a druidához, hanem az erdohöz kötodnek, tehát a druidá-\ntól eltávolodhatnak. \n"
+    },
+    "tiltokteremtese": {
+        "id": "tiltokteremtese",
+        "name": "Tiltók teremtése",
+        "kodex": "Smaragd",
+        "nehezseg": 8,
+        "info": "Típus: szellemidézés (csak druidák és sámánok által használható)\nNehézség: 8\nEsszenciaigény: 46\nEro: 90\nHatótávolság: zóna (druidaerdo)\nKomponensek: szó\nElmondási ido: 250 szegmens\nHatóido: elbocsátásig\nLeírás:\na varázslattal a természeti szellemek egyikét lehet megidézni,\nés feladattal ellátni. A Tiltó képes bármilyen állatba költözni \u0096 legyen\naz rovar, vagy emlos \u0096, mely állatot a varázshasználó jelöli ki a szá-\nmára. Egyetlen megkötés, hogy csakis olyan állatba bújhat, amelynek\nEsszencia Foértéke 0. A szellem nem váltogatja az állatokat, elbocsá-\ntásig,  vagy  annak  pusztulásáig  ugyanannak  a  testében  marad  \u0096  ha  a\nhordozó  állat  elpusztulna,  a  szellem  új  állatot  keres,  lehetoleg  a  va-\nrázshasználó eredeti kívánsága szerint, ám ez az állat akár az erdo egy\ntávolabbi  pontján  is  lehet.  Feladata  a  betolakodók  távoltartása  a  va-\nrázshasználótól, melynek érdekében akár meg is öli ot, ha a szelídebb\nmódszerekre nem reagál. A Tiltók harcértékei megegyeznek a szellem\nnélküli állatéval. Nem távolodhat el teremtojétol \u0096 mindig annak zó-\nnáján  belül  kell  maradnia.  Parancsokat  nem  követ,  csupán  egyetlen\nfeladatot  képes  végrehajtani:  a  betolakodók  eltávolítását.  A  druida\negyetlen szavával megfékezheti a Tiltóit, hogy azok ne támadjanak rá\nbizonyos lényekre \u0096 például a druida barátaira.\nA Tiltó a létrehozásába fordított esszenciát folyamatosan leköti, így\na varázshasználó, aki akár egyetlen Tiltó felett is rendelkezik, nem ké-\npes  teljesen  visszanyerni  varázserejét  \u0096  ez  meghatározza  az  egy  va-\nrázshasználó  által  létrehozható  Tiltók  számát  is.  Az  elbocsátás  nem\nvarázslat  \u0096  a  varázshasználó  egyszeruen  kinyilvánítja  köszönetét,  és\nakaratát, hogy a szellem visszatérhet a természetes létezéséhez.\nA druidaerdokben a varázslat Nehézsége és Esszenciaigénye fele-\nzodik, a Hatótávolság kiterjed az egész druidaerdore. Az itt létrehozott\nTiltók nem a druidához, hanem az erdohöz kötodnek, tehát a druidá-\ntól eltávolodhatnak, viszont nem hagyhatják el a druidaerdo határait.\nAz Elátkozott Erdok Tiltói ravaszak és vérszomjasok, olykor hagyják\negészen behatolni az idegent, csak aztán támadnak rá, hogy minél ki-\nsebb esélye legyen a menekülésre.\n"
+    },
+    "erdokeruloteremtese": {
+        "id": "erdokeruloteremtese",
+        "name": "Erdôkerülô teremtése",
+        "kodex": "Smaragd",
+        "nehezseg": 10,
+        "info": "Típus: szellemidézés (csak druidák által használható)\nNehézség: 10\nEsszenciaigény: 99\nEro: 600\nHatótávolság: druidaerdo\nKomponensek: szó\nElmondási ido: 600 szegmens\nHatóido: végleges\nLeírás:\na druida munkáját tanítványok, tündérke kolóniák, elfek, ma-\nnók  és  egyéb  értelmes  lények  segíthetik.  Ezek  egyike  az  Erdokerülo\n(fapásztor), amelyet a druida varázslattal hozhat létre fiatal fákból. A\nvarázslat  végleges,  a  fapásztor  önálló  entitásként  tevékenykedik  to-\nvább,  a  druida  esszenciáját  nem  köti  magához.  A fák  hagyományos\ntempójában  fejlodik,  így  néhány  évtized  alatt  a  kis  fácska  valóságos\nóriássá  fejlodhet  \u0096  a  méret  és  a  fejlodési  ido  az  eredeti  fa  fajtájától\nfügg. Egy druidaerdot négy-öt erdokerülonél több nem lakhat, mivel\nha közel vannak egymáshoz, folyton torzsalkodnak és letördelik egy-\nmás ágait.\nA magukra hagyott erdokerülok gonosszá is válhatnak, sot, ez fel-\ntétlenül bekövetkezik, ha a druidaerdo elveszíti varázserejét (az erdo-\nkerülok léte nincs hozzákötve), vagy ha Elátkozott Erdo lesz belole. \nAz Erdokerülo leírását lásd a Bestiáriumban (fapásztor).\n"
+    },
+    "novenykereses": {
+        "id": "novenykereses",
+        "name": "Növénykeresés",
+        "kodex": "Smaragd",
+        "nehezseg": 1,
+        "info": "Típus: növényre ható \/ területre ható\nNehézség: 1\nEsszenciaigény: 5\nEro: 12\nHatótávolság: 1 kilométer\nKomponensek: szó\nElmondási ido: 25 szegmens\nHatóido: 10 perc\nLeírás:\nA varázshasználó  által  meghatározott  bizonyos  fajú  növény\nhelyét mutatja meg a hatótávolságon belül. A varázshasználó az ösz-\nszes eloforduló példány tole mért távolságát és irányát megérzi, és ez\naz érzet folyamatosan fennmarad \u0096 sot módosul, ha a varázshasználó\nváltoztatja a helyét \u0096, amíg a hatóido le nem jár. \n"
+    },
+    "allatkereses": {
+        "id": "allatkereses",
+        "name": "Állatkeresés",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: állatra ható \/ területre ható\nNehézség: 2\nEsszenciaigény: 9\nEro: 19\nHatótávolság: 1 kilométer\nKomponensek: szó\nElmondási ido: 35 szegmens\nHatóido: 10 perc\nLeírás:\nA varázshasználó  által  meghatározott\negy  bizonyos  fajú  (nem  intelligens)  állat  he-\nlyét mutatja meg a hatótávolságon belül. A va-\nrázshasználó az összes eloforduló példány to-\nle mért távolságát és irányát megérzi, és ez az\nérzet folyamatosan fennmarad \u0096 sot módosul,\nha  a  varázshasználó,  vagy  a  bemért  lény  vál-\ntoztatja a helyét \u0096, amíg a hatóido le nem jár.\n"
+    },
+    "zoldforras": {
+        "id": "zoldforras",
+        "name": "Zöld forrás",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: növényre ható\nNehézség: 3\nEsszenciaigény: 7\nEro: 14\nHatótávolság: érintés\nKomponensek: szó, mozdulat (érintés)\nElmondási ido: 30 szegmens\nHatóido: egy perc\nLeírás:\nA varázslat során megérintett, élo fa törzsén kicsiny dudor ke-\nletkezik, majd a dudor csúcsából lassan folydogálni kezd a fanedv, ez\na kristálytiszta, némileg édeskés ízu víz \u0096 tápértéke egy-két kanál cu-\nkorral  egyenértéku.  A varázslat  ideje  alatt  kb.  2  dl  fanedv  folyik  ki,\namelyet a dudor miatt pohárban, kulacsban is fel lehet fogni. A drui-\ndák egy fából csak egyszer csapolnak nedvet, mert tiszteletben tartják\na növény szükségleteit is, más varázshasználók ezt az elvet ritkán tart-\nják be. A dudor a hatóido letelte után visszahúzódik. Egy varázslat egy\nérintést tesz lehetové.\n"
+    },
+    "gyumolcsoltoszozat": {
+        "id": "gyumolcsoltoszozat",
+        "name": "Gyümölcsoltó szózat",
+        "kodex": "Smaragd",
+        "nehezseg": 4,
+        "info": "Típus: növényre ható\nNehézség: 4\nEsszenciaigény: 15\nEro: 39\nHatótávolság: érintés\nKomponensek: szó, mozdulat (érintés)\nElmondási ido: 30 szegmens\nHatóido: maradandó\nLeírás:\nBármely idoszakban, bármilyen fán bármiféle gyümölcsöt te-\nremthet a varázslat. A gyümölcs, melynek fajtája nem választható (vé-\nletlenszeruen jön létre, de a gyümölcsfák mindig a saját gyümölcsöket\nhozzák), az érintés helyén sarjad. A gyümölcs mindig eheto, tápértéke\nés íze megfelel a fajtájának. A druidák egy fából csak annyi gyümöl-\ncsöt sarjasztanak, hogy egyetlen ember jól lakhasson vele, mert tiszte-\nletben  tartják  a  növény  szükségleteit  is  \u0096  hiszen  a  gyümölcsérlelés\nmegterheli  a  fát.  Más  varázshasználók  ezt  az  elvet  ritkán  tartják  be.\nEgy varázslat egy érintést tesz lehetové.\n"
+    },
+    "novenyatvaltoztatasa": {
+        "id": "novenyatvaltoztatasa",
+        "name": "Növény átváltoztatása",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: növényre ható (csak druidák használhatják)\nNehézség: 7\nEsszenciaigény: 54\nEro: 60\nHatótávolság: érintés\nKomponensek: szó, mozdulat\nElmondási ido: 1 perc\nHatóido: 1 nap\nLeírás:\nA varázshasználó a megérintett növényt mind alakjában, anya-\ngában,  mind  tulajdonságaiban  megváltoztathatja.  A növény  tömegét\n(súlyát,  kiterjedését)  nem  befolyásolja  a  változás,  és  nem  serkenti  a\nnövekedést  \u0096  ugyanakkor  nem  is  függ  a  tömegtol,  azaz  egyetlen  va-\nrázslattal  egy  óriási  tölgyfa  éppúgy  átalakítható,  akár  egy  fuszál.  A\nváltozás csakis egy növény egy paraméterében hoz-\nható  létre.  Az  anyagi  változás  során  csak  növé-\nnyi anyagokká alakítható át az eredeti anyag.\nPl.  Anyagában:  nádszálból  tölgyfát,  miköz-\nben a nád formája megmarad (gyors nyílvesszo-\nkészítés) \u0096 de nem lehet acéllá változtatni, mert\naz  nem  növényi  anyag.  Tulajdonságában:  vita-\nmindús gyümölcsbol mérgezo gyümölcsöt, mi-\nközben  a  gyümölcs  minden  más  tulajdonsága\nváltozatlan.  Formájában:  fa  alakú  fából  kuny-\nhót, vagy létrát formázni. Amennyiben több tu-\nlajdonságot  kíván  a  varázshasználó  ugyanazon\na  növényen  megváltoztatni,  úgy  több  varázsla-\ntot kell egymás után elmondania. \n"
+    },
+    "novenysorvasztas": {
+        "id": "novenysorvasztas",
+        "name": "Növénysorvasztás",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: növényre ható\nNehézség: 5\nEsszenciaigény: 49\nEro: 70\nHatótávolság: érintés\nKomponensek: szó, mozdulat\nElmondási ido: 5 szegmens\nHatóido: maradandó\nLeírás:\nA  megérintett  növény  igen  gyorsan,\nmintegy  100  szegmens  alatt  elkorhad,  elrothad\n\u0096  legyen  az  faóriás,  vagy  egy  burgonyabokor.\nEgy  varázslat  egyetlen  érintést  tesz  pusztítóvá.  Bár  ez  a  varázslat  a\nZöld  Kódexhez  tartozik,  nem  a  druidák  dolgozták  ki,  és  nem  is  ok\nhasználják, hanem más, a Zöld Kódexet is használó varázstudók. Egy\ndruida annyira tiszteli a növényi életet, hogy még az elátkozott vidé-\nkek gyilkos növényeit sem sorvasztaná el \u0096 megeszi ugyan a növénye-\nket, mert \u0084életet ad az élet\u0094, de öncélúan sosem pusztít.\n"
+    },
+    "eletadas": {
+        "id": "eletadas",
+        "name": "Életadás",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: területre ható\nNehézség: 5\nEsszenciaigény: 60 (növelheto)\nEro: 70\nHatótávolság: zóna\nKomponensek: szó, mozdulat\nElmondási ido: 1 szegmens\nHatóido: végleges\nLeírás:\nA varázslat területén a halott fát viharos gyorsasággal (1 szeg-\nmens)  újraéleszti.  Ez  nem  csupán  a  lábon  álló,  elkorhadt  törzseket\nérinti, de a megmunkált fát is, kezdve az ágylábtól, a tetogerendákon\nát a lándzsanyélig és nyílvesszokig. A csiszolt fa kérget növeszt, ága-\nkat és leveleket fejleszt, gyökeret ereszt, olykor kivirágzik \u0096 mindezt\negyetlen szegmens alatt. Gyakorta megcsavarodik, ahogy az élet újból\nelkezd áramlani benne. A változások néha nem sok hatással vannak a\nfából készült tárgyak eredeti funkciójára \u0096 például a tetogerendák le-\nvéllel  borítva  is  tetogerendák  maradnak,  noha  legyökereznek  a  falak\nmellett, és ágaik valószínuleg lelökik a cserepek nagyját. Ugyanakkor\negy kilott nyílvesszo úgy eltorzulhat a varázslat következtében, hogy\ncélt téveszt, elveszti acélhegyét stb. A változás végleges.\nA varázslat területe egy 10 méter átméroju kör, a zónán belüli tet-\nszoleges  epicentrummal.  Minden  újabb  10  esszenciapontért  újabb \n1 méterrel no a varázslat által érintett terület átméroje, és szintén 1-gyel\nno  a  varázslat  nehézsége.  A területen  belül  minden  darab  halott  fa\n"
+    },
+    "eletvisszavetele": {
+        "id": "eletvisszavetele",
+        "name": "Élet visszavétele",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: tárgyra ható\nNehézség: 5\nEsszenciaigény: 10\nEro: 40\nHatótávolság: érintés\nKomponensek: szó, mozdulat\nElmondási ido: 5 szegmens\nHatóido: végleges\nLeírás:\nAz életadás varázslat ellenvarázslata \u0096 az eredeti állapot töké-\nletes visszaállítására irányul. Csupán a megérintett \u0084növényre\u0094 hat, és\ncsakis akkor, ha az annak elotte fából készült tárgy volt. A visszaala-\nkulás szemmel alig követheto gyorsasággal játszódik le, és végleges.\n"
+    },
+    "novekedesserkentes": {
+        "id": "novekedesserkentes",
+        "name": "Növekedésserkentés",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: területre ható\nNehézség: 3\nEsszenciaigény: 30 \/100 szegmens\nEro: 60\nHatótávolság: zóna\nKomponensek: szó\nElmondási ido: 15 szegmens\nHatóido: 100 szegmens \/ 30 Ep\nLeírás:\nA növények hihetetlen burjánzásba kezdenek a varázslat terü-\nletén. 1 szegmens alatt 1 teljes napi növekedést produkálnak, amely a\nvarázslat elmúlta után is megmarad. A növekedés igazán jelentos mér-\ntékét akkor foghatjuk fel igazán, ha a mérsékelt égövi növények vege-\ntációs  ciklusát  vesszük  alapul  \u0096  azaz  200  szegmens  alatt  no  egy  fo-\nlyondár akár 10 métert is, vagy a közönséges fu 60-70 szegmens alatt\nválik derékig érové. A növekedést a varázslat nem irányítja, csak ser-\nkenti: a növények a fényviszonyok és a természetes szokásaik szerint\nnonek. A varázslat területe a varázshasználó mágiahasználati (vagy el-\nhivatottság) szintjének megfelelo sugarú kör, a zónán belüli tetszole-\nges  epicentrummal  (tehát  egy  3.  \nelhivatottság-szintu druida  3  méter\nsugarú körben képes egyetlen varázslatával növekedésre serkenteni a\nnövényeket). Az esszenciaigény sokszorozásával a varázslat hatóideje\nis sokszorozható. \n"
+    },
+    "megvadulttermeszet": {
+        "id": "megvadulttermeszet",
+        "name": "Megvadult természet",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: növényre ható \/ területre ható\nNehézség: 6\nEsszenciaigény: 60\nEro: 100\nHatótávolság: zóna\nKomponensek: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: 10 szegmens\nLeírás:\nA növények iszonyatosan gyorsan növekszenek, 10 szegmens\nalatt úgy elburjánzanak, mintha egy teljes év telt volna el ezalatt. A nö-\nvekedés nem irányított, a fényviszonyok és a természetes tulajdonsá-\ngok határozzák meg. A varázslat területe a varázshasználó mágiahasz-\nnálati (elhivatottság stb.) szintjének megfelelo sugarú kör, a zónán be-\nlüli  tetszoleges  epicentrummal.  A varázslat  egyetlen  paramétere  sem\nváltoztatható.\n"
+    },
+    "iranyitottnovekedes": {
+        "id": "iranyitottnovekedes",
+        "name": "Irányított növekedés",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: növényre ható \/ területre ható\nNehézség: 5\nEsszenciaigény: 45\nEro: 70\nHatótávolság: zóna\nKomponensek: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: 100 szegmens\nLeírás:\nA növények hihetetlen burjánzásba kezdenek a varázslat terü-\nletén. 1 szegmens alatt 1 teljes napi növekedést produkálnak, amely a\nvarázslat elmúlta után is megmarad. A növekedést a varázslat irányít-\nja, csak serkenti: a növények arra nonek, amerre a varázshasználó kí-\nvánja, ám a természetes szokásaik szerint \u0096 tehát egy tölgyfa ága nem\nfog rácsavarodni senkire, mert az nem szokása, míg egy iszalag igen,\nmert  annak  az  a  természetes  szokása.  A varázslat  területe  a  varázs-\nhasználó mágiahasználati (elhivatottság stb.) szintjének megfelelo su-\ngarú kör, a zónán belüli tetszoleges epicentrummal. \n"
+    },
+    "novenybilincs": {
+        "id": "novenybilincs",
+        "name": "Növénybilincs",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: területre ható\nNehézség: 7\nEsszenciaigény: 70\nEro: 100\nHatótávolság: zóna\nKomponensek: szó\nElmondási ido: 3 szegmens\nHatóido: 5 szegmens \/ maradandó\nLeírás:\nNagyon gyors, a varázsló szándékai szerint irányított növény-\nburjánzást eredményez a varázslat. A varázslat által érintett növények\nnem csupán gyorsan nonek \u0096 5 szegmens alatt annyit, mintha egy év\ntelt volna el ezalatt \u0096, de \u0084feladják\u0094 természetes szokásaikat, és mind\núgy viselkedik, mint a folyondárok: igyekeznek a célszemélyre teke-\nredve megbilincselni azt. A célszemély megpróbálhat kikerülni a va-\nrázslat hatósugarából \u0096 ez csak személyes gyorsaságán és a varázslat\nterületének nagyságától függ \u0096, vagy megpróbálhatja letépni magáról\na növényi bilincset. A varázslat hatóidejének lejárta után a növekedés\nmegáll, ám a varázslat elotti helyzet nem áll vissza: a növények meg-\nnottek, és bilincsként tartják fogva a célszemélyt. A növények termé-\nszetes \u0096 anyagi \u0096 tulajdonságai nem változnak meg a varázslat során;\na lágyszárú növények lágyszárúak maradnak, a sások élesek, a gallyak\nfásak stb. A varázslat a zónán belül bárhol létrejöhet, területe a varázs-\nhasználó mágiahasználati (elhivatottság stb.) szintjének megfelelo su-\ngarú kör. A mágikus ellenállást nem a célszemély, hanem a növekedés-\nre késztetett környezet dobja!\n"
+    },
+    "tovisnovesztes": {
+        "id": "tovisnovesztes",
+        "name": "Tövisnövesztés",
+        "kodex": "Smaragd",
+        "nehezseg": 4,
+        "info": "Típus: területre ható\nNehézség: 4\nEsszenciaigény: 25\nEro: 25\nHatótávolság: zóna\nKomponensek: szó, anyagi (tövis)\nElmondási ido: 30 szegmens\nHatóido: 1 nap\nLeírás:\na varázslat területén \u0096 a varázshasználó mágiahasználati (elhi-\nvatottság stb.) szintjének megfelelo sugarú körben \u0096 élo növények ke-\nmény, hegyes, kb. 5 cm-es tüskéket növesztenek. Ez igen komoly seb-\nzo hatással lehet, különösképpen akkor, ha nem csupán a földön, de a\nbokrok  és  fák  ágain  lévo  tüskékbe  is  belegyalogol,  vagy  egyenesen\nbeleszalad az áldozat. A sebzés 1d10-tol 10d10-ig is terjedhet, a körül-\nmények függvényében.\n"
+    },
+    "rejtetttovisnovesztes": {
+        "id": "rejtetttovisnovesztes",
+        "name": "Rejtett tövisnövesztés",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: növényre ható \/ területre ható\nNehézség: 6\nEsszenciaigény: 40\nEro: 40\nHatótávolság: zóna\nKomponensek: szó\nElmondási ido: 40 szegmens\nHatóido: 1 nap\nLeírás:\na varázslat területén \u0096 a varázshasználó mágiahasználati (elhi-\nvatottság stb.) szintjének megfelelo sugarú körben \u0096 élo növények ke-\nmény, hegyes, kb. 5 cm-es tüskéket növesztenek, de csak akkor, ha va-\nlamely patkánynál nagyobb testu élolény besétál a területre, még a ha-\ntóido lejárta elott. Az elvarázsolt területet a behatolás aktiválja, elotte\nszabad szemmel semmi sem látszik rajta, ám a mágikus fürkészés ki-\nmutatja a mágikus befolyásoltságot. A sebzés ugyanúgy alakul, ahogy\na tövisnövesztés varázslat esetén: 1d10-tol 10d10-ig is terjedhet, a kö-\nrülmények függvényében.\n"
+    },
+    "ellensegelpusztitasa": {
+        "id": "ellensegelpusztitasa",
+        "name": "Ellenség elpusztítása",
+        "kodex": "Smaragd",
+        "nehezseg": 9,
+        "info": "Típus: területre ható\nNehézség: 9\nEsszenciaigény: 90\nEro: 100\nHatótávolság: zóna\nKomponensek: mint a két részvarázslaté\nElmondási ido: 40 szegmens\nHatóido: 5 szegmens (növénybilincs) \/ 200 szegmens (állatok hívása)\nLeírás:\nAz igen hatékony varázslat a \nnövénybilincs és az állatok hívása\nvarázslatok kombinálása. A druida által kijelölt célpontot eloször a\nkörnyezo növények foglyul ejtik (a varázslat mindenben megegyezik\na  korábban  leírtakkal),  majd  a  zónából  erosereglo,  minden  rendu  és\nrangú állatok megtámadják ot, hogy elpusztítsák. \nDruidaerdoben, az erdot birtokló druida hívására az állatok nem a\nzónából,  hanem  az  egész  erdobol  áramlanak  elo  \u0096  itt  a  hatóido  nem\n200, hanem 1000 szegmens, változatlan esszenciaigény mellett.\n"
+    },
+    "allatokhivasa": {
+        "id": "allatokhivasa",
+        "name": "Állatok hívása",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 45\nEro: 50\nHatótávolság: zóna\nKomponensek: szó, mozdulat, anyagi\n(bármely rész egy tetszoleges állatból, pl. toll)\nElmondási ido: 10 szegmens\nHatóido: 200 szegmens\nLeírás:\nA varázslat  szavaira  a  zónában  tartózkodó  minden  rendu  és\nrangú  állat  elosereglik.  Ha  a  varázshasználó  rámutat  valamire,  vagy\nvalakire, az elojött állatok megtámadják azt. Egy varázslat alkalmával\ncsak egy célpont jelölheto ki. Ha nem mutat senkire (nincs mozdulat-\nkomponens),  az  állatok  körbeülik  (repülik  stb.)  a  varázshasználót,\nmajd a hatóido letelte után szétszélednek. A varázslat hatása alatt a va-\nrázshasználó (de csak o) bármit megtehet az állatokkal (pl. kifejheti a\nkígyók mérgét stb.). A varázslat nem terjed ki az állatoknak való pa-\nrancsolásra (a támadásra felszólító egyetlen mozdulaton kívül), a ve-\nlük való kommunikációra stb. Druidaerdoben, az erdot birtokló drui-\nda hívására az állatok nem a zónából, hanem az egész erdobol áram-\nlanak elo \u0096 itt a hatóido nem 200, hanem 1000 szegmens, változatlan\nesszenciaigény mellett.\n"
+    },
+    "allatokhusege": {
+        "id": "allatokhusege",
+        "name": "Állatok husége",
+        "kodex": "Smaragd",
+        "nehezseg": 4,
+        "info": "Típus: állatra ható\nNehézség: 4\nEsszenciaigény: 34\nEro: 50\nHatótávolság: zóna\nKomponensek: szó\nElmondási ido: 60 szegmens\nHatóido: 1 nap\nLeírás: \nA varázslat segítségével egyetlen állat tartós husége biztosít-\nható (csak olyan állatokra lehet rámondani, amelyek Esszencia Foér-\ntéke 0). Amennyiben az állat megérti a varázstudót, úgy az állati intel-\nligenciától és az állati test lehetoségeitol függoen egyszerubb-bonyo-\nlultabb utasításokat végrehajt, akár egy hu szolga. A varázslat paramé-\nterei nem változtathatóak, a hosszabb ideig tartó huséghez újra és új-\nra el kell buvölni az állatot.\n"
+    },
+    "beszedallatokhoz": {
+        "id": "beszedallatokhoz",
+        "name": "Beszéd állatokhoz",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: állatra ható\nNehézség: 3\nEsszenciaigény: 18\nEro: 25\nHatótávolság: érintés\nKomponensek: szó, mozdulat\nElmondási ido: 100 szegmens\nHatóido: 5 perc (500 szegmens)\nLeírás:\nA varázstudó  képes  kommunikálni  a  megérintett  állattal  \u0096  a\nkommunikáció nem szavakban, hanem gondolatokban meg végbe. A\nsiker nagyban függ az állat intelligenciájától, hiszen attól függetlenül,\nhogy a kommunikációs csatorna (telepátia) létrejött, még nem biztos,\nhogy  értelmes  beszélgetés  is  folyhat,  hiszen  a  legtöbb  állatnak  hiá-\nnyoznak a kommunikációhoz szükséges fogalmai \u0096 ez különösképpen\na vadon élo állatok esetében van így, az idomítottak néhány emberi ki-\nfejezést képesek \nelgondolni.\nGyakorta csak érzések közvetítésére van\nlehetoség, sokszor azok is torzak, hiszen egy ragadozó, vagy egy éne-\nkesmadár másképpen látja, érzi a világot, mint egy ember. \n"
+    },
+    "parancsallatoknak": {
+        "id": "parancsallatoknak",
+        "name": "Parancs állatoknak",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: állatra ható\nNehézség: 3\nEsszenciaigény: 18\nEro: 18\nHatótávolság: 10 méter\nKomponensek: szó, mozdulat\nElmondási ido: 2 szegmens\nHatóido: a parancs végrehajtásának ideje, de max. 1 óra\nLeírás:\nA mágus egyszeru parancsot adhat az állatnak \u0096 ez nem lehet\nbonyolultabbak, mint a hagyományos parancsvarázs (csak olyan álla-\ntokra  lehet  rámondani,  amelyek  Esszencia  Foértéke  0).  A parancsot\nhangosan kell kimondani, ám az állat nem a fülével hallja meg azt, ha-\nnem az ösztönével követi a varázslat sugallatát. Így akár egy gilisztá-\nnak is lehet parancsot adni, az már más kérdés, hogy a giliszta milyen\nparancsokat  képes  végrehajtani,  és  mily  módon.  A varázslat  nem  ru-\nházza  fel  semmilyen  különleges  tulajdonsággal  az  állatot,  csupán  az\nösztöneinél fogva kényszeríti azt, hogy hajtsa végre a parancsot.\n"
+    },
+    "rovarokuralma": {
+        "id": "rovarokuralma",
+        "name": "Rovarok uralma",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 50\nEro: 50\nHatótávolság: zóna\nKomponensek: szó\nElmondási ido: 23 szegmens\nHatóido: 50 szegmens\nLeírás:\na varázslat szavai hatására a zónában tartózkodó összes rovar\na varázshasználó köré sereglik \u0096 a röpképesek fellegként döngenek a\nfeje  körül,  a  csak  mászni  tudók  a  lábai  elott  hemzsegnek.  A rovarok\nképességeikhez mérten teljesítik a varázslatba foglalt egyszeru paran-\ncsot. A parancs megváltoztatásához új varázslatra van szükség. A ro-\nvarfelho természetes mágia ellenállása 50% \u0096 ha sikerül ellenállniuk a\nvarázslatnak, egyetlen rovar sem jön elo az egyébként sikeresen létre-\nhozott varázslatra.\nAz esszenciaigény duplázásával, háromszorozásával a hatóido 100,\nilletve 150 szegmensre növelheto. Más paraméterek megváltoztatásá-\nra nincs lehetoség.\n"
+    },
+    "hirnok": {
+        "id": "hirnok",
+        "name": "Hírnök",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: állatra ható\nNehézség: 7\nEsszenciaigény: 35\nEro: 90\nHatótávolság: érintés\nKomponensek: szó, anyagi\nElmondási ido: 30 szegmens\nHatóido: a feladat teljesítése\nLeírás:\na  megbabonázott  állatot  egy  bizonyos  személyhez,  vagy  egy\nbizonyos  helyre  lehet  küldeni.  A célszemélyhez,  vagy  célponthoz  az\nállat  mágikusan  kötodik,  azaz  a  legalacsonyabb  állati  értelem  is  ele-\ngendo ahhoz, hogy megtalálja (gyakorlatilag a varázslat viszi el hoz-\nzá, melynek anyagi komponense a célpont egy sokat használt tárgya,\nvagy  valamely  testi  anyaga,  pl.  hajszála).  Az  állat,  miután  eljutott  a\ncélhoz, egy teljes percen keresztül  békésen  áll,  majd  lefoszlik  róla  a\nvarázs, és teszi azt, amit az ösztönei diktálnak.\nA  megbabonázott  állatot  leggyakrabban  üzenetek  közvetítésére\nhasználják  (a  levelet  rá  kell  csatolni,  mert  elmondani  nem  tudja),  de\nalkalmaztak már hírnököt\nbérgyilkosságra is, amikor egy fekete orosz-\nlánt babonáztak meg, s míg a célpont mit sem sejtve kutatott a söré-\nnyében a \u0096 nem létezo \u0096 üzenet után, az oroszlánról lefoszlott a má-\ngia, és tette, amit az ösztönei diktáltak...\n"
+    },
+    "emberreformazas": {
+        "id": "emberreformazas",
+        "name": "Emberré formázás",
+        "kodex": "Smaragd",
+        "nehezseg": 8,
+        "info": "Típus: állatra ható (csak druidák alkalmazhatják)\nNehézség: 8 (10)\nEsszenciaigény: 55\nEro: 100\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (smaragd)\nElmondási ido: 10 perc\nHatóido: 1 nap (10 nap)\nLeírás:\nBármely nagyobb termetu emlost, vagy madarat emberré for-\nmáz. Az állat eredeti testtömege nem változik, így az erosen befolyá-\nsolja a létrejövo emberlény méretét. Az elvarázsolt állat megorzi ere-\ndeti tudatát, eredeti gondolatait és az állat szellemi képességeit. Ha hu-\nséges  volt  a  varázshasználóhoz,  ezután  is  huséges  lesz,  ha  vadászott\nrá, ezután is fog. Egy emberré alakított, idomított medve valószínuleg\nképes lesz néhány emberi szót kiejteni a torkán (mert ezeket korábban\nelsajátította, csak sosem volt lehetosége használni), míg egy vadon élo\nmedvébol formázott \u0084ember\u0094 erre nem lesz képes. Az átalakulás bio-\nlógiai tökéletes \u0096 ember alakban akár gyermeket nemzeni is képes, az\nutód tökéletes ember lesz. Csupán az állat szemei nem változnak, il-\nletve az emberi arcvonásokban ott rejtozik az eredeti állati pofa.\nA varázslat  esszenciaigényének  duplázásával  a  hatóido  10  napra\nnövekszik, míg a nehézség 2-vel no, más paraméter nem változtatha-\ntó. Az anyagi komponens, egy legalább mogyorónyi smaragd, amely\na varázslás során megsemmisül.\nA varázslat egyes formái nem embert, hanem manót, gnómot, elfet,\norkot, vagy törpét hoznak létre. Más értelmes fajokat a varázslat segít-\nségével nem lehet létrehozni.\n"
+    },
+    "veglegesemberreformazas": {
+        "id": "veglegesemberreformazas",
+        "name": "Végleges emberré formázás",
+        "kodex": "Smaragd",
+        "nehezseg": 11,
+        "info": "Típus: állatra ható (csak druidák alkalmazhatják)\nNehézség: 11\nEsszenciaigény: 140\nEro: 1000\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (smaragd)\nElmondási ido: 1 nap\nHatóido: végleges\nLeírás:\nAz emberré  formázás varázslat  végleges  hatóideju  változata.\nA paramétereken kívül mindenben megegyezik azzal a varázslattal.\n"
+    },
+    "ertelemmelfelruhazas": {
+        "id": "ertelemmelfelruhazas",
+        "name": "Értelemmel felruházás",
+        "kodex": "Smaragd",
+        "nehezseg": 9,
+        "info": "Típus: állatra ható\nNehézség: 9\nEsszenciaigény: 90\nEro: 1000\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyag (malachitszobor)\nElmondási ido: 5 óra\nHatóido: végleges\nLeírás:\nA varázslat  bármely  gerinces  állatot  képes  értelemmel  felru-\nházni, illetve alkalmas a még állati tudattal rendelkezo, emberi formát\nöltött lények \n(emberré formázás, végleges emberré formázás)\ntudatá-\nnak  emberivé  alakítására.  Az  anyagi  komponens  \u0096  egy  arasznyi\nZhénia-szobor \u0096 megsemmisül. Az állati testben maradó, értelemmel\nfelruházott állatok továbbra is állati testük képességei szerint képesek\ntevékenykedni \u0096 például egy kutya sosem fog beszélni, mert bár szel-\nlemileg képes lenne rá, a torka nem alkalmas a beszéd képzésére. Az\nemberré formázott, értelemmel felruházott állatok biológiailag és szel-\nlemileg \ntökéletes emberré \nválnak (a szemük kivételével). Az értelem-\nmel felruházás pillanatában az állat (emberré alakított állat) tudata egy\ncsecsemo tudtának felel meg (állati emlékeit és ismereteit sem birto-\nkolja többé), s csupán hosszas tanulás után válik felnotté (2-5 év). Ez\na folyamat gyakorta fárasztó, hiszen az \nértelemi újszülött\nnem szoba-\ntiszta, magától nem képes enni, bár a testi adottságai már meglenné-\nnek  hozzá  \u0096  igaz,  ezeket  a  dolgokat  némileg  gyorsabban  sajátítja  el,\nmint egy valódi újszülött. Az értelem minosége a varázslatdobás sike-\nrén múlik.\nRontott dobás:\naz állatra többé nem alkalmazható ez a varázslat\nKis siker:\nátlag alatti értelem (IQ 60-80)\nNagy siker:\nátlagos értelem (IQ 80-120)\n01-es dobás:\nátlag feletti értelem (IQ 120 felett)\n"
+    },
+    "nyomtalanseta": {
+        "id": "nyomtalanseta",
+        "name": "Nyomtalan séta",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható\nNehézség: 2\nEsszenciaigény: 15\nEro: 5\nHatótávolság: érintés\nKomponensek: szó\nElmondási ido: 5 szegmens\nHatóido: 10 perc\nLeírás:\nA varázshasználó,  vagy  az  a  személy,  akire  a  varázslatot  el-\nmondja, képes lesz anélkül áthaladni bármilyen növénnyel, vagy nö-\nvényi maradványokkal borított terepen (avar, fu stb.), hogy lábnyomot\nhagyna  \u0096  de  a  szokásos  testsúlya  megmarad,  tehát  pl.  beleeshet  egy\nfarkasverembe, vagy elmerülhet a mocsárban, ám mindezt lábnyomok\nnélkül  fogja  megtenni.  Más  nyomok  létrejöttét  \u0096  pl.  letört  ágak,  el-\nszaggatott  pókhálók  \u0096  a  varázslat  nem  elozi  meg.  Az  esszenciaigény\narányos növelésével a hatóido is növelheto (kétszeres Ep = kétszeres\nidotartam), a növelésnek határt csakis a varázstudó varázsereje szab.\n"
+    },
+    "erdoszellem": {
+        "id": "erdoszellem",
+        "name": "Erdôszellem",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5\nEsszenciaigény: 25\nEro: 30\nHatótávolság: érintés\nKomponensek: szó\nElmondási ido: 12 szegmens\nHatóido: 10 perc\nLeírás:\na varázslat \u0096 nevének sugallatával ellentétben \u0096 nem szellem-\nidézés, hanem rejto-varázs. A varázshasználó, vagy az, akit megérint,\naz  erdoszellemekhez  hasonlatos  rejtozési  képességekre  tesz  szert.\nNem válik láthatatlanná, ám mindenfajta észleléséhez \u0096 látás, hallás,\nszaglás,  mágia,  szenz  \u0096  negatív  módosítók  járulnak:  annyiszor  10\npont, ahányadik szintu varázshasználó volt a varázslat létrehozója. A\nvarázslat csak akkor hatásos, ha az elvarázsolt személy aktívan bujkál\na fák és bokrok között, amelyek \u0096 legyenek bármilyen csenevészek \u0096\na  varázslat  következtében  hatékonyan  elrejtik  ot.  Ha  a  varázslat  cél-\nszemélye nem bujkál, vagy egyenesen odaáll mások orra elé, a varázs-\nlatos rejtozködés sem védi meg a felfedezéstol. A varázslatot csak er-\ndoben, fás-bokros ligetben. parkban lehet létrehozni, másutt nem \u0096 ha\nmégis másutt próbálják meg létrehozni, az automatikus rontással, sot,\nspontán  mágikus  kitöréssel  jár.  Az  esszenciaigény  arányos  növelésé-\nvel a hatóido is növelheto (kétszeres Ep = kétszeres idotartam), a nö-\nvelésnek  határt  csakis  a  varázstudó  varázsereje  szab.  Minden  egyes\nhatóido duplázás eggyel növeli a varázslat nehézségét is.\n"
+    },
+    "fatorzsosveny": {
+        "id": "fatorzsosveny",
+        "name": "Fatörzs-ösvény ",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: Önmagára ható (csak druidák használhatják)\nNehézség: 5\nEsszenciaigény: 15\nEro: 40\nHatótávolság: 10 méter \/ elhivatottság szint\nKomponensek: szó, anyagi (harkálytoll)\nElmondási ido: 3 szegmens\nHatóido: 10 szegmens\nLeírás:\nA druida a varázslat segítségével beléphet egy fa törzsébe, és\na hatótávolságon belül kiléphet egy másik fa törzsébol. Mindkét törzs-\nnek legalább akkorának kell lennie, hogy eltakarja a druidát, ha az mö-\ngé áll. A druida várakozhat is a törzsben, ezalatt érzékeli a környeze-\ntét, ám a hatóido lejártakor automatikusan kilökodik a célpont fából.\nBármennyi ido is áll még rendelkezésére a varázslatból, csak egysze-\nri  átlépésre  van  lehetosége  \u0096  újabb  átlépéshez  újabb  varázslatra  van\nszükség. Amikor a varázslat létrejön, a druida úgy érzékeli a hatókö-\nrébe eso, számba veheto (elég nagy) fatörzseket, mint a saját testrésze-\nit, tehát nem szükséges semmilyen érzékszerével érzékelnie a célpont\ntörzset, elég \u0084befelé\u0094 figyelnie, és gondolatban eldöntenie, melyik tör-\nzset választja kilépési pontul. \n"
+    },
+    "fatorzsorszagut": {
+        "id": "fatorzsorszagut",
+        "name": "Fatörzs-országút ",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: Önmagára ható (csak druidák használhatják)\nNehézség: 7\nEsszenciaigény: 25\nEro: 50\nHatótávolság: 10 kilométer \/elhivatottság szint\nKomponensek: szó, anyagi (harkálytoll)\nElmondási ido: 5 szegmens\nHatóido: 100 szegmens\nLeírás:\nA druida a varázslat segítségével beléphet egy fa törzsébe, és\na hatótávolságon belül kiléphet egy másik fa törzsébol. Mindkét törzs-\nnek legalább akkorának kell lennie, hogy eltakarja a druidát, ha az mö-\ngé áll. A druida várakozhat is a törzsben, ezalatt érzékeli a környeze-\ntét, ám a hatóido lejártakor automatikusan kilökodik a célpont fából.\nBármennyi ido is áll még rendelkezésére a varázslatból, csak egysze-\nri  átlépésre  van  lehetosége  \u0096  újabb  átlépéshez  újabb  varázslatra  van\nszükség. Amikor a varázslat létrejön, a druida úgy érzékeli a hatókö-\nrébe eso, számba veheto (elég nagy) fatörzseket, mint a saját testrésze-\nit, tehát nem szükséges semmilyen érzékszerével érzékelnie a célpont\ntörzset, elég \u0084befelé\u0094 figyelnie, és gondolatban eldöntenie, melyik tör-\nzset választja kilépési pontul. \n"
+    },
+    "kigyoszem": {
+        "id": "kigyoszem",
+        "name": "Kígyószem",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: állatra\/személyre ható\nNehézség: 5 (növekszik)\nEsszenciaigény: 10 \/30 szegmens \nEro: 20\nHatótávolság: szemkontaktus\nKomponensek: mozdulat\nElmondási ido: 1 szegmens\nHatóido: 30 szegmens \/10 Ep\nLeírás:\na  varázshasználó  tekintete  mágikussá  válik,  és  mozdulatlan-\nságra késztet minden olyan élolényt, akivel farkasszemet néz \u0096 a sze-\nme  fizikailag  is  megváltozik,  hasított  pupillájú  kígyószeme  lesz.  A\nmozdulatlanság hatása ellen mindenkinek joga van mágiamentot dob-\nni (természetes ellenállás, vagy esszenciapajzs). A varázslattal mindig\ncsak  az  a  lény  ejtheto  foglyul,  akivel  a  szemkontaktus  fennáll,  ha  ez\nbármely okból megszakad, a lény felszabadul a varázslat hatása alól.\nA hatóido  lejártáig  akárhány  lénnyel  lehet  szemkontaktust  létesíteni,\nám ha valamely célpont megdobja az ellenállását, vagy felszabadul a\nszemkontaktus alól, ugyanezen varázslat hatása alá még egyszer nem\nvonható (immunizálódik) \u0096 egy új kígyószem-varázslat azonban hat-\nhat rá. Az esszenciaigény arányos növelésével a hatóido is növelheto\n(kétszeres Ep = kétszeres idotartam), a növelésnek határt csakis a va-\nrázstudó varázsereje szab. Minden egyes hatóido duplázás eggyel nö-\nveli a varázslat nehézségét is.\n"
+    },
+    "bagolyszem": {
+        "id": "bagolyszem",
+        "name": "Bagolyszem",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: önmagára ható\nNehézség: 2\nEsszenciaigény: 25 \/1 perc\nEro: 25\nHatótávolság: önmaga\nKomponensek: mozdulat\nElmondási ido: 1 szegmens\nHatóido: 1 perc \/25 Ep\nLeírás:\na varázshasználó éjjellátó képességekre tesz szert. A látás ha-\ntékonysága  megegyezik  az  ork  fajnál  leírtakéval.  Nem  holátás!  A\nszem  nem  alakul  át,  csak  a  képességei  javulnak.  Az  esszenciaigény\narányos növelésével a hatóido is növelheto, a növelésnek határt csak-\nis a varázstudó varázsereje szab.\n"
+    },
+    "deneverful": {
+        "id": "deneverful",
+        "name": "Denevérfül",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: önmagára ható\nNehézség: 2\nEsszenciaigény: 25 \/1 perc\nEro: 25\nHatótávolság: zóna\nKomponensek: mozdulat\nElmondási ido: 1 szegmens\nHatóido: 1 perc \/25 Ep\nLeírás:\na varázshasználó különlegesen éles hallásra tesz szert, de a fü-\nle fizikailag nem változik. A hallás hatékonysága 200%-al növekszik\n\u0096 azaz háromszor jobban hall mindent. Mindamellett a karakter hallja\naz  ultrahang  tartományba  eso,  magas  rezgésszámú  hangokat,  képes\nfelfogni a tárgyakról visszaverodo hangokat, így teljes sötétségben is\nképes  tájékozódni,  akár  egy  denevér  (szonár-elv).  A  varázslatnak\negyetlen hátránya, hogy a varázshasználó a denevérhallás mellé nem\nkap denevérhangot is (ultrahang), így ha a hangvisszaverodés alapján\nakar tájékozódni, akkor hangosan sikoltoznia kell, amely némely hely-\nzetben nem kivitelezheto. A zónán túlról érkezo hangokat normálisan\nérzékeli, a varázslat azokat nem teszi jobban hallhatóvá. Az esszencia-\nigény arányos növelésével a hatóido is növelheto, a növelésnek határt\ncsakis a varázstudó varázsereje szab.\n"
+    },
+    "medvemancs": {
+        "id": "medvemancs",
+        "name": "Medvemancs",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: önmagára ható\nNehézség: 2 (növelheto)\nEsszenciaigény: 40 (növelheto)\nEro: 6 (növelheto)\nHatótávolság: önmaga\nKomponensek: mozdulat, anyagi (medvekarom)\nElmondási ido: 1 szegmens\nHatóido: 300 szegmens\nLeírás:\na varázshasználó mindkét karja vállból medvemanccsá alakul,\namelynek  ereje  (sebzésszorzója)  6,  amely  a  varázslat  erejébol  fakad.\nA mancsokkal való harc már jártasság függvénye: \nbirkózás\n, \nökölharc\n,\nkocsmai \nverekedés\nés  az  ehhez  hasonló  pusztakezes  harci  technikák\nalkalmasak arra, hogy meghatározzák a medvemancsot használó dru-\nida, vagy varázsló harcértékeit.\nAz  esszenciaigény  növelésével  5  pontonként  +1  ero  adódik  a  va-\nrázslathoz  (így  a  medvemancs  sebzésszorzójához  is),  valamint  a  va-\nrázslat  nehézségéhez.  Az  ero  10  fölé  nem  növelheto,  más  paraméter\nnem változtatható.\n"
+    },
+    "kopoltyu": {
+        "id": "kopoltyu",
+        "name": "Kopoltyú ",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: önmagára ható (csak druidáknak)\nNehézség: 5\nEsszenciaigény: 60\nEro: 60\nHatótávolság: önmaga\nKomponensek: mozdulat, anyagi (hal kopoltyúfedoje)\nElmondási ido: 1 szegmens\nHatóido: 30 perc\nLeírás:\na druida füle mögött kopoltyúk nyílnak, amelyekkel a víz alatt\nképes lélegezni. A vízbe merülés és a varázslat lejártakor a vízbol va-\nló kiemelkedés belso fájdalommal jár \u0096 de nem sebzodéssel. A varázs-\nlat bármikor megszakítható, de a megszakítás után újra nem kezdheto.\n"
+    },
+    "keselyuszarny": {
+        "id": "keselyuszarny",
+        "name": "Keselyuszárny",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: önmagára ható (csak druidáknak)\nNehézség: 5\nEsszenciaigény: 60 (+20)\nEro: 60\nHatótávolság: önmaga\nKomponensek: mozdulat\nElmondási ido: 1 szegmens\nHatóido: 30 perc\nLeírás:\nA druida karjai tollakkal borított keselyuszárnnyá alakulnak át,\namellyel a varázslat idotartama alatt nem lépes fogni, mivel az ujjai is\neltunnek. A szárny segítségével elég esetlenül tud repülni, mivel a test\nhumán marad, amely nem igazán alkalmas a repülésre. A szárny ma-\nximum 70 kg-os test felemelésére képes, az ennél könnyebb druidák\nmég  terhet  is  vihetnek  magukkal,  a  nehezebbek  viszont  leginkább\ncsak arra használhatják ezt a varázslatot, hogy magas helyrol leugor-\nva tompítsák az esést. A varázslat komoly hátránya, hogy a hatóido le-\njárta elott csak újabb 20 Ep felhasználásával lehet megszakítani, aka-\nratlagosan nem.\n"
+    },
+    "kigyonyelv": {
+        "id": "kigyonyelv",
+        "name": "Kígyónyelv",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: önmagára ható\nNehézség: 2\nEsszenciaigény: 5 \/30 szegmens\nEro: 5\nHatótávolság: önmaga\nKomponensek: mozdulat\nElmondási ido: 1 szegmens\nHatóido: 30 szegmens \/5 Ep\nLeírás:\nA varázshasználó  nyelve  egy  3  méter  hosszú  mérgeskígyóvá\nváltozik, amely persze a száját nem képes elhagyni. A kígyó támadó-\nés védoszintje a varázshasználó mágiahasználati szintjének felel meg,\nmérgének szintje ugyancsak, míg a gyorsasága (a támadás során) min-\nden esetben 10. A megmart személy sikertelen egészségpróbája esetén\nmarásonként  annyiszor  d6  fizikumpont  veszteséget  okoz,  ahányadik\nszintu a mérge (a varázsló mágiahasználati szintje). Sikeres egészség-\npróba  esetén  ennél  jóval  alacsonyabb,  1-1  pontos  veszteséget  okoz.\nHa a kígyót levágják, gyakorlatilag a varázshasználó nyelvét vágják le\n\u0096 ehhez azonban a kígyóra mért egyszeri, legalább 20 fizikumpontot\nsebzo támadás szükséges. \n"
+    },
+    "allattalenyegules": {
+        "id": "allattalenyegules",
+        "name": "Állattá lényegülés",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: önmagára ható (csak druidáknak)\nNehézség: 6\nEsszenciaigény: 45\nEro: 70\nHatótávolság: önmaga\nKomponensek: mozdulat\nElmondási ido: 1 perc (100 szegmens)\nHatóido: nem meghatározott. \nLeírás:\nA druida a varázslat segítségével egyetlen korábban kiválasz-\ntott  állatfaj  kiemelkedoen  nagy  testu  példányává  alakulhat.  A druida\naddig marad ebben az alakban \u0096 miközben megorzi szellemi képessé-\ngeit \u0096, amíg kedve tartja, és bármikor akarata szerint visszaváltozhat\n(a visszaváltozás is 1 percet vesz igénybe). Állatalakban a szellemi ké-\npességein túl az állat tulajdonságaival rendelkezik (pl. testi tulajdon-\nságok), így pl. csakis olyan varázslatokat hozhat létre, amilyeneket az\nállati felépítés megenged \u0096 azaz gyakorlatilag semmilyet, bár pl. egy\nmajom testében a csak mozgáskomponenst igénylo varázslatok létre-\nhozhatóak. Az elso varázslatkéro imát egy hosszú, legalább három na-\npos megszakítatlan rituálé eloz meg (szívósságpróbák, az elso napon\negy, a második napon ketto, a harmadik napon öt), amelyben a druida\nkiválaszt magának egy állati testet, amelyet felölthet \u0096 ez az állat nem\nlehet  kisebb,  mint  a  druida  testméretének  fele.  Ha  az  elso  varázslat,\namellyel eloször alkotja meg állati alakját, nem sikerül, a druida 6 hó-\nnapig nem próbálkozhat újra. Miután már megkapta Zhéniától az álla-\nti alakot, bármely rontás után azonnal újra próbálkozhat.\n"
+    },
+    "fatest": {
+        "id": "fatest",
+        "name": "Fatest",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: önmagára ható (csak druidáknak)\nNehézség: 5\nEsszenciaigény: 35\nEro: 60\nHatótávolság: önmaga\nKomponensek: mozdulat\nElmondási ido: 6 perc (600 szegmens)\nHatóido: 1 nap\nLeírás:\nA druida képes fává alakulni, amely átalakulás tökéletes, tehát\nsemmilyen  módszerrel  \u0096  mágikus  leleplezéssel  sem  \u0096  derítheto  ki,\nhogy az adott fa valójában druida. A fává alakult druida akarata sze-\nrinti idoben alakulhat vissza, de legkésobb a hatóido lejártakor ez ön-\nmagától  bekövetkezik.  Fa  alakban  nem  érzékeli  a  környezetét,  ám  a\nvisszaalakulás  elotti  néhány  szegmensben  már  igen  (30  szegmens)  \u0096\nigaz, ekkor már nem lehet visszafordítani az emberré válás folyama-\ntát. A druidafa 5-6 méter magas, 40 cm törzsátméroju és tetszolegesen\nválasztott fajú. A fán bekövetkezo apróbb sérülések nem jelennek meg\na  druidán  a  visszaváltozás  után  (lehullott  levelek,  letört  gallyak,  le-\nmorzsolt kéreg stb.). \n"
+    },
+    "keregbor": {
+        "id": "keregbor",
+        "name": "Kéregbôr",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 12 \/100sz\nEro: 15\nHatótávolság: érintés\nKomponensek: mozdulat\nElmondási ido: 5 szegmens\nHatóido: 100 szegmens \/12 Ep\nLeírás:\nA varázshasználó bore \u0096 vagy azé a személyé, akit a varázslat\nsorán  megérint  \u0096  páncélszeruen  kérgessé,  keménnyé  változik,  amely\n6-os szintu vértként fogja fel a fizikai hatásokat \u0096 az izületeknél a bor\npuha marad, így a mozgást nem gátolja. Ugyanakkor a varázslat mel-\nlékhatásaként (nem a kérges bor, hanem belso élettani folyamatok mi-\natt) a célszemély mozgása lelassul (+20 gyorsaság), és a borérzékelé-\nse teljesen megszunik. A kérges bor a harci képességeket nem befolyá-\nsolja.\n"
+    },
+    "gyokertalp": {
+        "id": "gyokertalp",
+        "name": "Gyökértalp",
+        "kodex": "Smaragd",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható (csak druidák által használható)\nNehézség: 4\nEsszenciaigény: 25\nEro: 30\nHatótávolság: önmaga\nKomponensek: szó, anyagi (mandragóragyökér)\nElmondási ido: 10 perc\nHatóido: 1 óra\nLeírás:\nA  druida  meztelen  talpából  gyökerek  sarjadnak  (10  perc),\namelyek a talajba hatolva vizet és tápanyagokat vesznek fel. Az egy-\nórányi táplálkozás egy átlagos mezei, vagy erdei talajból a druida fél-\nnapi  étel  és  italszükségletét  fedezi  \u0096  a  folyamat  inkább  a  gombák  és\nnem a zöld növények táplálkozására hasonlít, mivel a druidának sin-\ncsen szüksége napfényre \u0096 akár éjszaka is táplálkozhat ily módon.  Si-\nvatagban a varázslat gyakorlatilag hatástalan, a gyökerek létrejönnek\nugyan, ám nincs mit felszívniuk. Ezt a varázslatot különösen szívesen\nalkalmazzák  azok  a  druidák,  amelyek  még  növényi  étrenden  sem\nakarnak élni. A varázslat hatása alatt nem lehet járkálni, mert akkor a\ngyökerek  kiszakadnak  a  druida  talpából,  4d10  fizikumveszteséget\nokozva ezzel.\n"
+    },
+    "madarjoslas": {
+        "id": "madarjoslas",
+        "name": "Madárjóslás",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: általános (csak druidák által használható)\nNehézség: 6\nEsszenciaigény: 15\nEro: 100\nHatótávolság: látótávolság\nKomponensek: szó, mozdulat, anyagi (malachitkavics)\nElmondási ido: 1 perc\nHatóido: 15 perc\nLeírás:\na druida a varázslat hatóideje alatt valamiféle természetfeletti\njelet kap \u0096 Zhénia üzenetét, melyet az Általa küldött madarak fejeznek\nki.  Sikeres  varázslat  esetén  a  jósmadarak  mindenképpen  megérkez-\nnek,  és  elrepülnek  a  druida  felett,  ám  a  druida  csupán  \nelhivatottság\nszintjének megfelelo eséllyel képes megfejteni a látott üzenetet (szin-\ntenként 10%). A jóslat \u0096 ha meg is fejtik \u0096 csupán rávilágít a jövendo-\nre  a  druida  által  feltett  kérdés  fényében,  ám  nem  határozza  meg  azt\n(azaz az emberi tényezo, az intelligens lények sorsfelettisége, a jóslat\nismeretében  végzett  akaratlagos  tevékenysége  megváltoztathatja  az\nadott pillanatban még nagy valószínuséggel bekövetkezo jövendot). A\ntúl  gyakori  jóslatkérés  negatívan  hat  a  druida  isteni  megítélésére,\namely  sorsromlással,  elhivatottság-csökkenéssel  járhat.  Egy  átlagos\ndruida évente 5-10 alkalommal fordulhat jóslatkéréssel Zhéniához. Az\nanyagi komponensként használt féldrágako legalább borsónyi nagysá-\ngú legyen (ennek ára 10-50 arany között van, mintázattól és színárnya-\nlattól függoen), amely a varázslat során eltunik.\n"
+    },
+    "seblevel": {
+        "id": "seblevel",
+        "name": "Seblevél",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: növényre ható (csak druidák által használható)\nNehézség: 7\nEsszenciaigény: 40 \/levél\nEro: 100\nHatótávolság: érintés\nKomponensek: anyagi (bármely ép és friss falevél), szó\nElmondási ido: 1 perc\nHatóido: 1 nap\nLeírás:\na varázslat létrehoz egyetlen seblevelet, amely nem nagyobb a\ndruida tenyerénél. Egyetlen levél egy napig óvja az égett, vágott, szúrt\nés zúzott sebeket a fertozésektol, elosegíti a seb beforradását és gátol-\nja az enyhébb vérzést. A seblevéllel lefedett seb úgy gyógyul, mintha\nsikeres  jártasságpróbájú  sebkötözést  alkalmaztak  volna  rajta  (lásd  a\nszabálykönyvet), de Fizikumpontot a seblevél \nnem ad vissza!\n"
+    },
+    "aseble": {
+        "id": "aseble",
+        "name": "A seble-",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "vél eltépheto, a darabjai kisebb sebekre tehetok. A teljes sebet tökéle-\ntesen fednie kell, különben nem fejti ki a hatását. Miután a sebre ráhe-\nlyezték, kisvártatva az ép borrel fedett sebszélekre tapad, így nem esik\nle onnan. Egy nap múltán a levél elszárad, és magától lehullik (egyet-\nlen nap a fel nem használt seblevelek szavatossága is). Erosen vérzo\nsebre  a  seblevél  nem  képes  rátapadni.  Rontott  varázslat  esetén  (kis\nrontás) is átalakul az anyagi komponensként alkalmazott levél, ám an-\nnak semmilyen hatása nem lesz \u0096 így, ha annak tudatában alkalmaz-\nzák, hogy gyógyereju, és a sebet a hagyományos módon nem látják el\n(hiszen a seblevél ezt feleslegessé teszi), úgy a seb ellátatlannak szá-\nmít, és ez magával vonzza az összes káros hatást. Nagyobb varázslat-\nrontás  esetén  a  levél  nem  alakul  át,  sot,  spontán  mágikus  kitörés  jön\nlétre (lásd a mágia, és a varázslatrontás szabályait).\nKórság eluzése - Zöld út\nTípus: állatra ható \/ személyre ható \nNehézség: 7\nEsszenciaigény: 62\nEro: 70\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (kénpor)\nElmondási ido: 10 perc\nHatóido: azonnali \/ végleges\nLeírás:\na varázslat emberi és állati betegségeket képes legyozni (a he-\nveny fertozo betegségeket és mérgezéseket, de nem gyógyítja a tartós\negészségkárosodással járó problémákat), a varázslat erejét szembeál-\nlítva  a  betegség  erejével.  Alapesetben  egyszeri  varázslat  2-vel  csök-\nkenti a betegség szintjét, ám ha a varázslatdobás 01 (abszolút siker),\núgy a beteg azonnal tökéletesen meggyógyul. Ha azonban a varázslat\nsikerdobása 00 (abszolút balsiker), úgy a páciens azonnal meggyógy-\nul, ám a kórság a sikertelenül próbálkozó varázslóra száll át. A kórság\nátszállása ellen sem egészségpróba, sem mágikus ellenállás nem dob-\nható,  ez  a  különösen  sikertelen  esszencia-felhasználás  következmé-\nnye. A varázslat univerzális, tehát nem kell ismerni a gyógyított beteg-\nséget ahhoz, hogy a Kórság Eluzése hatásos legyen. Ugyanakkor egy\nvarázslat csak egy betegséget támad meg, legyen bárhány betegsége a\npáciensnek  \u0096  kivéve  a  01-es  dobás,  melynek  következtében  minden\nbetegségébol kigyógyul a páciens. Egy betegre a Kórság Eluzése egy\nnap  csak  egyszer  mondható  rá,  akárhány  különbözo  varázstudó  pró-\nbálkozik is a gyógyítással \u0096 minden újabb próbálkozás automatikusan\nrontott  dobásnak  számít,  spontán  mágikus  kitörést  eredményezve.  A\ndruidák Szent Ligetében (nem a druidaerdoben) végzett varázslat szin-\ntén abszolút gyógyulást hoz magával, az egyszeru siker esetén is.\n"
+    },
+    "csodabogyo": {
+        "id": "csodabogyo",
+        "name": "Csodabogyó",
+        "kodex": "Smaragd",
+        "nehezseg": 8,
+        "info": "Típus: növényre ható (csak druidák által használható)\nNehézség: 7\nEsszenciaigény: 15 (30)\nEro: 25\nHatótávolság: érintés\nKomponensek: szó, anyagi (bogyós gyümölcs)\nElmondási ido: 15 perc\nHatóido: azonnali \/ maradandó\nLeírás:\na varázslat egyetlen csodabogyót hoz létre az anyagi kompo-\nnensként használt gyümölcsbol, amely 1d10 fizikumpontot ad vissza\nannak,  aki  elfogyasztja.  Az  elfogyasztott  csodabogyó  automatikusan\nkifejti  hatását,  nem  kell  mágikus  ellenállást  dobni  rá.  24  órán  belül\nmaximum két csodabogyó fogyasztható el, a harmadik ahelyett, hogy\nregenerálna,  méregként  viselkedik,  és  1d6  fizikumpontnyi  sebzést\nokoz. Az el nem fogyasztott csodabogyó 1 napon belül elveszti hatá-\nsát, és elrothad \u0096 ez alól kivétel a 30 esszenciapontból létrehozott cso-\ndabogyó, amely egy teljes hétig képes megorizni varázslatos képessé-\ngét. \nA természet ereje (regeneráció)\nTípus: személyre ható\nNehézség: 8\nEsszenciaigény: 90\nEro: 80\nHatótávolság: érintés\nKomponensek: szó, mozdulat, anyagi (jádeko)\nElmondási ido: 25 perc\nHatóido: azonnali \/ maradandó\nLeírás:\nA varázslat regenerálja a célszemély szervezetét. A sebei lát-\nványosan begyógyulnak, elvesztett fizikumpontjai visszatérnek. A re-\ngeneráció mértékét a varázshasználó mágiahasználati szintje határoz-\nza  meg:  szintenként  1d10  fizikumpont  tér  vissza.  Egy  nap  egy  sze-\nmélyre csupán két természet ereje varázslat mondható, minden továb-\nbi próbálkozás automatikusan sikertelen lesz, és spontán mágikus ki-\ntörést produkál. A varázslatot létrehozó dobás (Smaragd tábla) rontá-\nsa esetén a varázslat ellenkezoje jön létre a célszemélyen: sebzodés. A\nsebzodés  mértéke:  mágiahasználati  szintenként  1d6  fizikumpont.\nEzért  veszélyes,  ha  felkészületlen  (alacsony  szintu)  varázshasználó\nigyekszik  alkalmazni  ezt  a  varázslatot  \u0096  különösen,  ha  figyelembe\nvesszük, hogy a legtöbb célszemély, gyógyító varázslatra várva, tuda-\ntosan megszünteti az esszenciapajzsát. Ha a varázslatot druida hozza\nlétre,  a  \nbármely \nSzent  Ligetben,  úgy  esszenciapajzs-próbát  nem  kell\ndobni ellene, és a rontott varázslata sem alakul át sebzo varázslattá \u0096\negyszeruen csak nem jön létre. \n"
+    },
+    "kozosero": {
+        "id": "kozosero",
+        "name": "Közös erô",
+        "kodex": "Smaragd",
+        "nehezseg": 7,
+        "info": "Típus: személyre ható\nNehézség: 7\nEsszenciaigény: 45\nEro: 9\nHatótávolság: 20 méter\nKomponensek: szó\nElmondási ido: 3 szegmens\nHatóido: 50 szegmens \/mágiahasználat szint\nLeírás:\nEz a varázslat a mágiahasználóra és a közelben lévo, kiválasz-\ntott  társaira  hat  \u0096  egyetlen  hatalmas  életero-közösséggé  válnak  a  va-\nrázslat  idotartamára.  A kapott  sebek  egyenloen  eloszlanak  az  összes\nrésztvevo  között,  így  még  súlyos  sebekbe  sem  rendül  bele  egyikük\nsem, mert rá a fájdalomnak és a sebzodésnek csak egy része hat, a töb-\nbit társai állják ki. Amennyiben az egyik társat szíven szúrják, levág-\nják a fejét, vagy valami hasonlóan halálos sebet kap, akkor a mágiafo-\nnat ráeso szála azonnal megszakad, nehogy mindenki vele együtt hal-\njon meg. A varázslat az aktiváló személytol függetlenül muködik, te-\nhát akár annak halála esetén is fennmarad. A közösség tagjainak a ha-\ntótávon belül kell maradniuk, aki messzebb kerül a csapat epicentru-\nmától, az kiszakad a közösségbol, és hiába tér vissza, már nem fog be-\nolvadni a közös erobe. A varázslatot akaratlagosan csak a létrehozója\nszakíthatja meg (de nem személyenként, hanem egységesen), minden-\nki másnak ki kell várnia, amíg lejár a hatóido.\n"
+    },
+    "szellemporoly": {
+        "id": "szellemporoly",
+        "name": "Szellempöröly",
+        "kodex": "Smaragd",
+        "nehezseg": 5,
+        "info": "Típus: önmagára ható\nNehézség: 5\nEsszenciaigény: 20 \/100 szegmens \nEro: 35\nHatótávolság: önmaga\nKomponensek: Szó, mozdulat\nElmondási ido: 15 szegmens\nHatóido: 100 szegmens \/20 Ep\nLeírás:\nA varázslat  hatására  egy  kékes  fénnyel  izzó  energia-pöröly\nmanifesztálódik  a  varázshasználó  kezében,  amely  eldobva  mindig\nvisszatér \u0096 legalábbis a hatóido lejártáig. Az éloholtakat, szellemeket,\ndémonokat  igen  durván  sebzi  (10-es  sebzésszorzó),  az  éloket  csak\ngyengén  (3-as  sebzésszorzó).  A szellempöröly  harcértékei  a  varázs-\nhasználó mágiahasználat jártasságán alapulnak. A dobás maximális tá-\nvolsága  a  varázshasználó  Ero  foértékének  50%-a  méterben.  A szel-\nlempöröly sebzése ellen nincs mágikus ellenállás, mivel ez a varázslat\nelsodlegesen a mágiahasználóra hat.\n"
+    },
+    "zoldlangok": {
+        "id": "zoldlangok",
+        "name": "Zöld lángok",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: önmagára ható\nNehézség: 3\nEsszenciaigény: 6 \/csóva\nEro: 50\nHatótávolság: önmaga\nKomponensek: szó\nElmondási ido: 1 szegmens\nHatóido: 100 szegmens\nLeírás:\nA varázshasználó  tenyerébol  a  hatóido  alatt  egyszer  (illetve\nannyiszor, ahányszor 6 Ep-t a varázsló a varázslatba befektetett), egy\ntetszés szerinti pillanatban smaragdzöld lángcsóva csap ki, amely 5 fi-\nzikumpontot  sebez.  A csóva  10  méterre  csap  ki,  majd  megszunik.  A\nzöld tuz az élo növényeket sem sebzi. \n"
+    },
+    "pokhalo": {
+        "id": "pokhalo",
+        "name": "Pókháló",
+        "kodex": "Smaragd",
+        "nehezseg": 4,
+        "info": "Típus: helyre ható\nNehézség: 4\nEsszenciaigény: 10 (50)\nEro: 20\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (pókháló)\nElmondási ido: 25 szegmens\nHatóido: 10 perc (maradandó)\nLeírás:\nezzel  a  varázslattal  egy  emberi  mértékkel  meglehetosen  eros\npókhálót hozhat létre a mágiatudó. A pókhálónak legalább három fix\nponton kell rögzülnie. A háló átméroje 5 méter lehet, bár alakja a hely-\nnek  és  a  mágiatudó  akaratának  megfeleloen  változhat,  kiterjedése\nazonban sohasem haladhatja meg a 20 négyzetmétert. A pókháló nem\ntúl vastag, azonban elég eros ahhoz, hogy huzamosabb idore lelassít-\nson bárkit, aki belekeveredik. A szálak egyenként is erosek, ráadásul\nerosen tapadnak bármihez. Aki hozzájuk ér, csak sikeres Eropróbával\nszabadulhat meg a hálótól, s ugyancsak sikeres Eropróbára van szük-\nség,  ha  át  akar  vágni  rajta.  Vízszintesen  elhelyezett  pókháló  esetén\nminden 5 méter megtétele után újabb eropróbát kell tennie, s minden\nelhibázott próba esetén az áldozatnak 20 szegmenst kell pihennie, mi-\nelott ismét próbálkozna. Ezen idot köteles pihenéssel töltenie (amibe\nbeleférnek az erokifejtéssel nem járó cselekedetek is). A pókháló elég\ngyúlékony, s ha tuz éri, akkor 10-60 szegmens alatt elég. Az égo háló-\nban tartózkodók szegmensenként 1 fizikumpontot veszítenek a tuz mi-\natt. Az 50 esszenciapont ráfordításával létrehozott Pókháló maradan-\ndóan jön létre!\n"
+    },
+    "mereglelassitasa": {
+        "id": "mereglelassitasa",
+        "name": "Méreg lelassítása",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 20 \/nap\nEro: 5\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 30 szegmens\nHatóido: 1 nap \/20 Ep\nLeírás: \nha rábocsátják egy megmérgezett egyénre, a mágia rendkívüli\nmértékben lelassítja a testében mindenféle méreg terjedését. Noha ez\na varázslat nem semlegesíti a mérget, ám amíg tart, megakadályozza,\nhogy komolyan ártson a megmérgezett személynek. A dinamikadobá-\nsok  ideje  megtízszerezodik.  Nem-mérgezett  személyre  mondott  va-\nrázslat nem jön létre, a varázslásba fordított esszencia eltávozik.\n"
+    },
+    "meregerzekelese": {
+        "id": "meregerzekelese",
+        "name": "Méreg érzékelése",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható\nNehézség: 2\nEsszenciaigény: 10 \/perc\nEro: 3\nHatótávolság: 3 méter\nKomponens: szó, mozdulat\nElmondási ido: 10 szegmens\nHatóido: 1 perc \/10 Ep\nLeírás: \na  varázslattal  megállapítható,  tartalmaz-e  mérget  egy  adott\ntárgy,  élolény  vagy  terület.  A  varázslattal  körülbelül  egy  köbméter\nnagyságú  területet  lehet  megvizsgálni  1  perc  alatt.  A mágiahasználó\ntehát nem tudja megállapítani, mérgezett-e egy egész tavacska, de azt\nigen, hogy az adott körben vizsgált körzete \u0096 vagy valami abban a kör-\nzetben  \u0096  tartalmaz-e  mérget.  A  varázslat  anyagi  komponense  egy\nüvegcse tiszta víz, mely zavarossá válik, ha méreg van a varázslat ha-\ntótávolságán belül.\n"
+    },
+    "holtaktolovoaura": {
+        "id": "holtaktolovoaura",
+        "name": "Holtaktól óvó aura",
+        "kodex": "Smaragd",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható \nNehézség: 3 \nEsszenciaigény: 12 \/100 szegmens\nEro: 10 \nHatótávolság: érintés \nKomponensek: szó, anyagi (virágszál)\nElmondási ido: 3 szegmens \nHatóido: 100 szegmens \/12 Ep\nLeírás:\nA varázsló, vagy az általa megérintett személy rövid idore vé-\ndettséget szerez minden éloholttal szemben. Számukra láthatatlannak\nminosül  (más  teremtmények  számára  azonban  nem),  bár  egy  intelli-\ngensebb élohalott (például egy vámpír) a többi jelenlévo viselkedésé-\nbol,  a  zajokból  rájöhet,  hogy  tartózkodik  a  közelében  valaki  (esetleg\narra is ráébredhet, hogy hol), ám ennek ellenére sem képesek megérin-\nteni ot \u0096 sem puszta kézzel, sem fegyverrel. A tiltás nem vonatkozik a\ntávolsági fegyverekre és a mágiára, ám ezek használatát gátolja a cél-\nszemély  láthatatlansága.  A varázslat  anyagi  komponensét,  egy  friss\n(nem hervadt) virágot a varázslat célszemélyének kell az ajkai között\ntartania \u0096 a virág a hatóido lejártakor elhervad.\n"
+    },
+    "holtakattaszitoaura": {
+        "id": "holtakattaszitoaura",
+        "name": "Holtakat taszító aura",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható \nNehézség: 6\nEsszenciaigény: 22 \/100 szegmens\nEro: 10 \nHatótávolság: érintés \nKomponensek: szó, anyagi (virágszál)\nElmondási ido: 30 szegmens \nHatóido: 100 szegmens \/22 Ep\nLeírás:\nA varázsló, vagy az általa megérintett személy rövid idore vé-\ndettséget  szerez  minden  éloholttal  szemben,  akik  látják  ugyan  a  va-\nrázslat  alanyát,  ám  ha  megérintik  ot,  minden  egyes  érintés  10  Fizi-\nkumpont veszteséget okoz nekik. Az aura nem védelmez az éloholtak\ntávolsági  fegyverei  és  mágiája  ellen,  ám  minden  fizikai  kontaktusra\nsebzéssel reagál, történjék az test-test ellen, fegyverrel, vagy más tár-\ngyal. Az \u0084érintésvédelem\u0094 kiterjed a célszemély magán viselt ruháza-\ntára és felszerelésére is, de nem terjed ki például a hátasra, amelyen ül.\nA varázslat anyagi komponensét, egy friss (nem hervadt) virágot a va-\nrázslat célszemélyének kell az ajkai között tartania \u0096 a virág a hatóido\nlejártakor elhervad.\n"
+    },
+    "husegesor": {
+        "id": "husegesor",
+        "name": "Huséges Ôr",
+        "kodex": "Smaragd",
+        "nehezseg": 2,
+        "info": "Típus: területre ható\nNehézség: 2\nEsszenciaigény: 5\/négyzetméter\nEro: 15\nHatótávolság: 15 méter\nKomponens: szó\nElmondási ido: 1 perc\nHatóido: 2 óra\nLeírás:\na varázslat segítségével a mágiahasználó rábírhat egy legalább\nállati intelligenciával bíró lényt, hogy a mágiahasználó által behatárolt\nterületet \u0096 amely mérete annyi négyzetméter lehet, ahányszor 5 Ep-t a\nlétrehozó  felhasznált  \u0096  huségesen  orizze,  és  a  mágiahasználón  kívül\noda senkit be ne engedjen. Az elbájolt lény rátámad az illetéktelen be-\nhatolókra,  de  amennyiben  elveszíti  Fizikumpontjainak  legalább  a  fe-\nlét, el fog menekülni. Ugyancsak elmenekül, ha a területre belépo lény\nelol természetes állapotában is elmenekülne. A varázslat alapértelme-\nzésben  2  óráig  tart,  de  a  felhasznált  Ep  duplázásával  (triplázásával)\narányosan növelheto.\n"
+    },
+    "fotogenezis": {
+        "id": "fotogenezis",
+        "name": "Fotogenezis",
+        "kodex": "Smaragd",
+        "nehezseg": 6,
+        "info": "Típus: önmagára ható\nNehézség: 6\nEsszenciaigény: 80\nEro: 100\nHatótávolság: önmaga\nKomponens: szó, mozdulat, anyagi (moha)\nElmondási ido: 1 perc\nHatóido: speciális\nLeírás: \na  varázslat  lehetové  teszi  alkalma-\nzója  számára,  hogy  pusztán  fénybol,  né-\nhány csepp vízbol és levegobol éljen, akár-\ncsak  a  növények.  Alvási  szükséglete  meg-\nnövekszik, legalább napi 12 óra alvásra van\nszüksége, ugyanakkor nem kell ennie vagy\ninnia.  A fotoszintetizáló  képességgel  annyi\nnapig  tart,  amennyi  használója  \nmágiahasz-\nnálat\njártasságának  szintje.  A varázslat  ha-\ntására  az  alany  bore  kicsit  bezöldül,  akár-\ncsak haja és egyéb szorzetei. Szeme fehérje\nzöldes  árnyalatot  vesz  fel,  de  ez  nem  jár\nsemmilyen  káros  következménnyel.  Ha  a\nmágiahasználó nem jut elég fényhez, normális táplálékkal pótolhatja\nenergiaszükségletét,  anélkül,  hogy  ezzel  a  varázslatot  megszakítaná.\nAnyagi komponense egy kevés moha, amit meg kell enni.\n"
+    },
+    "termeszetidezes": {
+        "id": "termeszetidezes",
+        "name": "Természetidézés",
+        "kodex": "Smaragd",
+        "nehezseg": 11,
+        "info": "Típus: speciális\nNehézség: 11\nEsszenciaigény: 110\nEro: 1500\nHatótávolság: speciális\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 15 szegmens\nHatóido: speciális\nLeírás: \nmiután a mágiahasználó elsuttogta a megidézo szavacskákat,\na földbol szemkápráztató gyorsasággal növények fognak sarjadni (sar-\njak megjelenése 1. szegmens, maximális méret elérése 30. szegmens),\n30 kilométeres körzetbol minden közönséges madár és állat a varázs-\nlat középpontja felé indul, legázolva mindent és mindenkit, ami\/aki az\nútjukba  kerül.  A növények,  mintha  csak  élolények  lennének,  indákat\neresztenek és megfojtanak mindenkit, a fák rádolnek az alattuk elha-\nladókra, a bokrok suru szövevényei lehetetlenné teszik a menekülést,\na földön árkok és gödrök nyílnak, melyek mélyén mohó állkapcsok le-\nsik áldozatukat. Az állatok megtámadnak és legázolnak mindenkit,aki\naz  útjukba  kerül.  Minden  növény  és  állat  pusztulásáig  harcol.  A má-\ngiahasználó a varázslattal átkerül egy másik létsíkra, ahonnan csupán\na varázslat befejezésekor fog visszakerülni. A varázslat egy 150 méter\nsugarú  gömbön  belül  érvényesül.  Minden  megidézett  élolény  addig\npusztít, amíg a célterületen eredetileg tartózkodó állati (illetve szörny)\nés humán élolények meg nem halnak. Ezek után az állatok szétszéled-\nnek, a növények visszabújnak a földbe, a mágiahasználó pedig vissza-\ntér  arra  a  létsíkra,  ahol  a  varázslat  elmondásakor  tartózkodott.  A va-\nrázslat nyomát csupán az elpusztult humán, állati és növényi tetemek\njelzik. Anyagi komponens egy quandeo-mag, ami mágus-gubó néven\n"
+    }
+}

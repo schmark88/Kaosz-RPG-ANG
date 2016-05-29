@@ -1,0 +1,219 @@
+{
+    "emlekezeterosites": {
+        "id": "emlekezeterosites",
+        "name": "Emlékezeterôsítés",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5\nEsszenciaigény: 10-50\nEro: 40\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: azonnali\nLeírás:\na varázslat hatóideje alatt a célszemélynek 25-50% esélye van\narra, hogy a már teljesen elfeledettnek hitt dolgok az eszébe jussanak\n(a  befektetett  esszenciapont  mértékének  megfeleloen),  amennyiben\ntudja, hogy mit felejtett el, csak nem jut eszébe pontosan. A varázslat\nnem alkalmas elfeledett varázslatok \u0084visszahozására\u0094, sem arra, hogy\náltalános  emlékezethiányt  pótoljon:  \u0084Mit  felejtettem  el,  ami  ennek  a\nproblémának  a  megoldásához  hozzásegítene?\u0094  Konkrét  kérdésre  ad\nkonkrét választ: \u0084Hányadik ablak mögött alszik a kikapós grófné? Ho-\ngyan mondják azt, hogy az \u0092anyád kutyákkal hált\u0092, drénül?\u0094\n"
+    },
+    "sebgyogyitas": {
+        "id": "sebgyogyitas",
+        "name": "Sebgyógyítás",
+        "kodex": "Független",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 10\/kocka (d6) \u0096 max. 50 Ep\nEro: 9\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 4 szegmens\nHatóido: maradandó\nLeírás:\nkezét egy élolényre helyezve a mágiatudó képes beforrasztani\nannak sebeit, és pótolni fizikumpont hiányát. A gyógyítás kizárólag az\nanyagi testtel rendelkezo lényekre hat, és nincs hatással az éloholt kre-\natúrákra. A varázslat nem gyógyít betegségeket, nyavalyákat és hason-\nlókat  (például  krónikus  hátfájás  stb.).  A  mágiatudó  maga  dönti  el,\nmekkora  dózis  esszenciát  alakít  gyógyító  energiává.  (Ez  azt  jelenti,\nhogy  annyiszor  10  esszenciapontot  kell  elkölteni,  ahányszor  dobni\nakar  a  hatoldalú  kockával.  A dobások  összege  fogja  meghatározni  a\ngyógyítás  mértékét  \u0096  feltéve,  hogy  a  sebesült  esszenciapajzsa  nem\nblokkolja a gyógyító energiákat.) A gyógyítás azonnali, azonban a fáj-\ndalmat csupán csökkenti, nem mulasztja el teljesen (a sebek összezá-\nrulnak, ám sajogni fog a helyük, s beletelik pár napba, amíg teljesen\nelmúlik a fájdalom).\n"
+    },
+    "sebokozas": {
+        "id": "sebokozas",
+        "name": "Sebokozás",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 6 \/kocka (d6) \u0096 max. 60 Ep\nEro: 9\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 3 szegmens\nHatóido: maradandó\nLeírás:\nkezét egy élolényre helyezve a mágiatudó képes sebeket nyitni\na célszemély testén. A sebokozás kizárólag az anyagi testtel rendelke-\nzo lényekre hat, és nincs hatással az éloholt kreatúrákra. A varázslattal\nnem lehet betegségeket, nyavalyákat és hasonlókat okozni. A mágiatu-\ndó maga dönti el, mekkora dózis esszenciát alakít sebzo energiává. (Ez\nazt jelenti, hogy annyiszor 6 esszenciapontot kell elkölteni, ahányszor\ndobni akar a hatoldalú kockával. A dobások összege fogja meghatároz-\nni  a  sebzés  mértékét  \u0096  feltéve,  hogy  a  sebesült  esszenciapajzsa  nem\nblokkolja a sebzo energiákat.) A sebzés azonnali, és olyan mértéku fáj-\ndalommal jár, mintha a célszemély fegyver által szenvedte volna el. Az\nígy okozott sebek normál módon gyógyíthatóak, e nélkül a természe-\ntes gyógyulási folyamatok hatásaként fognak elmúlni.\n"
+    },
+    "varazstargykotese": {
+        "id": "varazstargykotese",
+        "name": "Varázstárgy kötése",
+        "kodex": "Független",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 5\nEro: 1000\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 1 perc\nHatóido: azonnali\nLeírás:\na  varázslat  segítségével  a  varázsló  kötést  létesíthet  a  varázs-\ntárgy és annak tulajdonosa között. A kötni kívánt tárgyat a tulajdonos-\nnak a kezébe kell fognia, a varázsló pedig egyszerre érinti a tárgyat és\na  célszemélyt  a  kötés  megalkotásához.  (A  kötésrol  bovebben  a\nTárgyak Mágiája c. részben olvashatsz!)\n"
+    },
+    "mozdulatlansag": {
+        "id": "mozdulatlansag",
+        "name": "Mozdulatlanság",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5\nEsszenciaigény: 15 \/ 60 szegmens\nEro: 12 (erosített varázslat esetén 25)\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 5 szegmens\nHatóido: 60 szegmens \/ 15 Ep \nLeírás:\na varázsigék kimondását követoen a célszemély mozdulatlan-\nná dermed. Hogy mennyi idore, azt a befektetett esszencia mennyisé-\nge  fogja  meghatározni.  Alapértelmezés  szerint  a  varázslat  15  Ep-be\nkerül, ami lehetové teszi, hogy a mágiatudó egy személyt 60 szegmen-\nsig mozdulatlanságra kényszerítsen. Amennyiben a mágiatudó 30 Ep-\nt használ fel, akkor a hatóido már 120 szegmens lesz, 45 Ep esetén 180\nszegmens,  és  így  tovább.  A megnövelt  esszencia  nem  befolyásolja  a\ncélszemélyek  számát,  a  varázslat  mindig  csupán  egy  személyre  fog\nhatni.  A mágia  ezen  formája  kizárólag  humánokra  hat  (pl.  az  összes\njátszható  fajra),  s  hatástalan  bármiféle  éloholt  teremtménnyel,  állati\nesetleg  növényi  létformával  szemben.  A varázslat  idotartama  alatt  a\ncélszemély  mindent  lát,  ami  a  látószögében  történik  (értelemszeruen\nfogalma sincs, mi történik a háta mögött), mindent hall, amit egyéb-\nként is hallana, nem okoz számára nehézséget a légzés (megfelelo kö-\nzegben, mert egy levegot belégzo a víz alatt megfullad, ha a mozdu-\nlatlanság  túl  sokáig  tart),  s  érzi  az  illatokat  is.  Képes  gondolkodni,  a\nvarázslat csupán a testét kényszeríti mozdulatlanságba, elméjét nem.\n"
+    },
+    "mozdulatlansagallatra": {
+        "id": "mozdulatlansagallatra",
+        "name": "Mozdulatlanság állatra\/személyre",
+        "kodex": "Független",
+        "nehezseg": 6,
+        "info": "Típus: állatra\/személyre ható\nNehézség: 6\nEsszenciaigény: 18\/célpont\nEro: 10 (20, erosített varázslat esetén)\nHatótávolság: zóna\/2\nKomponens: szó, mozdulat\nElmondási ido: 8 szegmens\nHatóido: 60 szegmens (növelheto, lásd a szövegben)\nLeírás:\na  varázsigék  kimondását  követoen  a  célpontként  meghatáro-\nzott  állat  vagy  személy  mozdulatlanná  dermed.  Hogy  mennyi  idore,\nazt a befektetett esszencia mennyisége fogja meghatározni. Alapértel-\nmezés  szerint  a  varázslat  18  Ep-be  kerül,  ami  lehetové  teszi,  hogy  a\nmágiatudó egy állatot vagy személyt 60 szegmensre mozdulatlanság-\nra  kényszerítsen.  A mágiahasználónak  lehetosége  van  arra,  hogy  to-\nvábbi esszencia felhasználásával megnövelje a célpontok számát vagy\na  hatóidot.  A lehetoségek  változatosak:  minden  további  12  Ep  újabb\n60  szegmenssel  növeli  meg  a  hatóidot  (egy  lényre  vonatkozóan),  és\nminden további 18 Ep újabb célszemélyre terjeszti ki a varázslat hatá-\nsát (azaz 36 Ep-ért két személyt\/állatot lehet 60 szegmensre mozdulat-\nlanná  tenni).  A mágia  ezen  formája  minden  közönséges  állati  létfor-\nmára (pl. majmok, kutyák, lovak, medvék, rókák, sasok, krokodilok,\nstb.) hat, valamint a humánokra, ugyanakkor hatástalan bármiféle élo-\nholt  teremtménnyel,  szörnyeteggel  vagy  növényi  létformával  szem-\nben. A varázslat idotartama alatt a varázslat alanya mindent lát, ami a\nlátószögében történik (értelemszeruen fogalma sincs, mi történik a há-\nta mögött), mindent hall, amit egyébként is hallana, nem okoz számá-\nra nehézséget a légzés (megfelelo közegben, mert egy levegot belég-\nzo a víz alatt megfullad, ha a mozdulatlanság túl sokáig tart), s érzi az\nillatokat is. Képes gondolkodni, a varázslat csupán a testét kényszerí-\nti mozdulatlanságba, elméjét nem.\n"
+    },
+    "gyorsitas": {
+        "id": "gyorsitas",
+        "name": "Gyorsítás",
+        "kodex": "Független",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 20 \/60 szegmens\nEro: 12\nHatótávolság: érintés\nKomponens: szó,  mozdulat,  anyagi  (gyík-\nláb)\nElmondási ido: 2 szegmens\nHatóido: 60 szegmens \/20 Ep\nLeírás:\na varázslat felgyorsítja a célszemélyt\nannyiszor  60  szegmens  idotartamra,  ahány-\nszor 20 esszenciapontot a mágiahasználó rá-\náldozott  erre  a  varázslatra  (a  gyorsítás  csak\nfizikailag  hat,  szellemileg  nem!).  A karakter\naktuális gyorsasága ezen idotartamra megfe-\nlezodik, sot, bizonyos típusú cselekvések ide-\nje is. Azaz, ha egy karakternek eddig 7 volt a\ngyorsasága  (a  felszerelés  súlyát  és  az  egyéb\nmódosítókat  már  figyelembe  véve),  akkor  a\nvarázslat elmondása után a gyorsasága 4 lesz\n(ennél  a  varázslatnál  felfelé  kerekítünk).\nAmennyiben  ezután  harcba  bocsátkozik,  ak-\nkor  a  szokásos  1d6-os  dobás  eredményét  is\nfelezni kell az esetében! A cselekvés ideje is\nfelezodik,  amennyiben  az  a  cselekvés  való-\nban  megrövidítheto  azáltal,  hogy  a  karakter\npusztán  gyorsabbá  vált  (pl.  a  tor  használata\ngyorsabb lesz, míg a pallos forgatásáé, vagy egy varázslat elmondásáé\nnem). A hatás egyik pillanatról a másikra következik be, majd marad ab-\nba  a  hatás  megszunésekor.  Két  gyorsítás  varázslat  egymást  követo  el-\nmondása  a  célszemélyre  a  sebesség  további  növekedését  fogja  maga\nután vonni. Az aktuális, már gyorsítással elért érték ismét megfelezodik,\nugyanez  vonatkozik  a  gyorsítható  cselekvések  idejére  is,  sot,  a  kezde-\nményezo dobás elmarad, helyette mindig 1 adódik az összesített gyor-\nsasághoz!  Duplázott  gyorsaságvarázs  esetén  a  célszemélynek  \nminden\nsikertelen  fizikai  akciója  (támadás,  ugrás  stb.)  után  Szívósság-próbát\nkell  dobnia  (hogy  a  szervezete  bírja-e  a  rosszul  kivitelezett  mozdulat\nterhelését),  melyet  ha  elront,  akkor  húzódást  szenved  (nagyobb  cél-\nszám-rontás  esetén  izomszakadást),  amelyek  gátolják  gyorsaságát\n(+1d6-2d10 gyorsaságpont), illetve sebzodést okoznak. Álló vagy moz-\ndulatlan  karakter  nem  sérülhet  meg  ily  módon.  Ha  a  már  muködo  két\nvarázslatot egy harmadik követ, az újabb hatásváltozást már nem okoz,\nviszont  kitolhatja  a  hatóidot,  hiszen  a  harmadik  varázslat  hatóidejét  a\nlétrejötte  pillanatától  kell  számlálni.  Az  anyagi  komponenst  a  \ncélszemélynek ketté kell harapnia, így az újra már nem használható fel.\n"
+    },
+    "lassitas": {
+        "id": "lassitas",
+        "name": "Lassítás",
+        "kodex": "Független",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 20 \/60 szegmens\nEro: 12\nHatótávolság: érintés\nKomponens: szó, mozdulat, anyagi (meztelen csiga)\nElmondási ido: 4 szegmens\nHatóido: 60 szegmens \/20 Ep\nLeírás:\na varázslat lelassítja a célszemélyt annyiszor 60 szegmens ido-\ntartamra, ahányszor 20 esszenciapontot a mágiahasználó rááldozott er-\nre a varázslatra (a lassítás csak fizikailag hat, szellemileg nem!). A ka-\nrakter aktuális gyorsasága és az esetleges cselekvési ido (amennyiben\na  cselekvés  végrehajtása  gyorsaságfüggo)  megduplázódik,  illetve  a\nszokásos 1d6-os kezdeményezo dobás eredményét is duplázni kell! A\nvarázslat lehetové teszi, hogy a karakter ideiglenesen a faji korlátokat\nis átlépje, azaz ilyenkor nem számítanak a gyorsaság minimum\/maxi-\nmum értékei. A hatás egyik pillanatról a másikra következik be, majd\nmarad abba a hatás megszunésekor. Két lassítás varázslat egymást kö-\nveto elmondása a célszemélyre a sebesség további csökkenését fogja\nmaga után vonni (az aktuális, már lassítással elért gyorsaság, cselek-\nvési ido és kezdeményezo dobás ismét duplázódik). Az ezt követo har-\nmadik varázslat újabb hatásváltozást már nem okoz, viszont kitolhat-\nja a hatóidot. Az anyagi komponenst a varázslónak\nkell lenyelnie, így az újra már nem használható fel.\n"
+    },
+    "varazslovedek": {
+        "id": "varazslovedek",
+        "name": "Varázslövedék",
+        "kodex": "Független",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható\nNehézség: 2\nEsszenciaigény: 5\/varázslövedék\nEro: 10\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 2 szegmens\nHatóido: azonnali\nLeírás:\na varázslat alkalmazása során a mágiahasz-\nnáló ujjaiból zöldessárga fényben izzó energialöve-\ndék lövell ki, mely automatikusan célba talál. A va-\nrázslövedék  mindig  a  leheto  legrövidebb  úton  ha-\nlad a célszemély felé, ám képes kikerülni az elébe\nkerülo akadályokat, vagy követni a célszemélyt, ha\naz elmozdult \u0096 de megszunik, ha a zónahatáron be-\nlül  nem  talált  célba.  Bizonyos  varázslatok  és  va-\nrázstárgyak  képesek  blokkolni  a  varázslövedéket.\nEgy  varázslövedék  5  esszenciapontba  kerül,  vi-\nszont 10 esszenciapontért 2 varázslövedék hozható\nlétre, 15-ért három, és így tovább \u0096 mindez egyet-\nlen varázslatként! Minden egyes célba ért varázslö-\nvedék  3  fizikumpont  veszteséget  okoz  a  célsze-\nmélynek. A lövedékek Gyorsasága 1.\n"
+    },
+    "esszenciamozgatasa": {
+        "id": "esszenciamozgatasa",
+        "name": "Esszencia mozgatása ",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: önmagára ható\nNehézség: 3\nEsszenciaigény: 5 (fejlesztheto)\nEro: 10\nHatótávolság: önmaga\nKomponensek: szó\nElmondási ido: 50 szegmens\nHatóido: végleges\nLeírás:\naz 5 esszenciapont befektetésével a varázstudó 20 saját esszen-\nciapontot képes átmozdítani varázserejébol az esszenciapajzsába, vagy\nfordítva \u0096 a varázslat minden újabb 5 Ep-ért 20-20 pont átmozdítását te-\nszi lehetové. A változás mindig az aktuális értékeket érinti, és nem a Fo-\nértékeket. A hiány \u0096 bárhol keletkezik is \u0096 a természetes feltöltodési fo-\nlyamatok,  vagy  feltölto  varázslatok  által  pótlódhat.  Sem  a  varázsero,\nsem az esszenciapajzs maximuma nem lépheto át a varázslattal.\n"
+    },
+    "esszenciaerzekelese": {
+        "id": "esszenciaerzekelese",
+        "name": "Esszencia érzékelése",
+        "kodex": "Független",
+        "nehezseg": 2,
+        "info": "Típus: speciális\nNehézség: 2\nEsszenciaigény: 9\nEro: 5\nHatótávolság: 10 méter\nKomponensek: szó\nElmondási ido: 15 szegmens\nHatóido: 5 szegmens\nLeírás:\na  kezdetleges  varázslat  segítségével  a  varázstudó  egy  röpke\nidore  megpillanthatja  a  körülötte  áramló  esszenciát  \u0096  mintha  ritkás\nködben állna, úgy fog majd tunni az esszenciaáramlásban a való világ.\nA varázslat megmutatja a személyes esszenciát is, az aktívat világító\npiros, a passzívat világító kék színben \u0096 így a hatótávolságon belül tar-\ntózkodó átlagos emberek lilás színben fognak tündökölni, ha egyfor-\nma mértékben rendelkeznek aktív, illetve passzív esszenciával. A gya-\nkorlottabb varázstudók a tündöklés erejébol és színárnyalatából képe-\nsek kikövetkeztetni a személyes esszencia mértékét és arányát. A va-\nrázslatba igázott esszencia a varázslat számára érzékelhetetlen.\n"
+    },
+    "magiaerzekelese": {
+        "id": "magiaerzekelese",
+        "name": "Mágia érzékelése",
+        "kodex": "Független",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 5\nEro: 10\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 1 szegmens\nHatóido: 5 szegmens\nLeírás: \nez a varázslat lehetové teszi a mágiahasználó számára, hogy a\nzónán belül meghatározza, hogy egy adott hely (tárgy, személy, stb.)\nsugároz-e mágiát. A célpontot látni kell, és rá kell mutatni.\n"
+    },
+    "magiadetekcio": {
+        "id": "magiadetekcio",
+        "name": "Mágiadetekció",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: speciális\nNehézség: 3\nEsszenciaigény: 10\nEro: 10\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 5 szegmens\nHatóido: azonnali\nLeírás: \nlehetové  teszi  a  mágiahasználó  számára,  hogy  a  zónán  belül\nmeghatározza,  egy  adott  hely  (tárgy,  személy  stb.)  milyen  minoségu\nmágiát  sugároz  \u0096  azaz  a  varázsló  tudomására  jut  a  meghatározni  kí-\nvánt mágiába fektetett esszencia pontos értéke, a varázslat ereje és ha-\ntóideje \u0096 ezek fontos információk egy esetleges ellenvarázs számára.\nA célpontot látni kell, és rámutatni. Ha a megvizsgált célpont több va-\nrázslat által is érintett, a Mágiadetekció csupán a legkisebb Ereju va-\nrázslatot leplezi le, és árulja el pontos értékeit. Varázstárgyak esetében\na Mágiadetekció \nnem\nad helyes információt.\n"
+    },
+    "fejlesztettmagiadetekcio": {
+        "id": "fejlesztettmagiadetekcio",
+        "name": "Fejlesztett mágiadetekció ",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: speciális\nNehézség: 5\nEsszenciaigény: 20\nEro: 30\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 15 szegmens\nHatóido: azonnali\nLeírás: \nlehetové  teszi  a  mágiahasználó  számára,  hogy  a  zónán  belül\nmeghatározza, hogy egy adott hely (tárgy, személy, stb.) milyen mino-\nségu mágiát sugároz \u0096 azaz varázsló tudomására jut a megvizsgált cél-\npont \nösszes\ntartalmazott mágiájának esszenciapontja, Ereje és hatóide-\nje. A célpontot látni kell, és rámutatni. A Fejlesztett Mágiadetekció va-\nrázstárgyak esetében is helyes információt ad.\n"
+    },
+    "magikusellenvarazs": {
+        "id": "magikusellenvarazs",
+        "name": "Mágikus ellenvarázs",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: speciális\nNehézség: 5\nEsszenciaigény: speciális\nEro: 50\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: speciális\nHatóido: azonnali\nLeírás: \na varázslat mágikus hatások utólagos megszüntetésére szolgál.\nHasználható személyekre, tárgyakra, területre vagy helyre ható varázs-\nlatok  megszüntetésére.  Esszenciaigénye  mindig  a  megszüntetni  kívánt\nvarázslattól  függ:  a  sikeres  Mágikus  Ellenvarázshoz  ugyanannyi  esz-\nszencia szükséges, amennyit arra használtak, amelyet megszüntetni hi-\nvatott.  Azaz,  egy  50  Ep-bol  létrehozott  Iszonyataura  negálásához  leg-\nalább 50 Ep-s Mágikus Ellenvarázs kell. A Mágikus Ellenvarázs elmon-\ndási ideje annyi szegmens, amennyi a negálni kívánt varázslat Ereje. A\nvarázslat segítségével lehetoség nyílik mágikus tárgyak hatásainak ido-\nleges megszüntetésére is a fentiek figyelembe vételével. Ilyenkor a va-\nrázstárgy  negált  hatása  (pl.  egy  PÁNCÉLGYURU oltalma)  az  ellenvarázs\nsikerétol  (azaz  a  varázslat  létrehozását  célzó  dobás  mennyivel  haladta\nmeg a Smaragd Tábla célszámát \u0096 nagy különbség nagy siker, kis kü-\nlönbség kis siker) függoen 1-24 órára megszunik, majd ismét visszatér.\n"
+    },
+    "magiatores": {
+        "id": "magiatores",
+        "name": "Mágiatörés ",
+        "kodex": "Független",
+        "nehezseg": 7,
+        "info": "Típus: speciális\nNehézség: 7\nEsszenciaigény: 90\nEro: 90\nHatótávolság: 1 méter\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 100 szegmens\nHatóido: azonnali\nLeírás: \nez a varázslat más mágikus hatások utólagos megszüntetésére\nszolgál, akkor, ha a megszüntetni kívánt varázslatról nincs informáci-\nónk, vagy van, de az gyaníthatóan téves. Egyaránt használható szemé-\nlyekre,  tárgyakra,  területre  vagy  éppen  helyre  ható  varázslatok  meg-\nszüntetésére. Egyetlen korlátja van a Mágiatörésnek: nem fejleszthe-\nto, márpedig ha a megszüntetni kívánt varázslat Ereje nagyobb, mint\n90, akkor a Mágiatörés varázslat hatástalan lesz vele szemben. A va-\nrázslat segítségével nincs lehetoség mágikus tárgyak hatásainak vég-\nleges, vagy idoleges megszüntetésére. Az anyagi komponens egy acél-\ngolyó, amely a varázslat során megsemmisül.\n"
+    },
+    "magialeplezes": {
+        "id": "magialeplezes",
+        "name": "Mágialeplezés ",
+        "kodex": "Független",
+        "nehezseg": 4,
+        "info": "Típus: speciális\nNehézség: 4\nEsszenciaigény: 15\nEro: 12\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 30 szegmens\nHatóido: speciális\nLeírás: \nlehetové  teszi  a  mágiahasználó  számára,  hogy  zónán  belül  el-\nleplezzen egy mágikus hatás. A leplezés addig tart, amíg az elleplezni\nkívánt mágikus hatás fennáll, függetlenül attól, hogy a varázsló idoköz-\nben elhagyta-e a környéket (kikerült-e a zónából a leplezni kívánt má-\ngia). A Mágialeplezéssel védett varázslatok 50% eséllyel elrejtoznek a\nMágia  Érzékelése elol, illetve 75% eséllyel téves adatokat közölnek a\nMágiadetekció varázslatra. A Fejlesztett Mágiadetekció mind a Mágia-\nleplezés, mind a leplezni kívánt mágia pontos adatait kimutatja.\n"
+    },
+    "rosszakarat": {
+        "id": "rosszakarat",
+        "name": "Rosszakarat\/Jóakarat",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 5\/módosító\nEro: 20\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 4 szegmens\nHatóido: 10 perc\nLeírás: \na  varázslat  elmormolásával  a  mágiahasználó  minden  ellen-\nszenvét  kivetítheti  egy  tetszolegesen  kiválasztott  személyre,  akinek\nezáltal  annyi  negatív  módosító  járul  minden  dobás  célszámához,\nahányszor 5 Ep-t a varázslat létrehozásakor felhasználtak. A hatás 10\npercig tart. A varázslat másik változata, a Jóakarat pozitív módosító-\nkat  ad  a  célszemély  dobásaihoz  (a  fenti  minta  alapján).  A varázslat\ncsak az oszinte érzelmek kivetítését teszi lehetové.\n"
+    },
+    "kislegendatan": {
+        "id": "kislegendatan",
+        "name": "Kis legendatan",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: tárgyra ható\nNehézség: 5\nEsszenciaigény: 15 \/1 perc\nEro: 20\nHatótávolság: 5 méter\nKomponens: szó, mozdulat\nElmondási ido: 1 perc\nHatóido: 1 perc \/15 Ep\nLeírás: \nsegítségével az alábbi típusú információk kaphatók meg a va-\nrázslatnak  alávetett  tárgyról;  ki  készítette,  kik  voltak  eddig  a  gazdái,\nmikor készítették stb. A varázslat csak a hétköznapi tárgyakról ad fel-\nvilágosítást, mágikus tárgyak esetében semmiféle információval nem\nszolgál. A varázslat annyi percig tart, ahányszor 15 Ep-t elhasználnak\na létrehozásakor. Percenként legfeljebb két információ nyerheto, s az\ninformációk hossza nem lesz hosszabb 10 szónál.\n"
+    },
+    "erzekenysegmagiara": {
+        "id": "erzekenysegmagiara",
+        "name": "Érzékenység mágiára",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5\nEsszenciaigény: varázslattól függo\nEro: 1\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 1 perc\nHatóido: 3 óra, vagy a varázshatás bekövetkezte\nLeírás: \nennek az igen eros és hatékony varázslatnak a segítségével a\nmágiahasználó érzékennyé tehet bizonyos személyt egy adott varázs-\nlatra.  A  varázslat  alkalmazásakor  a  mágiahasználó  meghatározza,\nhogy mely varázslatra akarja az adott személyt érzékennyé tenni. Az\nÉrzékenység  Mágiára  esszencia-szükségletét  a  kiválasztott  varázslat\nalap-esszenciaigénye  határozza  meg  (egyenértéku  azzal)!  Az  elvará-\nzsolt személy ezt követoen 3 órán keresztül lesz érzékeny az adott va-\nrázslatra. Az érzékenység azt jelenti, hogy az adott varázslat elso al-\nkalmazásával  szemben  nem  dobhat  esszenciapajzs-\npróbát,  tehát  gyakorlatilag  védtelen.  Egyszerre  csak\negy Érzékenység Mágiára varázslat lehet egy szemé-\nlyen. Amennyiben a varázslat, amelyre érzékenyé tet-\nték  a  célpontot,  hatni  kezd,  az  Érzékenység  Mágiára\nvarázslat automatikusan szertefoszlik.\n"
+    },
+    "immunitasvarazslatra": {
+        "id": "immunitasvarazslatra",
+        "name": "Immunitás varázslatra",
+        "kodex": "Független",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5\nEsszenciaigény: varázslattól függo\nEro: 1\nHatótávolság: érintés\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 1 perc\nHatóido: 1 óra\nLeírás: \na varázslat segítségével a mágiahasználó vagy\nbármely, általa megérintett személy immúnis lesz egy\nelore meghatározott varázslat hatásaira, amelynek ha-\ntását a mágiahasználó már közvetlenül megtapasztal-\nta vagy o maga képes annak a varázslatnak a létreho-\nzására. Például, ha a mágiahasználóra egyszer már rá-\nlottek egy tuzgolyót (vagy o maga képes tugolyót va-\nrázsolni),  akkor  az  Immunitás  Varázslatra  oltalmazni\nfogja  a  varázslat  alanyát  a  tuzgolyó  hatásaitól.  A va-\nrázslat mágiája nemcsak a tuzgolyó varázslattal szem-\nben  nyújt  oltalmat,  hanem  a  varázstárgyak  vagy  az\nélolények  veleszületett  varázslatszeru  képességeivel  szemben  is\n(amennyiben  az  Tuzgolyóként  van  definiálva).  Az  immunitás  csak  a\nvarázslat idotartamára szól. Egyszerre csak egy Immunitás Varázslat-\nra lehet egy személyen, egy újabb mindaddig hatástalan lesz, amíg az\nelso idotartama le nem jár. A védelem kiterjed a varázslat alanya által\nviselt tárgyakra is. Csak az elore meghatározott varázslattal szemben\nnyújt védelmet az Immunitás Varázslatra, nem reagál azokra a varázs-\nlatokra, amelyek hasonló hatást fejtenek ki; azaz a Tuzgolyó ellen lét-\nrehozott  védelem  hatástalan  lesz  egy  Tuzcsapással  szemben.  Az  Im-\nmunitás  Varázslatra  esszencia-szükségletét  a  kiválasztott  varázslat\nalap-esszenciaigénye  határozza  meg  (pontosan  annyi)!  A  varázslat\nanyagi  komponense  egy  darabka  abból  az  anyagi  komponensbol  (\nha van), amely ahhoz a varázslathoz szükséges, amellyel szemben immu-\nnitást kíván a mágiahasználó nyerni. Az immunizáló varázslat csak a\nhatóido lejártakor foszlik szét.\n"
+    },
+    "oltalmazokor": {
+        "id": "oltalmazokor",
+        "name": "Oltalmazó kör",
+        "kodex": "Független",
+        "nehezseg": 8,
+        "info": "Típus: önmagára ható\nNehézség: 8\nEsszenciaigény: 1 \/1 szegmens\nEro: 60\nHatótávolság: mágiahasználó\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 5 szegmens\nHatóido: 1 szegmens \/ 1 Ep\nLeírás: \na varázslat egy igen eroteljes védekezo mágia, amely a létreho-\nzóját védi. Amikor elmondják, a mágiahasználó körül egy annyi méter\nsugarú oltalmazó kör képzodik, mint ahányadik szintu Mágiahasználat\njártassággal rendelkezik. Az oltalom félgömb alakú, magassága felean-\nnyi méter, mint amennyi a sugara, és nem a varázslóhoz, hanem a hely-\nhez  kötodik,  ahol  a  varázsló  állt,  amikor  létrehozta.  A körben  csak  a\nmágiahasználó tartózkodhat; ha a varázslat elmondásakor állt valaki a\nközelében,  az  automatikusan  kívül  kerül  a  körön  (egy  \u0084biztonságos\u0094\nhelyre),  mintha  valami  kitaszítaná  onnan  (ha  nem  juthat  biztonságos\nhelyre \u0096pl. szakadék szélén áll \u0096, akkor belül marad a körön). Ameny-\nnyiben a mágiahasználónak famulusa van, az minden különösebb ne-\nhézség nélkül a gazdájával marad. Közönséges tárgyakra (fa, koszikla\nstb.) a taszítóero nem hat. A kör lehetetlenné teszi éloholtak belépését\na védett területre. Megakadályozza a 30-as Eronél gyengébb varázsla-\ntok  hatásainak  bejutását,  eltéríti  a  nem  mágikus  lövedékeket  (például\nnyílvesszok, parittyakövek stb.). A félgömb védelmet nyújt a természe-\nti behatásokkal szemben, belsejében állandó (20 Celsius körüli) a ho-\nmérséklet,  nem  ázik  be  stb.  Ezenkívül\nminden ellenséges érzelmu lénynek, aki\nmegpróbál  eljutni  a  mágiahasználóhoz,\nméterenként Lelkiero-próbát kell tennie,\nkülönben visszafordul. A mágiahasználó\nkizárólag  olyan  hatású  varázslatokat  al-\nkalmazhat,  melyek  hatása  az  oltalmazó\nkörön belül marad, különben megszakít-\nja  a  kört  alkotó  esszenciaszálakat.  Ha  a\nmágiahasználó  elhagyja  a  kör  területét,\nmegtörik  a  varázslat  ereje.  Ugyancsak\nezt eredményezi, ha támadást indít a kö-\nrön kívül álló lények ellen. Anyagi kom-\nponens  egy  legalább  100  arany  értéku\ngyémánt, amely a varázslat során lassan\nelhamvad.\n"
+    },
+    "varazslatatruhazas": {
+        "id": "varazslatatruhazas",
+        "name": "Varázslat átruházás",
+        "kodex": "Független",
+        "nehezseg": 8,
+        "info": "Típus: személyre ható\nNehézség: 8\nEsszenciaigény: speciális\nEro: 35\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 3 perc\nHatóido: 1 nap\nLeírás: \na  varázslattal  a  mágiahasználó\nidolegesen  varázslatokat  adományozhat\negy mágiát nem ismero személy számára. A varázslat kizárólag humán\nteremtményeken  (a  játszható  fajok  bármelyikén)  muködik.  A mágia-\nhasználó nem szólhat bele, hogy a varázslat alanya mikor, milyen cél-\nra  használja  fel  a  kapott  varázslatokat.  Összesen  30  esszenciapontnyi\nvarázslat sugározható így át \u0096 a varázslónak ugyanannyi esszenciapon-\ntot  kell  az  átruházásba  fektetnie,  mint  az  átadott  varázslat  igénye.  Az\nátadott varázslatot a célszemély a saját varázserejébol hozza létre: ne-\nki  dupla  annyi  esszenciapontot  kell  belefektetni,  mint  amennyibe\negyébként kerülne. Így egy 25 Ep igényu varázslatot a mágus 25 Ep-\nért ruház át, a célszemély pedig 50 Ep-ért hozza létre \u0096 ha rendelkezik\negyáltalán ennyivel. Az átvevo egyszeru koncentrálással képes mukö-\ndésbe  hozni  a  kapott  varázslato(ka)t,  tehát  ilyenkor  elmarad  mind  a\nszó, mind a mozdulatkomponens. Ha az átadott varázslat anyagi kom-\nponens használatát igényli, azt a célszemélynek is használnia kell. Az\nátadott  varázslatok  változtatható  karakterisztikája  (hatótávolság,  el-\nmondási ido, stb.) az átadó mágus által kerül meghatározásra, az átadás\npillanatában (hiszen ettol függ az átruházásra fordított esszencia men-\nnyisége).  Az  átruházáskor  a  mágus  dobja  meg  az  átruházott  varázslat\nsikeréhez szükséges dobást a Smaragd Táblán (az átruházás külön do-\nbást igényel) \u0096 rontás esetén a varázslat sérülten adódik át, így a cél-\nszemély képtelen lesz létrehozni azt, ám errol a varázsló az átruházás-\nkor  még  nem  szerez  tudomást,  csak  aban  az  esetben,  ha  a  rontás  oly\nmértéku, hogy az spontán mágikus visszahatást hoz létre. Siker esetén\na varázslat sérülés nélkül átruházódott, sot, a célszemélynek nem kell\na majdani létrehozáskor dobást tennie a Smaragd Táblán, hiszen azt az\nátruházáskor megtette helyette a mágus.\n"
+    },
+    "varazsszaj": {
+        "id": "varazsszaj",
+        "name": "Varázsszáj",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: tárgyra ható\nNehézség: 3\nEsszenciaigény: speciális\nEro: 15\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 10 szegmens\nHatóido: speciális\nLeírás: \nA mágiahasználó  ezen  varázslat  segítségével  üzenethordozó-\nként használhat egy tetszoleges, nem mágikus tárgyat. Az üzenet meg-\nszólalása  mindig  feltételhez  kötodik,  s  ha  ez  bekövetkezik,  akkor  az\nüzenet elmondásra kerül (például akkor szólal meg, ha egy törpe meg-\nérinti 5 méteres körzetben a varázslattal felruházott tégla közelében a\nfalat, vagy akkor, ha valaki két méternél közelebb kerül hozzá). A Va-\nrázsszáj egy maximum 20 szavas üzenetet tud elmondani olyan nyel-\nven, amit a mágiahasználó ismer, és a varázsszáj\nmegalkotásakor használt. A varázsszáj nem képes\nvarázsigék  elmormolására.  A  varázslat  egy  be-\nszélo szájat (a varázsszájat) jelenít meg a felhasz-\nnált tárgy felszínén, ha a feltétel teljesül. Máskü-\nlönben  a  Varázsszáj  láthatatlan.  A varázslat  es-\nszencia-felhasználása  függ  az  üzenet  hoszszától\nés  az  üzenetet  kiváltó  feltétel  bonyolultságától.\nAlapértelmezésben  minden  szó  1  Ep-t  igényel,\nmíg  a  feltételek  bonyolultsága  10-50  Ep-t  igé-\nnyelhet. Túl bonyolult feltétel meghatározása 1-6\nszinttel  növeli  a  varázslat  nehézségét.  Meghatá-\nrozható, hogy a Varázsszáj hányszor ismételje el\naz üzenetet (minden egyes ismétlés további 5 Ep-\nt igényel). Amikor a Varázsszáj elmondta az üze-\nnetet  (és  az  esetleges  ismétléseket),  a  varázslat\nszertefoszlik. A varázsszáj nem reagál láthatatlan\nteremtményekre.\n"
+    },
+    "fejlesztettvarazsszaj": {
+        "id": "fejlesztettvarazsszaj",
+        "name": "Fejlesztett varázsszáj",
+        "kodex": "Független",
+        "nehezseg": 6,
+        "info": "Típus: tárgyra ható\nNehézség: 6\nEsszenciaigény: speciális\nEro: 25\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 20 szegmens\nHatóido: speciális\nLeírás: \nA fejlesztett varázsszáj esetén a mágiahasználó képes egy \nma-\nximum 10 Ep \nszükségletu varázslatot is elmondatni a Varázsszájjal. A\nmágia átruházása háromszor annyiba kerül, mint az átruházott mágia\neredeti  esszenciaigénye  (egy  rész  az  átruházásra,  két  rész  a  majdani\nlétrehozáshoz). A varázslattal felruházás további kitételei hasonlóak a\nVarázslat Átruházása varázslatéhoz (elozetes sikerdobás stb.).\n"
+    },
+    "remsegesallkapcsok": {
+        "id": "remsegesallkapcsok",
+        "name": "Rémséges állkapcsok",
+        "kodex": "Független",
+        "nehezseg": 4,
+        "info": "Típus: speciális\nNehézség: 4\nEsszenciaigény: 10 \/ állkapocs\nEro: 20\nHatótávolság: 10 méter\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 6 szegmens\nHatóido: 300 szegmens\nLeírás: \na varázslat annyi állkapcsot idéz meg, ahányszor 10 Ep-t a va-\nrázslatra fordít a mágiahasználó. Minden állkapocs a lebegoben lebeg,\nTámadó-  és  Védoszintjük  megegyezik  a  létrehozó  varázsló  mágia-\nhasználati szintje felével (lefelé kerekítve), Sebzésszorzójuk 3, Fiziku-\nmuk 15, Páncélszintjük 2. Az állkapcsok kezdeményezési értéke azo-\nnos a létrehozójuk kezdeményezésével. A mágiahasználó egy idoben\ntöbb ellenféllel szemben is használhatja a varázslatot, de az ellenfelek-\nnek egy 10 méter sugarú gömbön belül kell tartózkodniuk. Az állkap-\ncsok ezt a területet nem hagyhatják el. A varázsló bármikor új ellenfe-\nleket  jelölhet  ki  állkapcsainak,  de  nem  kell  a  harcukat  irányítania.\nAnyagi komponens valamilyen eroteljes szörnyeteg állkapocscsontja.\n"
+    },
+    "kettoscsapas": {
+        "id": "kettoscsapas",
+        "name": "Kettôs csapás",
+        "kodex": "Független",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 35\nEro: 30\nHatótávolság: zóna\/2\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 3 szegmens\nHatóido: 100 szegmens\nLeírás: \náltala  növelheto  a  célszemélyt  éro  veszteség.  A (sikeres)  va-\nrázslat vörösen izzó lángokkal veszik körül a célpontot. A lángok nem\nokoznak közvetlen veszteséget, ám mágikus hatásuk miatt a követke-\nzo 100 szegmensben a célpontot ért minden sikeres támadás okozta fi-\nzikumpont-veszteség  (függetlenül  attól,  ki  okozta  és  mily  módon)\nmegduplázódik. A veszteség lehet közönséges fegyverrel ejtett, vagy\nakár mágikus is, ez az eredményen semmit sem változtat. A varázslat\nanyagi  komponense  sárkányvérrel  ele-\ngyített elf vér.\n"
+    },
+    "varazshej": {
+        "id": "varazshej",
+        "name": "Varázshéj",
+        "kodex": "Független",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 25\nEro: 12\nHatótávolság: a mágiahasználó\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 3 szegmens\nHatóido: 10 perc\nLeírás: \nez a mágikus páncél láthatatla-\nnul  öleli  körbe  a  mágiahasználó  testét\n(a felszerelését is beleértve). A varázs-\nhéj  egyrészt  kettovel  növeli  a  mágia-\nhasználó  Páncélszintjét,  valamint  a  20\nméternél  nagyobb  távolságról  érkezo\nnem-mágikus  támadások  (parittyako,\nlándzsa, nyílvesszo) egyszeruen célt té-\nvesztenek. Ha a varázshéjat 5 szegmen-\nsen  belül  ötnél  több  támadás  éri  azon-\nnal  szertefoszlik.  A  varázslat  anyagi\nkomponense  aranyfüsttel  bevont  kro-\nkodiltojás-héj.\n"
+    },
+    "veregetes": {
+        "id": "veregetes",
+        "name": "Vérégetés",
+        "kodex": "Független",
+        "nehezseg": 8,
+        "info": "Típus: önmagára ható\nNehézség: 8\nEsszenciaigény: 1\nEro: 25\nHatótávolság: mágiahasználó\nKomponens: szó\nElmondási ido: 1 szegmens\nHatóido: lásd alább\nLeírás: \na varázslat lehetové teszi a mágiahasználó számára, hogy esz-\nszenciája  kifogyása  után  az  életerejébol  varázsoljon  tovább.  Ez  egy\nrendkívül  veszélyes,  önkiszipolyozó  technika,  melynek  alkalmazása\nkétségkívül  meggondolandó.  A  varázsló  az  utolsó  esszenciapontját\nhasználja  fel  a  varázslat  aktivizálásához  (ha  egynél  több  esszencia-\npontja van, a varázslat elmondásakor automatikusan elveszíti a mara-\ndékot,  azaz  varázsereje  nullára  csökken).  Innentol  kezdve  a  mágia-\nhasználó az életerejét használja a varázslás során. Amikor a fizikum-\npontjainak száma eléri az eredeti érték felét, a mágiahasználónak szí-\nvósságpróbát kell tennie, melyet ha elront, azonnal elájul (és a varázs-\nlatnak vége szakad). Sikeres próba esetén folytathatja a vérégetést, ám\namennyiben fizikumpontjainak száma eléri az eredeti érték húsz szá-\nzalékát, akkor Tudatpróbát kell tennie. Amennyiben ezt a dobását el-\nrontja,  akkor  nem  képes  megállítani  és  visszafordítani  a  vérégetést.\nIlyenkor  a  folyamat  irreverzibilissé  válik,  az  esszencia  (pontosabban\naz esszenciává alakított fizikumpontok) szivárogni kezd, 10 szegmen-\nsenként 1 pont sebességgel. A szivárgás addig tart, amíg a varázsló 0\nfizikumpontra  érve  el  nem  ájul.  Ha  ekkor  nem  kap  sürgos  segítséget\n(életmentés, gyógyítás, stb.), akkor pár percen belül meghal. A varázs-\nló kizárólagönmagára használhatja ezt a varázslatot!\n"
+    },
+    "buntetotekintet": {
+        "id": "buntetotekintet",
+        "name": "Büntetô tekintet",
+        "kodex": "Független",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 15\/fénypászma (max. 4 fénypászma)\nEro: 25\nHatótávolság: 20 méter\nKomponens: szó, mozdulat\nElmondási ido: 1 szegmens\nHatóido: 1 óra\nLeírás:\na  varázslat  alkalmazása  során  a  mágiahasználó  szemébol\naranyszínu fénypászma lövell ki, mely automatikusan célba talál, ha a\ncélpont  a  mágiahasználó  látóterében  található.  A  fénypászma  nyíl-\negyenesen  halad  a  célpont  irányába,  így  ha  akadály  kerül  az  útjába,\nakkor  azon  fogja  hatását  kifejteni.  A fénypászma  eroteljes  fájdalmat\nkelt  a  célpontban,  s  ezzel  egyidejuleg  10  fizikumpont  veszteséget\nokoz.  A  mágiahasználó  a  varázslat  elmondásakor  meghatározhatja,\nmilyen mozdulat komponens váltja ki a varázslat aktivizálódását (pat-\ntint az ujjával, eroteljesen ráncolja a homlokát, kétszer kacsint a sze-\nmével, stb. \u0096 a mozdulatok nem lehetnek bonyolultak). Amennyiben a\nvarázslat aktivizálása nem történik meg a varázslat elmondását köve-\nto órában, a varázslatot felépíto esszencia elgyengül, és szertefoszlik.\n"
+    },
+    "alyakkardvarazsa": {
+        "id": "alyakkardvarazsa",
+        "name": "Alyak kardvarázsa",
+        "kodex": "Független",
+        "nehezseg": 6,
+        "info": "Típus: speciális\nNehézség: 6\nEsszenciaigény: 1 \/ 5 szegmens\nEro: 30\nHatótávolság: 5 méter\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 3 szegmens\nHatóido: 5 szegmens \/ 1 Ep\nLeírás: \na varázslat egy izzó fényu, kard alakú eroteret idéz fel, amely a\nmágiahasználó  körül  repked.  A mágiahasználónak  csupán  az  elso  5\nszegmensben kell koncentrálnia a kardra, utána az már önállóan harcol,\nmindig a hozzá legközelebb lévo ellenféllel. Az önállóság arra is kiter-\njed, hogy amennyiben a kard végez ellenfelével, nyomban újabbat ke-\nres. A kard egyszerre csak egy ellenféllel veheti fel a harcot! A kard Tá-\nmadó- és Védoszintje, valamint Ereje (sebzésszorzó) megegyezik a va-\nrázsló \nmágiahasználat\njártasság  szintjével,  gyorsasága  a  varázsló  ter-\nheletlen  alapgyorsaságának  kétszeresével  \u0096  viszont  a  kard  Összesített\nGyorsaságát csupán a fegyvergyorsaság és a kezdeményezo dobás ad-\nja meg, cselekvési ido nincs. Amíg a fegyver harcol, a mágiahasználó\nbármit csinálhat. A kard sohasem távolodik el 5 méternél messzebbre a\nlétrehozójától,  de  azzal  együtt  mozog.  A kard  Védoszintje  a  karaktert\nvédi  \u0096  vagyis  az  ellenfél,  akivel  a  kard  harcol,  csak  a  varázslat  által\nmeghatározott Védoszinttel szemben támadhatja meg a karaktert, még\nakkor is, ha az háttal áll neki. Anyagi komponens egy apró gyémánt-\n"
+    }
+}

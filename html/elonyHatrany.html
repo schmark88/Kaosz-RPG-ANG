@@ -1,0 +1,65 @@
+<p> JP: {{metod.getJP()}};
+<h3>Előnyök:</h3> 
+<table border="1" cellspacing="1" cellpadding="1">
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Ár</th>
+            <th>Leírás</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="elony in elonyok"  ng-init="temp=elony.modCurrent">
+            <td><pre><label><input type="checkbox" ng-checked="hasElonyHatrany(elony)" ng-model="checked" ng-change="checkElonyHatrany(checked,elony)" ng-disabled="isDisabled(elony)"  />{{elony.name}}</label></pre></td>
+            <td><pre>{{ Math.abs(getEHCost(elony,temp)) +" jp"}}</pre></td>
+            <td><pre>{{elony.info}}</pre>
+                <table border="0" ng-show="elony.costMax">
+                    <tbody >
+                        <tr>
+                            <td>{{Math.abs(elony.modMin)}}</td>
+                            <td><input type="range" min="{{elony.modMin}}" max="{{elony.modMax}}" ng-model="temp" step="{{elony.modStep}}" ng-change="checkElonyHatrany(checked,elony)"></td>
+                            <td>{{Math.abs(elony.modMax)}}</td>
+                            
+                        </tr>
+                        <tr>
+                           
+                            <td colspan="3"> {{Math.abs(elony.modCurrent=(elony.modMin+(elony.modStep*((temp-elony.modMin)/Math.abs(elony.modStep))))*-1)}}</td>      
+                        </tr>
+                    </tbody>
+                </table></td>
+        </tr>
+    </tbody>
+</table>
+<h3>Hátrányok:</h3> 
+<table border="1" cellspacing="1" cellpadding="1">
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Bonus JP</th>
+            <th>Leírás</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="elony in hatranyok" ng-init="temp=elony.modCurrent">
+            <td><pre><label><input type="checkbox" ng-checked="hasElonyHatrany(elony)" ng-model="checked" ng-change="checkElonyHatrany(checked,elony)" ng-disabled="isDisabled(elony)"  />{{elony.name}}</label></pre></td>
+            <td><pre>{{getEHCost(elony,temp) + " jp"}}</pre></td>
+            <td><pre>{{elony.info}}</pre>
+                <table border="0" ng-show="elony.costMax">
+                    <tbody >
+                        <tr>
+                            <td>{{Math.abs(elony.modMin)}}</td>
+                            <td><input type="range" min="{{elony.modMin}}" max="{{elony.modMax}}"  ng-model="temp" step="{{elony.modStep}}" ng-change="checkElonyHatrany(checked,elony)"></td>
+                            <td>{{Math.abs(elony.modMax)}}</td>
+                        </tr>
+                        <tr>
+                            
+                            <td colspan="3"> {{elony.modCurrent=Math.abs(elony.modMin+(elony.modStep*((temp-elony.modMin)/Math.abs(elony.modStep))))}}</td>      
+                        </tr>
+                    </tbody>
+                </table></td>
+        </tr>
+    </tbody>
+</table>
+        <form action="#/rendek">
+            <input type="submit" value="Next" ng-click="char.saveData()">
+    </form>

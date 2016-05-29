@@ -1,0 +1,164 @@
+{
+    "race": "tunderke",
+    "summary":  "Egy  tündérke  karakter  lehet  szórakoztató,  lehet  bosszantó,  de  sosem\nrosszindulatú, vagy bosszúálló. Ugyancsak távol áll tõle a megbízha-\ntóság, hiszen még kebelbarátait is képes felbosszantani, átverni, csak\nhogy õ jót mulathasson rajtuk. A tündérmanók között már nem isme-\nretlen fogalom az elemi rosszakarat, a gonoszság és a gyilkos szándék\n– általában ezek ugyan nem jellemzõek rájuk sem, de elõfordulhatnak\nmegátalkodott tündérmanók.A tündérkék  egyik  elõnyös  játéktechnikai  \ntulajdonsága  a  kis  testméret,  a  repülés,  és  a  pehelysúly  közös  \nkövetkezménye:  a  tündérkét ért mechanikai eredetû sebzések negyedelõdnek,\nha a kis lény éppen a levegõben  tartózkodik\n–  mivel  ilyenkor  a  tündérke  teste  nem  fejt  ki\nnagy tehetetlenségi ellenállást az ütéssel szemben. Így – bár a fizikum-\npontjai alacsonyak – mégis kibír több ütést is. Nyilvánvalóan a mágia\nés minden egyéb – például az, ha az asztalon táncoló tündérkét csap le\nvalaki, mint egy legyet –, normális módon sebzi õt. Mivel a tündérma-\nnók nem repülnek, rájuk nem érvényes ez a kitétel.\nA tündérkét és a tündérmanót rendkívül nehéz elkapni, vagy akár-\ncsak eltalálni is, amennyiben a karakter odafigyel erre. Ez azt jelenti,\nhogy mindkét lénynek természetes adottsága a 10-es Védõszint – nyil-\nvánvaló, hogy egy alvó, figyelmetlen, vagy elbambult tündérke Védõ-\nszintje ennek csupán a töredéke, ha éppen nem 0. A természetes Vé-\ndõszint  hátránya,  hogy  nem  lehet  fejleszteni,  varázslatokkal  megnö-\nvelni, azaz mindig 10 marad.\nA tündérkék alapvetõen szerencsés népek. Ez azzal jár, hogy az in-\nduló tündérke karakter 10 ponttal elmozdíthatja vagy a jósors zónáját,\nvagy  a  semleges  sors-zónáját,  vagy  akár  egyszerre  mindkettõt,  a  10\npont  tetszõleges  megosztásával  (a  sors-zónákról  ké-\nsõbb olvashatsz). Azokban a helyzetekben, ahol komoly ve-\nszély fenyegeti õket, többnyire mágiájukat használják,  avagy  saját \nkészítésû  fegyvereiket:  apró  íjakat,  fúvócsöveket,pici  lándzsákat,  \nkardokat  –  ezeket növényi mérgekbe mártják, melyekkülönféle hatásúak lehetnek.\nEzek forgatását  el  kell  sajátítaniuk, méghozzá  a  vonatkozó  fegyver-\ncsoport  JP-igénye  szerint  –  egy kötõtû méretû lándzsa forgatása\na  tündérke  számára  ugyanolyan feladat,  mint  a  közönséges  lán-\ndzsa forgatása egy más fajba tartozó  harcosnak.  (Minden  tündér-\nke-fegyver gyorsasága, ereje 1-es,típustól függetlenül.) Könnyebbség\na tündérkék és tündérmanók számára, hogy a fegyverrel\n nem kell megtanulniuk védekezni, csak támadni, hiszen\nsaját  természetes  Védõszintjüket  amúgy sem lennének képesek túlszárnyalni.\nNéhány jártasságot a tündérke karakter a meg-\nengedett harmadik szintnél magasabb szinten sajátíthat\nel már induláskor is. Így hatodik szintig vehetõ meg számára a \ntermészetismeret, a  gyógynövényismeret és a tájékozódás jártasság. \nA tündérkékre a sasok és más, nagy testû ragadozó madarak jelen-\ntenek veszélyt, míg a tündérmanóknak leginkább a rókáktól, macskák-\ntól és kígyóktól van rettegnivalójuk. Ezen kívül mindkét tündérke-faj\ncsak a szabad természetben érzi jól magát; városokban és más, civili-\nzált  környezetben  lehangolttá  válnak,  hosszabb  távon  elsorvadnak.\nAmennyiben  egy  tündérkét  vagy  egy  tündérmanót  bezárnak,  az  egy\nhéten belül elpusztul (bár bizonyára megpróbálkozik a szabadulással).\nA faj speciális vonása a csodatétel. A különbözõ szintû csodák is-\nmerete, használata külön-külön fõérték-pontért vehetõ meg a karakter-\ngenerálás során. A csodák nem a tündérke esszenciájából jönnek létre,\nés  nem  véd  ellenük  az  esszenciapajzs,  sem  megelõzõ  típusú  ellenvarázslat\n(a tündércsoda létrejötte után alkalmazott ellenvarázs – néhány\nspeciális  csodától  eltekintve  –  visszaállítja  az  eredeti  helyzetet).  A\ntündérke karakter késõbb tanulhat újabb csodákat, amennyiben a jár-\ntasságok  fejlõdésébõl  eredõ  visszahatásokat  (Fõérték-pontokat)  erre\nkölti! Mivel a tündérke és a tündérmanó karakter lényege éppen a cso-\ndák  használatában  rejlik,  javasoljuk  a  Játékosoknak,  hogy  ne  takaré-\nkoskodjanak a fõérték-pontokkal.",
+    "specials": {
+            "atorztukorcsodaja": {
+        "id": "atorztukorcsodaja",
+        "name": "A Torz Tükör Csodája",
+        "cost": 5,
+        "info": "Ezen  csoda  segítségével  a  tündérkék  eltorzítják  célpontjuk\nkülsejét oly módon, hogy valamelyik testrészét arányta-\nlanul  naggyá  (kicsivé)  teszik  \u0096  azaz  csupán  úgy  tu-\nnik, hogy aránytalanul nagy! Ez lehet két hatalmas\nlapátfül,  gülüszem,  ijesztoen  hosszú  orr,  esetleg\njókora  nyúlfogak,  vagy  sárgadinnyényi  kezek.\nEz nem jelent funkcionális változásokat, tehát\naz illeto nem hall se jobban, se rosszabbul, ha\nelefántfülei lesznek, sot, az óriásira növesz-\ntett kéz sem jelent nehézséget, hiszen való-\njában nem no meg a kéz, csak úgy látszik \u0096\nazaz  illúzió,  ám  megtörhetetlen  illúzió!  A\ncsoda hatása bizonyára rendkívül szokatlan\negy darabig és talán zavarja is az áldozatot\na megszokott tevékenységében. A hatás 1-6\n(1d6) napon belül elmúlik. A csoda naponta\negyszer használható.\n"
+    },
+    "atancoloarnyekokcsodaja": {
+        "id": "atancoloarnyekokcsodaja",
+        "name": "A Táncoló Árnyékok Csodája",
+        "cost": 5,
+        "info": "A tündérke  képes  bármely,  egy  hétnél  nem  ré-\ngebben látott jelenetet árnyjáték formájában eload-\nni.  A  tündérke  által  megidézett  árnyékok  azonban\nnem  sík  felületeken  jelennek  meg  (bár  ezt  is  megtehe-\ntik),  hanem  a  térben.  Az  így  létrehozott  figurák  többnyire\neroteljesen torzak (karikatúraszeruen), hiszen a tündérke a Tánco-\nló  Árnyékok  Csodáját  önmaga  vagy  társai  mulattatására  idézi  meg\nleggyakrabban. Az árnyékok érinthetetlenek, a kéz átsiklik rajtuk, ha\nmegpróbálja megfogni azokat. Az eloadott jelenet hossza nem halad-\nhatja  meg  az  öt  percet.  A tündérke  ezen  képességet  naponta  egyszer\nhasználhatja.\n"
+    },
+    "acsillamfenycsodaja": {
+        "id": "acsillamfenycsodaja",
+        "name": "A Csillámfény Csodája",
+        "cost": 5,
+        "info": "Ha a tündérke ezzel a csodával bír, képes teste köré villogó, sziporká-\nzó, kavargó fényecskék miriádját varázsolni. A látvány megdöbbento-\nen szépséges, ám igencsak szemkápráztató, és rövid ido után szédíto\nis.  Ráadásul  a  fények  között  a  tündér  alakja  elvész.  Általában  arra\nszokták  használni,  hogy  kíváncsi  utazókat  csalogassanak  az  éjszaká-\nban jól kitalált csapdájuk felé, de alkalmas a fegyverektol való védekezésre is.\nA tündérke a csodát kizárólag magára mondhatja. Minden célzó, és\nlofegyveres  támadás,  ami  ilyenkor  a  tündérkére  irányul,  -50-es  cél-\nszám-módosítóval  dobandó.  Idotartama  tetszoleges,  ám  ha  tizenöt\npercnél  tovább  viseli  a  tündér,  o  maga  is  beleszédül  a  látványba,  és\nminden cselekedetét -10 célszám-módosítóval teszi meg. Egy óra után\npedig  képtelen  lesz  repülni,  olyannyira  elszédül.  Fél  napos  viselése\negy  napos  ájulást  okoz.  Ugyanezek  vonatkoznak  azokra  is,  akik  a\nfényt sokáig bámulják. A tündérke napi kétszer képes a csoda megidé-\nzésére.\n"
+    },
+    "azidezescsodaja": {
+        "id": "azidezescsodaja",
+        "name": "Az Idézés Csodája",
+        "cost": 5,
+        "info": "A tündérke képes olyan illúziólényeket létrehozni, melyek minden ér-\nzékszerv számára valósnak tunnek. Az illúziólényeket tetszés szerint\nmozgathatja, vagy csupán részben jelenítheti meg \u0096 például hallani le-\nhet a troll hangját, vagy érzed elviselhetetlen buzét, de nem látod. A\nvele egyméretu illúziólényeket 1d10 óráig, a nála nagyobb, de egy át-\nlagos ember méreténél kisebb illúziólényeket 2d10 percig, egy ember-\nnél nagyobb illúziólényt pedig 1d6 percig képes fenntartani. Az illú-\nzió valódi illúzió \u0096 kijátszhatóságáról lásd a Mágia fejezet illúziókról\nszóró  részét  \u0096  azzal  a  megkötéssel,  hogy  csakis  állatok,  szörnyek,\nesetleg  növények  jeleníthetoek  meg  a  segítségével,  építmények,  tár-\ngyak és egyebek nem. A tündérke ezen képességet naponta csak egyszer használhatja.\n"
+    },
+    "atunderkincscsodaja": {
+        "id": "atunderkincscsodaja",
+        "name": "A Tündérkincs Csodája",
+        "cost": 5,
+        "info": "A tündérke közönséges tárgyakat \u0096 kavicsot, nyúlbogyót stb. \u0096 csillo-\ngó-villogó kincs-illúzióval lát el. A kincs lehet drágako, arany, de ké-\npes  akár  egy  fadarabot  különlegesnek  látszó  karddá,  vagy  egy\nértéktelen rongydarabot csodálatos szonyeggé varázsolni stb. Az illú-\nzió méretének felso határa a vödörnyi méret, vagy a másfél méternyi\nhossz. Az illúzió semmiféle varázslattal nem semlegesítheto, és min-\nden érzékszerv, sot, a detektáló mágiák is a hamis valóságot közvetí-\ntik. Az illúzió kerek egy napig marad fenn. A tündérke naponta két vö-\ndörnyi tárgyat képes illúziókincsnek láttatni \u0096 akár két nagy darabot,\nakár sok száz kisebbet, akár egyszerre, akár egymás után.\n"
+    },
+    "atitokzatoshangcsodaja": {
+        "id": "atitokzatoshangcsodaja",
+        "name": "A Titokzatos Hang Csodája",
+        "cost": 5,
+        "info": "A tündérke illúziója ezúttal az áldozat fejében megszólaló hang. Ez a\nhang lehet egy bájos noi hang épp úgy, mint reszelos ogármorgás. A\ntündérke ezen a hangon képes értelmes információkat közölni áldoza-\ntával, aki tudatában van annak, hogy ez a különös hang csakis az o fe-\njében  szólal  meg  \u0096  és  ez  bizony  elég  misztikussá  teszi  a  jelenséget.\nUgyanakkor  a  tündérke  nem  tudja,  hogy  az  áldozat  milyen  hangra  a\nlegfogékonyabb, vagy milyen nyelven ért hiszen ez a csoda nem teszi\not gondolatolvasóvá \u0096 de megtudhatja más úton-módon, esetleg úgy,\nhogy valaki állandóan Yvorlt emlegeti, mire a tündérke egy mély fér-\nfihangot jelenít meg. A csoda egyirányú \u0096 a tündérke \u0084belebeszélhet\u0094\naz áldozat fejébe, de nem hallja, hogy o mit gondol, így a titokzatos\nhang  az  áldozat  gondolataira  sem  reagál.  Szintén  megkötés,  hogy  a\ntündérke, bármilyen telepatikus hangot is használjon, a saját beszéd-\nstílusának megfeleloen fog beszélni, esetleg ha muveltebb, akkor ké-\npes ezen változtatni. (Amennyiben a tündérke nem akarja, hogy az ál-\ndozat tudja, hogy csak az o fejében szól a hang, úgy az Idézés Csodá-\nját  használja  \u0096  csak  hangot  létrehozva  vele.)  Ez  a  csoda  naponta  há-\nromszor használható, esetenként 1d10 percig.\n"
+    },
+    "aszivarvanycsodaja": {
+        "id": "aszivarvanycsodaja",
+        "name": "A Szivárvány Csodája",
+        "cost": 5,
+        "info": "A tündérke ezzel az illúzióval képes megváltoztatni valaminek (valaki-\nnek) a színét. Ily módon egy zöld almából gyönyöru pirosat \u0084varázsol-\nhat\u0094, a betegesen sápadt harcos arcát kipirosíthatja, a tej lehet kék szí-\nnu, vagy akár szivárványszínu is. A szín megváltoztatásához a tündér-\nkének meg kell érintenie célpontját. Naponta egyszer használható, ha-\n"
+    },
+        "aszazathivoszocsodaja": {
+        "id": "aszazathivoszocsodaja",
+        "name": "A Százat Hívó Szó Csodája",
+        "cost": 15,
+        "info": "Ezzel a csodával bármilyen, vakondnál nem nagyobb állatból (beleért-\nve  a  rovarokat  és  a  madarakat  is)  kereken  százat  hívhat  magához  a\ntündérke.  Az  összes  állat  egy  órán  belül  megérkezik  (kivéve,  ha  az\nösszegyulésük bármilyen természetes vagy természetfeletti akadályba\nütközik), s a tündérke egy teljes órán át tud \u0084parancsolni\u0094 nekik, mie-\nlott ismét szétszélednének. A parancs csak abban az esetben fog vég-\nrehajtásra kerülni, ha az megvalósítható és nem ellentétes az összehí-\nvott  állatok  természetével.  A tündérke  megkérheti  az  összegyult  ma-\ndarakat, hogy emeljék fel ot a magasba, de arra már nem, hogy öngyil-\nkos módon támadjanak meg valami iszonytató szörnyeteget. A tündér-\nke ezt a csodát hetente egyszer használhatja.\n"
+    },
+    "atorztestcsodaja": {
+        "id": "atorztestcsodaja",
+        "name": "A Torz Test Csodája",
+        "cost": 15,
+        "info": "Mindenben megegyezik a Torz Tükör Csodájával (trükk), csupán ab-\nban különbözik, hogy a változás valódi, nem csupán illúzió, és ez bi-\nzony  nagyban  befolyásolja  az  eltorzított  testrész  használhatóságát.\nEzen kívül némileg gyorsabb lefolyású a hatás: csupán 1d10 óráig tart.\nA tündérke ezen csodát naponta egyszer használhatja.\n"
+    },
+    "azillanokodcsodaja": {
+        "id": "azillanokodcsodaja",
+        "name": "Az Illanó Köd Csodája",
+        "cost": 15,
+        "info": "Ha a tündérke megidézi ezt a csodát, képes a testét eltüntetni, majd egy\nmásik  helyen  megjelentetni,  tehát  teleportálódni.  A teleportáció  rövid\ntávú, ám villámgyors, és többször megismételheto egymás után. Így a\ntündér eltunhet, hogy aztán megjelenjen ellenfele háta mögött, mire az\nmegpördül, de ekkor a tündérke ismét eltunik, és újra megjelenik a há-\nta  mögött,  így  bolondot  csinálva  belole.  A varázslat  továbbá  alkalmas\nfalakon, ajtókon való bejutásra, amennyiben elég közel állnak hozzá a\ncsoda elmondásának idopontjában. Mágikus anyagok (falak, gátak) és\nvarázslatok sem képesek meggátolni ezt a fajta teleportációt.\nA tündérke a csodát csak magára mondhatja el. Amint megtörtént\naz aktiválás, a tündérke eltunik, hogy megjelenjen egy nem több, mint\nkét  méterrel  arrébb  lévo,  általa  meghatározott  helyen.  A helyet  nem\nkell látnia, ám ha a csoda véghezvitele akadályba ütközik, például tö-\nmör falfelületben, sziklában jelenne meg, úgy a csoda nem jön létre,\nés nem is használódik el. Egy csoda egyszeri teleportációt tesz leheto-\nvé. A tündérke naponta tízszer használhatja a csodát, akár gyors egy-\nmásutániságban is.\n"
+    },
+    "amegvadultfoldcsodaja": {
+        "id": "amegvadultfoldcsodaja",
+        "name": "A Megvadult Föld Csodája",
+        "cost": 15,
+        "info": "A csoda hatására valami láthatatlan ero fellöki a tündér közelében álló-\nkat,  akik  jó  eséllyel  elzuhannak,  mintha  csak  kirántották  volna  lábuk\nalól a talajt. Ezt az idot szokták használni a tündérek arra, hogy elme-\nneküljenek.  A csoda  közvetlenül  nem  okoz  sebzést,  és  jó  eséllyel  az\nesés sem, de bizonyos szituációkban, például egy szakadék szélén igen\nkomoly  veszélyt  jelenhet.  Megjegyzendo  azonban,  hogy  a  tündérek\nmentalitásával nem fér össze az ily módon való gyilkolás... bezzeg egy\nrosszindulatú tündérmanó kifejezetten keresi az ilyen alkalmakat.\nMiután  a  tündérke  elmondja  a  csodát,  mindenki,  aki  a  földön  áll\n(tehát  nem  repül,  vagy  lebeg),  és  30  méteres  körzetben  tartózkodik,\nköteles  Ügyességpróbát  dobni  rendkívül  kedvezotlen  körülmények\nközepette.  Amennyiben  elvéti,  a  láthatatlan  ero  kirántja  a  lábát,  és  o\nmenthetetlenül elzuhan. A csodát a tündérke napi egyszer tudja hasz-\nnálni.\n"
+    },
+    "ahamisgyumolcsokcsodaja": {
+        "id": "ahamisgyumolcsokcsodaja",
+        "name": "A Hamis Gyümölcsök Csodája",
+        "cost": 15,
+        "info": "A  tündérke  bármilyen,  terméshozásra  képes  növényen  képes  egy\ndarab  olyan  gyümölcsöt  növeszteni  pár  perc  leforgása  alatt,  amilyet\nszeretne.  Ha  úgy  akarja,  alma  nohet  a  körtefán,  vagy  mondjuk  édes\nszolo a bodzán. Ehhez mindössze végig kell simítania az adott növé-\nnyen, és hangosan megnevezni, milyen gyümölcsöt óhajt. A csoda kö-\nrülbelül három perc alatt megy teljesen végbe, azaz ennyi ido szüksé-\ngeltetik ahhoz, hogy a gyümölcs elérje végso méretét és érettségi álla-\npotát. A csodát a tündérke naponta háromszor tudja használni.\n"
+    },
+    "arothadogyumolcsokcsodaja": {
+        "id": "arothadogyumolcsokcsodaja",
+        "name": "A Rothadó Gyümölcsök Csodája",
+        "cost": 15,
+        "info": "Ezt a csodát a tündérkék legtöbbször akkor szokták használni, ha va-\nlami nincs az ínyükre. Egyetlen mozdulattal képesek emberi fogyasz-\ntásra alkalmatlanná változtatni bármilyen (amúgy eheto) gyümölcsöt.\nA csoda körülbelül harminc méter sugarú körön belül minden növény-\nre hat: az almafákon rothadó, kukacokkal teli gyümölcsök fognak lóg-\nni, a gombák megbarnulnak és folyóssá válnak, stb. A tündérkék a cso-\nda  egy  fordított  változatával  képesek  visszájára  is  fordítani  a  hatást\n(akár  az  általuk  létrehozott,  akár  egy  természetes  pusztulás  állapotá-\nban leledzo helyen). Az átalakulás azonnali, egyik pillanatról a másik-\nra megy végbe, és a hatókörben lévo, de már leszakított gyümölcsök-\nre (és egyéb, fogyasztható növényekre) is érvényes. A csodát a tündér-\nke hetente egyszer tudja használni.\n"
+    },
+    "atisztavizcsodaja": {
+        "id": "atisztavizcsodaja",
+        "name": "A Tiszta Víz Csodája",
+        "cost": 15,
+        "info": "A tündérke  bármilyen  mocskos,  ihatatlan  folyadékot  (szennylé,  mé-\nreg, varázsital stb.) képes tiszta vízzé változtatni. A folyadék térfoga-\nta  általában  nem  változik,  bár  a  szilárd  anyagokkal  teli  folyadékok\n(iszapos víz, stb.) némileg csökkenhetnek. Az átváltoztatás nem szige-\nteli el a tiszta vizet az eredeti folyadéktól, azaz ha lehetoség van rá, ak-\nkor nyomban el fog keveredni azzal (például egy hullákkal teli, véres\nvizu folyó vizének egy részét a tündérke átváltoztathatja, de meginni\nmár nem lesz ideje, lévén a tiszta víz ismét elkeveredik a mocskossal).\nA csodát a tündérke naponta egyszer tudja használni, és egyszerre kö-\nrülbelül egy akónyit képes átváltoztatni.\n"
+    },
+    "arovarseregcsodaja": {
+        "id": "arovarseregcsodaja",
+        "name": "A Rovarsereg Csodája",
+        "cost": 15,
+        "info": "A kevés támadásra használt csodák egyike. Segítségével\na tündér a környezet összes rovarját és férgét egy kije-\nlölt helyre, vagy személyre idézi (legfeljebb 500 mé-\nteres  körzetbol).  Ez  mindenképpen  helyszínfüggo,\ntehát vélhetoen más rovarok rajzanak elo egy bar-\nlangban,  egy  erdoben,  vagy  egy  mocsárban.  A\nhelyszínmegkötés  ugyanúgy  vonatkozik  a rovarok számára is.\nA megidézett rovarok megpróbálnak a\nleheto  leggyorsabban  az  idézés  helyére\nérni.  Az  érkezo  rovarok  mindenképpen\nagresszívan  fognak  viselkedni,  ami  per-\nsze  élolényenként  mást  és  mást  jelent.\nEgy  házi  légy  vélhetoen  csak  bosszantó\nlesz, míg egy méh-, vagy pókraj már különö-\nsen  veszélyes  is  lehet.  A megidézett  rovarok\nmegérkezésük  után  legfeljebb  5  percig  (500\nszegmensig) támadnak a célpontra, vagy raj-\nzanak  egy  helyen,  utána  szétoszlanak.  A ro-\nvarokat az oket megidézo tündér korábban is\nelküldheti.  A csodát  a  tündérke  kétnaponként\n"
+    },    "abeolvadascsodaja": {
+        "id": "abeolvadascsodaja",
+        "name": "A Beolvadás Csodája",
+        "cost": 30,
+        "info": "A  csoda  segítségével  a  tündér  képes  teljesen  láthatatlanná  és  érzé-\nkelhetetlenné válni. Látni, hallani nem lehet, mi több, a mágikus érzé-\nkelések sem jelzik hollétét. Ilyenkor a tündér szabadon garázdálkod-\nhat, varázsolhat, harcolhat, vagy tehet, amit csak akar. Mindaz, ami el-\nhagyja a testét \u0096 fénysugár, ellott nyílvesszo, elhajított lándzsa \u0096 lát-\nhatóvá válik, és ez alapján már be lehet azonosítani a tündérke tartóz-\nkodási helyét, hacsak az addig nem mozdul tovább (s miért ne tenné?).\nA tündérke  ezt  a  csodát  csak  magára  varázsolhatja.  Idotartama  1\nóra, és havonta csak egyszer idézheto meg.\n"
+    },
+    "amegtorpanoidocsodaja": {
+        "id": "amegtorpanoidocsodaja",
+        "name": "A Megtorpanó Ido Csodája",
+        "cost": 30,
+        "info": "A tündérkék  nagyhatalmú  csodája  ez.  Létrejöttekor  a  tündér  körüli  öt\nméter sugarú gömbben minden megdermed, mintha csak kiszakították\nvolna az ido sodrából. Mozdulatlanná válik ember s állat, ahogy meg-\ndermed a repülo nyílvesszo, de akár a hulló falevél is. A csoda nem vá-\nlogat barát, vagy ellenség, élo, vagy élettelen között. Aki és ami benne\ntartózkodott a csoda buvkörében, menthetetlenül áldozata lesz annak.\nA varázslat idotartama mindössze egyetlen perc, utána úgy zökken\nvissza az ido a saját medrébe, mintha semmi nem történt volna. A cso-\nda áldozatainak fogalmuk sincs arról, mi is történt velük, hisz nekik az\naz egy perc csupán egyetlen pillanat volt csupán, így a körülöttük ez\nido alatt létrejött változásokat is úgy fogják kezelni, mintha az is egy\nröpke pillanat alatt történt volna.\nFontos megjegyezni, hogy a csoda csak azokra hat, akik az aktivá-\nlás idopontjában tartózkodtak hatókörében, mindenki más, aki késobb\nlép be (de még az egyperces idotartam lejárta elott), semmilyen hatást\nnem szenved el. A tündér a csodát havonta egyszer mondhatja el.\n"
+    },
+    "azoldakaratcsodaja": {
+        "id": "azoldakaratcsodaja",
+        "name": "A Zöld Akarat Csodája",
+        "cost": 30,
+        "info": "Hatása  gyakorlatilag  állandó,  ha  egyszer  megtanulták,  folyamatosan\nmuködésben van. A csoda birtokában a tündér képes magát megértet-\nni a növényekkel. Imígyen megkérhet egy surubb cserjést, csalitost, jó\npár szúrós tüskebokrot, hogy nyisson neki ösvényt az erdo mélye fe-\nlé, vagy éppen pont fordítva, eltüntettethet egy már meglévot rossz út-\nra  terelve  így  az  arra  járókat.  Ugyanúgy  megkérhet  egy  fát,  ugyan\npottyantsa már le neki elérhetetlen gyümölcsét, vagy hajoljon át a se-\nbes sodrású folyó fölött. Mi több, a hosszú aljnövényzetet is rábírhat-\nja, hogy akasszák meg üldözoi lábát.\nFontos kitétel továbbá, hogy a tündér csupán kéri a növényeket és\nnem  parancsol  azoknak,  tehát  a  kello  tisztelet  híján,  esetleg  barát-\nságtalan  környezetben  (mint  amilyen  az  Átokmezsgye)  nem  fel-\ntétlenül fognak neki engedelmeskedni.\n"
+    },
+    "azovoligetcsodaja": {
+        "id": "azovoligetcsodaja",
+        "name": "Az Óvó Liget Csodája",
+        "cost": 30,
+        "info": "A tündér  ezen  csodával  a  közte  és  az  erdo  között  feszülo\nmisztikus  kapcsolatot  használja  fel.  A csoda  csupán  er-\ndokben, parkokban, ligetekben muködik. Ha a tündér ak-\ntiválja  azt,  onnantól  kezdve  minden  egyes  órában  teljes\nFizikumpontjainak  10%-át  regenerálja,  amennyiben  seb-\nzett volt. A sebei csodás módon összezáródnak, a fájdalom\nalábbhagy, a gyengeség tovatunik. A tündér mindössze-\nsen  5  órát  képes  ilyen  regenerálódással  tölteni\n(így  értelemszeruen  összes  Fizikumpontjának\n50%-át képes visszanyerni). Ha a tündér nem volt\nsebzett, a csoda akkor is nyugtatóan hat. Minden\negyes  ilyen  regenerálódással  töltött  óra  2  órányi\nalvásnak felel meg. A tündérek ezt a csodát heten-\nte egy alkalommal képesek használni.\n"
+    },
+    "valoravaltvagycsodaja": {
+        "id": "valoravaltvagycsodaja",
+        "name": "Valóra Vált Vágy Csodája",
+        "cost": 50,
+        "info": "Az egyik legerosebb csoda, amely egyáltalán létre-\njöhet. Hatására a tündér létrehozhat majd bármilyen\nhatást,  amilyet  csak  kérnek  tole.  Teremthet  értéke-\nket,  növelheti  tulajdonságait,  kívánhat  hatalmat  és  így  tovább  \u0096  \ndecsakis mások kérésére és gyarapodására!\nNem kötelezo teljesíteni a kérést, csakha o úgy látja jónak. A leg-\nveszélyesebb csodák egyike ez. Néhány kikötés: globális méretu vál-\ntozásokat nem eszközölhet, ám kisebb változásokat igen \u0096 nagyjából\negy  aréna  méretének  megfelelo  helyet  lehet  megváltoztatni.  Például\nnem kérheti, hogy o legyen a világ ura, vagy azt, hogy tunjön el egy\nország, vagy egy kontinens, azt viszont igen, hogy nojön egy kisebb\nerdo, esetleg, váljon surubbé körülötte a meglévo. A csoda hatása ma-\nradandó, de nem megváltoztathatatlan (vagyis megfelelo varázslatok-\nkal vissza lehet állítani az  eredeti  állapotot,  de  ez  a  varázslat  nem  a\ncsoda hatását töri meg, nem ellenvarázs, hanem egy már eredendonek\ntekintett  állapotot  alakít  át  valami  újjá  \u0096  amely  ez  esetben  az  eredeti\n\/régi\/ állapot).A csodát a tündérke teljesíti \u0096 de a Mesélo által. Azaz amennyiben\nvalaki csodát kér a tündérkétol, tündérmanótól, és a Játékos úgy dönt,\nhogy  karaktere  vállalja  a  csoda  teljesítését,  a  csoda  megvalósulása  a\nMesélo fantáziáján múlik. Ahol csak lehet, a Mesélo forgassa ki a ha-\ntást  \u0096  félreértelmezhet  bátran,  de  nem  tehet  meg  olyasmit,  amelyre\nnincsen  \u0084logikus\u0094  félreértelmezo  varázslata.  Ezt  a  csodát  a  tündérke\ncsupán egyszer használhatja egy évben, és a többi hatalomtól eltéroen ez \n"
+    }
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {
+        "termeszetismeret":6,
+        "gyogynovenyismeret":6,
+        "tajekozodas":6
+    },
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 10,
+            "max": 30
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 40,
+            "max": 100
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 25,
+            "max": 80
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 25,
+            "max": 80
+        }
+    },
+    "age": {
+        "juvenis": 1,
+        "seniorMin": 40,
+        "seniorMax": 45
+    },
+    "speed": {
+        "min": 3,
+        "base": 2,
+        "max": 1
+    }
+}

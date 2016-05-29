@@ -1,0 +1,140 @@
+{
+    "felszem": {
+        "id": "felszem",
+        "name": "Fél szem \/ félvakság:",
+        "info": "A karakter egyik sze-\nme  hiányzik,  vagy  megvan  ugyan,  de  vak.\nAz  errol  az  oldalról  érkezo  támadásokat  a\nkarakter nem látja rendesen, ezért forgatagos\nharci helyzetben (amikor nem csupán egy el-\nlenféllel  áll  szemben)  3  szinttel  csökken  a\nVédoszintje.  Hajítófegyverekkel  a  karakter\nigen  rosszul  bánik,  mert  teljességgel  hiány-\nzik  a  szükséges  térlátása.  A fél  szembol  kö-\nvetkezo egyéb hátrányokat az adott helyzet-\nnek  megfeleloen  szenvedi  el.  A  hátrány\n 1200 jártasságpontot ad.\nSzürkületi  vakság  (farkasvakság):\nA karakter szemének rendellenessége miatt szür-\nkület idején nagymértéku látásromlást szen-\nved el. Látása már ekkor is olyan, mintha éj-\nszaka lenne. A sötétség beálltakor gyakorla-\ntilag   megvakul.   Számára   a   fáklyafény,\navagy  egy  gyertyákkal  megvilágított  szoba\nszintén  túlságosan  sötét:  bár  valamit  lát  az\nilyen  fényviszonyok  között,  de  csak  körül-\nbelül annyit, mint egy egészséges karakter a\ncsillagfényes  (és  nem  holdfényes!)  éjsza-\nkán. \nA hátrány 900 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "azatlagosnalrosszabblatas:": {
+        "id": "azatlagosnalrosszabblatas:",
+        "name": "Az átlagosnál rosszabb látás:",
+        "info": "a karakter a saját faján belül a nagyon rossz látással ren-\ndelkezok  közé  tartozik.  Látótávolsága  és  látásnak  élessége  mintegy\n40-70  százaléka  az  átlagos  fajtársainak.  Minden  olyan  jártasságot,\namelynél  a  látás  komoly  szerepet  játszik  (például  íjászat,  egyéb  lo-\nfegyverek, stb.) a karakter 20 százalékkal több jártasságpontért sajátít-\nhat el. \nA hátrány alapban 600 jártasságpontot ad 70%-os látótávol-\nság és látási élesség esetében, minden további 10%-os csökkenésért\nújabb  200  Jp-t  (azaz  ha  a  karakter  csupán  az  átlagos  látótávolság\n40%-ig lát el illetve látásának élessége is csupán 40%-os, akkor ös-\nszesen 1200 Jártasságpontra tesz szert.\n",
+        "cost": ""
+    },
+    "siketseg:": {
+        "id": "siketseg:",
+        "name": "Siketség:",
+        "info": "a  karakter  egyik  vagy  mindkét  fülére  siket.  Amennyiben\ncsak egyik fülére siket, akkor az abból az irányból érkezo hangokat és\nzajokat csupán 20-30 százalék eséllyel érzékeli. A teljes siketség ese-\ntén a karakternek kötelezo megtanulni a jelbeszéd és a szájról olvasás\njártasságokat  legalább  3.  szinten  (hogy  kommunikálni  tudjon  \u0096  bár\nkreatívabb mesélok és karakterek más módszereket is kitalálhatnak a\nkommunikáció megteremtésére, például írás\/olvasás, mágikus techni-\nkák  stb.).  \nA hátrány  700  jártasságpontot,  kétoldali  siketség  esetén\n2000 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "azatlagosnalrosszabbhallas:": {
+        "id": "azatlagosnalrosszabbhallas:",
+        "name": "Az átlagosnál rosszabb hallás:",
+        "info": "a karakter a saját faján belül a nagyon\nrossz  hallással  rendelkezok  közé  tartozik.  Hallótávolsága  és  hallásá-\nnak élessége mintegy 40-70 százaléka az átlagos fajtársainak. Minden\nolyan jártasságot, amelynél a hallás komoly szerepet játszik (például\nhangok  hallása,  stb.)  a  karakter  20  százalékkal  több  jártasságpontért\nsajátíthat el. \nA hátrány alapban 400 jártasságpontot ad 70%-os hal-\nlótávolság és hallás élesség esetében, minden további 10%-os csök-\nkenésért újabb 200 Jp-t (azaz ha a karakter csupán az átlagos halló-\ntávolság  40%-ig  hall  illetve  hallásának  élessége  is  csupán  40%-os,\nakkor összesen 1000 Jártasságpontra tesz szert.\nA szaglás  teljes  hiánya:\na  karakter  egyszeruen  képtelen  érzékelni  a\nkülönféle szagokat és illatokat, ennek következtében az ízeket is csak\nakkor,  ha  azok  nagyon  erosek.  Néhány  jártasság  esetében  ennek  ko-\nmoly  gátló  hatása  van  (pl.  \nfozés,  alkímia,  méregkeverés stb.) \nA hátrány 1200 jártasságpontot ad.\nAz  átlagosnál  rosszabb  szaglás:\na  karakter  a  saját  faján  belül  a  na-\ngyon  rossz  szaglással  rendelkezok  közé  tartozik.  Szaglótávolsága  és\nszaglásának élessége mintegy 40-70 százaléka az átlagos fajtársainak.\nEz  gyakorlatilag  azt  jelenti,  hogy  csak\naz  egészen  eros  és  nyilvánvaló  szago-\nkat és illatokat képes felismerni és eset-\nleg  megkülönböztetni,  de  esélye  sincs\narra,  hogy  különbséget  tegyen  két  ha-\nsonló  illat  között  (például  neki  csak-\nnem  minden  virág  illata  egyforma).  \nA hátrány  alapban  400  jártasságpontot\nad  70%-os  szaglótávolság  és  szaglási\nélesség   esetében,   minden   további\n10%-os  csökkenésért  újabb  200  Jp-t\n(azaz ha a karakter csupán az átlagos\nszaglótávolság  40%-ig  érzékel  illetve\nszaglásának  élessége  is  csupán  40%-\nos,  akkor  összesen  1000  Jártasság-\npontra tesz szert.\n",
+        "cost": ""
+    },
+    "hianyzo": {
+        "id": "hianyzo",
+        "name": "Hiányzó\/béna láb:",
+        "info": "a karakter egyik lába hiányzik, vagy teljességgel\nbéna. Az ebbol következo hátrányok mindig az adott helyzet függvé-\nnyében nyilvánulnak meg (és bizonyos jártasságok elsajátítását jócs-\nkán megnehezítik vagy lehetetlenné is tehetik). A karakter csak man-\nkóval vagy valami alkalmatossággal képes közlekedni, haladási sebes-\nsége  ennek  megfeleloen  mindössze  ötöde  egy  egészséges  karakteré-\nnek. A hátrány 2000 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "cseneveszkar:": {
+        "id": "cseneveszkar:",
+        "name": "Csenevész kar:",
+        "info": "a karakter egyik karja nem fejlodött ki teljesen. Bár a\nvégtag  megvan,  nem  funkcionál  rendesen,  mert  rövidebb,  gyengébb,\nesetleg mozgásában korlátozott. A csenevész karból fakadó hátrányok\nmindig az adott helyzet függvényében nyilvánulnak meg (és bizonyos\njártasságok elsajátítását jócskán megnehezítik vagy lehetetlenné is te-\nhetik). \nA  hátrány  600  jártasságpontot,  fegyverforgató  kar  esetén\n1200 jártasságpontot, mindkét kar esetén 2500 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "hianyzokezujjak:": {
+        "id": "hianyzokezujjak:",
+        "name": "Hiányzó kézujjak:",
+        "info": "a karakternek egy vagy több kézujja hiányzik az\negyik  kezén  (ez  lehet  születési  rendellenesség  vagy  akár  az  elotörté-\nnetbol fakadó testi hátrány \u0096 például csatában levágták két ujját, stb.).\nHa háromnál kevesebb ujja van, akkor azzal a kezével képtelen fegy-\nvert fogni. Számos jártasság elsajátításánál ez a hátrány komoly prob-\nlémákat okozhat, az esetleges tanulási nehézségek mértékének eldön-\ntése a Mesélo joga. \nA hátrány 100 jártasságpontot ad ujjanként, fegy-\nverforgató  kéz  esetén  150  jártasságpontot  ujjanként,  mindkét  kéz\nesetén 200 jártasságpontot ad ujjanként.\n",
+        "cost": ""
+    },
+    "pupossag:": {
+        "id": "pupossag:",
+        "name": "Púposság:",
+        "info": "a  karakter  púposnak  született,  ennek  megfeleloen  kicsit\nmindig meggörnyedve jár. A púpjából adódó hátrányok és nehézségek\negész életében sújtják (kigúnyolják testalkata miatt; vértet nem visel-\nhet  vagy  csak  speciálisan  elkészítettet  stb.).  Azokat  a  jártasságokat,\nmelyeknél  a  mozgékonyság  elengedhetetlen  (például  az akrobatika),\nnem sajátíthatja el a 4. szint fölött. A púpos karakter ügyessége soha\nnem haladhatja meg a 60-at. \nA hátrány 1000 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "verzekenyseg:": {
+        "id": "verzekenyseg:",
+        "name": "Vérzékenység:",
+        "info": "a karakter vére nagyon nehezen alvad meg, ezért már\na kisebb, vérzéssel járó sebek is komoly odafigyelést igényelnek. Min-\nden vérzo sebe két szinttel súlyosabbnak számít, mint amennyi az ak-\ntuális sebszintek alapján lenne; ez azt jelenti, hogy a sebkötözés jártas-\nság elleni nehézség is két szinttel megemel-\nkedik a vérzékeny karakter esetében. A hátrány 1800 jártasságpontot ad. \nA kimagasló sebgyógyulás  elonnyel  nem  birtokolható egyidejuleg!\n",
+        "cost": ""
+    },
+    "rosszmagikusellenallas:": {
+        "id": "rosszmagikusellenallas:",
+        "name": "Rossz mágikus ellenállás:",
+        "info": "minden varázs-\nlat, amelyet megfogott a karakter esszencia-\npajzsa, eredeti Erején túl további 1-5 pontot\nroncsol a pajzson. Ez a tulajdonság nem bir-\ntokolható  a  \nkimagasló  mágikus  ellenállás\nelonnyel  együtt.  \nAz  1  pontos  roncsolódás\nhátránya 50 jártasságpontot ad, a 2 pontos\n150  Jp-t,  a  3  pontos  300  Jp-t,  a  4  pontos\n500 Jp-t, az 5 pontos 1000 Jp-t.\n",
+        "cost": ""
+    },
+    "balsors:": {
+        "id": "balsors:",
+        "name": "Balsors:",
+        "info": "bármihez nyúl a karakter, az több-\nnyire  balul  üt  ki.  Számára  minden  sorsdo-\nbás 5, illetve 10 pont levonása után vetendo\nössze  az  aktuális  zónákkal.  \n",
+        "cost": ""
+    },
+    "ahatrany500": {
+        "id": "ahatrany500",
+        "name": "A hátrány  500",
+        "info": "illetve 1000 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "fajilassusag:": {
+        "id": "fajilassusag:",
+        "name": "Faji lassúság:",
+        "info": "a karakter lassabb, mint fajá-\nnak átlagos képviseloje. A gyorsaság lehet-\nséges legnagyobb faji értékérol a gyorsaság\ntáblázata ad információt. (Minél nagyobb a\nGyorsaság  értéke,  annál  lassabb  a  karak-\nter!) \nA hátrány  300  jártasságpontot  ad  az\nátlagtól való eltérés minden pontjáért.\n",
+        "cost": ""
+    },
+    "allergia:": {
+        "id": "allergia:",
+        "name": "Allergia:",
+        "info": "a  karakter  valamire  erosen  aller-\ngiás. A szeme bedagad, alig lát, nem kap le-\nvegot a takonytól, kiütést kap, bedagad a torka, fáj a feje, rossz a köz-\nérzete, gyengülnek a reflexei stb., ha az allergiát kiváltó anyaggal ta-\nlálkozik. \nA hátrány  100  és  1500  közötti  jártasságpontot  adhat,  az\nallergén anyag gyakoriságának függvényében.\n",
+        "cost": ""
+    },
+    "viziszony:": {
+        "id": "viziszony:",
+        "name": "Víziszony:",
+        "info": "a karakter betegesen retteg a víztol, víz közelében állandó\nkényszerképzete  támad,  miszerint  meg  fog  fulladni  (ezért  mindent\nmegtesz annak érdekében, hogy mielobb távol kerülhessen a víztol). A\nkarakter  természetesen  képes  meginni  a  vizet  (de  lehetoleg  csak  ku-\nlacsból vagy kancsóból kiöntve, s nem közvetlenül egy patakból fel-\nszürcsölve). Egy víziszonyban szenvedo karaktert csónakba kénysze-\nríteni a szadizmus egyik kifinomult formája. A víziszonyban szenve-\ndo  karakter  soha  nem  tanulhat  meg  úszni,  hajózni,  vagy  bármilyen\nmás,  a  vízzel  kapcsolatos  jártasságot  (a  természetismeret  jártasságot\nugyan  elsajátíthatja,  azonban  az  nem  fogja  tartalmazni  a  vízzel  kap-\ncsolatos információkat). \nA hátrány 750 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "fobiak:": {
+        "id": "fobiak:",
+        "name": "Fóbiák:",
+        "info": "a karakter betegesen retteg valamilyen természeti jelenségtol,\nélolénytol, tevékenységtol. Amennyiben fóbiája tárgya gyakori jelen-\nség (állat, tevékenység stb.), úgy a fóbia felveheto hátrányként, ellen-\nkezo esetben (kicsi esély a találkozásra) nem. A víziszonynál leírtak \u0096\nnémi adaptálással természetesen \u0096 alkalmazhatóak az egyéb fóbiáknál\nis. \nA hátrány 100-1500 jártasságpontot ad gyakori elofordulású fó-\nbiánként.\n",
+        "cost": ""
+    },
+    "rosszulletverlattan:": {
+        "id": "rosszulletverlattan:",
+        "name": "Rosszullét vér láttán:",
+        "info": "a karakteren bármilyen\nnagyobb mennyiségu (egy eroteljes csapás kö-\nvetkeztében  kifröccseno  vérmennyiség  már\nelegendo)  vér  láttán  látványos  rosszullét  vesz\nerot, mely öklendezést is eredményezhet. Har-\nci  helyzetekben  a  rosszullét  \nrendkívül  hátrá-\nnyos  körülményeket\neredményez  a  hátrányban\nszenvedo  karakter  számára.  A rosszullét  5-10\npercig tart, aztán elcsitul akkor is, ha a karak-\nter  huzamosabb  ideig  véres  környezetben  tar-\ntózkodik. A hátrány 800 jártasságpontot ad.\nÁjulás  vér  láttán:\naz  elozo  hátrány  erotelje-\nsebb  kiadása.  A hátránytól  szenvedo  karakter\nbármilyen nagyobb mennyiségu (egy eroteljes\ncsapás  következtében  kifröccseno  vérmennyi-\nség már elegendo) vér láttán egy nagyon rövid,\npár  másodperces  rosszullét  után  (mely  látható\nsápadtsággal,  stb.)  jár,  egyszeruen  elájul.  Az\nájulás 2-5 percig tart, melybol a karakter magá-\ntól  is  magához  tér.  Külso  segítség  esetén  az\nájulás  ideje  felezodik.  Amennyiben  a  karakter\nhuzamosabb  ideig  (15-20  perc)  véres  környe-\nzetben tartózkodik, a karakter ismét elájul, ám\nilyenkor a feléledés ideje duplázódik (segítség\nesetén is). \nA hátrány 1500 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "rosszszajszag:": {
+        "id": "rosszszajszag:",
+        "name": "Rossz  szájszag:",
+        "info": "a  karakternek  eredendoen\nrossz a szájszaga, melynek elviseléséhez minden, vele közelebbi kap-\ncsolatba  került,  szaglással  bíró  teremtménynek  Lelkiero-próbát  kell\ntennie annak megállapítására, hogy el tudja-e viselni a karakter szájá-\nból, a lélegzetével kiáramló rettenetes buzt. Sikertelen Lelkiero-próba\nesetén  a  teremtmény  neveltetésétol  függoen  gyorsan  vagy  jól  nevelt\nudvariassággal elhátrál, esetleg eros parfümmel beszórt keszkenot tart\naz arca elé, vagy egyszeruen csak befogja az orrát. A rossz szájszagot\na  különféle  illatos  szájvizek,  a  természetes  anyagok  (bogyók,  stb.)\ncsupán mérsékelni tudják (+10 a fentebb említett Lelkiero-próbához),\nde megszüntetni sohasem. A szájszag még azon teremtmények számá-\nra is nehezen viselheto el, melyek kifejezetten kedvelik a buzt (igaz,\nnekik további +20 jön a Lelkiero-próbájukhoz minden egyéb bonusz\nmellé). \nA hátrány 200 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "kedvezotlenszarmazas:": {
+        "id": "kedvezotlenszarmazas:",
+        "name": "Kedvezotlen származás:",
+        "info": "a karakter nem büszkélkedhet neves osök-\nkel, igazság szerint egy átlagos polgár családfája is ezerszer dicsobb,\nmint az övé. Legtöbbször tolvajok, koldusok, a társadalom megvetett\nvagy kitagadott tagjai közül kerülnek ki a szülei, és ez a viselkedésé-\nben is megmutatkozik (mert aki koldusok és tolvajok között no fel, az\naligha  lehet  járatos  az  udvari  etikettben  és  hasonlóban).  Ugyanakkor\nez  a  hátrány  \nnem  feltétlenül\njelenti  azt,  hogy  a  karakter  alantasabb\nszármazású. Akár még nemes is lehet, ám ha valóban ez a helyzet áll\nfenn, akkor nyilván kegyvesztett család tagja, akire halál vagy börtön\nvár,  amennyiben  visszatérne  oda,  ahonnan  ot  vagy  családját  eluzték.\nNem ritka, hogy fejpénz van kituzve a fejére, és a komolyabb hálózat-\ntal rendelkezo orgyilkos rendeknél mindig akad néhány fickó, aki szá-\nmon tartja, hogy a városba belépo karakterek között nincs-e potenciá-\nlis bevételi forrás. \nA hátrány 400-1500 jártasságpontot ad a kedvezot-\nlen származás minoségtol függoen.\n",
+        "cost": ""
+    },
+    "nincstelen:": {
+        "id": "nincstelen:",
+        "name": "Nincstelen:",
+        "info": "a karakter gyakorlatilag semmilyen vagyonnal (sem gaz-\ndag  rokonokkal,  pártolóval  stb.)  nem  rendelkezik,  egy  magán  viselt,\nrongyos  ruhán  és  néhány,  értéktelen  kacaton  kívül  semmilye  nincs.\nÚgy néz ki, mint egy koldus, noha nem feltétlenül kéregetésbol él. \nA hátrány 700 jártasságpontot ad.\n",
+        "cost": ""
+    },
+    "betegesenhazudos:": {
+        "id": "betegesenhazudos:",
+        "name": "Betegesen hazudós:",
+        "info": "a karakter kényszeresen hazudik, még akkor is,\nha  nagyon  fontos  lenne  a  számára,  hogy  igazat  mondjon.  Ha  tudatá-\nban van annak, hogy az oszintesége fontos lehet, egy sikeres Lelkiero-\npróbával igazat mondhat, egyébként nem. Hétköznapi ügyekben nem\nhazudik feltétlenül, ám a legkisebb érdek kihozza belole a kényszert.\nA hátrány 1000 jártasságpontot ad.\nAz  átlagosnál  rosszabb  anyagi  helyzet:\nkarakter már induláskor (tehát a ka-\nraktergenerálás   során)   rossz   anyagi\nhelyzetben van. Csupán 25 aranyat bir-\ntokol, avagy 10 aranyat. A rossz anyagi\nhelyzet egyszeri hátrány, azaz csupán az\ninduláskor  fennálló  anyagi  hátrányt  je-\nlenti,  és  nem  azt,  hogy  a  karakternek\nalapvetoen  szegény  sorsa  lenne.  \nA hát-\nrány 200 jártasságpontot ad, illetve 400\nJp-t, amennyiben a karakter 10 aranynyal indul.\nÁrtó kapcsolatok a karakter az eloéle-\ntébol következoen rossz szándékú isme-\nrosökkel,    befolyásos    ellenségekkel\n\u0084rendelkezik\u0094,  akik  szívesen  cseleked-\nnek  rosszat  a  karakterrel,  ha  csak  meg-\ntehetik.  Természetesen  ilyen  emberek\nellenségének  lenni  nem  csupán  hátrá-\nnyokkal  jár,  hiszen  az  \u0084ellenségem  el-\nlensége  a  barátom\u0094  elv  alapján  számos\nszövetségeshez  is  juthat  a  karakter.  A\nrossz kapcsolat okát bele kell fogalmaz-\nni a karakter elotörténetébe. Elore nem\nmeghatározható,  hogy  mennyi  jártas-\nságpontot ad ez a hátrány, mivel a kon-\ntaktus  erosségétol  és  a  rosszakaróban\nrejlo játékbeli lehetoségektol függ, így minden esetben a Mesélo ha-\ntározza  meg  a  Játékos  által  megfogalmazott  hátrány  ismeretében.\nAmennyiben a Játékos nem fogadja el a meghatározott extra jártas-\nságpontot, nem veheti fel ezt a hátrányt karakterének.\n",
+        "cost": ""
+    },
+    "beszedhiba:": {
+        "id": "beszedhiba:",
+        "name": "Beszédhiba:",
+        "info": "a  karakter  nem  beszél  tökéletesen,  nehezen  formálja  a\nszavakat,  gyakran  érthetetlennek  tunik  a  beszéde  még  egy  közelálló\nszámára is (a kívülállókról nem is beszélve). A beszédhiba lehet sely-\npítés, dadogás vagy más egyéb, és súlyosságától függoen válik érthe-\ntetlenné a karakter beszéde. (Egy enyhe selypítés még nem valószínu,\nhogy érthetetlenné teszi a karaktert, ám egy komoly dadogás már gon-\ndokat okozhat.) A mesélo és a játékos közös megegyezés alakján akár\nolyan  beszédhibát  is  alkalmazhat,  ami  stresszhelyzetben  jön  elo\n(gyakran ilyen lehet a dadogás). \nA hátrány 100-1000 jártasságpontot\nad a beszédhiba súlyosságától függoen.\n",
+        "cost": ""
+    },
+    "spontanmagia": {
+        "id": "spontanmagia",
+        "name": "Spontán  mágia",
+        "info": "a  karakter  születetten  mágikus,  az  esszencia  szaba-\ndon áramlik a testében. A karakter nem képes kontrollálni az esszen-\nciáját (ez a kontroll a tulajdonképpeni vadmágia lenne), ezért rendsze-\nres spontán mágiakitörések kísérik életét. A spontán mágiakitöréseket\njátéktechnikailag  a  \u0084spontán  mágia  táblázat\u0094  alapján  kell  generálni.\nEzt a tulajdonságot hátrányként csak akkor lehet felvenni, ha az indu-\nló karakter nem rendelkezik a vadmágiához szükséges jártasságokkal\n\u0096  azaz  a  kontrollálatlan  esszencia-kitörések  valóban  megkeserítik  az\néletét. A hátrány felvétele nem zárja ki azt, hogy a karakter \na játék során elsajátítsa a vadmágia jártasságait. \n",
+        "cost": ""
+    }
+}

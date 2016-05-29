@@ -1,0 +1,173 @@
+{
+    "race": "ogar",
+    "summary": "Az ogár igen érdekes játékélményre ad lehetõséget. Furcsa, talán egy\nkicsit kifacsart gondolkodásmódjuk, a hõstettek iránti vágyuk, mese-\nszeretetük,  kiválasztottság-érzetük  és  elnyomottság  tudatuk  ellent-\nmondásos és összetett figurákat szülhet, eszerint javallott hát kijátsza-\nni.  Szinte  minden  ogárra  jellemzõ  a  feltétel  nélküli  hûség  azon  cso-\nporthoz, ahová tartozik; ez az erõs családi összetartozásból ered, ám a\nvilágot bejáró ogárok esetében a családot gyakran helyettesíti egy ka-\nlandor-csapat,  vagy  egy  vár  népe  (ezért  is  kedvelt  testõrök  Worluk-\nszerte  az  ogárok).  Bár  a  legtöbb  ogár  buta,  a  játékos  karaktere  lehet\nokosabb az átlagnál – hiszen a karakterépítés fõérték-intervallumai is\nlehetõvé  teszik  ezt  a  számára.  Amennyiben  az  ogár  karakter  eszes,  a\njátékos  még  véletlenül  se  játsszon  vele  „õsbunkót”.  A „buta”  ogárt\nsem  érdemes  lebutítani  egyszerû  kötekedõ  furkóvá,  aki  beleköt  min-\nden  arra  járóba,  mert  egy  ogár  egyszerû  lelkében  azért  ennél  sokkal\ntöbb bujkál. Például igazi hõs válhat belõle, a csapat egy kulcsfigurá-\nja, aki megértõ barátok között a társaság „lovagja” lehet, ki soha nem\nretten vissza a kihívásoktól.\nEgy ogárral játszó karakter még a torzulások alkalmazása nélkül is\nnehéz feladatot vállal, hiszen karakterét néhány társadalomban gyûlö-\nlik, sõt, irtják, ahol érik. Ennek oka az ogárok gyilkos hajlamaiban rej-\nlik, s abban, hogy számukra a hús, az hús, és nem törõdnek vele, hogy\nhonnan  –  azaz  kibõl  –  származik.  Ezen  tulajdonságukról  a  civilizált\nogárok  sem  mondanak  le  –  maximum  féken  tartják  hajlamaikat,  és\ncsakis  csendes  magányukban  gyakorolják  az  emberevés  (elf-evés,\nork-evés, stb.) mesterségét. Egy ogár figura azért mindig is bizarr ma-\nrad. Könnyen elképzelhetõ egy megkeseredett ogár, aki annyi bántal-\nmazást, annyi gyûlöletet kapott már, hogy képtelen optimistán fordul-\nni a világ felé, zárkózottá és vaddá válik. Agresszívvé, aki a legkisebb\ntámadásra is erõszakkal válaszol.\nÉrdemes óvatosan bánni a torzulásokkal, mert bár ettõl válik egye-\ndivé az ogár karakter, igencsak kétélû fegyver.\nÖsszegezvén  az  eddigieket  azt  mondhatom,  hogy  az  ogár  ideális\nmind tapasztaltabb, mint kezdõ játékosok számára. Ez utóbbiak köny-\nnyen leegyszerûsíthetik, mely így egy viszonylag tiszta, ám könnyen\nhasználható figurát nyújthat, de a gyakorlott játékosok is megtalálhat-\nják benne a kívánt szerepjátéki mélységet.",
+    "specials": {
+            "agyarakeskarmok": {
+        "id": "agyarakeskarmok",
+        "name": "Agyarak  és  karmok  (10  pont)",
+        "cost": 10,
+        "info": "\u0096  Az  ogárnak  különlegesen  méretes\nagyarai  és  karmai  vannak.  Ez  elobbi  nehézzé  teszi  a  táplálkozást  és\nszinte érthetetlenné a beszédet, hisz\u0092 kilóg a szájából, az utóbbi pedig\naz ujj és kézügyességet igénylo feladatok végrehajtása elé gördít szin-\nte  áthághatatlan  akadályt  (az  efféle  feladatok  számukra  négy  szinttel\nnehezebbek). Ezen hátrányuk ellenére megvan a maguk haszna is, pél-\ndául, hogy igen csúnya sebeket lehet velük ejteni. A karom és az agya-\nrak sebzésereje eléri a 3-5-ös értéket, és a \nverekedés jártasságot alkal-\nmazva lehet használni oket, de úgy, mintha valójában fegyverforgatás-\nról lenne szó.\n"
+    },
+    "bekanyelv": {
+        "id": "bekanyelv",
+        "name": "Békanyelv (15 pont)",
+        "cost": 15,
+        "info": "\u0096 Az ogár meglepoen hosszúra tudja kiölteni a\nnyelvét, akár a béka. A nyelv hosszúsága változó, általában 1.5-2 mé-\nter hosszúságúra nyúlik. Ráadásképpen a nyelv rendkívül ragadós, ki-\nsebb  tárgyak  könnyen  hozzátapadhatnak.  Használható  lasszóként  is,\nmivel könnyen meg lehet vele ragadni egy vékonyabb, gyengébb el-\nlenfelet.  Kiszabadulni  belole  egy  sikeres  Eropróbával  lehet.  A nyelv\nGyorsasága 2-es. A képesség egyetlen veszélye, hogy a kiöltött nyel-\nvet esetleg levághatják, s az bizony elég kellemetlen élmény.\n"
+    },
+    "extravegtagok1": {
+        "id": "extravegtagok1",
+        "name": "Extra végtagok (30 pont végtagonként)",
+        "cost": 30,
+        "info": "\u0096 Az ogár a szokottnál több\nvégtaggal rendelkezik, mondjuk ketto helyett négy karral. A négy kar\nelonyét nem kell részleteznünk, segítségükkel sokkal eredményesebb\na harc. A plusz kezeket támadásra, avagy védekezésre egyaránt hasz-\nnálhatja,  nyilván  a  vonatkozó  jártasságok  figyelembevételével  (pl.\nfegyverforgatás). Néhány jártasságot speciálisan megváltoztat az ext-\nra  végtag:  a  két  fegyver  forgatása jártasság  a  többkarú  ogár  számára\nalkalmas lehet három, vagy négy fegyver forgatására is, extra karon-\nként  50%-kal  megnövelt  jártasságpont-igényért;  a  \nbirkózás jártasság extra végtagonként 25%-kal lecsökkentett \njártasságpont-igényért sajátítható el.\n"
+    },
+        "extravegtagok2": {
+        "id": "extravegtagok2",
+        "name": "Extra végtagok (30 pont végtagonként)",
+        "cost": 30,
+        "info": "\u0096 Az ogár a szokottnál több\nvégtaggal rendelkezik, mondjuk ketto helyett négy karral. A négy kar\nelonyét nem kell részleteznünk, segítségükkel sokkal eredményesebb\na harc. A plusz kezeket támadásra, avagy védekezésre egyaránt hasz-\nnálhatja,  nyilván  a  vonatkozó  jártasságok  figyelembevételével  (pl.\nfegyverforgatás). Néhány jártasságot speciálisan megváltoztat az ext-\nra  végtag:  a  két  fegyver  forgatása jártasság  a  többkarú  ogár  számára\nalkalmas lehet három, vagy négy fegyver forgatására is, extra karon-\nként  50%-kal  megnövelt  jártasságpont-igényért;  a  \nbirkózás jártasság extra végtagonként 25%-kal lecsökkentett \njártasságpont-igényért sajátítható el.\n"
+    },
+    "extravegtagok3": {
+        "id": "extravegtagok3",
+        "name": "Extra végtagok (30 pont végtagonként)",
+        "cost": 30,
+        "info": "\u0096 Az ogár a szokottnál több\nvégtaggal rendelkezik, mondjuk ketto helyett négy karral. A négy kar\nelonyét nem kell részleteznünk, segítségükkel sokkal eredményesebb\na harc. A plusz kezeket támadásra, avagy védekezésre egyaránt hasz-\nnálhatja,  nyilván  a  vonatkozó  jártasságok  figyelembevételével  (pl.\nfegyverforgatás). Néhány jártasságot speciálisan megváltoztat az ext-\nra  végtag:  a  két  fegyver  forgatása jártasság  a  többkarú  ogár  számára\nalkalmas lehet három, vagy négy fegyver forgatására is, extra karon-\nként  50%-kal  megnövelt  jártasságpont-igényért;  a  \nbirkózás jártasság extra végtagonként 25%-kal lecsökkentett \njártasságpont-igényért sajátítható el.\n"
+    },
+    "faroknyulvany": {
+        "id": "faroknyulvany",
+        "name": "Faroknyúlvány (20 pont)",
+        "cost": 20,
+        "info": "\u0096 Hasonlóan muködik, mint az extra vég-\ntag, a különbség csupán annyi, hogy az ogár gerincének folytatásában\negy  finom  mozdulatokra  képtelen,  vaskos  hüllofarok  sarjad.  Harcon\nkívül  gyakorlatilag  mindenre  alkalmatlan,  arra  viszont  tökéletes.  A\nhossza általában egy jó méter, gyorsasága 4-6, ereje 3-4, s persze zú-\nzófegyvernek minosül. Ha az ogár bír a Csonttüskék torzulással, ez ki-\nterjedhet a farokra is, sebzo erejét így 4-6-ra növelve. A faroknyúlvány\ntorzulást minden külön jártasság nélkül használhatja a harcban, párhu-\nzamosan  a  kézben  forgatott  fegyvereivel  \u0096  viszont  figyelembe  kell\nvenni, hogy hátrafelé irányul.\n"
+    },
+    "ketfej": {
+        "id": "ketfej",
+        "name": "Két fej (35 pont)",
+        "cost": 35,
+        "info": "\u0096 Az ogár nyakán elég meghökkento módon két fej\nsarjadt. A két fej lehet egyforma, de gond nélkül lehet más és más is.\nMindkét  fej  tud  beszélni,  van  egyénisége,  mégis  megdöbbento  össz-\nhangban irányítják a közös testet. Ha a két fej közül az egyik elpusz-\ntul, a test tovább élhet, legfeljebb a másik fej átéli \u0084testvére\u0094 elveszté-\nsének szívszorító érzését. A Két fej torzulás sokkal összetettebb annál,\nmint hogy könnyen szabályokba lehessen szorítani. Javallott gyakor-\nlott  játékosoknak  választani  csupán  (sot,  az  sem  elképzelhetetlen,\nhogy a fejeket egy-egy külön játékos játssza). A Mesélonek fokozott\nfigyelmet kell fordítania kétfeju ogár játékosára. Nem biztos, hogy a\nfejek mindenben egyet fognak érteni. Fontos kikötés azonban, hogy a\nkét fej sohasem tör a másik fej vagy a test elpusztítására.\n"
+    },
+    "kitinbor": {
+        "id": "kitinbor",
+        "name": "Kitinbor (25 pont)",
+        "cost": 25,
+        "info": "\u0096 Az ogár bore természetellenesen megvastagszik\nés kitinesen megkeményedik. Jelentoset veszít rugalmasságából és az\nogár tapintásérzékét szinte nullára redukálja. Ellenben az ogár Páncél-\nereje 5-nek minosül még vért nélkül is (a vért viselete ezt tovább nö-\nvelheti,  már  ha  ráfér  az  ogár  megvastagodott  borére).  Egy  ogárnak\negyszerre mindig csak egy bortorzulása van (tehát nem lehet \nKitinbor, Csonttüskék, Mérges fekélyek vagy  Ragacsos bor\ntorzulása is). Ez alól egyetlen kivétel a  Rossz szag\n, amely bármelyik bortorzulással szabadon kombinálható.\nCsonttüskék  (végtagonként  3  pont,  a  törzsön  10  pont)\n\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök\nsarjadtak,méretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\nadott testrészt.\n"
+    },
+    "mergesfekelyek": {
+        "id": "mergesfekelyek",
+        "name": "Mérges fekélyek (15 pont)",
+        "cost": 15,
+        "info": "\u0096 Az ogár testét gennyes fekélyek borít-\nják, melyek könnyen kifakadhatnak. Amennyiben közelharci támadás-\nban eltalálják az ogárt, a gennyes lé kifröccsen és sebzésenként 30%\nesélyben eltalálja a támadót. A gennybetegség szintje 5, amely a csu-\npasz borrel érintkezve azonnal támad \u0096 egészségpróbát kell dobni el-\nlene. A csupasz borre jutás esélyeit az adott öltözet határozza meg. A\ngennybetegség egy viharos gyorsasággal lefolyó baj \u0096 valójában mér-\ngezésként kell felfogni, úgy, mintha a genny borön át ható kontaktmé-\nreg lenne. A megfertozött karakter azonnal 3d10 fizikumpontot veszít,\nám az újabb gennyes érintések már nem okoznak nála újabb fizikum-\nveszteséget  \u0096  az  elso  fertozo  érintkezés  nyomán  immúnissá  válik  az\nadott  ogár  által  hordozott  gennybetegségre  (más  egyedek  másféle\ngennybetegséget hordoznak, így azokra nem lesz immúnis a megseb-\nzett  karakter).  Más  bortorzulással  nem  kombinálható,  csak  a Rossz szaggal.\n"
+    },
+    "ragacsosbor": {
+        "id": "ragacsosbor",
+        "name": "Ragacsos  bor (20  pont)",
+        "cost": 20,
+        "info": "\u0096  Az  ogár  bore  valamilyen  oknál  fogva  ra-\ngad, akár az enyv. Bármi vagy bárki, aki hozzáér, beleragad, mint légy\na pókhálóba \u0096 és ez az ogár élete során komoly hátrányt jelent. Közel-\nharcnál viszont elonyös; hozzáragadhatnak a fegyverek, a végtagok \u0096\ntámadásonként  sorspróba  teendo,  balsors  esetén  ragad.  A támadó  az\nogárhoz  ragadt  testrészeit  nem  használhatja,  hacsak  nem  dob  egy  si-\nkeres  eropróbát  -30%-kal.  Kellemetlen  tény,  hogy  az  ogár  ruhái\nugyanígy  járnak.  Ha  szakadás  nélkül  akarja  levenni,  azt  csak  kiadós\náztatással teheti meg. Ez a torzulás nem használható más bortorzulá-\nsokkal egyetemben, ez alól az egyetlen kivétel a Rossz szag.\n"
+    },
+    "rosszszag": {
+        "id": "rosszszag",
+        "name": "Rossz szag (5 pont)",
+        "cost": 5,
+        "info": "\u0096 Az ogár bore valami kellemetlen váladékot ter-\nmel, melynek gyomorforgató szagát nem igazán lehet eltuntetni, vagy\nelfedni. Ily módon még a tömpébb orrú emberek számára is könnyen\nkövethetové válik, rejtozni sem nagyon tud az irtózatos szag miatt, mi\ntöbb,  szociális  kapcsolataira  szintén  eros  befolyással  bír  (bár  lassan\nmeg lehet szokni a permanens buzt). Stresszhelyzetben (pl. harc) a buz\na  szokottnál  is  intenzívebbé  válik  és  tömör  hullámokban  párolog  az\nogár  borébol.  Mindenki  Lelkiero-próbára  jogosult,  aki  elszenvedi  az\nideges ogár buzét \u0096 sikertelenség esetén a karakter rosszul lesz a szag-\ntól (még a sokat bíró orkok is), s ezáltal erosen romlik koncentrálóké-\npessége.  Ilyenkor  minden  cselekedetére  mínusz  1  szintet  kap  (a\nstressz-buzt nem lehet megszokni, amíg fennáll, addig tart a hatása is).\nNyilvánvaló, hogy a gyomorforgató buz nem válogat ellenség és barát\nközött, ezért a rossz szagú ogárokat gyakorta kiközösítik.\n"
+    },
+    "savasnyal": {
+        "id": "savasnyal",
+        "name": "Savas nyál (15 pont)",
+        "cost": 15,
+        "info": "\u0096 Az ogár szájában önmaga számára ártalmat-\nlan,  ám  mindenre  és  mindenki  másra  rendkívül  veszélyes  savas  nyál\ntermelodik. Az ogárok általában eloszeretettel használják eme képes-\nségüket harcban, gyakran harapnak, vagy éppen ráköpnek ellenfelük-\nre.  A köpés  Gyorsasága  2-es,  Ereje  4-es  (kizárólag  a  páncélszinttel\nszemben,  tehát  nem  sebzésszorzó),  sebzése  1d6  köpésenként,  1d10\nharapásonként. Célzott távolsága mindössze 1 méter, maximális távol-\nsága 10 méter. A támadódobás a távolsági harc szabályai szerint mu-\nködik, harapás esetében pedig a közelharc szabályai szerint. Az ogár a\nverekedés jártassághoz hasonlóan fejlesztheti a harapás Támadószint-\njét  (a  Védoszintet  nem)  \u0096  az  induló  karakter  harapásának  Támadó-\nszintje a Savas nyál torzulás esetén automatikusan 3.\nA savas  nyál  agresszív  égeto  hatásának  köszönhetoen  igen  köny-\nnyen szétmar dolgokat, tönkretesz vérteket, fegyvereket, ezt érdemes\na Mesélonek figyelembe vennie.\nHa valaki sokat köpköd, elobb-utóbb kiszárad a szája. Nagy általá-\nnosságban  elmondható,  hogy  úgy  négy-öt  köpésre  elegendo  nyállal\nbírhat egy ogár, ezután innia kell valamit (ezzel esetleg tönkretéve egy\nkupát,  mely  a  nyáltól  szintúgy  szétoldódik).  Ez  egyébként  jelentos\nhátránya a nem harcoló ogárnak: igen körülményes számára mind az\nivás, mind a táplálkozás.\n"
+    },
+    "sporaerintes": {
+        "id": "sporaerintes",
+        "name": "Spóraérintés (5 pont)",
+        "cost": 5,
+        "info": "\u0096 Az ogár bore vékony rétegben porszeru spó-\nrákat  termel  (hasonlót,  mint  amilyet  a  gombák),  mely  borre  kerülve\niszonyatos  viszketo  érzést  okoznak  mindenkinek  (leszámítva  persze\nmagát  az  ogárt,  illetoleg  azon  ogárokat,  akik  hasonló  képességekkel\nbírnak). Ehhez persze közvetlen testkontaktus szükségelte-\ntik (akár egy rétegnyi ruha is felfoghatja a spórát). A visz-\nketés  minimum  három-négy  napig  tart,  de  valószínubb,\nhogy egy egész hétig. Ezen ido alatt minden próba, feladat\n5%-kal nehezebben hajtható végre (a Koncentráció jártas-\nság legalacsonyabb szintjei is kompenzálják ezt a hatást). A\nviszketés továbbá csúnya borpírosodást is okoz, s bizony az\néktelen, vörös foltok nem bírnak túl nagy vonzerovel.\nNe  feledjük  azonban,  hogy  az  ogár  barátságosan  sem\nérinthet  meg  senkit  anélkül,  hogy  ne  kenné  rá  a  spórákat\n(nem  saját  akaratától  függ,  hogy  kit  fertoz  meg),  ezt  leg-\nkönnyebben tehát kesztyu viselésével lehet áthidalni. A ki-\nadós mosdás mindössze egy órára tünteti el az ogár testérol\na spórákat, aztán a bore pótolja a hiányt.\n"
+    },
+    "vandorszem": {
+        "id": "vandorszem",
+        "name": "Vándorszem (10 pont)",
+        "cost": 10,
+        "info": "\u0096 Az ogárnak a feje valamely más\npontján van további egy szeme. Leggyakrabban ez a tarkó\nszokott lenni, de lehet éppen a halánték vagy a homlok. Ez-\nzel a szemmel legalább olyan jól lát, mint a többivel és ha\naz esetleg más irányba néz (mondjuk hátrafelé), ugyanúgy\nláthatja, hogy az adott oldalon mi történik. Amennyiben az\nogár alszik, ez a szem hasonlóképp csukva van, mint a töb-\nbi.\n"
+    },
+    "veremszaj": {
+        "id": "veremszaj",
+        "name": "Veremszáj  (20  pont)",
+        "cost": 20,
+        "info": "\u0096  Az  ogár  képtelenül  nagyra  tudja\nnyitni a száját, s így könnyen elnyelhet egy nagyobb kutyát,\nvagy egy kisebb emberszeru élolényt (mondjuk egy tündért\nvagy egy manót). Ha az nem tud valahogyan kiszabadulni,\nkönnyen elemésztodhet, vagy összezúzódhat az ogár agya-\nrai alatt. A Veremszáj a  Savas nyál torzulással kombinálva egyenesen végzetes.\n"
+    },
+    "zsakgyomor": {
+        "id": "zsakgyomor",
+        "name": "Zsákgyomor (10 pont)",
+        "cost": 10,
+        "info": "\u0096 Az ogár gyomra, akár egy zsák,\nössze  tudja  gyujteni  a  felzabált  és  emészthetetlen  táplálé-\nkot,  hogy  kello  pillanatban  némi  gyomorsavval  egyetem-\nben rá tudja üríteni egy ellenfélre. Az így kiürített táplálék\nmaximum két méterre lövellhet ki és sebzése nincs, ellen-\nben az ellenfél valószínuleg hányingerével fog küszködni, s\ninnentol a harc idejére minden cselekedetére -10% módosí-\ntót  kap,  ellenben  sikeres  Lelkiero-próbával  megúszhatja  a\nnegatív módosítót.\nA  gyomor  táplálkozásonként  csupán  egyszer  ürítheto,\ntehát  egy-egy  ilyen  köpet  után  újra  ennie  kell  az  ogárnak.\nSavas  nyál torzulással  kombinálva  az  okádék  3d10-et  sebez.\n"
+    },
+    "csonttuskek": {
+        "id": "csonttuskek",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 3,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    },
+    "csonttuskek1": {
+        "id": "csonttuskek1",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 3,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    },
+        "csonttuskek2": {
+        "id": "csonttuskek2",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 3,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    },
+        "csonttuskek3": {
+        "id": "csonttuskek3",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 3,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    },
+        "csonttuskek4": {
+        "id": "csonttuskek4",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 3,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    },
+        "csonttuskekt": {
+        "id": "csonttuskekt",
+        "name": "Csonttüskék  (3  pont végtagonként törzsön-10-pont)",
+        "cost": 10,
+        "info": "\u0096 Az ogár borén  éles  csontkinövések,  apró  pengék,  hegyes  bütykök  sarjadtak;\nméretük, formájuk, számuk és elhelyezkedésük ogárról ogárra válto-\nzik. Egy sikeres támadó manover esetén ezekkel a pengékkel is sebez-\nhetnek, gyorsaságuk az ököl gyorsaságának felel meg, sebzéserejük 2-\n3 (mérettol függoen). Ne feledjük azonban, hogy ilyen csontnövések\nigen  kellemetlenek  lehetnek  öltözködésnél,  nem  lehet  rájuk  vértet\nhúzni és \u0096 méretüktol függoen persze \u0096 könnyen beleakadhatnak bár-\nmibe.  Ugyanakkor  a  csonttüskék  2-es  szintu  vértként  védelmezik  az\n"
+    }
+    },
+    "jartMod": {},
+    "jartMaxLevelMod": {},
+    "bonusJart": {},
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 55,
+            "max": 95
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 25,
+            "max": 70
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 15,
+            "max": 60
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 10,
+            "max": 60
+        }
+    },
+    "age": {
+        "juvenis": 10,
+        "seniorMin": 60,
+        "seniorMax": 70
+    },
+    "speed": {
+        "min": 19,
+        "base": 9,
+        "max": 6
+    }
+}

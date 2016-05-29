@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Karakter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table
+            {
+                table-layout: fixed;
+                width: 1100px;
+                word-wrap:break-word;
+                font-size: 12pt;
+                font-family:'Times New Roman',Times,serif;
+            }
+            td {
+                text-align: center;
+                display: table-cell;
+
+            }
+
+        </style>
+    </head>  
+    <body>
+         <md-slider flex min="0" max="255" ng-model="color.red" aria-label="red" id="red-slider" class>
+      </md-slider>
+        
+        <table border="1" width="70%">
+            <tbody>
+                <tr>
+                    <th>Név:</th>
+                    <td colspan="3">{{char.data.name}}</td>
+                    <th>Faj:</th>
+                    <td colspan="2">{{char.data.faj}}</td>
+                    <th>Hit:</th>
+                    <td colspan="4"></td>
+
+
+                </tr>
+                <tr>
+                    <th colspan="2" >Fizikum:</th>
+                    <td> {{char.data.foertekekFinal.fizikum}}</td>
+                    <th colspan="2" >Erő:</th>
+                    <td>{{char.data.foertekekFinal.ero}}</td>
+                    <th colspan="2" >Szívósság:</th>
+                    <td>{{char.data.foertekekFinal.szivossag}}</td>
+                    <th colspan="2">Gyorsaság:</th>
+                    <td >{{char.data.speed.current}}</td>
+
+
+
+                </tr>
+                <tr>
+                    <th colspan="2" >Rátermettség:</th>
+                    <td> {{char.data.foertekekFinal.ratermettseg}}</td>
+                    <th colspan="2" >Ügyesség:</th>
+                    <td>{{char.data.foertekekFinal.ugyesseg}}</td>
+                    <th colspan="2" >Reflex:</th>
+                    <td>{{char.data.foertekekFinal.reflex}}</td>
+                    <th colspan="2">Terhelt Gyorsaság:</th>
+                    <td ></td>
+
+                </tr>
+                <tr>
+                    <th colspan="2" >Tudat:</th>
+                    <td> {{char.data.foertekekFinal.tudat}}</td>
+                    <th colspan="2" >Intelligencia:</th>
+                    <td>{{char.data.foertekekFinal.intelligencia}}</td>
+                    <th colspan="2" >Lelkierő:</th>
+                    <td>{{char.data.foertekekFinal.lelkiero}}</td>
+                    <th colspan="2">Fizikumpont (max):</th>
+                    <td> {{char.data.foertekekFinal.fizikum}}</td>
+
+                </tr>
+                <tr>
+                    <th colspan="2" >Esszencia:</th>
+                    <td> {{char.data.foertekekFinal.esszencia}}</td>
+                    <th colspan="2" >Varázserő:</th>
+                    <td>{{char.data.foertekekFinal.varazsero}}</td>
+                    <th colspan="2" >Esszencia-pajzs:</th>
+                    <td>{{char.data.foertekekFinal.esszenciapajzs}}</td>
+                    <th colspan="2">Esszenciapjazs (aktuális):</th>
+                    <td> </td>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > Előnyök/Hátrányok</th>
+                    <td colspan="2"> </td>
+                    <th colspan="2" > Rend:</th>
+                    <td colspan="4"> {{char.data.rend.name}}</td>
+                </tr>
+
+                <tr>            
+                    <th colspan="4" >Neve</th>
+                    <th >Szintje</th>
+                    <th colspan="7" >Bónuszok</th>
+                </tr>
+                <tr ng-repeat=" eh in char.data.elonyHatrany">
+                    <td colspan="4" > {{eh.name}}</td>
+                    <td > {{Math.abs(eh.modCurrent)}}</td>
+                    <td colspan="7" > </td>
+
+                </tr>
+
+                <tr>
+                    <th colspan="4" >Fegyverneve</th>
+                    <th >Gy</th>
+                    <th >T</th>
+                    <th >V</th>
+                    <th >E</th>
+                    <th colspan="4" >Specialitások</th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" >&nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="4" ></th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" >&nbsp</th>
+                    <th > </th>
+                    <th > </th>
+                    <th > </th>
+                    <th > </th>
+                    <th colspan="4" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="4" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="4" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="4" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" >Páncél neve</th>
+                    <th >GyM</th>
+                    <th >Szint</th>
+                    <th >Súly</th>                  
+                    <th colspan="5" >Specialitások</th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="5" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="5" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > &nbsp</th>
+                    <th ></th>
+                    <th ></th>
+                    <th ></th>
+                    <th colspan="5" > </th>
+
+                </tr>
+                <tr>
+                    <th colspan="4" > Jártasságok</th>
+                    <td></td>
+                    <th > Kora:</th>
+                    <td>{{char.data.age.current}} év</td>
+                </tr>
+                <tr>
+                    <th colspan="4" >Neve</th>
+                    <th >Szintje</th>
+
+                    <th colspan="7" >Bónuszok</th>
+                </tr>
+                <tr ng-repeat=" jart in char.data.jartassagok">                  
+                    <td colspan="12" > 
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <td colspan="4" > {{jart.name}}</td>
+                                    <td > {{jart.minLevel}}</td>
+                                    <td colspan="7" ></td> 
+
+                                </tr>
+                            </thead>
+                            <tbody ng-hide="!jart.fegyvercsop">
+                                <tr ng-repeat="fegyver in jart.fegyvercsop" ng-hide="!fegyver.have">
+                                    <td colspan="4"> {{fegyver.name}}</td>
+                                    <td> </td>
+                                    <td colspan="2"> Támadó szint:{{fegyver.atk}}</td>
+                                    <td colspan="2"> Védő szint:{{fegyver.def}}</td>
+                                </tr>
+                            </tbody>
+                           <tbody ng-hide="!jart.csoportok">
+                                <tr ng-repeat="fegyver in jart.csoportok" ng-hide="!fegyver.have">
+                                    <td colspan="4"> {{fegyver.name}}</td>
+                                    <td> </td>
+                                    <td colspan="2"> Szint:{{fegyver.currentLevel}}</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+<input type="button"  ng-click="saveToPc(char,char.data.name+'.kg')" value="save"/>
+    </body>
+    {{char.data.elonyHatrany}}
+    
+</html>
+

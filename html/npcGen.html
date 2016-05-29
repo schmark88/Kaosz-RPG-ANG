@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div>
+            Séma:
+            <select ng-model="selected" ng-change="loadRace(selected)">
+                <option value="ember">Ember</option>
+                <option value="ork">Ork</option>
+                <option value="mano">Manó</option>
+                <option value="elf">Elf</option>
+                <option value="ogar">Ogár</option>
+                <option value="tunderke">Tündérke</option>
+            </select>
+            Név:<input type="text" size="10" ng-model="npc.name">
+        </div>
+        <table border="1" class="celszamtabla" >
+            <thead>
+                <tr>
+                    <th>Fizikum</th>
+                    <th>Rátermettség</th>
+                    <th>Tudat</th>
+                    <th>Esszencia</th>
+                    <th>Gyorsaság</th>
+                    <th>Támadó Sz.</th>
+                    <th>Védő Sz.</th>
+                    <th>Sebzésszorzó</th>
+                    <th>Páncél szint</th>
+                    <th>EszcPajzs szint</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{sema.foertekek.fizikum.min}} - {{sema.foertekek.fizikum.max}}</td>
+                    <td>{{sema.foertekek.ratermettseg.min}} - {{sema.foertekek.ratermettseg.max}}</td>
+                    <td>{{sema.foertekek.tudat.min}} - {{sema.foertekek.tudat.max}}</td>
+                    <td>{{sema.foertekek.esszencia.min}} - {{sema.foertekek.esszencia.max}}</td>
+                    <td>{{sema.speed.max}} - {{sema.speed.min}}</td>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.fizikum"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.ratermettseg"></td>
+                    <td><input type="number" min="0" max="200" size="2"   style="width:40px" ng-model="npc.tudat"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.esszencia"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.speed.current"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.tamadosz"></td>
+                    <td><input type="number" min="0" max="200" size="2" style="width:40px" ng-model="npc.vedosz"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.sebzesszorzo"></td>
+                    <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.pancelszint"></td>
+                     <td><input type="number" min="0" max="200" size="2"  style="width:40px" ng-model="npc.eszcpajzssz"></td>
+
+
+
+                </tr>
+            </tbody>
+        </table>
+        <div><input type="button"  value="Add NPC" ng-click="addNPC()"></div>
+       
+
+    </body>
+</html>

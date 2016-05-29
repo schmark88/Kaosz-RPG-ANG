@@ -1,0 +1,62 @@
+{
+    "race": "elf",
+    "summary": "Elõször is fontos kiemelni, hogy játékos karakter csak \nerdei elf vagy bérci könnyûléptû lehet.\nA legtöbb  elf  megátalkodott  individualista,  emiatt  csaknem  olyan\nönzõnek tûnnek, mint az orkok – pedig az elfek nem saját céljaikat né-\nzik, csupán pillanatnyi szeszélyük vezérli õket, és cselekedetik során\nnem mérlegelik a várható hasznot, hiszen mindent az önkiteljesítés és\naz élvezetek jegyében tesznek (ami az erdei elfnek az élvezetek haj-\nszolása,  az  a  bérci  könnyûléptûeknek  a  mások  számára  teljességgel\nérthetetlen  filozófiai  gondolatokban  való  mértéktelen  fürdõzés).  Az\nelfek szórakoztató útitársak, ám ritkán lehet bennük megbízni annyi-\nra, mint egy riasztó kinézetû ogárban. Az életet többre becsülik a hõ-\nsies halálnál, ezért hajlamosak „gyáván” viselkedni – legalábbis a má-\nsok értékrendje szerint gyáván. Szintén életvezetésük következménye,\nhogy nem sajnálják a pénzt a minõségi tárgyak, élelmek megszerzésé-\nre, hiszen vallják, hogy ha a vagyont nem is, az \nélet élményét magukkal viszik a túlvilágra.\nAz elf alfajok hallása és látása kitûnõ, akárcsak az erdei ragadozó-\nké,  ezen  kívül  az  elfek  számottevõ  éjjeli  látással  is  rendelkeznek\n(amely  a  csillagok  fényénél  oly  30  méterre  tökéletes,  mintha  nappal\nlenne, azon túl gyengül és nagyjából 60-100 méteren túl megszûnik).\nMindkét  játszható  alfaj  megkapja  a  természetismeret jártasság  5.\nszintjét, ezen kívül az erdei elfek a mûvészet jártasság egy választott\nmûfajának 6. szintjét, a bérci könnyûléptûek pedig a \ntájékozódás jár tasság  5.  szintjét  –  mindezt  anélkül,  hogy  erre  külön  jártasságpontot\nfordítanának.",
+    "specials": {
+        "faereje": {
+            "id": "faereje",
+            "name": "A fa ereje",
+            "cost": 15,
+            "info": "Képes az elf fává alakulni így gyökerekkel szétfeszíteni bármit ahol\nrés van vagy azokon keresztül táplálkozni.\nFontos, hogy a faerõ valóban lassú folyamat, ha nem is olyan lassú, mint\negy  valódi  gyökér  munkája  a  sziklában.  Konkrét  idõtartamot  nehéz\nlenne meghatározni – mondjuk inkább úgy, hogy egy jól felrakott kõ-\nfalban egyetlen faerõvel megáldott elf, néhány óra alatt képes ember-\nnyi lukat bontani. A hátrányként említett vasérzékenység más fémek-\nre  nem  vonatkozik  (réz,  bronz,  nemesfémek  stb.).  Bármely  vastárgy\nérintése 10 szegmensenként 2 fizikumpontnyi sebzést okoz minden te-\nnyérnyi felület esetében (így kéttenyérnyi felületen 4 fizikumpont, há-\nromtenyérnyi  területen  6  fizikumpont).  A vas-,  illetve  acélfegyverek\neredeti  sebzésszorzója  eggyel  magasabbnak  minõsül  velük  szemben,\nés a vágott, zúzott sebeken túl égési sérüléseket is okoz. E hátránynak\nvan egy elõnyös oldala is: a fémpengék vágta sebek azonnal kiégnek\naz elf testén, így gyakorlatilag a seb magától fertõtlenítõdik (nem fer-\ntõzõdik betegségekkel)."
+            }
+    },
+    "jartMod": {
+        "szem":-5
+    },
+    "jartMaxLevelMod": {},
+    "bonusJart": {
+        "termeszetismeret": {
+            "id": "termeszetismeret",
+            "level": 5
+        },
+        "muveszet": {
+            "id": "muveszet",
+            "level": 6
+        },
+        "tajekozodas": {
+            "id": "tajekozodas",
+            "level": 5
+        }
+    },
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 20,
+            "max": 70
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 50,
+            "max": 90
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 55,
+            "max": 90
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 30,
+            "max": 85
+        }
+    },
+    "age": {
+        "juvenis": 33,
+        "seniorMin": 300,
+        "seniorMax": 350
+    },
+    "speed": {
+        "min": 14,
+        "base": 4,
+        "max": 2
+    }
+}

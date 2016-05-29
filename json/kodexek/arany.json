@@ -1,0 +1,78 @@
+{
+    "aranykodex": {
+        "id": "aranykodex",
+        "name": "Arany Kódex",
+        "kodex": "Arany",
+        "info": "Az  illúziómágia  kódexe,  megfeleloen  az  illúziók  kétféle  természeté-\nnek, kétféle varázslattípust tartalmaz. Az egyik, amelyik a valóság ér-\nzékelheto  látszatát  hozza  létre,  a  másik,  amelyik  a  valóságot  nem\nbolygatva, az érzékszerveket nem igénybe véve, közvetlenül a célsze-\nmély elméjét befolyásolja. Ez nem csupán elvi különbség, mivel a va-\nrázslat hatása, illetve a hatás ellen kifejteto mágikus \u0096 és szellemi \u0096 el-\nlenállás lényegesen más a két illúziótípusnál.\n"
+    },
+    "tundertuz": {
+        "id": "tundertuz",
+        "name": "Tündértuz",
+        "kodex": "Arany",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható, valódi illúzió\nNehézség: 2\nEsszenciaigény: 6 \/ célszemély\nEro: 5\nHatótávolság: 10 méter\nKomponensek: szó\nElmondási ido: 4 szegmens\nHatóido: 50 szegmens\/mágiahasználati szint\nLeírás: \nA varázslat  aktiválásakor  a  varázsló  testét  színes  tuznyelvek\nölelik körbe, ám azok hot nem bocsátanak ki (s így sebzést sem okoz-\nnak). A varázslat egy kisebb tábortuz fényével világít és a babonásabb,\nvagy alacsonyabb intelligenciával rendelkezo lényeket elijeszti a má-\ngiahasználó  közelébol  (ennek  eldöntésére  Lelkiero-próba  javasolt).\nKülön  elonye  a  varázslatnak,  hogy  amennyiben  a  varázsló  nem  jelöl\nmeg  célpontot  a  varázslatnak,  úgy  a  hozzá  legközelebb  álló  (ám  10\nméternél nem távolabb lévo) személyen jelenik meg. Egy varázslattal\nmaximum 3 célszemély jelölheto meg. \nA színes lángokkal borított személy remek célpontja az íjászoknak,\nezért -1 védettség módosítót ad.\n"
+    },
+    "lathatatlansag": {
+        "id": "lathatatlansag",
+        "name": "Láthatatlanság",
+        "kodex": "Arany",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható, valódi illúzió\nNehézség: 4\nEsszenciaigény: 10 \/ perc\nEro: 30\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 3 szegmens\nHatóido: speciális\nLeírás: \na  varázslat  alanya  láthatatlanná  válik.  Bár  testi  valójában  to-\nvábbra is jelen lesz, ám szem nem képes közönséges módon érzékel-\nni. A láthatatlanság csupán a testet tünteti el, az általa keltett zajokat\nnem teszi semmissé. A varázslat a célszemélyt minden nála lévo fel-\nszerelési tárggyal (ruházat, fegyverek, ékszerek, stb.) teszi láthatatlan-\nná. Az eltunés 1d3 szegmenst vesz igénybe; a célszemély folyamato-\nsan elhalványul. A láthatatlanság végén a megjelenés hasonló módon\nmegy  végbe.  A láthatatlanság  annyi  percig  tart,  amíg  a  létrehozója\nakaratlagosan meg nem szünteti a varázslatot, vagy el nem telik annyi\nperc, amennyi esszenciát a Láthatatlanság létrehozására fordítottak. A\nvarázslat  alanya  láthatatlanul  minden  olyan  cselekedet  végrehajthat,\nmint normál esetben, azonban tekintetbe kell venni azt is, hogy o ma-\nga sem látja önmagát (azaz ha meg akar fogni valamit, akkor tapogat-\nnia kell, a kezében tartott tárgyak alkalmazása problematikus, stb.). A\nláthatatlan  személytol  származó  tárgyak  (elejti,  eldobja  stb.)  azonnal\nláthatóvá  válnak,  míg  ha  valami  tárgyat  rejt  a  ruhája  alá  (zsákjába,\nstb.), akkor az nyomban eltunik.\n"
+    },
+    "lathatatlansagerzekelese": {
+        "id": "lathatatlansagerzekelese",
+        "name": "Láthatatlanság érzékelése",
+        "kodex": "Arany",
+        "nehezseg": 5,
+        "info": "Típus: személyre ható\nNehézség: 5 (6)\nEsszenciaigény: 20 (40)\nEro: 15\nHatótávolság: a mágiahasználó\nKomponens: szó, mozdulat\nElmondási ido: 8 szegmens\nHatóido: 1 perc (duplázható)\nLeírás: \na  varázslat  lehetové  teszi  a  láthatatlan  teremtmények  és  tár-\ngyak  megpillantását  10  méteres  (dupla  esszenciapont  befektetés  ese-\ntén  20  méteres)  távolságon  belül.  A mágiahasználó  a  láthatatlan  dol-\ngokat kékes aurában fogja látni (innen tudja, hogy azok láthatatlanok).\n"
+    },
+    "illatorgia": {
+        "id": "illatorgia",
+        "name": "Illatorgia",
+        "kodex": "Arany",
+        "nehezseg": 3,
+        "info": "Típus: mentális illúzió\nNehézség: 3\nEsszenciaigény: 5\/illat vagy szag\nEro: 8\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 1 szegmens\nHatóido: 10 perc\nLeírás: \na mágiahasználó a legkülönfélébb szagokat és illatokat kelthe-\nti a célterületen, vagy megszüntetheti azokat, vagy átalakíthat már lé-\ntezoket.  Az  így  létrehozott  illatok  illúziórikusak,  így  semmilyen  lég-\nmozgató  varázslat  (Fuvallat,  stb.)  nem  képes  szétoszlatni  azokat.  Az\nátalakított illatok viszont elfújhatóak, hiszen már létezett egy (elfújha-\ntó) illat, amelyet a varázslat hatására másnak éreznek. A mágiahaszná-\nló körülbelül 10 légköbméternyi területre képes hatni a varázslatával,\nnagyjából  egyenletes  elosztást  biztosítva  az  illatok  intenzitása  terén.\nCsak olyan illatot lehet a varázslattal létrehozni, amit a mágiahaszná-\nló már legalább egyszer megtapasztalt élete során. A varázslattal teljes\nszaghiány  is  létrehozható,  ez  esetben  a  célterületen  semmilyen  illat\nvagy  szag  nem  érzékelheto  azon  lények  számára,  akik  elvétik  az  es-\nszenciapajzs próbájukat (ilyen helyzetben a szaglásuktól erosen függo\nteremtmények \u0096 például kutyák \u0096 teljesen megzavarodnak). A mágia-\nhasználó egyszerre annyi különbözo szagot\/illatot tud kelteni, ahány-\nszor 5 esszenciapontot felhasznál a varázslat létrehozása során.\n"
+    },
+    "langoloruna": {
+        "id": "langoloruna",
+        "name": "Lángoló rúna",
+        "kodex": "Arany",
+        "nehezseg": 2,
+        "info": "Típus: valódi illúzió\nNehézség: 2\nEsszenciaigény: 10\nEro: 30\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (foszfor)\nElmondási ido: 3 perc\nHatóido: 3 óra\nLeírás: \na  varázslat  segítségével  lángoló  rúnák  írhatók  a  levegobe.  A\nrúnák alapértelmezésben egy méter magasak, de méretük az Ep\nbefektetéssel arányosan növelheto (20 Ep 2 méteres rúná-\nkat  eredményez,  30  Ep  3  métereseket,  stb.).  Így  egé-\nszen nagy, távolról kiválóan látható feliratok is kiala-\nkíthatóak.  A mágiahasználó  annyi  rúnát  írhat  az\négre, ahányszor 5 Ep-t felhasznál. A rúnaírás 3\nóráig  lángol.  Csak  Mágikus  Ellenvarázzsal\n(vagy eroteljesebb negáló varázslattal) lehet\neltüntetni.    Anyagi    komponens    annyi\ngramm  foszfor,  ahány  rúnát  a  mágiahasz-\nnáló írni kíván.\n"
+    },
+    "buzfal": {
+        "id": "buzfal",
+        "name": "Buzfal",
+        "kodex": "Arany",
+        "nehezseg": 4,
+        "info": "Típus: mentális illúzió\nNehézség: 4\nEsszenciaigény: 5\/köbméter\nEro: 30\nHatótávolság: zóna\nKomponens: szó, mozdulat\nElmondási ido: 10 szegmens\nHatóido: 10 perc\nLeírás: \na mágiahasználó egy egybefüggo\nbuzfal  mentális  illúzióját  teremtheti  egy\nadott  terület  elzárására,  ellenfelei  köré,\nvagy hasonló helyre. A buzfal nagysága any-\nnyi köbméter, ahányszor 5 Ep-t a mágiahasz-\nnáló a varázslatra áldoz. Az ereje soha nem vál-\ntozik: mindig letaglózó \u0096 minden egyes hatása alá\nkerült személy a számára legelviselhetetlenebb buzt\nfogja  érezni.  Formája  a  mágiahasználó  akaratától  függoen  változik\n(így akár körbe is lehet zárni vele más lényeket). Nincs olyan lény \u0096\nkivéve ha nincsenek szaglós zervei \u0096, amelyik könnyedén átjuthatna a\nfalon,  ha  már  egyszer  kifejtette  rá  a  hatását.  Minden  lény,  amelyre  a\nbuzillúzió hat, Lelkiero-dobást kell, tegyen. Ha elrontja, akkor egysze-\nruen nem fog beljebb lépni a falba, hacsak nem életveszélyben mene-\nkül. Aki kontaktusba kerül a buzfallal, és esszenciapajzsa nem képes\nnegálni a hatást, az nyomban összeesik, szemébol dolni kezd a könny,\nösszehányja magát tehetetlen undorában, majd 1d4 perc múlva elájul,\nés csak 2d6 perc múlva tér magához (szomatizált hatások).\n"
+    },
+    "fenytores": {
+        "id": "fenytores",
+        "name": "Fénytörés",
+        "kodex": "Arany",
+        "nehezseg": 6,
+        "info": "Típus: valódi illúzió\nNehézség: 6\nEsszenciaigény: 18\nEro: 20\nHatótávolság: mágiahasználó\nKomponens: szó\nElmondási ido: 1 perc\nHatóido: az elso támadásig, de max. 300 szegmens\nLeírás: \na varázslat elmondása után a mágiahasználó teste körül elhaj-\nlanak  a  fénysugarak,  és  50-100  centiméterrel  arrébb  mutatják,  mint\nahol fizikailag tartózkodik. Ennek eredményeként az elso, közvetlenül\nráirányuló fizikai vagy mágikus támadás mindig automatikusan elhi-\nbázza.  Területre  ható  támadások  ellen  (példáulTuzgolyó)\na  varázslat semmilyen védelmet nem nyújt.\n"
+    },
+    "illuzioerzekelese": {
+        "id": "illuzioerzekelese",
+        "name": "Illúzió érzékelése",
+        "kodex": "Arany",
+        "nehezseg": 4,
+        "info": "Típus: területre ható\nNehézség: 4\nEsszenciaigény: 25\nEro: 35\nHatótávolság: mágiahasználó\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 3 szegmens\nHatóido: azonnali\nLeírás: \na varázslat segítségével a mágiahasználó képes lesz felfedezni\naz illúziót maga elott egy körülbelül 5 méter széles, 10 méter hosszú\nsávban.  A  mágiahasználó  az  esszencia-befektetés  megduplázásával\nduplájára növelheti a fenti paraméterek valamelyikét (10 méter széles\nvagy\n20 méter hosszú). Anyagi komponens egy kristálylap.\n"
+    },
+    "orzorem": {
+        "id": "orzorem",
+        "name": "Ôrzô rém",
+        "kodex": "Arany",
+        "nehezseg": 8,
+        "info": "Típus: mentális illúzió\nNehézség: 8\nEsszenciaigény: 30 Ep\/óra\nEro: 60\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi\nElmondási ido: 10 perc\nHatóido: 1 óra\/30 Ep\nLeírás: \na varázslat egy iszonyatos külsovel bíró rémsé-\nget  \u0084idéz  meg\u0094  a  mágiahasználó  által  kijelölt  területre,\nhogy ott orfeladatokat lásson el. A terület nagysága leg-\nfeljebb  annyiszor  20  négyzetméter  lehet,  ahányadik\nszintu a létrehozó Mágiahasználat jártassága, de korlá-\ntozódhat egy tárgyra vagy egy személyre is. A szörny\naz idotartam lejártáig huségesen fogja orizni a számá-\nra  kijelölt  helyet  vagy  tárgyat,  és  megakadályozza\nazok megközelítését és\/vagy megtámadását. Látja a\nláthatatlan,  a  rejtozködo,  az  álruhát  viselo  és  ha-\nsonlóképpen  álcázott  lényeket,  s  ha  ellenséges\nszándékot  érez  (\nez  lehet  egy  tárgy  ellopását\nmegcélzó  cselekedet  is\n),  nyomban  támadásba\nlendül.  Támadó-  és  védoszintje  megegyezik  a\nmegidézoje Mágiahasználat jártasságának szint-\njével.  Azok  a  lények,  akik  csak  rápillantanak  az\nOrzo Rémre, félelem hatása alá kerülhetnek, ha-\ncsak sikeres Lelkiero-próbát nem tesznek. A pró-\nba súlyos rontásakor (legalább 20-szal a célszám fö-\nlé)  a  karakterek  sikoltozva  menekülnek  annyiszor  10\nszegmensen  keresztül,  ahányadik  szintu  a  létrehozó  \nmágiahasználat\njártassága. A lény minden sikeres támadása 1k10 Fp \nképzelt\nvesztesé-\nget okoz a mentális illúzió szabályai szerint. A Rém nem tunik el a va-\nrázslat idotartamának lejártáig, s akkor sem, ha elzavarta a támadókat.\nKivételt  képez  az  az  eset,  ha  legalább  háromszor  annyi  veszteséget\nokoztak  neki,  mint  ahány  fizikumpontja  a  létrehozójának  volt.  A va-\nrázslat  anyagi  komponense  démonbor  és  démonvér.  A bort  apró  csí-\nkokra  szabdalva  el  kell  helyezni  a  védendo  területen,  míg  a  vérrel  a\nvédeni kívánt terület határait kell kijelölni, minden fontos ponton el-\ncseppentve egy keveset.\n"
+    },
+    "arnyektolvaj": {
+        "id": "arnyektolvaj",
+        "name": "Árnyéktolvaj",
+        "kodex": "Arany",
+        "nehezseg": 6,
+        "info": "Típus: valódi illúzió\nNehézség: 6\nEsszenciaigény: 40 (80, 120)\nEro: 35\nHatótávolság: érintés\nKomponens: szó, mozdulat\nElmondási ido: 5 szegmens\nHatóido: 1 nap (2 nap, 3 nap)\nLeírás:\na mágiahasználó a varázslat segítségével ellophatja valakinek\n(vagy valaminek) az árnyékát. Ehhez mindössze meg kell érintenie a\ncélpontot,  majd  az  árnyék  a  mágiahasználó  akaratától  függoen  1-10\nperc múlva egyszeruen eltunik. Ezután a célpontnak egy vagy több na-\npig nem lesz árnyéka. Az árnyék a varázslat lejártát követoen azonnal\n"
+    }
+}

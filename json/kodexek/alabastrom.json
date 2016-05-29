@@ -1,0 +1,114 @@
+{
+    "legkozpont": {
+        "id": "legkozpont",
+        "name": "Légközpont",
+        "kodex": "Alabástrom",
+        "nehezseg": 10,
+        "info": "Típus: speciális\nNehézség: 10\nEsszenciaigény: 10\nEro: 10\nHatótávolság: zóna\nKomponens: szó\nElmondási ido: 1 szegmens\nHatóido: legfeljebb 100 szegmens\nLeírás: \na varázslat epicentruma áthelyezodik egy, zónán belül lévo tet-\nszoleges, szabad levegoben lévo pontra, és onnan úgy jön létre a va-\nrázslat, mintha a varázsló ott tartózkodna. Nem számít szabad levego-\nnek a tüdoben lévo vagy más, zárt helyen lévo levego. Az új epicent-\nrumtól kell számítani a következo légvarázslat hatótávolságát és min-\nden más paraméterét. A Légközpont és az azt követo légvarázslat egy\ncselekedetnek  számít.  Egy  Légközpont  varázslat  után  csak  egyetlen\nlégvarázslatot  lehet  elmondani  (de  az  nem  lehet  egy  másik  Légköz-\npont).\n"
+    },
+    "vakitofeny": {
+        "id": "vakitofeny",
+        "name": "Vakító fény",
+        "kodex": "Alabástrom",
+        "nehezseg": 3,
+        "info": "Típus: személyre ható\nNehézség: 3\nEsszenciaigény: 18\nEro: 22\nHatótávolság: 20 méter\nKomponensek: szó, mozdulat, anyagi (légvétel) \nElmondási ido: 4 + 5 szegmens\nHatóido: azonnali\nLeírás: \nHatására erosen vakító fényvillanás csap ki a mágus tenyeré-\nbol. A felvillanás által bevilágított terület egy 90 fokos szögtartomány-\nba fér bele. Minden itt tartózkodónak, aki ez ido alatt a mágus irányá-\nba nézett \u0096 és nem hunyta le, vagy védte valamivel a szemét \u0096, mágia-\nellenállást  kell  tennie,  vagy  100  szegmensre  elvakul.  Az  eros  fényre\nérzékeny lények 2-300 szegmens idore is elveszthetik látóképességü-\nket.\n"
+    },
+    "fantomlampas": {
+        "id": "fantomlampas",
+        "name": "Fantomlámpás",
+        "kodex": "Alabástrom",
+        "nehezseg": 1,
+        "info": "Típus: speciális\nNehézség: 1\nEsszenciaigény: 1\/perc\nEro: 2\nHatótávolság: 20 méter\nKomponens: szó\nElmondási ido: 1 szegmens\nHatóido: 1 perc\/1 Ep\nLeírás: \na mágiahasználó egy imbolygó lámpásszeru fényt idéz fel ma-\nga  elott.  A fény  mintegy  2  méter  átméroju  kört  világít  meg,  mintha\ncsak  egy  fáklya  lenne.  A fantomlámpás  mozoghat  a  létrehozó  elott,\nmögött vagy akár felette, a mágiahasználó kívánságának megfeleloen;\nde  sohasem  távolodhat  el  tole  20  méternél  messzebbre.  A varázslat\nidotartama annyi perc, amennyi Ep-ért létrehozták.\n"
+    },
+    "alelegzoerdofuvallata": {
+        "id": "alelegzoerdofuvallata",
+        "name": "A lélegzô erdô fuvallata",
+        "kodex": "Alabástrom",
+        "nehezseg": 4,
+        "info": "Típus: területre ható\nNehézség: 4 \nEsszenciaigény: 12 (növelheto)\nEro: 10 \nHatótávolság: 10 méter\nKomponensek: szó\nElmondási ido: 5 szegmens \nHatóido: 1 perc (100 szegmens) (növelheto)\nLeírás: \nA varázsló körül a mágia létrejötte után 10 méteres körzetben\na levego kitisztul, mindenfajta légszennyezodés, légméreg eltunik. Az\nidotartam lejártáig semmilyen szag, légméreg nem kerülhet a hatókör-\nbe. Az idotartam növelheto percenként 6 esszenciapontért.\n"
+    },
+    "rozsdacsapas": {
+        "id": "rozsdacsapas",
+        "name": "Rozsdacsapás",
+        "kodex": "Alabástrom",
+        "nehezseg": 5,
+        "info": "Típus: tárgyra ható\nNehézség: 5\nEsszenciaigény: 1 \/ 1 dkg fém\nEro: 35\nHatótávolság: 10 méter\nKomponens: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 6 + 5 szegmens\nHatóido: maradandó\nLeírás: \na  célként  meghatározott,  természetes  körülmények  között  is\nrozsdásodásra képes fémtárgy a varázslat nyomán rohamos sebesség-\ngel rozsdásodásnak indul. A folyamat közönséges módon megállítha-\ntatlan. Hogy mennyi fém fog \ntökéletesen\nelrozsdállni, az a varázslatra\nfordított esszenciamennyiségtol függ. Ha nagyobb kiterjedésu (és sú-\nlyú) fémrol van szó, akkor a rozsdafoltok több helyen is megjelennek\na felszínen, és a rozsdásodás elobb a felso rétegeket fogja támadni, s\ncsak azután az alsókat.\n"
+    },
+    "energiakorbacs": {
+        "id": "energiakorbacs",
+        "name": "Energiakorbács",
+        "kodex": "Alabástrom",
+        "nehezseg": 6,
+        "info": "Típus: személyre ható\nNehézség: 6\nEsszenciaigény: 20 + X (ahol X a sebzés mértéke)\nEro: 10 + X\/2\nHatótávolság: önmaga\nKomponens: szó, mozdulat, anyagi (légvétel, szilánk)\nElmondási ido: 2 + 5 szegmens\nHatóido: 60 szegmens\nLeírás: \na varázslat egy ragyogó, korbácsszeru energiafonatot hoz lét-\nre \u0096 egyfajta megszelídített villámot. A korbács kiválóan alkalmazha-\ntó  a  harcban,  támadó\/védoszintje  azonos  a  Mágiahasználat  jártasság\nszintjével, fegyversebessége a varázsló alapgyorsaságának fele, min-\nden sikeres találata a támadódobásból eredo sebzést (1-es sebzésszor-\nzó)  +  X  Fp  veszteséget  okoz.  A teljes  hossza  3-3,5  méter.  Fémvért,\nfémpajzs, fémfegyverek és hasonlók esetén a körülmények \nrendkívül\nkedvezoek \nlesznek a találathoz, mivel ezek magukhoz vonzzák a kor-\nbácsot  \u0096  ugyanakkor  a  szálfegyverek  esetén  ez  hátrányos  is  lehet  (a\nhosszú fanyél miatt a korbács sebzo energiája nem jut el az ellenfélig),\nezért ezek ellen a \nrendkívül hátrányos\nkörülmények módosítója érvé-\nnyes a célszemélyt érinto találatokhoz. A varázslat anyagi komponen-\nse  egy  villámsújtotta  fa  kicsiny  üszkös  szilánkja,  amelyet  a  mágia-\nhasználónak  a  varázslat  végéig  a  kezében  kell  tartania.  Megjegyzen-\ndo,  hogy  a  korbács  hétköznapi  funkciókat  is  elláthat,  például  ráteke-\nredve egy korlátra, megkönnyítheti a felmászást a mágiahasználó, és\ncsakis  a  mágiahasználó  számára  (ot  nem  sebzi).  Mindenki  más,  aki\nönként megérinti a korbácsot (saját kezuleg vagy bármilyen fémtárgy-\ngyal), automatikusan a maximális veszteséget fogja elszenvedni.\n"
+    },
+    "elteritoaura": {
+        "id": "elteritoaura",
+        "name": "Eltérítô aura ",
+        "kodex": "Alabástrom",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 25\nEro: 15\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 10 + 5 szegmens\nHatóido: 20 szegmens \/mágiahasználat szint\nLeírás: \nA célszemély körül láthatatlan erotér keletkezik, amely min-\nden  kilott,  vagy  égbol  hulló  anyagi  kiterjedéssel  bíró  lövedéket  50%\neséllyel eltérít. Tömeghatás esetén (pl. jégeso, a lávabomba freccsené-\nse stb.) nem kell minden egyes lövedékdarabra kiszámítani az esélyt \u0096\nerre nincs is mód \u0096, ilyenkor az eredeti hatás felével kell számolni a\ncélszemély esetében.\n"
+    },
+    "csendgomb": {
+        "id": "csendgomb",
+        "name": "Csendgömb",
+        "kodex": "Alabástrom",
+        "nehezseg": 5,
+        "info": "Típus: területre\/tárgyra\/személyre ható\nNehézség: 5\nEsszenciaigény: 10 \/gömbsugár méterben (max. 5 méterig)\nEro: 15\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 3 + 5 szegmens\nHatóido: 60 szegmens\nLeírás:\nhatására a célterületen kioltódik minden hang, abszolút csönd\náll be. Gyakorlatilag lehetetlenné válik mindenféle beszélgetés, azon\nvarázslatok pedig, melyekhez szókomponens szükséges, használhatat-\nlanok a területen belül. Sem kifelé, sem befelé nincs hangáramlás. A\nvarázslatot  nemcsak  helyre,  de  bizonyos  tárgyakra,  élolényekre  is  rá\nlehet mondani \u0096 ez utóbbi esetben, ha a tárgy vagy az élolény elmoz-\ndul, a csendgömb vele együtt mozog. Sikeres mágikus ellenállás ese-\ntén a varázslat nem jön létre, ugyanakkor a felhasznált Ep eltávozik.\n"
+    },
+    "villamcsapas": {
+        "id": "villamcsapas",
+        "name": "Villámcsapás",
+        "kodex": "Alabástrom",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 55\nEro: 45\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 5 + 5 szegmens\nHatóido: azonnali\nLeírás:\na varázslat nyomán a mágiahasználó kezébol egy villám robban\nelo, abba az irányba, amerre mutat. A mágikusan létrehozott villám ha-\ntása megegyezik a természetes módon képzodöttel (lángra lobbanthatja\na gyúlékony anyagokat, becsapódásakor percekre megsüketíti a környé-\nken tartózkodókat, megölhet élolényeket stb. \u0096 de a megfelelo módsze-\nrek használatával energiája levezetheto a földbe, s így hatástalanítható).\nAz a személy, akit egy villámcsapás eltalál, 15d6 fizikumpontot veszít.\n"
+    },
+    "szelcsend": {
+        "id": "szelcsend",
+        "name": "Szélcsend",
+        "kodex": "Alabástrom",
+        "nehezseg": 6,
+        "info": "Típus: területre ható\nNehézség: 6\nEsszenciaigény: 18 (36)\nEro: 25\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel, üres borzsák)\nElmondási ido: 10 + 5 szegmens\nHatóido: 1 óra (háromszorozható)\nLeírás: \nezzel a varázslattal még a legnagyobb szelek is lecsillapítha-\ntók a hatáskörön belül. A varázslat egy 10 méter sugarú gömb belsejé-\nben gyakorlatilag mozdulatlanná teszi a levegot. A gömbön kívül tom-\nbolhat  bármekkora  vihar,  a  bent  lévoknek  semmiféle  bajuk  nem  fog\nesni tole. A Szélcsend egy teljes óráig tart, de az idotartam az esszen-\ncia-ráfordítás megduplázásával megháromszorozható. A varázslat ere-\nje levonódik a mágikus szelek erejébol, így csökkentve azok hatását.\nMegjegyzendo, ha a varázslatot viharban alkalmazzák, az csak a szél\nellen nyújt hathatós védelmet, az esetleges eso, villám ellen nem. \n"
+    },
+    "szikrazapor": {
+        "id": "szikrazapor",
+        "name": "Szikrazápor",
+        "kodex": "Alabástrom",
+        "nehezseg": 2,
+        "info": "Típus: személyre ható\nNehézség: 2\nEsszenciaigény: 12\nEro: 30\nHatótávolság: mágiahasználó\nKomponens: szó, mozdulat, anyagi (lélegzet)\nElmondási ido: 1 + 5 szegmens\nHatóido: azonnali\nLeírás: \na varázslat során kékes szikrazápor tör elo a mágiahasználó te-\nnyerébol,  maximum  10  méter  távolságig.  A szikraeso  sugárirányban\nterjed. Akit a szikrazápor eltalál, 2d10 Fp veszteséget szenved el. Ha\naz ellenfél fémvértet, fémpajzsot vagy hasonlót visel, automatikusan a\nmaximális veszteséget szenvedi el.\n"
+    },
+    "villamloszem": {
+        "id": "villamloszem",
+        "name": "Villámló szem",
+        "kodex": "Alabástrom",
+        "nehezseg": 3,
+        "info": "Típus: önmagára ható\nNehézség: 3\nEsszenciaigény: 5 \/villám\nEro: 20\nHatótávolság: önmaga\nKomponens: szó, mozdulat, anyagi (légvétel, békaszem)\nElmondási ido: 1 + 5 szegmens\nHatóido: 100 szegmens\nLeírás: \na  varázslat  segítségével  a  mágiahasználó  apró  villámokat  tud\nkibocsátani a szemébol, maximum 20 méter távolságra. A hatóido alatt\nlegfeljebb 4 villám loheto ki (az ennek megfelelo Ep-t a varázslat lét-\nrehozásakor kell befektetni), ezek mindegyike 4 Fp veszteséget okoz.\nA villámokat nem szükséges egyetlen ellenfélre kiloni, tetszés szerint\nel lehet osztani a hatáskörön belül álló lények között. A varázslat anya-\ngi komponense egy béka szemgolyója, melyet a mágiahasználónak le\nkell nyelnie a varázslat aktivizálásához. A varázslat létrejötte után, de a\nhatóidon belül más tevékenységre is lehetoség van, a varázsló harcol-\nhat, sot, akár varázsolhat is \u0096 miközben villámokat lövell a szemébol.\n"
+    },
+    "repules": {
+        "id": "repules",
+        "name": "Repülés",
+        "kodex": "Alabástrom",
+        "nehezseg": 4,
+        "info": "Típus: személyre ható\nNehézség: 4\nEsszenciaigény: 5 vagy 10 \/perc\nEro: 40\nHatótávolság: érintés\nKomponens: szó, mozdulat, anyagi (lélegzet)\nElmondási ido: 100 + 5 szegmens\nHatóido: 1 perc \/5 vagy 10 Ep\nLeírás: \na varázslat felruházza a mágikus repülés képességével a má-\ngiahasználót (5 Ep-ért), vagy az általa kiválasztott lényt (10 Ep-ért). A\nhatás  alatt  álló  lény  mozoghat  függolegesen  és\/vagy  vízszintesen  is,\nmásodpercenként  10  méteres  (36  km\/órás)  sebességgel.  A varázslat\nidotartama  annyi  perc,  ahányszor  5,  illetve  10  esszenciapontot  a  va-\nrázslatra fordítottak.\nA karakter önmagát súlykorlátozás nélkül reptetheti, de nem repít-\nheti fel magát, miközben egy több mázsás sziklát tart, csak annyi súly-\nlyal, amennyit varázslat nélkül is meg bírna emelni - ellenkezo eset-\nben fizikai sérüléseket szenved az elviselhetetlen megterheléstol.\nMásokat bruttó 100 kg-ig a leírásban szereplo 10 Ep-igénnyel rep-\ntethet,  101-150  kg  között  a  leírásban  szereplo  Ep-igény  duplájával\n(20), 151-200 kg között a leírásban szereplo Ep-igény négyszeresével\n(40). Idegent 200 kg feletti súllyal reptetni nem képes.\n"
+    },
+    "gombvillam": {
+        "id": "gombvillam",
+        "name": "Gömbvillám",
+        "kodex": "Alabástrom",
+        "nehezseg": 8,
+        "info": "Típus: speciális\nNehézség: 8\nEsszenciaigény: 50 \/gömbvillám\nEro: 60\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 6 + 5 szegmens\nHatóido: 5 perc (500 szegmens)\nLeírás: \na  varázslattal  a  mágiahasználó  gömbvillámo(ka)t  teremt.  A\ngömbvillámokat  létrehozójuk  irányítja  a  zóna  határán  belül  (1  mé-\nter\/másodperc  sebességgel  haladhatnak).  A  gömbvillámok  átméroje\nkörülbelül 0,3 méter, és ha bármilyen lény (beleértve a nem e világról\nvalókat,  éloholtakat  stb.)  megérinti  valamelyik  gömbvillámot,  vagy\nakárcsak a közelükbe (1 méteren belülre) kerül, villamos kisülést idéz\nelo (ilyenkor a lény esszenciapajzs-próbára jogosult). Az elektromos-\nságra immúnis lények semmilyen veszteséget nem szenvednek. Min-\nden gömbvillám 40-40 Fp veszteséget okoz. Amennyiben a gömbvil-\nlám kisül, nyomban szétoszlik, egyébként 5 percig marad meg.\n"
+    },
+    "forgoszel": {
+        "id": "forgoszel",
+        "name": "Forgószél",
+        "kodex": "Alabástrom",
+        "nehezseg": 8,
+        "info": "Típus: területre ható\nNehézség: 8\nEsszenciaigény: 90\nEro: 50\nHatótávolság: zóna\nKomponens: szó, mozdulat, anyagi (légvétel, pikkely)\nElmondási ido: 10 + 5 szegmens\nHatóido: 10 perc\nLeírás: \na mágiahasználó annyiszor 2 méter átméroju forgószelet hoz\nlétre, amennyi a Mágiahasználat jártasságának szintje. A tornádó lét-\nrehozási  helyén  minden  teremtmény  2d10  Fp  veszteséget  szenved,\nmajd a tornádó elindul a mágiahasználó által meghatározott irányba, s\nminden, az útjába kerülo teremtményt magával ragad (sikeres Esszen-\nciapajzs-próba semlegesíti a hatást). Akit a hatalmas szélvihar elraga-\ndott, azt 10 perc múlva fogja elejteni (idoközben az önállósult torná-\ndó  elhagyhatja  a  zónát,  ahol  létrejött).  Az,  hogy  a  tornádó  elragadta,\naz még nem jelent fizikai veszteséget, ám a szélvihar 10d10+20 méter\nmagasságig  repíti,  s  innen  fog  lezuhanni  (s  ennek  megfeleloen  szen-\nved veszteséget is, ha nincs a zuhanás ellen egyéb védelme). A torná-\ndó belsejében varázsolni, beszélni vagy bármilyen, értelmezheto cse-\nlekedetet  végrehajtani  a  lehetetlenséggel  határos.  A  mágiahasználó\nnem tudja irányítani a tornádót, csupán az indulási irányt határozhatja\nmeg. Anyagi komponens egy légsárkány pikkelydarabkája.\n"
+    },
+    "ostest": {
+        "id": "ostest",
+        "name": "Ôstest (Lég)",
+        "kodex": "Alabástrom",
+        "nehezseg": 10,
+        "info": "Típus: önmagára ható\nNehézség: 10\nEsszenciaigény: 80\nEro: 100\nHatótávolság: önmaga\nKomponensek: szó, mozdulat, anyagi (légvétel)\nElmondási ido: 5 perc + 5 szegmens\nHatóido: 100 szegmens\/mágiahasználat szint\nLeírás: \na varázshasználó teste maga lesz az Élo Lég \u0096 hasonlóvá vá-\nlik egy légelementálhoz. A varázsló körvonalai elmosódnak, csak tá-\nvolról  emlékeztet  humanoidra  a  testét  alkotó  tiszta  légfuvallatok  mi-\natt. A felszerelési tárgyak és a ruha is beleolvad az ostestbe. a varázs-\nlat idotartama alatt a légmágus csak mágikus fegyverekkel, természe-\ntes tuzzel, vagy mágiával sebezheto. A Skarlát Kódex varázslatai dup-\nlán sebzik, ugyanakkor az Alabástrom Kódex varázslataira immúnis-\nsá válik, bármilyen szándékkal mondanák is ki rá. Ostestben képes fel-\nemelkedni a felhok fölé, és képes viharként átszáguldani bárkin \u0096 egy-\negy ilyen száguldás sebzése 2d10 fizikumpont \u0096, és besurranni a leg-\nkisebb  nyílásokon.  A varázsló  az  ostestben eredeti  sebességének  tíz-\nszeresével bír (értelemszeruen ez Gyorsaság pontjaira fordítva hat), és\nsemmilyen cselekedetéhez nem szükséges kezdeményezo dobást ten-\nnie. Az ostestben való lét idolegesen megduplázza a varázsló aktuális\nesszenciapontjait,  és  felfokozza  szellemi  képességeit  (emlékezet,  in-\ntelligencia stb.). A visszaalakulást követo két napon a mágus energia-\nigénye megtízszerezodik, ezért hihetetlen mennyiségu élelmet fal fel.\n"
+    }
+}

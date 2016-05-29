@@ -1,0 +1,514 @@
+{
+    "fegyverforgatas": {
+        "id": "fegyverforgatas",
+        "name": "Fegyverforgatás",
+        "jartCsop": "ver",
+        "costMod": [ "kez", "fegyver" ],
+        "cost": [ 300, 300, 300, 600, 600, 600, 900, 900, 900, 2500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "fegyvercsop": {
+            "kard": {
+                "name": "Kard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "lasszo": {
+                "name": "Lasszó",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "dobohalo": {
+                "name": "Dobóhaló",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "shilpenge": {
+                "name": "Shil-penge",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "fojtohurok": {
+                "name": "Fojtóhurok",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            },
+            "kriss": {
+                "name": "Kriss",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            }
+
+
+        },
+        "minLevel": 1,
+        "visszahatas": null,
+        "info": "Szükséges foérték: Rátermettség 40\/50\/60\/70\nSzükséges jártasság: nincs\nA tanulás módja: M\/1\nTábla: Rubin\nA jártasság a harcrendszer alapjául szolgáló ismereteket tartalmazza.\nA karakter ezen jártassága alapján támad és védekezik \u0096 harcértékeit\n(Támadószint, Védoszint) a jártasságszintje adja meg. Második szint-\ntol a karakter specializálódhat: csupán a védekezést, vagy csak a tá-\nmadást  helyezve  elotérbe  (azaz,  innentol  kezdve  külön  lehet\nfejleszteni az adott fegyverre a fegyverforgatást támadásra illetve vé-\ndekezésre, s elofordulhat akár az is, hogy a karakternek 5-ös szinten\nvan  a  fegyverforgatás  jártasság  támadás  része  egy  adott  fegyverre,\nmíg ugyanazon fegyvernél a védekezésé csupán 2-es). A fegyverfor-\ngatás  tehát  olyan  komplex  ismeret,  melyet  játéktechnikai  szempont-\nból részismeretekre bontottunk. A karaktert semmi sem akadályozza\nmeg abban, hogy mind támadni, mind védekezni megtanuljon ugyan-\nazzal a fegyverrel \u0096 akár a valós élet harcosai \u0096, ám megteheti, hogy\nfegyverével csupán támadni tanul, s bízik abban, hogy sosem lesz, aki\nvisszaüt. A fegyverek sajátosságaiból adódóan a specializáció jártas-\nságpont-igénye eltéro lehet \u0096 pl. a kardokkal ugyanolyan jól lehet tá-\nmadni  és  védekezni,  míg  a  csatabárdok  inkább  támadófegyverek,  a\nvelük való védekezést nehezebb elsajátítani.\nA fegyverforgatás jártasságot  annyiszor  kell  elsajátítani,  ahány\nfegyverrel  a  karakter  harcolni  szeretne.  Jártasság  nélkül  harcolni  0\/0\nharcértékkel, mint képzetlen fegyverforgató lehet. Ugyanabba a fegy-\nvercsoportba tartozó fegyverek esetén a jártasságpont-igény módosul\n(lásd Fegyverek fejezet), mivel, ha már az egyik fegyver forgatásában\njáratos a karakter, a többi csoportbéli fegyver sem lesz teljesen idegen\na számára. Ha olyan fegyver forgatását tanulja a karakter, amely fegy-\nvercsoportjából  már  rendelkezik  a  \nfegyverforgatásjártassággal,  a  rokonfegyver  tanulása  \n85  %-kal  kevesebb Jp-be  kerül,  mint  ahogyan\nazt  a  táblázatban  megtalálhatjuk  (de  nem  vonódik  össze  más  módo-\nsítókkal), mindaddig, míg az újonnan tanult jártasság szintje el nem éri\na  régi  jártasságét  (a  támadás  és  a  védekezés  specializációban  külön-\nkülön  vizsgálva).  Az  azonos  csoportba  tartozó  fegyverek  használatá-\nnak  együttes  tanulásakor  ugyanez  a  szabály  érvényes.  A  szabály\nmindazon  harci  jártasságokra  is  vonatkozik,  melyek  a  különbözo\nfegyvertípusokra egyedileg sajátíthatóak el, és a szükséges jártassága\na  fegyverforgatás.  \nA visszatámadás,  lefegyverzés,  pusztító  csapás,\nkifárasztás  és  cselezés  jártasságok  esetében  tehát  ugyancsak  85\n%-kal csökken a jártasságpont-igény\n, ha a kiegészíto jártasságot a\nmár  elsajátított  fegyverrel  azonos  csoportba  tartozó  másik  fegyverre\nigyekszik a karakter megtanulni.\nJártasságpróbája lényegében a harc maga, ahol a karakter Támadó-\nszintje és az ellenfél Védoszintje adja meg a célszámot. A jártasság Jp-\nigényének kiszámításához opcionális szabályt és táblázatot találhatsz\na  126.  oldalon.  Az  opcionális  szabály  a  különbözo  fegyvercsoportok\nközött tesz különbséget.\n"
+    },
+    "fegyverhajitas": {
+        "id": "fegyverhajitas",
+        "name": "Fegyverhajítás",
+        "jartCsop": "ver",
+        "costMod": [ "kez", "fegyver" ],
+        "cost": [ 350, 350, 350, 700, 700, 700, 1100, 1100, 1100, 3000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "csoportok": {
+            "kard": {
+                "name": "Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "nehezkard": {
+                "name": "Nehéz Kard",
+                "have": false,
+                "minLevel": 1
+            },
+            "vivokard": {
+                "name": "Vívóard",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "buzoganyok": {
+                "name": "Buzogányok",
+                "have": false,
+                "minLevel": 1
+            },
+            "torok": {
+                "name": "Tőrök",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "csatabardok": {
+                "name": "Csatabárdok",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "szalfegyverek": {
+                "name": "Szálfegyverek",
+                "have": false,
+                
+                "minLevel": 1
+
+            },
+            "lovaslandzsa": {
+                "name": "Lovas-lándzsa",
+                "have": false,
+                "minLevel": 1
+
+            },
+                        "shilpenge": {
+                "name": "Shil-penge",
+                "have": false,
+                "minLevel": 1
+            },
+            "kriss": {
+                "name": "Kriss",
+                "have": false,
+                "minLevel": 1
+            },
+            "hajitofegyverek": {
+                "name": "Hajítófegyverek",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "egyeb": {
+                "name": "Egyéb",
+                "have": false,
+                "minLevel": 1
+
+            }
+        },
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "ero", "nemnovel", "ero", "nemnovel" ],
+        "info": "Szükséges foérték: Rátermettség 50\/60\/70\/80\nSzükséges jártasság: nincs\nA tanulás módja: M\/1\nTábla: Rubin\nAlapvetoen a hajítófegyverekkel való harc jártassága. Ezek a speciális\nfegyverek  teljességgel  alkalmatlanok  a  közelharcra,  ezért  védekezni\nsem  lehet  velük.  A jártasság  viszonylag  alacsony  Jp-igénye  nem  azt\njelzi, hogy könnyu megtanulni, hanem azt, hogy a hajítófegyveres tá-\nmadást nehezebb kivédeni \u0096 ugyanis a jártasság szintje adja a harcban\na karakter Támadószintjét.A fegyverhajítás\njártasság  elsajátítható  nem  kifejezetten  hajításra\nalkotott fegyverekkel is. Ilyenkor a jártasságpont-igény megváltozik,\nerrol  a  Fegyverforgatás  opcionális  jártasságpont  táblázatából  tájéko-\nzódhatsz! A dobásra kifejezetten alkalmatlan fegyverek esetében (me-\nlyet nem tartalmaz a táblázat) 2-300% Jp-t kell befektetni.\nJártasságpróbája lényegében a harc maga.\n"
+    },
+    "ijaszat": {
+        "id": "ijaszat",
+        "name": "Íjászat",
+        "jartCsop": "ver",
+        "costMod": [ "szem" , "kez"],
+        "cost": [ 500, 500, 500, 1000, 1000, 1000, 1500, 1500, 1500, 4000 ],
+        "reqFoertekId": "ugyesseg",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "lelkiero", "nemnovel", "reflex", "nemnovel", "lelkiero", "nemnovel" ],
+        "info": "Szükséges foérték: Ügyesség 50\/60\/70\/80\nSzükséges jártasság: nincs\nA tanulás módja: M\/1\nTábla: Rubin\nA lofegyverek  használatának  jártassága  \u0096  nem  íjszeru  lofegyverekre\nis.  Ezek  a  fegyverek  teljességgel  alkalmatlanok  a  közelharcra,  ezért\nvédekezni sem lehet velük \u0096 a jártasságpontokat csak a Támadószint\nnövelésére  lehet  fordítani.  Jártasságpróbája  lényegében  a  harc  maga,\nahol a karakter Támadószintje és az ellenfél Védettsége (speciális, lo-\nfegyverek elleni) adja meg a célszámot.\n"
+    },
+    "pajzshasznalat": {
+        "id": "pajzshasznalat",
+        "name": "Pajzshasználat",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 500, 600, 700, 900, 1100, 1300, 2000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "fegyvercsop": {
+            "pajzs": {
+                "name": "Pajzs",
+                "have": false,
+                "atk": 0,
+                "atkMin": 1,
+                "def": 0,
+                "defMin": 1
+            }
+        },
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "szivossag", "nemnovel", "fizikum", "nemnovel" ],
+        "info": "Szükséges foérték: Rátermettség 40\/50\/60\/70\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Rubin\nA  jártasság  a  pajzs  fegyverként  való  használatát  foglalja  magába.\nAkárcsak a fegyverforgatásnál, a második szinttol a karakter speciali-\nzálódhat: csupán a védekezést, vagy csak a támadást helyezve elotér-\nbe  (azaz,  innentol  kezdve  külön  lehet  fejleszteni  az  adott  pajzsra  a\npajzshasználatot  támadásra  illetve  védekezésre).  Fontos  különbség  a\nfegyverhasználathoz  képest,  hogy  a  pajzshasználat\nalapvetoen  egy fofegyver  használatának  a  kiegészítését  célozza,  azaz  úgy  lehet\nkarddal    (vagy  bármely  más,  a  pajzshoz  illo  fegyverrel)  és  pajzzsal\negyszerre  harcolni,  hogy  nem  szükséges  hozzá  a  két  fegyver használata\njártasság.  Ez  azt  is  jelenti,  hogy  a  pajzshasználat\njártasságot  elegendo  egyszer  elsajátítani  az  adott  pajzstípusra,  és  ezt\nbármilyen (a karakter által ismert) fegyverrel kiegészítheto.\nHa a pajzsot támadásra használjuk, akkor a kiképzésének függvényé-\nben  ereje  1-2  \u0096  pl.  kerek,  szögletes,  éles,  tüskés  stb.  A jártasság  szem-\npontjából nem számít a pajzsok mérete és anyaga; ez ugyanis a harci stí-\nlusoktól  függ.  Egy  öklömnyi  pajzzsal  éppen  olyan  jól  lehet  védekezni,\nmint egy közepes pajzzsal. Az anyag pedig a pajzsok tartósságát befolyá-\nsolja elsosorban, amit viszont opcióként lehet figyelembe venni.\nA csak  védekezésre  használt  pajzs  esetében  a  jártasság  elsajátítása\negyszerubb,  Jp-igénye  a  122.  oldal  nagy  táblázatában  található.  A\ntámadásra is használt pajzs jártassága némileg bonyolultabb, az alap Jp-\nigény  felett  (122.  oldal)  extra  Jp  igénye  is  van,  melyet  a  126.  oldal\ntáblázatáról olvashatsz le. Ez az összeg hozzáadódik az alap Jp-igényhez.\n"
+    },
+    "targyakfegyverkentvalohasznalata": {
+        "id": "targyakfegyverkentvalohasznalata",
+        "name": "Tárgyak-fegyverként-való-használata",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "reflex", "nemnovel", "fizikum", "nemnovel", "reflex", "nemnovel" ],
+        "info": "Szükséges foérték: Rátermettség 40\/50\/60\/70\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Rubin\nBékés  célokat  szolgáló,  kézhez  álló  tárgyak  fegyverként  forgatása.\nA jártasságot nem kell minden tárgyra megtanulni, és szintje a ka-\nrakter  mindkét  harcértékét  egyformán  jelöli  (támadás,  védekezés).\nA fegyverként használt tárgy esetében figyelembe kell venni a tárgy\ntartósságát az egyéb fegyverekkel szemben (pl. egy asztallábbal ad-\ndig lehet \u0084vívni\u0094, amíg el nem kopik), vagy a bevitt sebzéssel szem-\nben (pl. egy söröskriglivel általában csak egyszer lehet fejbe csapni\nvalakit, aztán eltörik). Jártasságpróbája a tulajdonképpeni harc, ahol\na  karakter  Támadó-,  és  Védekezo  szintjei  a  jártasság  szintjébol  fakadnak.\nKét fegyver használata\n"
+    },
+    "ketfegyverhasznalata": {
+        "id": "ketfegyverhasznalata",
+        "name": "Két fegyver használata",
+        "jartCsop": "ver",
+        "costMod": [  ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "fizikum", "nemnovel", "fizikum", "nemnovel", "fizikum", "nemnovel" ],
+        "info": "Szükséges foérték: Rátermettség 60\/70\/80\/90\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: nincs\nA jártasság  alkalmazásával  a  fofegyver  mellett  mellékfegyvert  lehet\nforgatni. Mellékfegyver lehet egy másik fegyver, vagy hárítótor, nem\npedig  pajzs.  Fontos,  hogy  csak  olyan  fegyvert  használhat  a  karakter\nmellékfegyverként,  amelynek  a  forgatását  már  ismeri  \u0096  tehát  rendel-\nkezik  az  adott  fegyverforgatás jártassággal,  akár  támadásra,  akár  vé-\ndekezésre  specializálva.  Egy  adott  két  fegyver  használata  jártasság\ncsupán  egyetlen,  a  tanuláskor  meghatározott  fegyverkombinációra\nérvényes.  Hasonló  fegyverek  esetében  a  Mesélo  kivételt  tehet,  és\nengedélyezheti az új kombináció alkalmazását az eredeti jártassággal.\nPéldául buzogány-kard kombinációt harci kalapács-kard kombinációra cserélve. \nFofegyvernek mindig az számít, amelynek összesített Támadó-, és\nVédekezo  Szintje  nagyobb.  Egy  5\/4-es  rapír  és  egy  1\/7-es  hárítótor\nközül tehát a rapír a fofegyver.\nA két fegyver használatának két sémája van. Az egyik, hogy a fo-\nfegyver Támadó- és Védekezo Szintje vonatkozik a karakterre, míg a\nmellékfegyver csupán támadásra szolgál, tehát csakis a Támadószint-\njét veszik figyelembe. A másik séma szerint a karakter a fofegyverre\nvonatkozó Támadószintjét, és a mellékfegyverre vonatkozó Védekezo\nSzintjét veszi figyelembe. Ez tipikusan a rapírral és hárítótorrel felsze-\nrelt karakter sémája. A sémák harci periódusonként váltogathatóak. A\nsémaváltást viszont elore be kell jelenteni, hiszen nem mindegy, hogy\naz ellenfelek milyen védettségre támadnak.\nA mellékfegyver  szintjeit  a  reá  vonatkozó  két  jártasság  határozza\nmeg:  egyrészt  a  fegyverforgatás jártasságból  származó  Támadás  és\nVédekezés, másrészt a  két fegyver használata\njártasság szintje. Hiába 1\/7-es  a  karakter   fegyverforgatás\njártasságszintje  a  fentebb  említett\nhárítótorre  (mellékfegyver),  ha  a  két  fegyver  használatajártasság\nszintje csupán 2; ekkor a hárítótort csupán 1\/2-es szinten képes használni.\nGyakorlatlanabb fegyverforgatók (1-4. két fegyver használata\njártasság  szinten)  fofegyverének  karakterisztikája  is  csökken,  amikor\nmindkét fegyvert használja.\nA mellékfegyverrel való támadás a fofegyverrel való támadást kö-\nvetoen  történik  (vagy  egyszerre,  de  a  sebességük  akkor  is  összeadó-\ndik),  egyetlen  periódusban.  Ha  a  két  fegyver  összeadott  sebessége\nmeghaladja  a  15-öt,  nem  lehet  egyetlen  periódusban  használni  oket.\nEz alól egyetlen kivétel van: 80 feletti Ereju karakterek ezeket a nehéz\nés lassú fegyvereket is képesek egyideju támadásra alkalmazni.\nAz  alacsonyabb  szinteket  sújtó  levonások  (kis  táblázat)  nem\nkötodnek a fofegyverhez. Annak a fegyvernek a harcértékei szenvedik\nel a levonást, amelyikre a harc közben a karakter kevésbé koncentrál.\nEz kezdeményezo-dobásonként változhat.\nJártasságpróbája nincs.\nSzimultán harc\n"
+    },
+    "szimultanharc": {
+        "id": "szimultanharc",
+        "name": "Szimultán harc",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "nincsen" ],
+        "minLevel": 1,
+        "visszahatas": [ "szivossag", "szivossag", "nemnovel", "reflex", "nemnovel", "szivossag" ],
+        "info": "Szükséges foérték: Rátermettség 60\/70\/80\/90\nSzükséges jártasság: nincsen\nA tanulás módja: Gy\nTábla: Rubin\nA jártasság gyakorlati ismeretében több ellenfél esetén sem csökken a\nVédoszint, illetve többekkel támadva együtt nem 4 fo a lesz az ideális\ntámadólétszám, hanem több. Több ellenfél elleni harcban segíti a ka-\nraktert a helyzet gyors felmérésében, valamint kitapasztalhatóvá teszi\naz ellenfelek gyengéit, hogy nagyobb létszámuk ne jelentsen hátrányt\na karakternek. Egy ellenfél elleni harcban lehetové teszi az összehan-\ngolt  támadást,  s  egyszerre  4-nél  többen  is  támadhatnak  ugyanarra  az\nellenfélre úgy, hogy a helyzetük ne változzon (4 fonél többen is úgy\ntámadhatnak, hogy a szimultán harc módosítója az ellenfelükre -3 ma-\nradjon), s ne zavarják egymást.\nA célszámot a jártasság szintje határozza meg az ellenfelek szimultán harc\njártasságszintjével szemben. Jártasságpróbát csak a szimultán\nhelyzet elején kell dobni, illetve akkor, ha a helyzet nehezedik (pl. két\nellenfél ellen harcolva dobni kell a küzdelem elején, majd újabb pró-\nbát csak akkor kell, ha az ellenfelekhez újabbak csatlakoznak). A jár-\ntasság elonyeit a karakter csak siker esetén élvezheti. Sikertelen pró-\nba esetén abban a küzdelemben a karakter nem volt képes felhasznál-\nni ezt a jártasságot.\n1. szint\n-2\/2 a fofegyvernek\n2. szint\n-2\/1 a fofegyvernek\n3. szint\n-1\/1 a fofegyvernek\n4. szint\n-1 a fofegyvernek, valamelyik harcértéken\n5. szinttol\nnincs módosítása a fofegyvernek\n"
+    },
+    "vertviselet": {
+        "id": "vertviselet",
+        "name": "Vértviselet",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 200, 300, 400, 500, 700, 900, 1200, 1500, 1800, 3000 ],
+        "reqFoertekId": "szivossag",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "szivossag", "nemnovel", "szivossag", "nemnovel", "szivossag", "nemnovel" ],
+        "info": "Szükséges foérték: Szívósság 40\/50\/60\/70\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: nincs\nA vértek \u0096 de még a vastagabb ruhák is \u0096 gátolják a mozgást, súlyuk\njelentos megterhelést ró a karakterre. A\nvértviselet jártasság mind ma-\ngasabb  szintjein  a  karakter  hozzászokik  a  vértek  viseléséhez,  egyre\nkevésbé  gátolja  ot  a  mozgásban,  míg  magasabb  szinteken  már  olyan\nkönnyedén mozognak és harcolnak benne, mint más egy szál ingben.\nA jártasság nem csökkenti a vért súlyának hatását (fáradtság, leterhelt-\nség, gyorsaság növekedése), csupán a mozgást gátló tényezok hatását\ncsökkenti, melyet a vértek karakterisztikájában a Gyorsaságmódosító\n(GyM) értéke jelöli. A jártasság mind magasabb szintjei ezt az értéket\ncsökkentik \u0096 0 alá azonban sosem mehet. Az alábbi táblázat arról tá-\njékoztat,  hogy  mely  szintu  jártasság  birtoklása  milyen  csökkentést\neredményez \u0096 pl. a 4. és az 5. szinten álló karakter egy pontot levon-\nhat  vértje  GyM-értékébol  (de  nem  1-1-et!).  A táblázatban  megadott\nGyM csökkenés nem kumulatív!\nJártasságszint: GyM csökkentés:\n"
+    },
+    "fajdalomtures": {
+        "id": "fajdalomtures",
+        "name": "Fájdalomturés",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 300, 400, 500, 700, 800, 900, 1200, 1300, 1400, 2500 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": [ "koncentralas" ],
+        "minLevel": 1,
+        "visszahatas": [ "szivossag", "lelkiero", "nemnovel", "fizikum", "nemnovel", "fizikum" ],
+        "info": "Szükséges foérték: Lelkiero 70\/80\/90\/100\nSzükséges jártasság: koncentrálás\nA tanulás módja: M\/1\nTábla: Zafír\nA  szélsoséges  fájdalmak,  kínok  elviselését  lehetové  tevo  jártasság\nalapvetoen  a  harcosok  sajátja,  akik  lehetoségeik  határáig  kívánják\nnyújtani állóképességüket. A túlzott sebzodésbol fakadó ájulás ellen-\npróbája a Fizikumpróba, amelynek célszáma a Fizikum Foérték erede-\nti  értéke.  A fájdalomturés\njártasság  minden  szintje  tehát  5-5  ponttal\nnöveli meg a próba célszámát, amely így akár magasabb lehet 100-nál\nis (ekkor már csak a különleges 00-ás dobás jelenthet rontott próbát).\nA legalább  6.  szintu  jártasság  kiiktatja  a  6.  sebszinthez  kapcsolódó\n(opcionális) képességromlás hatását, míg a legalább 9. szintu jártasság\nkiiktatja a 9. sebszint képességromlást okozó hatását is.\nA jártasság másik, pontokhoz kötheto szerepe a szándékos kínoko-\nzás (kínzás) elviseléséhez kapcsolódik, ahol a kínzó mesterségbeli tu-\ndásának szintje ellen áll a jártasság szintje.\nA jártasság egyéb, a kínok elviselését követelo tevékenységek so-\nrán is sikerrel alkalmazható. Ilyenkor a kín természete, nagysága adja\na feladata nehézségét.\n"
+    },
+    "fajdalomduh": {
+        "id": "fajdalomduh",
+        "name": "Fájdalomdüh",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "minLevel": 1,
+        "visszahatas": [ "fizikum", "nemnovel", "lelkiero", "nemnovel", "fizikum", "nemnovel" ],
+        "info": "Szükséges foérték: Lelkiero 30\/40\/50\/60\nSzükséges  jártasság:\nfegyverforgatás,  vagy  tárgyak  fegyverként  való\nhasználata, vagy verekedés, vagy birkózás\nA tanulás módja: Gy\nTábla: Rubin\nA Gerondar  oslakosai  által  felfedezett  eljárás  segítségével  a  karakter\nkétes elonyt kovácsolhat a fájdalmából. Ma a jeges pusztaságok bar-\nbárjai és a kondori orkok alkalmazzák gyakorta ezt a jártasságot. Egy-\nfajta mentális metódus, amely során a fájdalom elvakult harci dühvé\nformázható, a jártasságszint függvényében \u0096 azaz a Támadószint nö-\nvekszik,  a  Védettség  csökken.  A táblázat  alapján  meghatározható  a\nváltozás  mértéke  \u0096  mindig  a  lehetséges  maximumot  kell  figyelembe\nvenni (azaz egy 7-es jártasságszinttel rendelkezo karakter nem dönthet\núgy, hogy neki most elég a 3-as szinthez rendelt módosulás).\nAlacsonyabb  szinteken  (1-5)  jártasságpróba  szükséges,  ahol  a  cél-\nszámot a jártasság szintje és a feladat nehézsége határozza meg. A fel-\nadat  nehézsége  az  elszenvedett  sebzés  nagyságától  és  a  harc  hevétol\nfügg. Lagymatag harci helyzet növeli a feladatnehézséget, a különösen\nforró harci helyzet csökkenti, a Mesélo megítélte mértékben \u0096 ugyanígy\nkomolyabb  sebzések  csökkentik  a  feladatnehézséget.  6-os  jártasság-\nszinttol nem kell próbát dobni, a hatás akaratlagosan létrejön.\nA fájdalomdüh hatása alól kikerülni a csetepaté végén lehet (auto-\nmatikusan), illetve akaratlagosan a 7-es szinttol bármikor. 6-os szintig\njártasságpróbát kell tenni a kikerülésre, ahol a lagymatag harci helyzet\ncsökkenti  a  feladatnehézséget,  a  különösen  forró  harci  helyzet  pedig\nnöveli, a Mesélo megítélte mértékben. A komolyabb sebzések \nnövelik a feladatnehézséget! \n(Figyelem! Fordított logika: ami elosegíti a \u0084begurulást\u0094, az gátolja a \u0084lehiggadást\u0094.)\nA fájdalomdüh kiváltása egyetlen szegmens muve, tehát nem okoz\njelentosebb  fennakadást  a  karakter  harci  cselekedeteiben.  Egy  csete-\npaté alatt csupán egy jártasságpróba teheto, hacsak a harci cselekmény\nkülönös változékonysága alapján a Mesélo nem tesz lehetové még egy\njártasságpróbát. A fájdalomdühbol való kikerülésre akármennyi próba\nteheto, de csak akkor, amikor éppen a karakteren van a sor (egy peri-\nódus alatt egyszer lehet próbálkozni a kilépéssel, a következo próbát\nakkor teheti meg, ha ismét a karakterre kerül a sor).\nA fájdalomdüh  elonyeit  csak  képzett  harcos  (verekedo)  képes  ki-\nhasználni. A szükséges jártasság nem határozza meg, hogy csupán egy\nbizonyos  fegyverre  vonatkozóan  lehet  megtanulni  a  fájdalomdühöt,\nazaz az egyszer elsajátított fájdalomdühöt mindenféle fegyver esetén\nalkalmazhatja a karakter.\nJártasságszint: Támadásnövelo: Védettségcsökkento:\n1+ \t1 \t1\n2+ \t1 \t1\n3+ \t1\t0\n4+ \t2 \t1\n5+ \t2\t1\n6+ \t2\t0\n7+ \t3 \t1\n8+ \t3 \t1\n9+ \t3 \t0\n10+ \t5 \t0\n"
+    },
+    "visszatamadas": {
+        "id": "visszatamadas",
+        "name": "Visszatámadás",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "reflex",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverhasznalat" ],
+        "minLevel": 1,
+        "visszahatas": [ "reflex", "reflex", "reflex", "reflex", "reflex", "reflex" ],
+        "info": "Szükséges foérték: Reflex 60\/70\/80\/90\nSzükséges jártasság: fegyverhasználat (választott fegyverre)\nA tanulás módja: Gy\nTábla: nincs\nA jártasság birtokosa az ellenfél támadására \u0096 függetlenül annak sike-\nrességétol, vagy sikertelenségétol \u0096 azonnal visszatámad, \nmég mielott a saját ideje eljönne. \nA visszatámadás az adott pillanatban nyíló lehe-\ntoségekre  épül,  tehát  a  Mesélot  nem  kell  értesíteni  a  visszatámadás\nszándékáról az ellenfél támadódobása elott.\nA visszatámadás soron kívüli támadás a saját fegyverkarakteriszti-\nkával, de bizonyos levonásokkal jár. Mivel ez egy ad-hoc támadás, a\nkarakter nem tud úgy odafigyelni a tökéletes kivitelezésre, ezért a szo-\nkásos támadószintje alacsonyabb szinteken levonást szenved.\nA visszatámadás nem alkalmazható korlátlanul: ugyanazon ellenfélellen\nszintenként meghatározott számban támadhat vissza a csetepaté\nfolyamán.  A  rá  irányuló  támadásokból  10  szegmensenként  csupán\negyre tud visszatámadni. Jártasságpróbája nincs.\nA visszatámadás  alkalmazása  nem  akadályozza  a  karakter  eredeti\nterveinek végrehajtását (például saját támadásának lebonyolítását), de\nnémileg késlelteti: a karakter saját cselekedetének ideje a visszatáma-\ndásban alkalmazott fegyver gyorsaságával növekszik. Például ha egy\nkarakter a 45. szegmensben egy 4-es gyorsaságú jatagánnal visszatá-\nmad, és a saját támadása eredetileg az 50. szegmensben lett volna, a\nvisszatámadás következtében ez az 54. szegmensre módosul.\nFontos  kiegészítés:  \nvisszatámadni  csak  olyan  fegyverrel  lehet-\nséges, melynek gyorsasága maximum 5-ös!\nSzint; Támadóérték változás; Támadás száma \n1: \t4\t\t\t1\n3: \t2\t\t\t1\n4: \t1\t\t\t1\n5: \t1\t\t\t2\n6: \t1\t\t\t3\n7:\t0  \t\t\t4\n8:\t0  \t\t\t5\n9:\t0  \t\t\t6\n"
+    },
+    "lefegyverzes": {
+        "id": "lefegyverzes",
+        "name": "Lefegyverzés",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "reflex",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "minLevel": 1,
+        "visszahatas": [ "ratermettseg", "nemnovel", "ratermettseg", "nemnovel", "ratermettseg", "nemnovel" ],
+        "info": "Szükséges foérték: Reflex 60\/70\/80\/90\nSzükséges jártasság: fegyverforgatás\nA tanulás módja: Gy\nTábla: Rubin\nEzzel a jártassággal a karakter képessé válik ellenfelei lefegyverzésé-\nre a harc közben. Ahhoz, hogy sikerrel lefegyverezhesse ellenfelét, a\njátékosnak sikeres harci dobást kell tenni, ahol Támadószintje helyett\na lefegyverzés jártasság szintje áll \u0096 az ellenfél normál Védettsége el-\nlen. A lefegyverzés szándékát a periódus elején kell bejelenteni. A le-\nfegyverzés elsajátítása egy adott fegyverre érvényes. Csakis a kézbol\nkiütheto,  kifordítható  fegyverek  ellen  használható,  természetes  fegy-\nverek ellen (fogak, karmok stb.) nem. A sikeres támadódobást követo-\nen az ellenfél Rátermettség-próbára jogosult, melyet a rendkívül ked-\nvezotlen  körülmény módosítói  sújtanak  \u0096  sikeres  Rátermettség-próba\nesetén a lefegyverzés nem sikerült.\nA sikert  erosen  befolyásolja  a  támadó  fegyver  és  a  megtámadott\nfegyver. A nagyjából azonos méretu fegyverek esetében nincs problé-\nma,  ám  ha  jelentos  eltérés  mutatkozik  a  két  fegyver  között  (akárme-\nlyik javára), a lefegyverzés nehezebbé válik, amely az ellenfél védett-\nségének növekedésében mutatkozik meg \u0096 a nehezedés mértékérol a\nMesélo  dönt.  Ugyancsak  növelheti  az  ellenfél  védettségét  a  saját  \nlefegyverzés jártassága, hiszen ennek ismeretében hatékonyabban véde-\nkezhet ezen cselek ellen \u0096 három jártasságszint ad +1 Védettséget a le-\nfegyverzés ellen, és a 10. szint újabb +1-et (összesen négyet).\nA pusztakezes  lefegyverzés  elsajátításához  a  jártasságpont-igény\nháromszorosát  kell  ráfordítani  a  tanulásra  \u0096  erre  jönnek  rá  az  egyéb\nJártasságpróbája a tulajdonképpeni támadódobás, ahol a cél nem az\nellenfél megsebzése, hanem lefegyverzése.\n"
+    },
+    "fegyvertores": {
+        "id": "fegyvertores",
+        "name": "Fegyvertörés",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 150, 150, 150, 250, 250, 250, 400, 400, 400, 700 ],
+        "reqFoertekId": "ero",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverforgatas", "fegyverismeret" ],
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "ero", "nemnovel", "ero", "nemnovel" ],
+        "info": "Szükséges foérték: Ero 60\/70\/80\/90\nSzükséges jártasság: fegyverforgatás, fegyverismeret\nA tanulás módja: Gy\nTábla: Rubin\nA jártasság a karaktert képessé teszi ellenfelei fegyverének eltörésére\na harc közben. Ahhoz, hogy sikerrel eltörhesse ellenfele fegyverét, a\njátékosnak sikeres harci dobást kell tenni, ahol Támadószintje helyett\na fegyvertörés jártasság szintje áll \u0096 az ellenfél normál Védettsége el-\nlen.  A fegyvertörés  szándékát  a  periódus  elején  kell  bejelenteni.  A\nfegyvertörés  elsajátítása  nem  csak  egy  adott  fegyverre  érvényes,  hi-\nszen itt az eltörendo fegyverek gyengéinek ismerete a fontos. Termé-\nszetes fegyverek ellen (fogak, karmok stb.) nem használható. A sike-\nres támadódobást követoen az ellenfél Rátermettségpróbára jogosult,\nmelyet a rendkívül kedvezotlen körülényekmódosítói sújtanak \u0096 sike-\nres Rátermettségpróba esetén a fegyvertörés nem sikerült.\nA sikert  erosen  befolyásolja  a  támadó  fegyver  és  a  megtámadott\nfegyver. A nagyjából azonos méretu fegyverek esetében nincs problé-\nma, ám ha jelentos eltérés mutatkozik a két fegyver között (a kisebb\nfegyvereknek a gyengeség, a nagyobbaknak a lassúság a hátrányuk),\na fegyvertörés nehezebbé válik, amely az ellenfél védettségének növe-\nkedésében mutatkozik meg \u0096 a nehezedés mértékérol a Mesélo dönt.\nUgyancsak  növelheti  az  ellenfél  védettségét  a  saját  \nfegyvertörés jártassága,  hiszen  ennek  ismeretében  hatékonyabban  védekezhet  ezen\ncselek ellen \u0096 3-4 jártasságszint ad +1 Védettséget a fegyvertörés el-\nlen. Jártasságpróbája a tulajdonképpeni támadódobás, ahol a cél nem\naz ellenfél megsebzése, hanem fegyverének eltörése.\n"
+    },
+    "vakharc": {
+        "id": "vakharc",
+        "name": "Vakharc",
+        "jartCsop": "ver",
+        "costMod": [ "ful" ],
+        "cost": [ 250, 300, 400, 500, 700, 900, 1200, 1500, 1800, 3000 ],
+        "reqFoertekId": "esszencia",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "tudat", "nemnovel", "esszencia", "nemnovel", "tudat", "nemnovel" ],
+        "info": "Szükséges foérték: Esszencia 70\/80\/90\/100\nSzükséges jártasság: nincs\nA tanulás módja: M\/ö\nTábla: Rubin\nAzoknak,  akik  sötét  helyeken  \u0096  tehát  teljesen  vakon  \u0096  sem  akarnak\nalulmaradni a küzdelemben, mindenképpen hasznos a \nvakharc jártasság ismerete. Alacsonyabb szinteken az alig hallható neszekre és a le-\nvego  áramlataira  hagyatkoznak  a  karakterek  \u0096  már  az  is  rendkívüli\nerofeszítést kíván a tanulótól, hogy a csata zajából elkülönítse a szá-\nmára fontos neszeket \u0096, míg magasabb szinteken a megérzés vezérli a\nharcost. A megérzés tökéletes harcot tesz lehetové, az érzékelés \u0096 bár-\nmilyen  jól  is  csinálják  \u0096,  tökéletlent,  ezért  az  1-5  szinten  jelentosen\nmagasabb a jártasságpont-igény (ezzel fejezve ki a nehezebb elsajátí-\ntást és a nehéz alkalmazást).\nA vakharc jártasság  alkalmazása  esetén  a  karakter  harcértékeit  a\njártasságszint  adja  \u0096  a  Támadószintet  és  Védoszintet  egyaránt.  Ez\nmindaddig így van, amíg a vakharc jártasság szintje alacsonyabb a vo-\nnatkozó fegyverhasználat szintjeitol. Amennyiben a fegyverhasználat\nszintje  alacsonyabb  lenne,  mint  a  vakharcé,  akkor  az  számít  \u0096  tehát\nmindig az alacsonyabb szintek határozzák meg a harcértéket. (Pl. egy\n5\/3-as  harcérték  hosszúkardra,  4-es  vakharccal  kombinálva  azt  ered-\nményezi, hogy a karakter Támadószintje 4 lesz \/a vakharc miatt\/, míg\na Védettsége 3, mert a fegyverforgatás\njártasságából adódóan a védettsége eleve alacsonyabb, mint ahogy azt a vakharc\njártasság alapján képes lenne kihasználni.) Jártasságpróbája a támadódobás.\nVerekedés (Ökölharc)\n"
+    },
+    "verekedes": {
+        "id": "verekedes",
+        "name": "Verekedés (Ökölharc)",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "szivossag",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "szivossag", "nemnovel", "szivossag", "nemnovel", "szivossag", "nemnovel" ],
+        "info": "Szükséges foérték: Szívósság 30\/40\/50\/60\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Rubin\nA verekedés jártasság ütéseket, rúgásokat, alattomos testcseleket és fo-\ngásokat foglal magába, sot, magasabb szinteken a karakter képes lesz\nfegyverként használni a saját öklét. Megtanulja mikor és hova üssön\núgy, hogy az a legjobban fájjon az ellenfelének, és esetleg padlóra tud-\nja küldeni egyetlen ütéssel. Jó hasznát lehet venni a kocsmai vereke-\ndéstol az apróbb nézeteltérések rendezéséig. A jártasság használata so-\nrán alkalmazható vasalt orrú bakancs, vastag pecsétgyuru, boxer, vagy\npáncélkesztyu,  de  egyéb  tárgyak,  vagy  fegyverek  nem.  A verekedés\njártasságban nem lehet specializálódni, szintje egyaránt meghatározza\na  támadás  és  a  védekezés  harcértékeit.  A jártasság  használatakor  az\nököl \u0096 mint fegyver \u0096 karakterisztikája az irányadó (lásd a fegyverek\nfelsorolásánál). Fegyveres ellenféllel szemben a verekedés veszélyes\nmódszer: a jártasság szintje csupán a támadás harcértékét adja a karak-\nternek, míg a védettsége 0 lesz. Magasabb szinteken már fegyveres el-\nlenféllel szemben is ad némi védettséget a jártasság: 6. szint \u0096 1 VSz,\n7. szint \u0096 2 VSz stb. Jártasságpróbája a támadódobás.\n"
+    },
+    "birkozas": {
+        "id": "birkozas",
+        "name": "Birkózás",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 400, 500, 700, 900, 1200, 1500, 3000 ],
+        "reqFoertekId": "fizikum",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "ero", "nemnovel", "ero", "nemnovel" ],
+        "info": "Szükséges foérték: Fizikum 30\/40\/50\/60\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Rubin\nEzen jártasság elsajátításával a karakter képessé válik az ellenfelének\nlefogására, leszorítására, amely kifejezetten jó alkalom a foglyul ejté-\nsére.  Minél  gyakorlottabb  a  karakter  ezen  jártasságban,  annál  kön-\nnyebben  ragadhatja  meg  ellenfelét,  és  annál  nagyobb  az  esélye  arra,\nhogy sikeresen leszorítva tudja ot tartani. Sebesülést nem lehet okoz-\nni vele (esetleg ájulást), azonban a leszorított ellenfelet a karakter tár-\nsai támadhatják. Fegyveres ellenfél a birkózást életveszélyessé teheti!\nA jártasság  használata  során  a  birkózás jártasságszintje  lesz  a  ka-\nrakter  Támadószintje  és  Védoszintje  egyaránt,  ugyanígy  az  ellenfélé\nis. Sikeres támadódobás esetén a karakter leszorította ellenfelét \u0096 aki\na  saját  periódusában  szintén  alkalmazhatja  a  birkózás jártasságát,\nhogy  siker  estén  o  kerekedjen  felül.\nFegyveres  ellenféllel  szemben  a birkózás\njártasság szintje csupán a támadás harcértékét adja a karak-\nternek, míg a védettsége 0 lesz. Magasabb szinteken már fegyveres el-\nlenféllel szemben is ad némi védettséget a jártasság: 6. szint \u0096 1 VSz,\n7. szint \u0096 2 VSz stb. Jártasságpróbája a harc maga.\n"
+    },
+    "harcorulet": {
+        "id": "harcorulet",
+        "name": "Harcorület",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "tudat",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "fizikum", "nemnovel", "fizikum", "nemnovel", "fizikum", "nemnovel" ],
+        "info": "Szükséges foérték: Tudat 50\/60\/70\/80\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Zafír\nMindazon  rituálék,  behergelo  mondókák  és  eljárások  gyujteménye,\nmelyek segítségével a karakterek képesek lesznek elvetni minden óva-\ntosságukat,  és  mentális  megkötések  nélkül  bocsátkozhatnak  harcba.\nMivel csupán a harc lényege, vagyis a gyozelem lebeg a szemük elott,\na harcorültbe hullott karakterek nem törodnek testi épségükkel. Min-\nden harcorület jártasságszint után 1 pontot a \nVédoszint rol (0 alá nem csökkenhet) a Fegyvererore \n(sebzésszorzó) lehet mozdítani \u0096 a karakterek \nkötelesek mindig a lehetséges maximumot kihasználni. A Táma-\ndószint harcorület hatása alatt nem változik.\nA feladat nehézségét a Mesélo határozza meg a harci helyzet alap-\nján. Minél kilátástalanabb a harc, annál könnyebb harcorületbe kerül-\nni \u0096 míg egy lagymatag csetepaténál, ahol a tét legfeljebb egy hordó\nsör, gyakorlatilag lehetetlen. Ugyancsak jártasságpróba szükségeltetik\na  harcorületbol  való  kikerüléshez  is,  ám  ezt  egy  Lelkiero-próbának\nkell megeloznie, hogy a karakter egyáltalán gondolhat-e a harcorület\nPusztító csapás\n"
+    },
+    "pusztitocsapas": {
+        "id": "pusztitocsapas",
+        "name": "Pusztító csapás",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "ero",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "fegyverforgatas", "anatomia" ],
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "ero", "nemnovel", "ero", "nemnovel" ],
+        "info": "Szükséges foérték: Ero 60\/70\/80\/90\nSzükséges jártasság: fegyverforgatás, anatómia\/élettan\nA tanulás módja: Gy\nTábla: nincs\nA különösen nagy, pusztító sebzések bevitelének tudománya, amelyet\nminden használt fegyverre külön kell elsajátítani \u0096 feltéve, hogy a ka-\nrakter  nem  elégszik  meg  egyetlen  fegyverre  megtanulni  a  pusztító\nharcmodort. A jártasság révén a karakter képes növelni a fegyvererot\n(sebzésszorzó és páncélátütés), mégpedig annyival, ahányadik szinten\nbirtokolja  a  pusztító  csapás\njártasságot.  Ugyanazon  ellenféllel  szem-\nben csak egyszer lehet alkalmazni! Jártasságpróbája nincs.\n"
+    },
+    "kifarasztas": {
+        "id": "kifarasztas",
+        "name": "Kifárasztás",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "szivossag",
+        "req": [ 40, 40, 40, 50, 50, 50, 60, 60, 60, 70 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "minLevel": 1,
+        "visszahatas": [ "szivossag", "nemnovel", "szivossag", "nemnovel", "szivossag", "nemnovel" ],
+        "info": "Szükséges foérték: Szívósság 40\/50\/60\/70\nSzükséges jártasság:  fegyverforgatás\nA tanulás módja: Gy\nTábla: Rubin\nA számottevo  sebzés  okozása  nélküli  gyozelem  érheto  el  általa  \u0096  a\nküzdelem  végén  a  kimerült  ellenfél  könnyuszerrel  foglyul  ejtheto.  A\nkifárasztás során a bevitt találatok nem sebzést okoznak, hanem csu-\npán fárasztják az ellenfelet. Az így elért \u0084sebzés\u0094 nem a Fizikumból,\nhanem a Szívósságból vonódik le, és amikor ez 0 alá csökken, a ka-\nrakter  összeesik  a  fáradtságtól.  Ezzel  a  módszerrel  természetesen  el-\nhúzódhat  a  küzdelem.  A nagyon  sikeres  találat  (01-es  támadódobás)\núgy sebez, mintha a támadó nem alkalmazta volna a kifárasztás jártas-\nságot  (fizikumpontból  vonódik,  és  nem  a  szívósságból).  Kifárasztás\nellen  nem  dobható  páncélvédo,  illetve  csakis  akkor,  ha  a  nagyon\nsikeres találat (01-es támadódobás) valódi sebzést okozna.\nHasználata során a kifárasztás jártasság szintje adja a karakter Tá-\nmadószintjét, így a jártasságpróba a tulajdonképpeni harc.\n"
+    },
+    "fegyverismeret": {
+        "id": "fegyverismeret",
+        "name": "Fegyverismeret",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 30, 30, 30, 40, 40, 40, 50, 50, 50, 60 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "intelligencia", "nemnovel", "nemnovel", "nemnovel", "intelligencia", "nemnovel" ],
+        "info": "Szükséges foérték: Intelligencia 30\/40\/50\/60\nSzükséges jártasság: nincs\nA tanulás módja: M\/ö\nTábla: Zafír\nEgy egyszeru jártasság, melyet sokoldalú felhasználása tett népszeru-\nvé.  A  karakter  a  jártasság  birtokában  képes  kiválasztani  a  legjobb\nfegyvereket egy kereskedonél, vagy elkerülheti, hogy rossz minoségu\nfegyvert sózzanak rá. Ez a jártasság a fegyverjavítás alapja \u0096 márpe-\ndig a magányos kalandorok ritkán találnak olyan kovácsot, aki megfe-\nlelo mértékben ért a fegyverekhez, tehát célszeru, ha saját maguk ja-\nvítgatják a kisebb sérüléseket. Ugyancsak ez a jártasság szolgál alap-\njául a fegyvertörésnek is.\nA feladat  nehézsége  a  vizsgált  fegyver  ritkaságától  és  a  vizsgálat\nlehetoségétol függ \u0096 a Mesélo megítélte mértékben. Egy egyszeru tor\nalapos szemrevételezése könnyu feladat, míg egy különös formájú, so-\nsem látott tor megvizsgálása, miközben azt valaki éppen a karakterbe\nkívánja mártani, igen nehéz feladat.\n"
+    },
+    "taktika": {
+        "id": "taktika",
+        "name": "Taktika",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "nemnovel", "nemnovel", "lelkiero", "nemnovel", "nemnovel", "nemnovel" ],
+        "info": "Szükséges foérték: Intelligencia 50\/60\/70\/80\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Zafír\nA jártasság birtokában a karakter képes kihasználni a harci hely-\nzet  pillanatnyi  elonyeit,  és  elkerülni  az  esetleges  buktatókat.  A\nfeladat nehézsége a harci helyzetben rejlo elonyök és hátrányok\nfüggvénye, melyet a Mesélo határoz meg. Siker esetén a leheto-\nségekrol és a veszélyekrol a Mesélo tájékoztatja a Játékost, aki\nennek megfeleloen cselekedhet karakterével \u0096 ám az, hogy fel-\nismeri  egy  harci  helyzet  elonyeit,  még  nem  jelenti  automatiku-\nsan azt, hogy ki is tudta használni.\n"
+    },
+    "strategia": {
+        "id": "strategia",
+        "name": "Stratégia",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 300, 400, 500, 600, 700, 800 ],
+        "reqFoertekId": "intelligencia",
+        "req": [ 60, 60, 60, 70, 70, 70, 80, 80, 80, 90 ],
+        "reqJart": [ "taktika" ],
+        "minLevel": 1,
+        "visszahatas": [ "intelligencia", "nemnovel", "nemnovel", "nemnovel", "intelligencia", "nemnovel" ],
+        "info": "Szükséges foérték: Intelligencia 60\/70\/80\/90\nSzükséges jártasság: taktika\nA tanulás módja: M\/ö\nTábla: Zafír\nÁtfogó hadmuvészeti ismeretek birtoklása. A stratéga különbö-\nzo nehézségu hadmuveleteket, hosszú távú terveket képes kidol-\ngozni,  akár  kisebb  csapatok,  akár  egész  hadseregek  részére.  A\nkidolgozott stratégiát azután a hadvezérek megvalósítják. A fel-\nadat nehézsége a hadmuvelet bonyolultságából fakad (hány ka-\ntonát mozgat, mi a cél, milyen az ellenség stb.), melyet a Mesé-\nlo határoz meg. Siker esetén a karakter \nhasználható, sot jó stra-\ntégiát  dolgozott  ki,  sikertelenség  esetén  \nroszszat,  ám  errol  nem\nbiztos, hogy tud \u0096 tehát elképzelheto, hogy így is megvalósítják.\nA jó  stratégia  kidolgozása  még  nem  jelenti  automatikusan  azt,\nhogy a csapat (hadsereg) meg is tudta valósítani, épp így a rossz\nstratégia  sem  jelent  automatikusan  csatavesztést  \u0096  ilyenkor  ko-\nmoly feladat hárul a Mesélore, hogy a jó, vagy a rossz stratégia\nfeladatkönnyíto\/nehezíto hatását bemesélje a partinak.\n"
+    },
+    "hadvezetes": {
+        "id": "hadvezetes",
+        "name": "Hadvezetés",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 500, 700, 1000 ],
+        "reqFoertekId": "lelkiero",
+        "req": [ 70, 70, 70, 80, 80, 80, 90, 90, 90, 100 ],
+        "reqJart": [ "strategia" ],
+        "minLevel": 1,
+        "visszahatas": [ "lelkiero", "nemnovel", "lelkiero", "nemnovel", "lelkiero", "nemnovel" ],
+        "info": "Szükséges foérték: Lelkiero 70\/80\/90\/100\nSzükséges jártasság: stratégia\nA tanulás módja: Gy\nTábla: nincs\nA taktika és a stratégia jártasságok igazi elonyei akkor nyilvánulnak\nmeg, ha összeszokott csapatok küzdenek közös taktika szerint. Ezeket\na jártasságokat birtokló karakter azonban inkább elméleti tudást birto-\nkol,  vagy  csupán  saját  magára  nézve  képes  kihasználni  elonyeit.  Ha\ntudását a csapatban kívánja kamatoztatni, szüksége van egy újabb jár-\ntasságra,  a  hadvezetésre.  Ez  a  jártasság  semmi  egyébre  nem  szolgál,\nminthogy a taktikaés a stratégia jártasságok elonyeit az egész csapat-\nra kiterjeszthesse a karakter úgy, hogy mindvégig kézben tartja az ese-\nményeket  \u0096  tehát  nincs  szükség  egy  hadvezérre,  vagy  parancsnokra,\naki megvalósítja a terveket, mert a tervezo maga képes rá. Jártasság-\npróbája nincs.\n"
+    },
+    "cselezes": {
+        "id": "cselezes",
+        "name": "Cselezés",
+        "jartCsop": "ver",
+        "costMod": [ "kez" ],
+        "cost": [ 100, 200, 300, 500, 700, 900, 1200, 1500, 1800, 2500 ],
+        "reqFoertekId": "ratermettseg",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ "fegyverforgatas" ],
+        "minLevel": 1,
+        "visszahatas": [ "ratermettseg", "nemnovel", "ratermettseg", "nemnovel", "ratermettseg", "nemnovel" ],
+        "info": "Szükséges foérték: Rátermettség 50\/60\/70\/80\nSzükséges jártasság: fegyverforgatás\nA tanulás módja: M\/ö\nTábla: Rubin\nEgyszerubb  és  bonyolultabb  harci  cselek  (vívócselek)  ismerete  \u0096  nem\ncsak karddal. Számtalan csel létezik, melyeket a játékosok kidolgozhat-\nnak, ám ha nem éreznek hozzá tehetséget, a csel kidolgozása nélkül is\nélvezhetik  elonyét  a  cselezés\njártasság  elsajátításával.  A karakter  szin-\ntenként  egyre  hatékonyabb  és  bonyolultabb  cseleket  sajátít  el  (lásd  az\nalábbi táblázatot). A jártasság minden szintje +1-1 sebzésszorzót jelent\na   sikeresen   alkalmazott   cselezéssel   egybekapcsolódó,   sikeres\ntámadásokban. Azaz a jártasság 5. szintje +5 sebzésszorzó, a 10. szintje\n+10  sebzésszorzót  ad.  A  harcban  az  ellenfelek  cselezés  jártasságai\nkioltják  egymás  hatását,  azaz  az  alacsonyabb  jártasságú  karakter\ncselezés-bónusza  megszunik,  a  magasabb  jártasságszintu  karakter\ncselezés-bónusza  pedig  ellenfele  bónuszának  mértékével  csökken.  A\ncselezés jártasságot  50  szegmensenként  egyszer  lehet  használni  -\nfüggetlenül attól, hogy ezalatt hány ellenféllel szemben hány támadást\nindított.. Jártasságpróbája nincs, csupán a sikeres támadódobás kell hoz-\nzá.  Amennyiben  a  csel  alkalmazása  során  sikertelen  támadódobás  kö-\nvetkezik  be,  akkor  értelemszeruen  a  csel  sem  sikerült.  A  cselezés\njártasság alkalmazása során más - fegyverforgatást kiegészíto - jártasság\nnem alkalmazható (visszatámadás, lefegyverzés, fegyvertörés, pusztító\ncsapás, kifárasztás, harcorület, fájdalomdüh, stb.).\n1-3.\t+1 sebpont * szint\n4.\t+1 sebzésszorzó\n5.\t+2 sebzésszorzó\n6.\t+3 sebzésszorzó\n7-9.\t+1 Támadószint, +1 Védoszint\n10.\t+3 szint, tetszés szerint elosztva Támadó és\/vagy Védoszintre\n"
+    },
+    "feldontes": {
+        "id": "feldontes",
+        "name": "Feldöntés",
+        "jartCsop": "ver",
+        "costMod": [ ],
+        "cost": [ 100, 100, 100, 200, 200, 200, 300, 300, 300, 600 ],
+        "reqFoertekId": "ero",
+        "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "reqJart": [ ],
+        "minLevel": 1,
+        "visszahatas": [ "ero", "nemnovel", "ero", "nemnovel", "ero", "nemnovel" ],
+        "info": "Szükséges foérték: Ero 50\/60\/70\/80\nSzükséges jártasság: nincs\nA tanulás módja: Gy\nTábla: Rubin\nAz ellenfél földre döntésének tudománya. Fegyvertelen és fegyveres\nellenféllel szemben egyaránt használható. A jártasság magába foglalja\na testtel, kézzel, lábbal, pajzzsal, fegyverrel, lóval, vagy bármi egyéb-\nbel történo földre vitel technikáit. Használata során a jártasságszintnek\nmegfeleloen támadódobást kell tenni az ellenfél normál Védettsége el-\nlen \u0096 vagyis a jártasságpróba lényegében maga a harc. Siker esetén az\nakció sikerrel járt, sikertelenség esetén az ellenfél egy extra visszatá-\nmadásra jogosult a karakter periódusában \u0096 erre a támadásra a Táma-\ndószintje ideiglenesen 4-el csökken (avagy ha a visszatámadó ellenfél\nrendelkezik a visszatámadás jártassággal, akkor a Támadószint annak\nmegfeleloen alakul).\n"
+    }
+}

@@ -1,0 +1,24 @@
+<p> JP: {{metod.getJP()}};
+<h3>Praktikus mágia:</h3>
+<div>Ezekhez az egyszerű varázs latokhoz nem kell semmiylen mágikus ismeret, egy egyszerű paraszt is képes őekt használni amennyi ismeri a megfelőlő rigmust.Sikerességüket a Tudat főérték befolyásolja</div>
+<table border="1" cellspacing="1" cellpadding="1">
+    <thead>
+        <tr>
+            <th>Név</th>
+            <th>Ár</th>
+            <th>Leírás</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="spell in praktikus"  ng-init="spell.hide = true; checked=hasPraktikusM(spell);">
+            <td  ><pre ><label><input type="checkbox" ng-checked="checked" ng-model="checked" ng-change="checkMondoka(checked,spell)" />{{spell.name}}</label> <a href="" ng-click="spell.hide=!spell.hide">Több..</a></pre></td>
+            <td><pre>{{ spell.cost+" jp"}}</pre></td>
+            <td><pre ng-hide="spell.hide">{{spell.info}}</pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+        <form action="#/jartassagok">
+            <input type="submit" value="Next" ng-click="char.saveData()">
+    </form>
+{{char.praktikus}}

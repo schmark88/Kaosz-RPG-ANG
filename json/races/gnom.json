@@ -1,0 +1,71 @@
+{
+    "race": "gnom",
+    "summary": "A gnómok legjellemzõbb – úgymond zsigeri – tulajdonsága az állandó\nfélelem.  Ez  a  félelem  a  pattanásig  feszült  figyelem  állapotától  a  páni\nrettegés állapotáig terjedhet – akár egyetlen személy esetén is. Külö-\nnösen a városiakra jellemzõ, hogy képtelenek kontrollálni félelmüket,\na fekete gnómok megtanulták elrejteni, esetleg még erényt is kovácsol-\nnak  állandó  félelmükbõl:  óvatosságot,  elõrelátást,  figyelmességet,\nesetleg a törpéket is megszégyenítõ, nagyhangú, túlzott agresszivitást.\nA zsigeri  félelem  következménye,  hogy  a  gnóm  karakter  bármilyen\nharccal kapcsolatos jártasságot (pl. fegyverhasználat, ökölharc, csele-\nzés, lefegyverzés, stb.) 10%-kal több pontért sajátíthat el bármely szin-\nten. A Jp-növekedés csak a közelharc során alkalmazandó jártasságok-\nra vonatkozik, így pl. az íjászatra nem.\nAz általános gnóm karakterisztika jelezze, hogy a gnómok megfon-\ntoltak (lassú, de bölcs), közepesen erõsek, rendkívül ügyesek és szívó-\nsak, és nem sokat konyítanak a mágiához (ez nem jelenti azt, hogy ne\nszülethetne közöttük nagy varázsló – csak jóval ritkább, mint más fa-\njoknál).  Nem  igazán  jó  harcosok,  de  cselesek,  könnyû  fegyverekkel,\níjakkal egészen jól bánnak. Mivel vérükben van a mechanika tudomá-\nnya,  az  induló  gnóm  karakter  automatikusan,  külön  jártasságpont  rá-\nfordítása nélkül megkapja a mechanika valamint a  barkácsolás jártas-\nságot 6-6. szinten. Ezen kívül induláskor automatikusan megkapják a\n4. szintû rejtõzés jártasságot is. A gnóm  karaktert  indító  játékos  a  \nkaraktergenerálásakor a  mértan és a számtan\njártasságokat 6. szintig fejlesztheti – természetesen min-\nden szintre az annak megfelelõ jártasságpontot fordítva. Amértan és a számtan\nszintje nem befolyásolja, hogy a gnómok induláskor automa-\ntikusan és „ingyen” megkapják a mechanika jártasságot, 6. szinten.\nA fekete gnómok kevésbé ügyesebbek, a finom munkákhoz egyálta-\nlán nem értenek, viszont erõsek, mint egy törpe. A durva, támadó jellegû\nfegyvereket kedvelik, mint például a vaskos rövidkard, vagy a rövidnye-\nlû csatabárd. Számára a kövek, ércek, fémek megmunkálásában nagyobb\nerõt igénylõ jártasságok nyílnak meg már a karakterépítéskor 6. szintig.\nA városi gnómok intelligensebbek társaiknál, viszont sokkal kevés-\nbé tisztességesek (és inkább ravaszok, mint bölcsek). Ez részint a töb-\nbi  fajjal  való  kapcsolatuk  folytán  alakult  így,  részint  pedig  a  tolvaj-\nszakma vonzásának köszönhetõen. Nem túl jó harcosok, hiszen sosem\nvolt alkalmuk kipróbálni a tisztességes küzdelmet, viszont sunnyogás-\nban, hátba döfködésben kiemelkedõ pozíciókat érhetnek el.\nHáromféle gnóm – háromféle játékosi magatartás.\nAz  átlagos  gnóm  a  természet  gyermeke.  Erdõjáró  és  kézmûves  –\nennek megfelelõ képzettségei vannak. A gnómok eredendõ félelme ná-\nla  túlzó  óvatosság,  szöszmötölõ  megfontoltság  képében  jelenik  meg.\nNéha csupán a kihívások miatt válik belõle hazátlan kalandor.\nA fekete gnóm magának való, a mesterségének élõ lény, akit csak\nvalami igazán fontos dolog mozdíthatott ki a mûhelyébõl. Ez a fontos\ndolog – vagy nagy tragédia – bizonyára nyomot hagy a karakter sze-\nmélyiségén. Õ az, aki agresszivitással, hõzöngéssel kompenzálja a lel-\nke mélyén rejtezõ félelmet.\nA városi  gnóm  igazi  civilizált  lény.  A közösségi  képzettségek  jel-\nlemzik (nyelvtudás, „kocsmatudományok”, kereskedelmi és kézmûves\nképességek,  hazudozás  stb.),  és  éppúgy  nem  tud  semmit  arról,  hogy\nhogyan lehet életben maradni a természet vad ölén, mint a többi város-\nlakó. Tisztes szakmák mûvelõje, esetleg tolvaj, nagy hazudozó. Ha si-\nkerül legyûrnie a falak hiányából fakadó rettegését, egészen használ-\nható kalandor válhat belõle.\nEz  persze  csak  a  sztereotípiákon  alapuló  megközelítés.  Tapasztal-\ntabb játékosoknak illik nem követni az ilyesmit.",
+    "specials": {
+        "hatodikerzek": {
+            "id": "hatodikerzek",
+            "name": "Hatodik érzék",
+            "cost": 20,
+            "info": "A gnómokban rejtõzõ állandó rettegés különös változást indított meg\na generációk során. Egyes gnómok mintha megérezték volna a közeli\njövõt, különösképpen akkor, ha az események rájuk nézve negatív kö-\nvetkezménnyel jártak volna. Ezt a tulajdonságot általánosságban \nhatodik érzéknek nevezik. Homályos és bizonytalan érzés ez, olyasvalami,\nmint az álmokból visszamaradó emlék. A hatodik érzékkel rendelkezõ\ngnómnak jó-, és rosszérzései keletkeznek egy adott dologra gondolva,\nvagy ha valamerre jár, avagy ha valamit csinál. Hatodik érzését nem\nképes irányítani, azaz ha megérez valami rosszat egy folyosó kapcsán,\nnem képes kianalizálni, hogy konkrétan melyik métere, melyik padló-\nlapja, a falon lógó melyik festmény okozza a rossz érzéseket. A hato-\ndik  érzék  használatához  a  Játékosnak  csupán  be  kell  jelentenie\nszándékát, a Mesélõnek pedig – mintha azt a hatodik érzék ten-\nné – értesítie kell a gnómot a veszély közelségérõl, vagy egy\nkiemelkedõen jó lehetõségrõl. Az érzékelés helyessége Tudatpróbához \nkötõdik.Sikeres Tudatpróba esetén a hatodik érzék\nközvetítette  tapasztalat  helytálló,  a  veszély  valóban  ve-\nszély,  a  kedvezõ  helyzet  valóban  kedvezõ  helyzet.  Si-\nkertelen Tudatpróba esetén viszont éppen az ellenke-\nzõjét  érzi  a  gnóm,  mint  ami  valójában  vár  rá.  Ter-\nmészetesen  a  karakter  sosincs  tudatában  annak,\nhogy sikeres volt-e a próbája, vagy sem. Minden\nhatodik  érzék  használata  –  akár  sikeres  volt,\nakár  nem  –,  10-10  eszszenciapontot  igényel  a\ngnóm  varázserejébõl  (ez  a  képesség  független\nbármely  mágiahasználati  képességtõl)."
+        },
+        "josalom": {
+            "id": "josalom",
+            "name": "Jós álom",
+            "cost": 20,
+            "info": "Más gnómok különleges tudatállapotba kerülve ké-\npesek megjósolni a jövõt. Ez a tudatállapot olykor\nmeditáció,  máskor  részegség  következménye  –  lé-\nnyeg az, hogy a normális tudatállapotban erre kép-\ntelenek. A jósálom meglehetõsen zavaros, nehezen\nértelmezhetõ,  tele  szimbólumokkal  –  de  sosem  ha-\nzug! Mivel a jósálmot a Mesélõ alkotja meg, erre külö-\nnösen ügyeljen. A jósálom csak abban az esetben jön létre, ha\na gnóm hiánytalanul rendelkezik a varázserejével, ugyanis a jósálom-\nhoz az összes esszenciapontjára szükség van. Minél több eszszencia-\npontot tud egy gnóm a jósálomba felhasználni (azaz minél nagyobb a\nVarázserõ Fõértéke), annál pontosabb és annál kevésbé szimbolikus a\njóslat (100-as Varázserõ Fõérték esetében a gnóm filmszerûen látja az\neseményeket, ám ilyen gnóm igen kevés él Worluk világán). A gnóm\ncsupán részben tudja meghatározni, hogy a jövõ mely szeletét idézze\nfel  a  jósálom;  erre  minden  esetben  25%  esélye  van.  Ha  ez  az  esély\nnem jön be, a gnóm nem lesz tudatában annak, hogy nem a kívánt jö-\nvõt álmodta meg – noha logikai úton rájöhet erre."
+        }
+    },
+    "jartMod": {
+        "fegyver":10
+    },
+    "jartMaxLevelMod": {
+        "szamtan":6,
+        "mertan":6
+    },
+    "bonusJart": {
+                "barkacsolas":{
+            "id":"barkacsolas",
+            "level":6
+        },
+                        "mechanika":{
+            "id":"mechanika",
+            "level":6
+        },
+                        "rejtozes":{
+            "id":"rejtozes",
+            "level":4
+        }
+    },
+    "foertekek": {
+        "fizikum": {
+            "id": "fizikum",
+            "min": 30,
+            "max": 60
+        },
+        "ratermettseg": {
+            "id": "ratermettseg",
+            "min": 45,
+            "max": 85
+        },
+        "tudat": {
+            "id": "tudat",
+            "min": 60,
+            "max": 90
+        },
+        "esszencia": {
+            "id": "esszencia",
+            "min": 20,
+            "max": 70
+        }
+    },
+    "age": {
+        "juvenis": 21,
+        "seniorMin": 100,
+        "seniorMax": 120
+    },
+    "speed": {
+        "min": 18,
+        "base": 8,
+        "max": 5
+    }
+}
