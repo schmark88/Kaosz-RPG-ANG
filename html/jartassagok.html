@@ -18,13 +18,14 @@
                 <span class="jartHead"><input type="button" style="padding: 2px" value="{{ mp= hideT ? ' - ' : ' + ';}} " ng-click="hideT = !hideT;"/>Tudomány</span>
             </div>
         </div>
-        <div class="righsidenav">   
+                <div class="righsidenav">   
             <p>Jártasság pontok: {{metod.getJP()}}</p>
             <p>Jártasságok:</p>
             <ul ng-repeat="jart in char.jartassagok  | orderObjectBy: 'jartCsop'">
                 <li>{{jart.name + " " + jart.currentLevel}}      
             </ul>
         </div>
+
         <div class="jartcontent">
             
             <table border="1" cellspacing="1" cellpadding="1" ng-hide="!hideH">
@@ -309,10 +310,10 @@
                     </tr>
                 </tbody>
             </table>
-
+</div>
             <form action="#/karakter">
                 <input type="submit" value="Tovább" ng-click="metod.saveData()" ng-disabled="(metod.getJP() < 0)">
             </form>
-        </div>
+        
     </body>
 </html>

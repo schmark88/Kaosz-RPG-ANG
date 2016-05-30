@@ -211,6 +211,32 @@
         "cost": [ 500, 500, 500, 1000, 1000, 1000, 1500, 1500, 1500, 4000 ],
         "reqFoertekId": "ugyesseg",
         "req": [ 50, 50, 50, 60, 60, 60, 70, 70, 70, 80 ],
+        "csoportok":{
+                        "ij": {
+                "name": "Íjak",
+                "have": false,
+                "minLevel": 1
+
+            },
+                                    "szamszerij": {
+                "name": "Számszeríjak",
+                "have": false,
+                "minLevel": 1
+
+            },
+                        "parittya": {
+                "name": "Parittya",
+                "have": false,
+                "minLevel": 1
+
+            },
+            "fuvocso": {
+                "name": "Fúvócső",
+                "have": false,
+                "minLevel": 1
+
+            }
+        },
         "reqJart": [ ],
         "minLevel": 1,
         "visszahatas": [ "lelkiero", "nemnovel", "reflex", "nemnovel", "lelkiero", "nemnovel" ],

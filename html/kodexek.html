@@ -8,8 +8,7 @@
     <body>
         <div class="topsidenavwrapper">
             <div class="topsidenav" >
-                <span class="jartHead"> Kulcsszó: <input type="text" ng-model="nameQuery" /></span>
-                <span > (Max)Nehézség: <input type="number" style="width: 40px" ng-model="nehezsegQuery" /></span>
+
                 <span class="jartHead" title="{{infoFuggetlen}}"> <input type="checkbox" ng-model="kodexFuggetlen" ng-change="checkKodex()"/>Kódex Független</span>
                 <span class="jartHead" title="{{infoSkarlat}}"> <input type="checkbox" ng-model="kodexSkarlat" ng-change="checkKodex()"/>Skarlát</span>
                 <span class="jartHead" title="{{infoAzur}}"> <input type="checkbox" ng-model="kodexAzur" ng-change="checkKodex()"/>Azúr</span>
@@ -21,6 +20,10 @@
                 <span class="jartHead" title="{{infoKigyoko}}"> <input type="checkbox" ng-model="kodexKigyoko" ng-change="checkKodex()"/>Kígyókő</span>
                 <span class="jartHead" title="{{infoArany}}"> <input type="checkbox" ng-model="kodexArany" ng-change="checkKodex()"/>Arany</span>
                 <span class="jartHead" > <input type="checkbox" ng-model="kodexPraktikus" ng-change="checkKodex()"/>Praktikus</span>
+                <div>                
+                    <span class="jartHead"> Kulcsszó: <input type="text" ng-model="nameQuery" /></span>
+                <span > (Max)Nehézség: <input type="number" style="width: 40px" ng-model="nehezsegQuery" /></span>
+                </div>
                 
             </div>
         </div>

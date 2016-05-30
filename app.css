@@ -66,7 +66,7 @@
 }
 .alpha p {
     font-size: 13px;
-    padding: 8px 12px;
+    padding: 8px 5px;
     color: #aaa;
 }
 .menu-item ul {
@@ -128,6 +128,7 @@ nav {
     position:fixed;
     top:0;
     left:0;
+    bottom: 0;
     width: 10%;
     height: 100%;
     overflow: auto;
@@ -144,20 +145,23 @@ nav {
     width: 200px; 
 }
 .main-view {
-    width: 78%;
-    margin-left: 12%;
-    margin-right: 10%;
+    margin-right: 15%;  
+    margin-left: 11%;
+    
 }
 
 .righsidenav {
     position:fixed;
     top:0;
+    bottom: 0;
     right:0;
-    width: 15%;
+    width: 14%;
+    
     height: 100%;
     overflow: auto;
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 1.5;
+    background: #e5e5e7;
         
     -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
@@ -170,8 +174,10 @@ nav {
 .topsidenav {
     position:fixed;
     top:0;
-    width: 60%;
+    z-index:20;
+    width: 74%;
     min-width: 163px;
+    height: 50px;
     align-items: center;
     text-align: center;
     overflow: auto;
@@ -183,10 +189,13 @@ nav {
     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
-.jartcontent{ 
-     
-    margin: auto;
-    margin-top: 3%;
+.jartcontent{    
+    margin-top: 50px;
+}
+
+.jartcontent table{   
+
+    
 }
 .jartHead{
     margin:5px;
@@ -246,4 +255,12 @@ nav {
 }
 .margin10{
     margin-right: 10px
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
