@@ -1,1 +1,1572 @@
-{"alsonemukozonseges":{"cost":{"min":1,"max":1,"currency":"réz"},"csoport":"Ruhanemű","id":"alsonemukozonseges","name":"Alsónemű (közönséges)"},"alsonemunemesi":{"cost":{"min":1,"max":3,"currency":"arany"},"csoport":"Ruhanemű","id":"alsonemunemesi","name":"Alsónemű (nemesi)"},"bocskor":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Ruhanemű","id":"bocskor","name":"Bocskor"},"csizmaegyszeru":{"cost":{"min":1,"max":5,"currency":"ezüst"},"csoport":"Ruhanemű","id":"csizmaegyszeru","name":"Csizma (egyszerű)"},"csizmanemesi":{"cost":{"min":5,"max":25,"currency":"arany"},"csoport":"Ruhanemű","id":"csizmanemesi","name":"Csizma (nemesi)"},"erszenyegyszeru":{"cost":{"min":3,"max":5,"currency":"ezüst"},"csoport":"Ruhanemű","id":"erszenyegyszeru","name":"Erszény (egyszerű)"},"erszenynemesi":{"cost":{"min":5,"max":10,"currency":"arany"},"csoport":"Ruhanemű","id":"erszenynemesi","name":"Erszény (nemesi)"},"fegyverderek":{"cost":{"min":1,"max":10,"currency":"arany"},"csoport":"Ruhanemű","id":"fegyverderek","name":"Fegyverderék"},"ingnemesanyagokbol":{"cost":{"min":2,"max":10,"currency":"arany"},"csoport":"Ruhanemű","id":"ingnemesanyagokbol","name":"Ing (nemes anyagokból)"},"ingvaszonpamut":{"cost":{"min":5,"max":30,"currency":"réz"},"csoport":"Ruhanemű","id":"ingvaszonpamut","name":"Ing (vászon, pamut)"},"kabaturiszabasu":{"cost":{"min":1,"max":7,"currency":"arany"},"csoport":"Ruhanemű","id":"kabaturiszabasu","name":"Kabát (úri szabású)"},"kardhuvely":{"cost":{"min":3,"max":90,"currency":"ezüst"},"csoport":"Ruhanemű","id":"kardhuvely","name":"Kardhüvely"},"kendo":{"cost":{"min":2,"max":10,"currency":"réz"},"csoport":"Ruhanemű","id":"kendo","name":"Kendő"},"kestok":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Ruhanemű","id":"kestok","name":"Késtok"},"kesztyuegyszeru":{"cost":{"min":1,"max":9,"currency":"ezüst"},"csoport":"Ruhanemű","id":"kesztyuegyszeru","name":"Kesztyű (egyszerű)"},"konnyuelftunika":{"cost":{"min":3,"max":30,"currency":"ezüst"},"csoport":"Ruhanemű","id":"konnyuelftunika","name":"Könnyű elf tunika"},"melleny":{"cost":{"min":2,"max":70,"currency":"ezüst"},"csoport":"Ruhanemű","id":"melleny","name":"Mellény"},"nadragbor":{"cost":{"min":3,"max":10,"currency":"ezüst"},"csoport":"Ruhanemű","id":"nadragbor","name":"Nadrág (bőr)"},"nadragvaszonposzto":{"cost":{"min":5,"max":10,"currency":"réz"},"csoport":"Ruhanemű","id":"nadragvaszonposzto","name":"Nadrág (vászon, posztó)"},"nemesikesztyu":{"cost":{"min":5,"max":25,"currency":"arany"},"csoport":"Ruhanemű","id":"nemesikesztyu","name":"Nemesi kesztyű"},"nemesipalast":{"cost":{"min":10,"max":20,"currency":"arany"},"csoport":"Ruhanemű","id":"nemesipalast","name":"Nemesi palást"},"ov":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Ruhanemű","id":"ov","name":"Öv"},"pantallonemesi":{"cost":{"min":5,"max":15,"currency":"arany"},"csoport":"Ruhanemű","id":"pantallonemesi","name":"Pantalló (nemesi)"},"premeskucsma":{"cost":{"min":2,"max":20,"currency":"ezüst"},"csoport":"Ruhanemű","id":"premeskucsma","name":"Prémes kucsma"},"sapkakalap":{"cost":{"min":4,"max":80,"currency":"réz"},"csoport":"Ruhanemű","id":"sapkakalap","name":"Sapka, kalap"},"szandal":{"cost":{"min":1,"max":2,"currency":"ezüst"},"csoport":"Ruhanemű","id":"szandal","name":"Szandál"},"szogesbakancs":{"cost":{"min":1,"max":3,"currency":"ezüst"},"csoport":"Ruhanemű","id":"szogesbakancs","name":"Szöges bakancs"},"szormebunda":{"cost":{"min":5,"max":500,"currency":"ezüst"},"csoport":"Ruhanemű","id":"szormebunda","name":"Szőrmebunda"},"tarsoly":{"cost":{"min":5,"max":1200,"currency":"réz"},"csoport":"Ruhanemű","id":"tarsoly","name":"Tarsoly"},"utazokoponyeg":{"cost":{"min":5,"max":40,"currency":"ezüst"},"csoport":"Ruhanemű","id":"utazokoponyeg","name":"Utazóköpönyeg"},"vivokesztyu":{"cost":{"min":4,"max":25,"currency":"ezüst"},"csoport":"Ruhanemű","id":"vivokesztyu","name":"Vívókesztyű"},"agykozosszobaban":{"cost":{"min":1,"max":10,"currency":"réz"},"csoport":"Szállás és élelem","id":"agykozosszobaban","name":"Ágy (közös szobában)"},"szobaegyszeru":{"cost":{"min":2,"max":5,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"szobaegyszeru","name":"Szoba (egyszerű)"},"szobakiralyi":{"cost":{"min":20,"max":25,"currency":"arany"},"csoport":"Szállás és élelem","id":"szobakiralyi","name":"Szoba (királyi)"},"istalloberletesabrak":{"cost":{"min":5,"max":20,"currency":"réz"},"csoport":"Szállás és élelem","id":"istalloberletesabrak","name":"Istállóbérlet és abrak"},"egyszerufoetkezes":{"cost":{"min":2,"max":40,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"egyszerufoetkezes","name":"Egyszerű főétkezés"},"lakoma":{"cost":{"min":3,"max":10,"currency":"arany"},"csoport":"Szállás és élelem","id":"lakoma","name":"Lakoma"},"szarazelelem1napra":{"cost":{"min":5,"max":100,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"szarazelelem1napra","name":"Száraz élelem (1 napra)"},"kenyervekni1kg":{"cost":{"min":0,"max":1,"currency":"2"},"csoport":"Szállás és élelem","id":"kenyervekni1kg","name":"Kenyér (vekni, 1kg)"},"sajtkorong1kg":{"cost":{"min":1,"max":3,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"sajtkorong1kg","name":"Sajt (korong, 1 kg)"},"tojasdb":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Szállás és élelem","id":"tojasdb","name":"Tojás (db)"},"zoldsegcsomo1kg":{"cost":{"min":1,"max":10,"currency":"réz"},"csoport":"Szállás és élelem","id":"zoldsegcsomo1kg","name":"Zöldség (csomó, 1 kg)"},"gyumolcs1kg":{"cost":{"min":1,"max":10,"currency":"réz"},"csoport":"Szállás és élelem","id":"gyumolcs1kg","name":"Gyümölcs (1 kg)"},"aszaltgyumolcs1kg":{"cost":{"min":1,"max":20,"currency":"réz"},"csoport":"Szállás és élelem","id":"aszaltgyumolcs1kg","name":"Aszalt gyümölcs (1 kg)"},"mezbodon1kg":{"cost":{"min":1,"max":5,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"mezbodon1kg","name":"Méz (bödön, 1 kg)"},"vajbodon1kg":{"cost":{"min":1,"max":5,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"vajbodon1kg","name":"Vaj (bödön, 1 kg)"},"zsirbodon1kg":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Szállás és élelem","id":"zsirbodon1kg","name":"Zsír (bödön, 1 kg)"},"cukorzsak1kg":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"cukorzsak1kg","name":"Cukor (zsák, 1 kg)"},"lisztzsak1kg":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Szállás és élelem","id":"lisztzsak1kg","name":"Liszt (zsák, 1 kg)"},"koleszsak1kg":{"cost":{"min":1,"max":1,"currency":"réz"},"csoport":"Szállás és élelem","id":"koleszsak1kg","name":"Köles (zsák, 1 kg)"},"rizszsak1kg":{"cost":{"min":1,"max":8,"currency":"réz"},"csoport":"Szállás és élelem","id":"rizszsak1kg","name":"Rizs (zsák, 1 kg)"},"sozsak1kg":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"sozsak1kg","name":"Só (zsák, 1 kg)"},"sozotthalhordo1kg":{"cost":{"min":3,"max":15,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"sozotthalhordo1kg","name":"Sózott hal (hordó, 1 kg)"},"sozotthuscsomag1kg":{"cost":{"min":3,"max":15,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"sozotthuscsomag1kg","name":"Sózott hús (csomag, 1 kg)"},"fustolthuscsomag1kg":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"fustolthuscsomag1kg","name":"Füstölt hús (csomag, 1kg)"},"kolbaszszal1kg":{"cost":{"min":2,"max":20,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"kolbaszszal1kg","name":"Kolbász (szál, 1 kg)"},"elobaromfidb":{"cost":{"min":5,"max":30,"currency":"réz"},"csoport":"Szállás és élelem","id":"elobaromfidb","name":"Élő baromfi (db)"},"lorekancso1l":{"cost":{"min":1,"max":10,"currency":"réz"},"csoport":"Szállás és élelem","id":"lorekancso1l","name":"Lőre (kancsó,1 l)"},"minosegiborkancso1l":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"minosegiborkancso1l","name":"Minőségi bor (kancsó,1 l)"},"kiralyiborkancso1l":{"cost":{"min":1,"max":100,"currency":"arany"},"csoport":"Szállás és élelem","id":"kiralyiborkancso1l","name":"Királyi bor (kancsó,1 l)"},"orksorkorso1l":{"cost":{"min":0,"max":1,"currency":"2"},"csoport":"Szállás és élelem","id":"orksorkorso1l","name":"Ork sör (korsó,1 l)"},"arpasorkorso1l":{"cost":{"min":1,"max":10,"currency":"réz"},"csoport":"Szállás és élelem","id":"arpasorkorso1l","name":"Árpasör (korsó,1 l)"},"mehsorkorso1l":{"cost":{"min":5,"max":50,"currency":"réz"},"csoport":"Szállás és élelem","id":"mehsorkorso1l","name":"Méhsör (korsó,1 l)"},"manopalinka1l":{"cost":{"min":1,"max":50,"currency":"réz"},"csoport":"Szállás és élelem","id":"manopalinka1l","name":"Manópálinka (1 l)"},"szilvorium1l":{"cost":{"min":5,"max":100,"currency":"ezüst"},"csoport":"Szállás és élelem","id":"szilvorium1l","name":"Szilvórium (1 l)"},"faklyahordozo":{"cost":{"min":1,"max":5,"currency":"réz"},"csoport":"Szolgáltatások","id":"faklyahordozo","name":"Fáklyahordozó"},"borbely":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szolgáltatások","id":"borbely","name":"Borbély"},"lovasz":{"cost":{"min":5,"max":30,"currency":"réz"},"csoport":"Szolgáltatások","id":"lovasz","name":"Lovász"},"inas":{"cost":{"min":1,"max":20,"currency":"réz"},"csoport":"Szolgáltatások","id":"inas","name":"Inas"},"felcser":{"cost":{"min":5,"max":100,"currency":"ezüst"},"csoport":"Szolgáltatások","id":"felcser","name":"Felcser"},"furdo":{"cost":{"min":5,"max":50,"currency":"réz"},"csoport":"Szolgáltatások","id":"furdo","name":"Fürdő"},"irnok":{"cost":{"min":5,"max":100,"currency":"réz"},"csoport":"Szolgáltatások","id":"irnok","name":"Írnok"},"kuldonc":{"cost":{"min":1,"max":5,"currency":"réz"},"csoport":"Szolgáltatások","id":"kuldonc","name":"Küldönc"},"mosas1rendruha":{"cost":{"min":1,"max":50,"currency":"réz"},"csoport":"Szolgáltatások","id":"mosas1rendruha","name":"Mosás (1 rend ruha)"},"patkolas":{"cost":{"min":4,"max":40,"currency":"réz"},"csoport":"Szolgáltatások","id":"patkolas","name":"Patkolás"},"dalnok":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Szolgáltatások","id":"dalnok","name":"Dalnok"},"trubaduresbandaja":{"cost":{"min":10,"max":20,"currency":"arany"},"csoport":"Szolgáltatások","id":"trubaduresbandaja","name":"Trubadúr és bandája"},"revesz":{"cost":{"min":10,"max":100,"currency":"réz"},"csoport":"Szolgáltatások","id":"revesz","name":"Révész"},"utcalany":{"cost":{"min":1,"max":100,"currency":"réz"},"csoport":"Szolgáltatások","id":"utcalany","name":"Utcalány"},"hetera":{"cost":{"min":10,"max":500,"currency":"arany"},"csoport":"Szolgáltatások","id":"hetera","name":"Hetéra"},"bergyilkos":{"cost":{"min":1,"max":1000,"currency":"arany"},"csoport":"Szolgáltatások","id":"bergyilkos","name":"Bérgyilkos    "},"bermagus":{"cost":{"min":20,"max":100,"currency":"arany"},"csoport":"Szolgáltatások","id":"bermagus","name":"Bérmágus  "},"zsoldos":{"cost":{"min":5,"max":30,"currency":"ezüst"},"csoport":"Szolgáltatások","id":"zsoldos","name":"Zsoldos"},"igaslo":{"cost":{"min":5,"max":20,"currency":"ezüst"},"csoport":"Állatok","id":"igaslo","name":"Igásló "},"szamar":{"cost":{"min":3,"max":10,"currency":"ezüst"},"csoport":"Állatok","id":"szamar","name":"Szamár"},"ponilo":{"cost":{"min":15,"max":30,"currency":"ezüst"},"csoport":"Állatok","id":"ponilo","name":"Póniló"},"oszver":{"cost":{"min":20,"max":40,"currency":"ezüst"},"csoport":"Állatok","id":"oszver","name":"Öszvér"},"hataslo":{"cost":{"min":5,"max":10,"currency":"arany"},"csoport":"Állatok","id":"hataslo","name":"Hátasló"},"harcilo":{"cost":{"min":50,"max":2000,"currency":"arany"},"csoport":"Állatok","id":"harcilo","name":"Harci ló"},"teve":{"cost":{"min":1,"max":80,"currency":"arany"},"csoport":"Állatok","id":"teve","name":"Teve"},"postagalamb":{"cost":{"min":1,"max":20,"currency":"arany"},"csoport":"Állatok","id":"postagalamb","name":"Postagalamb"},"vadaszsolyom":{"cost":{"min":50,"max":100,"currency":"arany"},"csoport":"Állatok","id":"vadaszsolyom","name":"Vadászsólyom"},"vadaszgoreny":{"cost":{"min":5,"max":20,"currency":"ezüst"},"csoport":"Állatok","id":"vadaszgoreny","name":"Vadászgörény"},"macska":{"cost":{"min":5,"max":1000,"currency":"réz"},"csoport":"Állatok","id":"macska","name":"Macska"},"idomitottnagymacska":{"cost":{"min":1000,"max":2000,"currency":"arany"},"csoport":"Állatok","id":"idomitottnagymacska","name":"Idomított nagymacska"},"kutyakorcsidomitatlan":{"cost":{"min":1,"max":5,"currency":"réz"},"csoport":"Állatok","id":"kutyakorcsidomitatlan","name":"Kutya (korcs, idomítatlan)"},"kutyaorzovedo":{"cost":{"min":5,"max":100,"currency":"ezüst"},"csoport":"Állatok","id":"kutyaorzovedo","name":"Kutya (őrző-védő)"},"vadaszkutya":{"cost":{"min":5,"max":50,"currency":"arany"},"csoport":"Állatok","id":"vadaszkutya","name":"Vadászkutya"},"harcikutya":{"cost":{"min":10,"max":80,"currency":"arany"},"csoport":"Állatok","id":"harcikutya","name":"Harci kutya "},"aso":{"cost":{"min":2,"max":20,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"aso","name":"Ásó"},"bogracs":{"cost":{"min":3,"max":10,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"bogracs","name":"Bogrács"},"csaklyakotelnelkul":{"cost":{"min":2,"max":20,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"csaklyakotelnelkul","name":"Csáklya (kötél nélkül)"},"csengettyu":{"cost":{"min":1,"max":4,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"csengettyu","name":"Csengettyű"},"emeloescsiga":{"cost":{"min":1,"max":2,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"emeloescsiga","name":"Emelő és csiga"},"faklya":{"cost":{"min":2,"max":20,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"faklya","name":"Fáklya"},"gyertya":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"gyertya","name":"Gyertya"},"halaszhalo":{"cost":{"min":5,"max":30,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"halaszhalo","name":"Halászháló"},"halaszhorog":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"halaszhorog","name":"Halászhorog"},"hatizsak":{"cost":{"min":8,"max":30,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"hatizsak","name":"Hátizsák"},"homokora":{"cost":{"min":5,"max":10,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"homokora","name":"Homokóra"},"hordo5literes":{"cost":{"min":1,"max":5,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"hordo5literes","name":"Hordó (5 literes)"},"irotollbronzfeju":{"cost":{"min":1,"max":3,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"irotollbronzfeju","name":"Írótoll (bronzfejű)"},"kezitukor":{"cost":{"min":3,"max":15,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"kezitukor","name":"Kézitükör"},"kosar":{"cost":{"min":5,"max":30,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"kosar","name":"Kosár"},"kotel20meter":{"cost":{"min":2,"max":5,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"kotel20meter","name":"Kötél (20 méter)"},"kreta":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"kreta","name":"Kréta"},"kulacs05literes":{"cost":{"min":1,"max":5,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"kulacs05literes","name":"Kulacs (0,5 literes)"},"labas":{"cost":{"min":2,"max":6,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"labas","name":"Lábas"},"lada":{"cost":{"min":5,"max":15,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"lada","name":"Láda"},"lakat":{"cost":{"min":5,"max":20,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"lakat","name":"Lakat"},"lampas":{"cost":{"min":10,"max":20,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"lampas","name":"Lámpás"},"lanc5meter":{"cost":{"min":1,"max":1,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"lanc5meter","name":"Lánc (5 méter)"},"letrakb.3meteres":{"cost":{"min":30,"max":40,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"letrakb.3meteres","name":"Létra (kb. 3 méteres)"},"maszovas":{"cost":{"min":1,"max":2,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"maszovas","name":"Mászóvas"},"merleg":{"cost":{"min":8,"max":10,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"merleg","name":"Mérleg"},"nagyito":{"cost":{"min":25,"max":40,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"nagyito","name":"Nagyító"},"olaj1dl":{"cost":{"min":4,"max":5,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"olaj1dl","name":"Olaj (1 dl)"},"papirlap":{"cost":{"min":5,"max":10,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"papirlap","name":"Papír (lap)"},"pecsetviasz":{"cost":{"min":4,"max":5,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"pecsetviasz","name":"Pecsétviasz"},"pergameniv":{"cost":{"min":1,"max":2,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"pergameniv","name":"Pergamen (ív)"},"sator26szemelyes":{"cost":{"min":10,"max":30,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"sator26szemelyes","name":"Sátor (2-6 személyes)"},"sator1szemelyes":{"cost":{"min":1,"max":2,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"sator1szemelyes","name":"Sátor (1 személyes)"},"sip":{"cost":{"min":2,"max":3,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"sip","name":"Síp"},"szappan":{"cost":{"min":5,"max":10,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"szappan","name":"Szappan"},"takaro":{"cost":{"min":2,"max":3,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"takaro","name":"Takaró"},"tavcso":{"cost":{"min":200,"max":400,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"tavcso","name":"Távcső"},"tegez":{"cost":{"min":4,"max":10,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"tegez","name":"Tegez"},"tinta1dl":{"cost":{"min":4,"max":5,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"tinta1dl","name":"Tinta (1 dl)"},"tomlo5literes":{"cost":{"min":2,"max":8,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"tomlo5literes","name":"Tömlő (5 literes)"},"tuzrevalo1napiadag":{"cost":{"min":1,"max":5,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"tuzrevalo1napiadag","name":"Tűzrevaló (1 napi adag)"},"tuzszerszam":{"cost":{"min":2,"max":4,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"tuzszerszam","name":"Tűzszerszám"},"ureskonyv":{"cost":{"min":10,"max":30,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"ureskonyv","name":"Üres könyv "},"uvegcsevastagfalu":{"cost":{"min":2,"max":4,"currency":"arany"},"csoport":"Vegyes felszerelés","id":"uvegcsevastagfalu","name":"Üvegcse (vastag falú)"},"varrotu":{"cost":{"min":1,"max":2,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"varrotu","name":"Varrótű"},"vassulyom":{"cost":{"min":2,"max":5,"currency":"réz"},"csoport":"Vegyes felszerelés","id":"vassulyom","name":"Vassulyom"},"vitorlavaszonm2":{"cost":{"min":1,"max":10,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"vitorlavaszonm2","name":"Vitorlavászon (m2)"},"vodor":{"cost":{"min":1,"max":2,"currency":"ezüst"},"csoport":"Vegyes felszerelés","id":"vodor","name":"Vödör"},"kengyelszijjalpar":{"cost":{"min":1,"max":20,"currency":"ezüst"},"csoport":"Lovas felszerelés","id":"kengyelszijjalpar","name":"Kengyel, szíjjal (pár)"},"kotofek":{"cost":{"min":3,"max":50,"currency":"réz"},"csoport":"Lovas felszerelés","id":"kotofek","name":"Kötõfék"},"lemezvertlorafejszugy":{"cost":{"min":400,"max":500,"currency":"arany"},"csoport":"Lovas felszerelés","id":"lemezvertlorafejszugy","name":"Lemezvért lóra (fej, szügy)"},"lemezvertlorateljes":{"cost":{"min":800,"max":1000,"currency":"arany"},"csoport":"Lovas felszerelés","id":"lemezvertlorateljes","name":"Lemezvért lóra (teljes)"},"utazonyereg":{"cost":{"min":2,"max":10,"currency":"arany"},"csoport":"Lovas felszerelés","id":"utazonyereg","name":"Utazó nyereg"},"lovaginyereg":{"cost":{"min":10,"max":50,"currency":"arany"},"csoport":"Lovas felszerelés","id":"lovaginyereg","name":"Lovagi nyereg"},"nyeregzsak":{"cost":{"min":1,"max":20,"currency":"ezüst"},"csoport":"Lovas felszerelés","id":"nyeregzsak","name":"Nyeregzsák"},"lotakaro":{"cost":{"min":5,"max":20,"currency":"réz"},"csoport":"Lovas felszerelés","id":"lotakaro","name":"Lótakaró"},"diszeslepellora":{"cost":{"min":1,"max":5,"currency":"arany"},"csoport":"Lovas felszerelés","id":"diszeslepellora","name":"Díszes lepel lóra"},"vontatohammalhaslora":{"cost":{"min":5,"max":10,"currency":"ezüst"},"csoport":"Lovas felszerelés","id":"vontatohammalhaslora","name":"Vontatóhám málhás lóra"}}
+{
+    "alsonemukozonseges": {
+        "cost": {
+            "min": 1,
+            "max": 1,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "alsonemukozonseges",
+        "name": "Alsónemű (közönséges)"
+    },
+    "alsonemunemesi": {
+        "cost": {
+            "min": 1,
+            "max": 3,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "alsonemunemesi",
+        "name": "Alsónemű (nemesi)"
+    },
+    "bocskor": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "bocskor",
+        "name": "Bocskor"
+    },
+    "csizmaegyszeru": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "csizmaegyszeru",
+        "name": "Csizma (egyszerű)"
+    },
+    "csizmanemesi": {
+        "cost": {
+            "min": 5,
+            "max": 25,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "csizmanemesi",
+        "name": "Csizma (nemesi)"
+    },
+    "erszenyegyszeru": {
+        "cost": {
+            "min": 3,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "erszenyegyszeru",
+        "name": "Erszény (egyszerű)"
+    },
+    "erszenynemesi": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "erszenynemesi",
+        "name": "Erszény (nemesi)"
+    },
+    "fegyverderek": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "fegyverderek",
+        "name": "Fegyverderék"
+    },
+    "ingnemesanyagokbol": {
+        "cost": {
+            "min": 2,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "ingnemesanyagokbol",
+        "name": "Ing (nemes anyagokból)"
+    },
+    "ingvaszonpamut": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "ingvaszonpamut",
+        "name": "Ing (vászon, pamut)"
+    },
+    "kabaturiszabasu": {
+        "cost": {
+            "min": 1,
+            "max": 7,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "kabaturiszabasu",
+        "name": "Kabát (úri szabású)"
+    },
+    "kardhuvely": {
+        "cost": {
+            "min": 3,
+            "max": 90,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "kardhuvely",
+        "name": "Kardhüvely"
+    },
+    "kendo": {
+        "cost": {
+            "min": 2,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "kendo",
+        "name": "Kendő"
+    },
+    "kestok": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "kestok",
+        "name": "Késtok"
+    },
+    "kesztyuegyszeru": {
+        "cost": {
+            "min": 1,
+            "max": 9,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "kesztyuegyszeru",
+        "name": "Kesztyű (egyszerű)"
+    },
+    "konnyuelftunika": {
+        "cost": {
+            "min": 3,
+            "max": 30,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "konnyuelftunika",
+        "name": "Könnyű elf tunika"
+    },
+    "melleny": {
+        "cost": {
+            "min": 2,
+            "max": 70,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "melleny",
+        "name": "Mellény"
+    },
+    "nadragbor": {
+        "cost": {
+            "min": 3,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "nadragbor",
+        "name": "Nadrág (bőr)"
+    },
+    "nadragvaszonposzto": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "nadragvaszonposzto",
+        "name": "Nadrág (vászon, posztó)"
+    },
+    "nemesikesztyu": {
+        "cost": {
+            "min": 5,
+            "max": 25,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "nemesikesztyu",
+        "name": "Nemesi kesztyű"
+    },
+    "nemesipalast": {
+        "cost": {
+            "min": 10,
+            "max": 20,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "nemesipalast",
+        "name": "Nemesi palást"
+    },
+    "ov": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "ov",
+        "name": "Öv"
+    },
+    "pantallonemesi": {
+        "cost": {
+            "min": 5,
+            "max": 15,
+            "currency": "arany"
+        },
+        "csoport": "Ruhanemű",
+        "id": "pantallonemesi",
+        "name": "Pantalló (nemesi)"
+    },
+    "premeskucsma": {
+        "cost": {
+            "min": 2,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "premeskucsma",
+        "name": "Prémes kucsma"
+    },
+    "sapkakalap": {
+        "cost": {
+            "min": 4,
+            "max": 80,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "sapkakalap",
+        "name": "Sapka, kalap"
+    },
+    "szandal": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "szandal",
+        "name": "Szandál"
+    },
+    "szogesbakancs": {
+        "cost": {
+            "min": 1,
+            "max": 3,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "szogesbakancs",
+        "name": "Szöges bakancs"
+    },
+    "szormebunda": {
+        "cost": {
+            "min": 5,
+            "max": 500,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "szormebunda",
+        "name": "Szőrmebunda"
+    },
+    "tarsoly": {
+        "cost": {
+            "min": 5,
+            "max": 1200,
+            "currency": "réz"
+        },
+        "csoport": "Ruhanemű",
+        "id": "tarsoly",
+        "name": "Tarsoly"
+    },
+    "utazokoponyeg": {
+        "cost": {
+            "min": 5,
+            "max": 40,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "utazokoponyeg",
+        "name": "Utazóköpönyeg"
+    },
+    "vivokesztyu": {
+        "cost": {
+            "min": 4,
+            "max": 25,
+            "currency": "ezüst"
+        },
+        "csoport": "Ruhanemű",
+        "id": "vivokesztyu",
+        "name": "Vívókesztyű"
+    },
+    "agykozosszobaban": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "agykozosszobaban",
+        "name": "Ágy (közös szobában)"
+    },
+    "szobaegyszeru": {
+        "cost": {
+            "min": 2,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "szobaegyszeru",
+        "name": "Szoba (egyszerű)"
+    },
+    "szobakiralyi": {
+        "cost": {
+            "min": 20,
+            "max": 25,
+            "currency": "arany"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "szobakiralyi",
+        "name": "Szoba (királyi)"
+    },
+    "istalloberletesabrak": {
+        "cost": {
+            "min": 5,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "istalloberletesabrak",
+        "name": "Istállóbérlet és abrak"
+    },
+    "egyszerufoetkezes": {
+        "cost": {
+            "min": 2,
+            "max": 40,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "egyszerufoetkezes",
+        "name": "Egyszerű főétkezés"
+    },
+    "lakoma": {
+        "cost": {
+            "min": 3,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "lakoma",
+        "name": "Lakoma"
+    },
+    "szarazelelem1napra": {
+        "cost": {
+            "min": 5,
+            "max": 100,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "szarazelelem1napra",
+        "name": "Száraz élelem (1 napra)"
+    },
+    "kenyervekni1kg": {
+        "cost": {
+            "min": 0,
+            "max": 1,
+            "currency": "2"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "kenyervekni1kg",
+        "name": "Kenyér (vekni, 1kg)"
+    },
+    "sajtkorong1kg": {
+        "cost": {
+            "min": 1,
+            "max": 3,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "sajtkorong1kg",
+        "name": "Sajt (korong, 1 kg)"
+    },
+    "tojasdb": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "tojasdb",
+        "name": "Tojás (db)"
+    },
+    "zoldsegcsomo1kg": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "zoldsegcsomo1kg",
+        "name": "Zöldség (csomó, 1 kg)"
+    },
+    "gyumolcs1kg": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "gyumolcs1kg",
+        "name": "Gyümölcs (1 kg)"
+    },
+    "aszaltgyumolcs1kg": {
+        "cost": {
+            "min": 1,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "aszaltgyumolcs1kg",
+        "name": "Aszalt gyümölcs (1 kg)"
+    },
+    "mezbodon1kg": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "mezbodon1kg",
+        "name": "Méz (bödön, 1 kg)"
+    },
+    "vajbodon1kg": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "vajbodon1kg",
+        "name": "Vaj (bödön, 1 kg)"
+    },
+    "zsirbodon1kg": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "zsirbodon1kg",
+        "name": "Zsír (bödön, 1 kg)"
+    },
+    "cukorzsak1kg": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "cukorzsak1kg",
+        "name": "Cukor (zsák, 1 kg)"
+    },
+    "lisztzsak1kg": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "lisztzsak1kg",
+        "name": "Liszt (zsák, 1 kg)"
+    },
+    "koleszsak1kg": {
+        "cost": {
+            "min": 1,
+            "max": 1,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "koleszsak1kg",
+        "name": "Köles (zsák, 1 kg)"
+    },
+    "rizszsak1kg": {
+        "cost": {
+            "min": 1,
+            "max": 8,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "rizszsak1kg",
+        "name": "Rizs (zsák, 1 kg)"
+    },
+    "sozsak1kg": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "sozsak1kg",
+        "name": "Só (zsák, 1 kg)"
+    },
+    "sozotthalhordo1kg": {
+        "cost": {
+            "min": 3,
+            "max": 15,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "sozotthalhordo1kg",
+        "name": "Sózott hal (hordó, 1 kg)"
+    },
+    "sozotthuscsomag1kg": {
+        "cost": {
+            "min": 3,
+            "max": 15,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "sozotthuscsomag1kg",
+        "name": "Sózott hús (csomag, 1 kg)"
+    },
+    "fustolthuscsomag1kg": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "fustolthuscsomag1kg",
+        "name": "Füstölt hús (csomag, 1kg)"
+    },
+    "kolbaszszal1kg": {
+        "cost": {
+            "min": 2,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "kolbaszszal1kg",
+        "name": "Kolbász (szál, 1 kg)"
+    },
+    "elobaromfidb": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "elobaromfidb",
+        "name": "Élő baromfi (db)"
+    },
+    "lorekancso1l": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "lorekancso1l",
+        "name": "Lőre (kancsó,1 l)"
+    },
+    "minosegiborkancso1l": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "minosegiborkancso1l",
+        "name": "Minőségi bor (kancsó,1 l)"
+    },
+    "kiralyiborkancso1l": {
+        "cost": {
+            "min": 1,
+            "max": 100,
+            "currency": "arany"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "kiralyiborkancso1l",
+        "name": "Királyi bor (kancsó,1 l)"
+    },
+    "orksorkorso1l": {
+        "cost": {
+            "min": 0,
+            "max": 1,
+            "currency": "2"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "orksorkorso1l",
+        "name": "Ork sör (korsó,1 l)"
+    },
+    "arpasorkorso1l": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "arpasorkorso1l",
+        "name": "Árpasör (korsó,1 l)"
+    },
+    "mehsorkorso1l": {
+        "cost": {
+            "min": 5,
+            "max": 50,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "mehsorkorso1l",
+        "name": "Méhsör (korsó,1 l)"
+    },
+    "manopalinka1l": {
+        "cost": {
+            "min": 1,
+            "max": 50,
+            "currency": "réz"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "manopalinka1l",
+        "name": "Manópálinka (1 l)"
+    },
+    "szilvorium1l": {
+        "cost": {
+            "min": 5,
+            "max": 100,
+            "currency": "ezüst"
+        },
+        "csoport": "Szállás és élelem",
+        "id": "szilvorium1l",
+        "name": "Szilvórium (1 l)"
+    },
+    "faklyahordozo": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "faklyahordozo",
+        "name": "Fáklyahordozó"
+    },
+    "borbely": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "borbely",
+        "name": "Borbély"
+    },
+    "lovasz": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "lovasz",
+        "name": "Lovász"
+    },
+    "inas": {
+        "cost": {
+            "min": 1,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "inas",
+        "name": "Inas"
+    },
+    "felcser": {
+        "cost": {
+            "min": 5,
+            "max": 100,
+            "currency": "ezüst"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "felcser",
+        "name": "Felcser"
+    },
+    "furdo": {
+        "cost": {
+            "min": 5,
+            "max": 50,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "furdo",
+        "name": "Fürdő"
+    },
+    "irnok": {
+        "cost": {
+            "min": 5,
+            "max": 100,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "irnok",
+        "name": "Írnok"
+    },
+    "kuldonc": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "kuldonc",
+        "name": "Küldönc"
+    },
+    "mosas1rendruha": {
+        "cost": {
+            "min": 1,
+            "max": 50,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "mosas1rendruha",
+        "name": "Mosás (1 rend ruha)"
+    },
+    "patkolas": {
+        "cost": {
+            "min": 4,
+            "max": 40,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "patkolas",
+        "name": "Patkolás"
+    },
+    "dalnok": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "dalnok",
+        "name": "Dalnok"
+    },
+    "trubaduresbandaja": {
+        "cost": {
+            "min": 10,
+            "max": 20,
+            "currency": "arany"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "trubaduresbandaja",
+        "name": "Trubadúr és bandája"
+    },
+    "revesz": {
+        "cost": {
+            "min": 10,
+            "max": 100,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "revesz",
+        "name": "Révész"
+    },
+    "utcalany": {
+        "cost": {
+            "min": 1,
+            "max": 100,
+            "currency": "réz"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "utcalany",
+        "name": "Utcalány"
+    },
+    "hetera": {
+        "cost": {
+            "min": 10,
+            "max": 500,
+            "currency": "arany"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "hetera",
+        "name": "Hetéra"
+    },
+    "bergyilkos": {
+        "cost": {
+            "min": 1,
+            "max": 1000,
+            "currency": "arany"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "bergyilkos",
+        "name": "Bérgyilkos    "
+    },
+    "bermagus": {
+        "cost": {
+            "min": 20,
+            "max": 100,
+            "currency": "arany"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "bermagus",
+        "name": "Bérmágus  "
+    },
+    "zsoldos": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "ezüst"
+        },
+        "csoport": "Szolgáltatások",
+        "id": "zsoldos",
+        "name": "Zsoldos"
+    },
+    "igaslo": {
+        "cost": {
+            "min": 5,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "igaslo",
+        "name": "Igásló "
+    },
+    "szamar": {
+        "cost": {
+            "min": 3,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "szamar",
+        "name": "Szamár"
+    },
+    "ponilo": {
+        "cost": {
+            "min": 15,
+            "max": 30,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "ponilo",
+        "name": "Póniló"
+    },
+    "oszver": {
+        "cost": {
+            "min": 20,
+            "max": 40,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "oszver",
+        "name": "Öszvér"
+    },
+    "hataslo": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "hataslo",
+        "name": "Hátasló"
+    },
+    "harcilo": {
+        "cost": {
+            "min": 50,
+            "max": 2000,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "harcilo",
+        "name": "Harci ló"
+    },
+    "teve": {
+        "cost": {
+            "min": 1,
+            "max": 80,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "teve",
+        "name": "Teve"
+    },
+    "postagalamb": {
+        "cost": {
+            "min": 1,
+            "max": 20,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "postagalamb",
+        "name": "Postagalamb"
+    },
+    "vadaszsolyom": {
+        "cost": {
+            "min": 50,
+            "max": 100,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "vadaszsolyom",
+        "name": "Vadászsólyom"
+    },
+    "vadaszgoreny": {
+        "cost": {
+            "min": 5,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "vadaszgoreny",
+        "name": "Vadászgörény"
+    },
+    "macska": {
+        "cost": {
+            "min": 5,
+            "max": 1000,
+            "currency": "réz"
+        },
+        "csoport": "Állatok",
+        "id": "macska",
+        "name": "Macska"
+    },
+    "idomitottnagymacska": {
+        "cost": {
+            "min": 1000,
+            "max": 2000,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "idomitottnagymacska",
+        "name": "Idomított nagymacska"
+    },
+    "kutyakorcsidomitatlan": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Állatok",
+        "id": "kutyakorcsidomitatlan",
+        "name": "Kutya (korcs, idomítatlan)"
+    },
+    "kutyaorzovedo": {
+        "cost": {
+            "min": 5,
+            "max": 100,
+            "currency": "ezüst"
+        },
+        "csoport": "Állatok",
+        "id": "kutyaorzovedo",
+        "name": "Kutya (őrző-védő)"
+    },
+    "vadaszkutya": {
+        "cost": {
+            "min": 5,
+            "max": 50,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "vadaszkutya",
+        "name": "Vadászkutya"
+    },
+    "harcikutya": {
+        "cost": {
+            "min": 10,
+            "max": 80,
+            "currency": "arany"
+        },
+        "csoport": "Állatok",
+        "id": "harcikutya",
+        "name": "Harci kutya "
+    },
+    "aso": {
+        "cost": {
+            "min": 2,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "aso",
+        "name": "Ásó"
+    },
+    "bogracs": {
+        "cost": {
+            "min": 3,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "bogracs",
+        "name": "Bogrács"
+    },
+    "csaklyakotelnelkul": {
+        "cost": {
+            "min": 2,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "csaklyakotelnelkul",
+        "name": "Csáklya (kötél nélkül)"
+    },
+    "csengettyu": {
+        "cost": {
+            "min": 1,
+            "max": 4,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "csengettyu",
+        "name": "Csengettyű"
+    },
+    "emeloescsiga": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "emeloescsiga",
+        "name": "Emelő és csiga"
+    },
+    "faklya": {
+        "cost": {
+            "min": 2,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "faklya",
+        "name": "Fáklya"
+    },
+    "gyertya": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "gyertya",
+        "name": "Gyertya"
+    },
+    "halaszhalo": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "halaszhalo",
+        "name": "Halászháló"
+    },
+    "halaszhorog": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "halaszhorog",
+        "name": "Halászhorog"
+    },
+    "hatizsak": {
+        "cost": {
+            "min": 8,
+            "max": 30,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "hatizsak",
+        "name": "Hátizsák"
+    },
+    "homokora": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "homokora",
+        "name": "Homokóra"
+    },
+    "hordo5literes": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "hordo5literes",
+        "name": "Hordó (5 literes)"
+    },
+    "irotollbronzfeju": {
+        "cost": {
+            "min": 1,
+            "max": 3,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "irotollbronzfeju",
+        "name": "Írótoll (bronzfejű)"
+    },
+    "kezitukor": {
+        "cost": {
+            "min": 3,
+            "max": 15,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "kezitukor",
+        "name": "Kézitükör"
+    },
+    "kosar": {
+        "cost": {
+            "min": 5,
+            "max": 30,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "kosar",
+        "name": "Kosár"
+    },
+    "kotel20meter": {
+        "cost": {
+            "min": 2,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "kotel20meter",
+        "name": "Kötél (20 méter)"
+    },
+    "kreta": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "kreta",
+        "name": "Kréta"
+    },
+    "kulacs05literes": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "kulacs05literes",
+        "name": "Kulacs (0,5 literes)"
+    },
+    "labas": {
+        "cost": {
+            "min": 2,
+            "max": 6,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "labas",
+        "name": "Lábas"
+    },
+    "lada": {
+        "cost": {
+            "min": 5,
+            "max": 15,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "lada",
+        "name": "Láda"
+    },
+    "lakat": {
+        "cost": {
+            "min": 5,
+            "max": 20,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "lakat",
+        "name": "Lakat"
+    },
+    "lampas": {
+        "cost": {
+            "min": 10,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "lampas",
+        "name": "Lámpás"
+    },
+    "lanc5meter": {
+        "cost": {
+            "min": 1,
+            "max": 1,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "lanc5meter",
+        "name": "Lánc (5 méter)"
+    },
+    "letrakb.3meteres": {
+        "cost": {
+            "min": 30,
+            "max": 40,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "letrakb.3meteres",
+        "name": "Létra (kb. 3 méteres)"
+    },
+    "maszovas": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "maszovas",
+        "name": "Mászóvas"
+    },
+    "merleg": {
+        "cost": {
+            "min": 8,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "merleg",
+        "name": "Mérleg"
+    },
+    "nagyito": {
+        "cost": {
+            "min": 25,
+            "max": 40,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "nagyito",
+        "name": "Nagyító"
+    },
+    "olaj1dl": {
+        "cost": {
+            "min": 4,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "olaj1dl",
+        "name": "Olaj (1 dl)"
+    },
+    "papirlap": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "papirlap",
+        "name": "Papír (lap)"
+    },
+    "pecsetviasz": {
+        "cost": {
+            "min": 4,
+            "max": 5,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "pecsetviasz",
+        "name": "Pecsétviasz"
+    },
+    "pergameniv": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "pergameniv",
+        "name": "Pergamen (ív)"
+    },
+    "sator26szemelyes": {
+        "cost": {
+            "min": 10,
+            "max": 30,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "sator26szemelyes",
+        "name": "Sátor (2-6 személyes)"
+    },
+    "sator1szemelyes": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "sator1szemelyes",
+        "name": "Sátor (1 személyes)"
+    },
+    "sip": {
+        "cost": {
+            "min": 2,
+            "max": 3,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "sip",
+        "name": "Síp"
+    },
+    "szappan": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "szappan",
+        "name": "Szappan"
+    },
+    "takaro": {
+        "cost": {
+            "min": 2,
+            "max": 3,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "takaro",
+        "name": "Takaró"
+    },
+    "tavcso": {
+        "cost": {
+            "min": 200,
+            "max": 400,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tavcso",
+        "name": "Távcső"
+    },
+    "tegez": {
+        "cost": {
+            "min": 4,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tegez",
+        "name": "Tegez"
+    },
+    "tinta1dl": {
+        "cost": {
+            "min": 4,
+            "max": 5,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tinta1dl",
+        "name": "Tinta (1 dl)"
+    },
+    "tomlo5literes": {
+        "cost": {
+            "min": 2,
+            "max": 8,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tomlo5literes",
+        "name": "Tömlő (5 literes)"
+    },
+    "tuzrevalo1napiadag": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tuzrevalo1napiadag",
+        "name": "Tűzrevaló (1 napi adag)"
+    },
+    "tuzszerszam": {
+        "cost": {
+            "min": 2,
+            "max": 4,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "tuzszerszam",
+        "name": "Tűzszerszám"
+    },
+    "ureskonyv": {
+        "cost": {
+            "min": 10,
+            "max": 30,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "ureskonyv",
+        "name": "Üres könyv "
+    },
+    "uvegcsevastagfalu": {
+        "cost": {
+            "min": 2,
+            "max": 4,
+            "currency": "arany"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "uvegcsevastagfalu",
+        "name": "Üvegcse (vastag falú)"
+    },
+    "varrotu": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "varrotu",
+        "name": "Varrótű"
+    },
+    "vassulyom": {
+        "cost": {
+            "min": 2,
+            "max": 5,
+            "currency": "réz"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "vassulyom",
+        "name": "Vassulyom"
+    },
+    "vitorlavaszonm2": {
+        "cost": {
+            "min": 1,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "vitorlavaszonm2",
+        "name": "Vitorlavászon (m2)"
+    },
+    "vodor": {
+        "cost": {
+            "min": 1,
+            "max": 2,
+            "currency": "ezüst"
+        },
+        "csoport": "Vegyes felszerelés",
+        "id": "vodor",
+        "name": "Vödör"
+    },
+    "kengyelszijjalpar": {
+        "cost": {
+            "min": 1,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "kengyelszijjalpar",
+        "name": "Kengyel, szíjjal (pár)"
+    },
+    "kotofek": {
+        "cost": {
+            "min": 3,
+            "max": 50,
+            "currency": "réz"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "kotofek",
+        "name": "Kötõfék"
+    },
+    "lemezvertlorafejszugy": {
+        "cost": {
+            "min": 400,
+            "max": 500,
+            "currency": "arany"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "lemezvertlorafejszugy",
+        "name": "Lemezvért lóra (fej, szügy)"
+    },
+    "lemezvertlorateljes": {
+        "cost": {
+            "min": 800,
+            "max": 1000,
+            "currency": "arany"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "lemezvertlorateljes",
+        "name": "Lemezvért lóra (teljes)"
+    },
+    "utazonyereg": {
+        "cost": {
+            "min": 2,
+            "max": 10,
+            "currency": "arany"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "utazonyereg",
+        "name": "Utazó nyereg"
+    },
+    "lovaginyereg": {
+        "cost": {
+            "min": 10,
+            "max": 50,
+            "currency": "arany"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "lovaginyereg",
+        "name": "Lovagi nyereg"
+    },
+    "nyeregzsak": {
+        "cost": {
+            "min": 1,
+            "max": 20,
+            "currency": "ezüst"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "nyeregzsak",
+        "name": "Nyeregzsák"
+    },
+    "lotakaro": {
+        "cost": {
+            "min": 5,
+            "max": 20,
+            "currency": "réz"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "lotakaro",
+        "name": "Lótakaró"
+    },
+    "diszeslepellora": {
+        "cost": {
+            "min": 1,
+            "max": 5,
+            "currency": "arany"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "diszeslepellora",
+        "name": "Díszes lepel lóra"
+    },
+    "vontatohammalhaslora": {
+        "cost": {
+            "min": 5,
+            "max": 10,
+            "currency": "ezüst"
+        },
+        "csoport": "Lovas felszerelés",
+        "id": "vontatohammalhaslora",
+        "name": "Vontatóhám málhás lóra"
+    }
+}

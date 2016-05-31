@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Jártasságok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+    </head>  
+    <body>
+       
+                <div class="righsidenav">   
+                    <p><pre><input type="button" value="Töröl" ng-click="kosar=[]"/> Végösszeg: {{getVegosszeg()}} </pre></p>
+            <p>Felszerelés:</p>
+            <ul ng-repeat="item in kosar ">
+                <li>{{item.name + " " + item.quantity+"x"+item.price+" "+item.currency}} <input type="button" value="Töröl" ng-click="deleteItem(item)"/></li>      
+            </ul>
+        </div>
+        <div class="jartcontent">
+            
+            <table border="1" cellspacing="1" cellpadding="1" >
+               
+                    <tr ng-repeat="csoport in felszCSoportok" ng-init="hide=true">
+                        <td><pre> <a href="" ng-click="hide=!hide" >{{csoport}}</a> </pre></td>
+                        <td>
+                            <table border="1" ng-hide="hide">
+                               
+                                    <tr ng-repeat="felsz in felszerelesek" ng-if="felsz.csoport == csoport" ng-init="currency=felsz.cost.currency;quantity=0;price=felsz.cost.min;"  >
+                                        <td>{{felsz.name}}</td>
+                                        <td>Darab:<input type="number" ng-model="quantity" min="0" style="width: 2em"/></td>
+                                        <td>{{"Irányár: "+felsz.cost.min+" - "+felsz.cost.max+" "+felsz.cost.currency}}</td>
+                                        <td ng-init="currency=felsz.cost.currency">Vételár:<input type="number" ng-model="price" min="0" style="width: 4em"/> 
+                                            <select name="" ng-model="currency">
+                                                <option value="réz">réz</option>
+                                                <option value="ezüst">ezüst</option>
+                                                <option value="arany">arany</option>
+                                            </select> </td>
+                                             <td><input type="button" value="Kosárba" ng-click="addKosar(felsz,currency,quantity,price)"/></td>
+                                    </tr>
+                                
+                            </table></td>
+                    </tr>
+                
+            </table>
+            
+            <table border="1" cellspacing="1" cellpadding="1" style="margin-top: 2em" >
+               
+                    <tr ng-repeat="csoport in fegyvert" ng-init="hide=true; hideL=false">
+                        <td><pre> <a href="" ng-click="hide=!hide" >{{csoport.name}}</a> <a href="" class="kodexStyle" ng-click="hideL=!hideL" >leírás</a> </pre></td>
+                        <td ng-if="hideL"><pre>{{csoport.info}}</pre></td>
+                        <td>
+                            <table border="1" ng-hide="hide">
+                               
+                                    <tr ng-repeat="felsz in csoport.elemek" ng-init="currency=felsz.cost.currency;quantity=0;price=felsz.cost.min;"  >
+                                        <td><pre>{{felsz.name}} <a href="" class="kodexStyle" ng-click="hideF=!hideF" >leírás</a></pre> </td>
+                                        <td ng-if="hideF"><pre>{{felsz.info}}</pre></td>
+                                        <td>Darab:<input type="number" ng-model="quantity" min="0" style="width: 2em"/></td>
+                                        <td>{{"Irányár: "+felsz.cost.min+" - "+felsz.cost.max+" "+felsz.cost.currency}}</td>
+                                        <td >Vételár:<input type="number" ng-model="price" min="0" style="width: 4em"/> 
+                                            <select name="" ng-model="currency">
+                                                <option value="réz">réz</option>
+                                                <option value="ezüst">ezüst</option>
+                                                <option value="arany">arany</option>
+                                            </select> 
+                                        </td>
+                                        <td><input type="button" value="Kosárba" ng-click="addKosar(felsz,currency,quantity,price)"/></td>
+                                        
+                                    </tr>
+                                
+                            </table></td>
+                    </tr>
+                
+            </table>
+           
+</div>
+
+        
+    </body>
+</html>

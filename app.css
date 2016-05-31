@@ -193,9 +193,16 @@ nav {
     margin-top: 50px;
 }
 
-.jartcontent table{   
-
+.jartcontent table tr td{   
+    margin: 15px;
     
+}
+.jartcontent table tr td table tr td{   
+    margin: 15px;
+    
+}
+.jartcontent table tr td table tr:nth-child(even) {
+    background-color: #cccccc;
 }
 .jartHead{
     margin:5px;

@@ -13,7 +13,8 @@ angular.module('myApp', [
   'myApp.kodexek',
   'myApp.rendek',
   'myApp.npcGen',
-  'myApp.karakter'
+  'myApp.karakter',
+  'myApp.felszereles'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/faj'});
