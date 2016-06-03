@@ -14,7 +14,8 @@ angular.module('myApp', [
   'myApp.rendek',
   'myApp.npcGen',
   'myApp.karakter',
-  'myApp.felszereles'
+  'myApp.felszereles',
+    'myApp.varazstargyak'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/faj'});

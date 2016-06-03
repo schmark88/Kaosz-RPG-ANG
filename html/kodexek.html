@@ -38,7 +38,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="spell in spells | filter:kodexFilter | filter: kulcsszoFilter | filter: nehezsegFilter | orderBy:['kodex','nehezseg']"  ng-init="spell.hide = true; checked = hasPraktikusM(spell);">
+                    <tr ng-repeat="spell in spells | filter:kodexFilter | filter: kulcsszoFilter | filter: nehezsegFilter | orderBy:['nehezseg','name']"  ng-init="spell.hide = true; checked = hasPraktikusM(spell);">
                         <td  ><pre> <a href="" ng-click="spell.hide = !spell.hide">{{spell.name}}</a> <a class="kodexStyle">({{spell.kodex}})</a> </pre></td>
                         <td><pre>{{ spell.nehezseg}}</pre></td>
                         <td><pre ng-hide="spell.hide">{{spell.info}}</pre>

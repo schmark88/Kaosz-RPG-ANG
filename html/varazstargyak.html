@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Varázslatok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+    </head>  
+    <body>
+        <div class="topsidenavwrapper">
+            <div class="topsidenav" >
+                <div>                
+                    <span class="jartHead"> Kulcsszó: <input type="text" ng-model="nameQuery" /></span>
+               
+                </div>
+                
+            </div>
+        </div>
+        <div  class="jartcontent">  
+            <table  border="1" cellspacing="1" cellpadding="1">
+                <tbody>
+                    <tr ng-repeat="spell in spells  | filter: kulcsszoFilter | orderBy:['name']"  ng-init="spell.hide = true; checked = hasPraktikusM(spell);">
+                        <td  ><pre> <a href="" ng-click="spell.hide = !spell.hide">{{spell.name}}</a> <a class="kodexStyle"></a> </pre></td>
+                        
+                        <td><pre ng-hide="spell.hide">{{spell.info}}</pre>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>           
+        </div>
+    </body>
+
+</html>
