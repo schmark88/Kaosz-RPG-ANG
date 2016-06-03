@@ -158,7 +158,7 @@ angular.module('myApp.kodexek', ['ngRoute'])
                 $scope.kodexFilter = function (element) {
                     var ret = false;
                     angular.forEach(kodexArray, function (value, key) {
-                        console.log(value + " " + element.kodex);
+                       // console.log(value + " " + element.kodex);
                         if (angular.equals(value, element.kodex)) {
                             ret = true;
                         }
@@ -167,23 +167,6 @@ angular.module('myApp.kodexek', ['ngRoute'])
                 };
 
 
-
-                $scope.checkMondoka = function (check, spell) {
-                    if (check) {
-
-                    } else {
-
-                    }
-                }
-
-                $scope.$watch(function () {
-                    return;
-                }
-                , function (newVal, oldVal) {
-//                     if (isEmpty(newVal)) {
-
-
-                }, true);
 
 
 

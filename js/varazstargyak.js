@@ -48,14 +48,6 @@ angular.module('myApp.varazstargyak', ['ngRoute'])
                     }
                 }
 
-                $scope.$watch(function () {
-                    return;
-                }
-                , function (newVal, oldVal) {
-//                     if (isEmpty(newVal)) {
-
-
-                }, true);
 
 
 
